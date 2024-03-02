@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82412af4000aa64e8ec3c561bf50d6e, type: 3}
+  m_Name: Toshiro Kaiji
+  m_EditorClassIdentifier: 
+  name: Toshiro Kaiji
+  alias: Yurei
+  armure: {fileID: 11400000, guid: 2e6d61933c575874b8d82727fc2fe3db, type: 2}
+  pv: 28
+  pe: 50
+  description: "Juste avant l\u2019arriv\xE9e des t\xE9n\xE8bres sur Terre, Serge\xEF
+    \xE9tait \xE9tudiant et professeur \xE0 l\u2019universit\xE9 de Johannesburg\r\nau
+    sein de la NAU.\r\nRessortissant russe, install\xE9 \xE0 l\u2019adolescence en
+    Afrique du Sud avec ses parents, le jeune homme\r\na r\xE9ussi \xE0 d\xE9crocher
+    de nombreuses bourses gr\xE2ce \xE0 ses talents intellectuels et ses qualit\xE9s
+    de chimiste, de\r\nphysicien et de m\xE9canicien. V\xE9ritable ph\xE9nom\xE8ne
+    \xE0 l\u2019universit\xE9 de Johannesburg pour son implication dans le\r\nmonde
+    associatif et \xE9tudiant, Serge\xEF \xE9tait aussi l\u2019un des assistants
+    du professeur James Niakat\xE9, l\u2019homme qui\r\nallait devenir Merlin et
+    concevoir les m\xE9ta-armures, bref cr\xE9er en partie le Knight.\r\nLorsque
+    l\u2019Anath\xE8me est arriv\xE9 sur Terre, Serge\xEF a suivi Merlin de par le
+    monde pour ses recherches sur les\r\nt\xE9n\xE8bres. Il a \xE9t\xE9 un des premiers
+    \xE0 voir Excalibur, la toute premi\xE8re m\xE9ta-armure, celle port\xE9e par
+    Arthur.\r\nSi le jeune homme n\u2019en conna\xEEt pas n\xE9cessairement tous
+    les rouages, tous les secrets, il a particip\xE9 \xE0 son\r\n\xE9tude et au d\xE9montage
+    de sa m\xE9canique. Par la suite, Serge\xEF est devenu l\u2019un des principaux
+    techniciens sur\r\nl\u2019armure Warrior.\r\nIl a rapidement int\xE9gr\xE9 la
+    section Giant et est rest\xE9 aupr\xE8s du chevalier de la Table Ronde nomm\xE9
+    Gauvain\r\navant de prendre les armes. Car en plus d\u2019\xEAtre un v\xE9ritable
+    petit g\xE9nie, le jeune homme est plut\xF4t dou\xE9\r\nau combat et a d\xE9cid\xE9
+    de partir en mission, sous les ordres de Gauvain, pour aider les faibles et d\xE9couvrir\r\nles
+    secrets de cr\xE9atures de l\u2019Anath\xE8me.\r\nPercer le myst\xE8re de ces
+    entit\xE9s, mieux les conna\xEEtre, lui permettrait de concevoir une m\xE9ta-armure\r\ncapable
+    de s\u2019adapter \xE0 l\u2019ennemi et de prot\xE9ger son porteur des attaques.\r\nSerge\xEF
+    est un jeune homme sympathique, g\xE9n\xE9reux avec un vrai coeur pur. Il est
+    consid\xE9r\xE9 par ses co\xE9quipiers\r\ncomme le \xAB bleu \xBB, le rookie
+    \xE0 prot\xE9ger, celui qui a encore beaucoup \xE0 apprendre.\r\nCette position
+    l\u2019indiff\xE8re. Prudent de nature, il pr\xE9f\xE8re laisser les autres aller
+    au-devant du danger."
+  newStat:
+    allStat:
+    - name: Chair
+      statValue:
+        value: 3
+        overdrive: 0
+    - name: "D\xE9placement"
+      statValue:
+        value: 3
+        overdrive: 1
+    - name: Force
+      statValue:
+        value: 2
+        overdrive: 0
+    - name: Endurance
+      statValue:
+        value: 1
+        overdrive: 0
+    - name: "B\xEAte"
+      statValue:
+        value: 5
+        overdrive: 0
+    - name: Hargne
+      statValue:
+        value: 4
+        overdrive: 0
+    - name: Combat
+      statValue:
+        value: 5
+        overdrive: 1
+    - name: Instinct
+      statValue:
+        value: 3
+        overdrive: 0
+    - name: Machine
+      statValue:
+        value: 2
+        overdrive: 0
+    - name: Tir
+      statValue:
+        value: 1
+        overdrive: 0
+    - name: Savoir
+      statValue:
+        value: 1
+        overdrive: 0
+    - name: Technique
+      statValue:
+        value: 1
+        overdrive: 0
+    - name: Dame
+      statValue:
+        value: 2
+        overdrive: 0
+    - name: Aura
+      statValue:
+        value: 1
+        overdrive: 0
+    - name: Parole
+      statValue:
+        value: 1
+        overdrive: 0
+    - name: Sang-Froid
+      statValue:
+        value: 1
+        overdrive: 1
+    - name: Masque
+      statValue:
+        value: 5
+        overdrive: 0
+    - name: "Discr\xE9tion"
+      statValue:
+        value: 4
+        overdrive: 1
+    - name: "Dext\xE9rit\xE9"
+      statValue:
+        value: 5
+        overdrive: 1
+    - name: Perception
+      statValue:
+        value: 4
+        overdrive: 0
