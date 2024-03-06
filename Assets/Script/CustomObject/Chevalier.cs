@@ -15,6 +15,12 @@ public class Chevalier : ScriptableObject
     public int pv;
     public int pe;
 
+    public int currentPv;
+    public int currentPe;
+    public int currentPen;
+    public int currentPa;
+    public int currentCDF;
+
     [Multiline]
     public string description;
 

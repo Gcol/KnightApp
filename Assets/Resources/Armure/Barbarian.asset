@@ -18,4 +18,5 @@ MonoBehaviour:
   ChampDeForce: 10
   allCapacite: []
   allArme: []
-  allModule: []
+  allModule:
+  - {fileID: 0}

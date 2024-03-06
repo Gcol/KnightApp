@@ -1,18 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CapaciteArmure : MonoBehaviour
+[Serializable]
+[CreateAssetMenu(fileName = "Nouvelle Capacite", menuName = "Knight / Capacite")]
+public class CapaciteArmure : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int degatBonus;
+    public int nbDiceDegat;
+    public int nbDiceViolence;
+    public int violenceBonus;
+    public int energiCout;
+    public string portee;
+    public string duree;
+    public string activation;
+    public string effet;
 }

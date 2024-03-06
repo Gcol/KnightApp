@@ -38,6 +38,11 @@ public class GameManager : MonoBehaviour
             {
                 if (currCheval.name == currentUser.name)
                 {
+                    if (currentUser.currentCDF == 0)
+                        LoadChevalierCurrent(currCheval, currCheval.armure.ChampDeForce, currCheval.pe, currCheval.pv, currCheval.armure.PointEnergie, currCheval.armure.PointArmure);
+                    else
+                        LoadChevalierCurrent(currCheval, currentUser.currentCDF, currentUser.currentPe, currentUser.currentPv, currentUser.currentPen, currentUser.currentPa);
+
                     currentChevalier = currCheval;
                     break;
                 }
@@ -48,6 +53,16 @@ public class GameManager : MonoBehaviour
             currentFichePerso.InsertNewPerso(currentChevalier);
             currentSI.InsertNewPerso(currentChevalier);
         }
+    }
+
+    public void LoadChevalierCurrent(Chevalier currentChevalier, int newCdf, int newPe, int newPv, int newPen, int newPa)
+    {
+        currentChevalier.currentCDF = newCdf;
+        currentChevalier.currentPen = newPen;
+        currentChevalier.currentPv = newPv;
+        currentChevalier.currentPe = newPe;
+        currentChevalier.currentPa = newPa;
+
     }
 
     // Update is called once per frame

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175ec16ba29f9754a834520cec546a68, type: 3}
+  m_Name: MODE ORIFLAMME
+  m_EditorClassIdentifier: 
+  degatBonus: 6
+  nbDiceDegat: 6
+  nbDiceViolence: 6
+  violenceBonus: 12
+  energiCout: 12
+  portee: Courte
+  duree: "Instantan\xE9e"
+  activation: "Action de d\xE9placement"
+  effet: "Anti-Anath\xE8me, affecte uniquement les cr\xE9atures de l\u2019Anath\xE8me
+    Lorsque le mode est activ\xE9, la m\xE9ta-armure g\xE9n\xE8re un champ de lumi\xE8re
+    \xE0 port\xE9e courte. Toutes les cr\xE9atures de l\u2019Anath\xE8me pr\xE9sentes
+    \xE0 l\u2019int\xE9rieur subissent les d\xE9g\xE2ts ou la violence du mode. Celles
+    qui se trouvent \xE0 port\xE9e moyenne autour du champ subissent la moiti\xE9
+    des d\xE9g\xE2ts ou de la violence du mode. Aucun test n\u2019est n\xE9cessaire
+    pour toucher les ennemis \xE0 port\xE9e. Les ennemis \xE0 couvert ne subissent
+    pas de d\xE9g\xE2ts ou de violence."

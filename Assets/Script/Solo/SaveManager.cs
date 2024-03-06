@@ -8,9 +8,19 @@ using System.IO;
 public class User
 {
     public string name;
+    public int currentPv;
+    public int currentPa;
+    public int currentPe;
+    public int currentPen;
+    public int currentCDF;
 
     public User(Chevalier currentChevalier)
     {
+        currentCDF = currentChevalier.currentCDF;
+        currentPen = currentChevalier.currentPen;
+        currentPa  = currentChevalier.currentPa;
+        currentPv = currentChevalier.currentPv;
+        currentPe = currentChevalier.currentPe;
         name = currentChevalier.name;
     }
 }

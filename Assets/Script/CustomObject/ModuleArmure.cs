@@ -2,17 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ModuleArmure : MonoBehaviour
+[CreateAssetMenu(fileName = "Nouveau module", menuName = "Knight / Module")]
+public class ModuleArmure : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string activation;
+    public string description;
+    public string durée;
+    public int energie;
 }
