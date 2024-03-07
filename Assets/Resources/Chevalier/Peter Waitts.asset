@@ -17,6 +17,13 @@ MonoBehaviour:
   armure: {fileID: 11400000, guid: 4e62daed3bb5ab14ca1656fb818e99d8, type: 2}
   pv: 45
   pe: 50
+  currentPv: 0
+  currentPe: 0
+  currentPen: 0
+  currentPa: 0
+  currentCDF: 0
+  allWeapon:
+  - {fileID: 11400000, guid: 5637516a432b502458644a339bb9a49a, type: 2}
   description: "Juste avant l\u2019arriv\xE9e des t\xE9n\xE8bres sur Terre, Serge\xEF
     \xE9tait \xE9tudiant et professeur \xE0 l\u2019universit\xE9 de Johannesburg\r\nau
     sein de la NAU.\r\nRessortissant russe, install\xE9 \xE0 l\u2019adolescence en

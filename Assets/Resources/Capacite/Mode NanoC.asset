@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a6894bfe07bae4d89ebacbb62f38a9, type: 3}
+  m_Name: Mode NanoC
+  m_EditorClassIdentifier: 
+  energiCout: "3 pour une forme de base, 6 pour un objet d\xE9taill\xE9, 9 pour un
+    objet de m\xE9canique ou \xE9lectronique"
+  duree: 10 tours / 1 minute
+  activation: "Action de d\xE9placement, de combat o"
+  effet: "Gr\xE2ce au mode nanoC, le personnage peut \xE0 son contact cr\xE9er des
+    formes \xE0 partir de nanomachines.\r\nle PJ peut cr\xE9er des formes simples
+    et g\xE9om\xE9triques\r\nen nanomachines m\xE9talliques et grouillantes, d\u2019une\r\ntaille
+    de 3 m3 maximum.\r\nIl peut aussi cr\xE9er des objets d\xE9taill\xE9s d\u2019une
+    taille\r\nde 2 m3 maximum.\r\nIl peut enfin cr\xE9er des objets m\xE9caniques,
+    \xE9lectriques\r\nou \xE9lectroniques de 1 m3 maximum.\r\nC\u2019est au MJ de
+    d\xE9terminer les limites du mode.\r\nPour r\xE9ussir sa constructon, le personnage
+    doit e.ectuer\r\nun test base Technique dont la difficult\xE9 est laiss\xE9e
+    au choix\r\ndu MJ en foncton de la complexit\xE9 de la forme voulue.\r\nToutes
+    les constructions durent 1 minute, soit 10 tours de\r\ncombat, avant de dispara\xEEtre.
+    Pour augmenter la dur\xE9e, il\r\nfaut d\xE9penser 2 points d\u2019\xE9nergie
+    par minute suppl\xE9mentaire.\r\nL\u2019utilit\xE9 et la r\xE9sistance des constructions
+    sont, elles\r\naussi, laiss\xE9es \xE0 l\u2019\xE9valuation du MJ."

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a6894bfe07bae4d89ebacbb62f38a9, type: 3}
+  m_Name: Mode Falcon
+  m_EditorClassIdentifier: 
+  energiCout: 6
+  duree: "Instantan\xE9e"
+  activation: "Action de d\xE9placement"
+  effet: "La Warmaster est capable de d\xE9tecter les forces et faiblesses des ennemis.\r\nEffet
+    : Le personnage peut d\xE9couvrir gr\xE2ce au mode\r\nFalcon (un seul choix par
+    d\xE9pense d\u2019\xE9nergie) :\r\n\u2022 tous les aspects d\u2019un PNJ\r\n\u2022
+    les scores de r\xE9action et de d\xE9fense d\u2019un PNJ\r\n\u2022 tous les aspects
+    exceptionnels d\u2019un PNJ\r\n\u2022 le ou les points faibles d\u2019un PNJ\r\n\u2022
+    les armes (et leurs statistiques) d\u2019un PNJ\r\n\u2022 les scores de bouclier,
+    d\u2019armure et de sant\xE9 d\u2019un PNJ\r\n\u2022 toutes les capacit\xE9s
+    d\u2019un PNJ\r\n\u2022 tous les aspects et valeurs d\xE9riv\xE9es d\u2019une
+    bande"

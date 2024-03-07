@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175ec16ba29f9754a834520cec546a68, type: 3}
+  m_Name: Mode Goliath
+  m_EditorClassIdentifier: 
+  nbDiceDegat: 0
+  nbDiceViolence: 0
+  degatBonus: 0
+  violenceBonus: 0
+  energiCout: "2 par m\xE8tre gagn\xE9"
+  portee: 
+  duree: 6 tours / 1 minute
+  activation: "Action de d\xE9placement"
+  effet: "Le PJ peut grandir d\u2019un m\xE8tre par 2 points d\u2019\xE9nergie d\xE9pens\xE9s\r\n(6
+    m\xE8tres maximum, en consid\xE9rant qu\u2019en m\xE9ta-armure, le personnage
+    fait minimum 2 m\xE8tres).\r\nBonus par m\xE8tre gagn\xE9 :\r\n+1 r\xE9ussite
+    \xE0 ses jets de Force et d\u2019Endurance\r\n+5 tonnes soulev\xE9es\r\n+1D6
+    aux d\xE9g\xE2ts et \xE0 la violence au contact\r\n+1 point de CdF\r\n\xC0 6
+    m\xE8tres, les attaques de cette armure gagnent l\u2019effet\r\nanti-v\xE9hicule.
+    Pas de test de Force pour arracher des \xE9l\xE9ments\r\ndu d\xE9cor petits,
+    moyens ou grands.\r\nMalus par m\xE8tre gagn\xE9 :\r\n-1 point de d\xE9fense
+    (minimum 0)\r\n-2 points de r\xE9action (minimum 0)\r\n\xC0 6 m\xE8tres, le personnage
+    ne peut plus utiliser ses armes\r\nqui rackent automatiquement."

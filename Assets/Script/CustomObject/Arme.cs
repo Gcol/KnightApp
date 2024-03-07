@@ -15,6 +15,10 @@ public enum ArmeType
 public class Arme : ScriptableObject
 {
     public ArmeType typeArme;
+    public string Degat1Main;
+    public string Degat2Main;
+    public string Violence1Main;
+    public string Violence2Main;
     public string effet;
     public string portee;
 }

@@ -18,5 +18,6 @@ MonoBehaviour:
     il peut effectuer une action de combat normale. Il peut bien entendu sauter sur
     un ennemi en uti- lisant en m\xEAme temps son action de combat. Dans ce cas-l\xE0,
     il b\xE9n\xE9ficie de 6 d\xE9g\xE2ts suppl\xE9mentaires au contact seulement"
-  "dur\xE9e": "Instantan\xE9e"
+  duree: "Instantan\xE9e"
+  portee: 
   energie: 3

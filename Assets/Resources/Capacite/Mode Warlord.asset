@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b609b67ce2a3d149808b71f30309e6d, type: 3}
+  m_Name: Mode Warlord
+  m_EditorClassIdentifier: 
+  mainName: Impulsions
+  mainDesc: "Am\xE9liore \xE0 distance les m\xE9ta-armures cibl\xE9es. Les impulsions
+    poss\xE8dent toutes une port\xE9e lointaine. Le porteur de la m\xE9ta-armure
+    peut recevoir l\u2019effet offert \xE0 un ou plusieurs alli\xE9s en d\xE9pensant
+    la moiti\xE9 de l\u2019\xE9nergie de l\u2019impulsion (arrondi \xE0 l\u2019entier
+    sup\xE9rieur) sans d\xE9penser d\u2019action."
+  enteteText:
+  - Impulsion D'action
+  - Impulsion D'esquive
+  - Impulsion De Force
+  allText:
+  - "Effet : Un alli\xE9 au choix du porteur\r\nde la m\xE9ta-armure obtient une
+    action\r\nde combat ou de d\xE9placement suppl\xE9mentaire.\r\n\xC9nergie : 4\r\nActivation
+    : Action de d\xE9placement\r\nDur\xE9e : 1 tour"
+  - "Effet : Les cibles en m\xE9ta-armure\r\nvoient leur d\xE9fense et leur r\xE9action\r\naugmenter
+    de 2 points.\r\n\xC9nergie : 3 par alli\xE9 vis\xE9 (+2 par tour\r\nsuppl\xE9mentaire)\r\nActivation
+    : Action de d\xE9placement\r\nDur\xE9e : 1 tour"
+  - "Effet : Une ou plusieurs m\xE9taarmures\r\nalli\xE9es voient leur CdF\r\naugmenter
+    de 2 points.\r\n\xC9nergie : 2 par alli\xE9 vis\xE9 (+2 par\r\ntour suppl\xE9mentaire)\r\nActivation
+    : Action de d\xE9placement\r\nDur\xE9e : 1 tour"

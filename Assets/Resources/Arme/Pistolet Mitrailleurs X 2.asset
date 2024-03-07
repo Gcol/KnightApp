@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9a49cde55f28c94daabc30dce49bc35, type: 3}
+  m_Name: Pistolet Mitrailleurs X 2
+  m_EditorClassIdentifier: 
+  effet: "Meurtrier / ultraviolence / jumel\xE9 (akimbo)\r\nLorsque les pistolets
+    sont utilis\xE9s ensemble (akimbo), -1D \xE0 l\u2019attaque,\r\nmais d\xE9s de
+    d\xE9g\xE2ts x2 et d\xE9s de violence x1,5\t"
+  portee: Moyenne
+  Degat: 3D6
+  Violence: 4D6

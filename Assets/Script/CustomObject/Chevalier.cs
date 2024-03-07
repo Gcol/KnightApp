@@ -21,6 +21,8 @@ public class Chevalier : ScriptableObject
     public int currentPa;
     public int currentCDF;
 
+    public List<Weapon> allWeapon;
+
     [Multiline]
     public string description;
 

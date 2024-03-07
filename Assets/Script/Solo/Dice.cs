@@ -19,19 +19,21 @@ public class Dice : MonoBehaviour
         
     }
 
-    public int Lancer()
+    public int Lancer(int nbFace = 6, bool caracTest = true)
     {
-        int randomInt = Random.Range(1,6);
+        int randomInt = Random.Range(1, nbFace + 1);
 
         resultat.text = randomInt.ToString();
-        if (randomInt % 2 == 0)
+        if (caracTest)
         {
-            resultat.color = Color.green;
+            if (randomInt % 2 == 0)
+            {
+                resultat.color = Color.green;
+            }
+            else
+                resultat.color = Color.red;
+            return (randomInt + 1) % 2;
         }
-        else
-            resultat.color = Color.red;
-
-        Debug.Log("Je tire " + randomInt + " je renvoie " + (randomInt + 1) % 2);
-        return (randomInt + 1) % 2;
+        return (randomInt);
     }
 }

@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public string GameVersion = "1.6";
     public GameObject choicePannel;
     public GameObject jeuxStdPannel;
 
     public SaveManager currentSM;
 
     public StatInfo currentSI;
+    public CapacitéManager currentCM;
     public FichePerso currentFichePerso;
 
     [SerializeField]
@@ -22,10 +24,14 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        FindObjectOfType<CheckVersion>().SearchVersion(GameVersion);
+        currentCM = FindObjectOfType<CapacitéManager>();
         currentFichePerso = FindObjectOfType<FichePerso>();
         currentSI = FindObjectOfType<StatInfo>();
         currentSM = FindObjectOfType<SaveManager>();
         currentUser = currentSM.LoadUser();
+        ModuleManager currentMM = FindObjectOfType<ModuleManager>();
+        WeaponManager currentWM = FindObjectOfType<WeaponManager>();
 
         FindObjectOfType<NoteManager>().LoadNote(currentSM.LoadNote());
 
@@ -39,10 +45,14 @@ public class GameManager : MonoBehaviour
                 if (currCheval.name == currentUser.name)
                 {
                     if (currentUser.currentCDF == 0)
+                    {
                         LoadChevalierCurrent(currCheval, currCheval.armure.ChampDeForce, currCheval.pe, currCheval.pv, currCheval.armure.PointEnergie, currCheval.armure.PointArmure);
+                        currentSM.SaveData(new User(currCheval));
+                    }
                     else
+                    {
                         LoadChevalierCurrent(currCheval, currentUser.currentCDF, currentUser.currentPe, currentUser.currentPv, currentUser.currentPen, currentUser.currentPa);
-
+                    }
                     currentChevalier = currCheval;
                     break;
                 }
@@ -52,6 +62,9 @@ public class GameManager : MonoBehaviour
                 Debug.LogError("Chevalier " + currentUser.name + " not found");
             currentFichePerso.InsertNewPerso(currentChevalier);
             currentSI.InsertNewPerso(currentChevalier);
+            currentCM.InitCapacite(currentChevalier);
+            currentMM.currentInit(currentChevalier);
+            currentWM.currentInit(currentChevalier);
         }
     }
 
@@ -79,9 +92,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
     public void Quit()
     {
+        FindObjectOfType<StatInfo>().UpdateChevalierInfo(currentChevalier);
+        currentUser.UpdateUser(currentChevalier);
         currentSM.SaveNote(FindObjectOfType<NoteManager>().GetText());
+        currentSM.SaveData(currentUser);
         Application.Quit();
     }
 

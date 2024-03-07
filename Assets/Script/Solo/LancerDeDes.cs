@@ -20,11 +20,14 @@ public class LancerDeDes : MonoBehaviour
     public int nbDice;
     public int nbOverdrive;
 
+    bool DiceThrow;
+
     public List<GameObject> allPreviousDice;
 
     // Start is called before the first frame update
     void Start()
     {
+        DiceThrow = false;
         comboName = new List<string>();
         nbDice = 0;
         nbOverdrive = 0;
@@ -41,16 +44,20 @@ public class LancerDeDes : MonoBehaviour
 
     public void Lance()
     {
-        lancerDeDesPannel.SetActive(true);
-        foreach (GameObject curreGO in allPreviousDice)
+        if (!DiceThrow )
         {
-            Destroy(curreGO);
+            lancerDeDesPannel.SetActive(true);
+            foreach (GameObject curreGO in allPreviousDice)
+            {
+                Destroy(curreGO);
+            }
+            StartCoroutine(LanceCoRoutine(nbDice, nbOverdrive));
         }
-        StartCoroutine(LanceCoRoutine(nbDice, nbOverdrive));
     }
 
     IEnumerator LanceCoRoutine(int nbDes, int overdrive)
     {
+        DiceThrow = true;
         resultat.text = "Des en cours de lancement";
         int nbReussit = 0;
         for (int i = 0; i < nbDes; i++)
@@ -61,6 +68,7 @@ public class LancerDeDes : MonoBehaviour
             allPreviousDice.Add(newDice);
         }
         resultat.text = string.Format("{0} + {1} OD = {2} réussite", nbReussit, overdrive, nbReussit + overdrive);
+        DiceThrow = false;
     }
 
 

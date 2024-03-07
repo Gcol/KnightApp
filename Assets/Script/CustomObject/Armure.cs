@@ -9,7 +9,7 @@ public class Armure : ScriptableObject
     public int PointArmure;
     public int PointEnergie;
     public int ChampDeForce;
-    public List<CapaciteArmure> allCapacite;
+    public List<Capacite> allCapacite;
     public List<Arme> allArme;
-    public List<ModuleArmure> allModule;
+    public List<ModuleBase> allModule;
 }

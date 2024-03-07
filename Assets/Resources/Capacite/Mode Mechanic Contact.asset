@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a6894bfe07bae4d89ebacbb62f38a9, type: 3}
+  m_Name: Mode Mechanic Contact
+  m_EditorClassIdentifier: 
+  energiCout: 4
+  duree: "Instantan\xE9e"
+  activation: "Action de d\xE9placement"
+  effet: "Au contact, le personnage peut r\xE9parer la m\xE9ta-armure, le v\xE9hicule
+    ou l\u2019\xE9quipement d\u2019une personne.\r\nL\u2019\xE9quipement, le v\xE9hicule
+    ou la m\xE9ta-armure r\xE9cup\xE8re automatiquement 3D6 + 6 points d\u2019armure"

@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class CapacitéManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Chevalier currentChevalier;
+    public GameObject capacitePrefab;
+
+    public void InitCapacite(Chevalier newChevalier)
     {
-        
+        currentChevalier = newChevalier;
+        foreach (Capacite currentCapacite in currentChevalier.armure.allCapacite)
+        {
+
+            GameObject newCapa = Instantiate(capacitePrefab, transform);
+            newCapa.GetComponent<CapaciteShower>().InitCapacite(currentCapacite);
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

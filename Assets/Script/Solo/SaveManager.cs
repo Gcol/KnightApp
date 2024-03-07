@@ -14,14 +14,24 @@ public class User
     public int currentPen;
     public int currentCDF;
 
-    public User(Chevalier currentChevalier)
+    public User(Chevalier newChevalier)
     {
-        currentCDF = currentChevalier.currentCDF;
-        currentPen = currentChevalier.currentPen;
-        currentPa  = currentChevalier.currentPa;
-        currentPv = currentChevalier.currentPv;
-        currentPe = currentChevalier.currentPe;
-        name = currentChevalier.name;
+        currentCDF = newChevalier.armure.ChampDeForce;
+        currentPen = newChevalier.armure.PointEnergie;
+        currentPa  = newChevalier.armure.PointArmure;
+        currentPv = newChevalier.pv;
+        currentPe = newChevalier.pe;
+        name = newChevalier.name;
+    }
+
+    public void UpdateUser(Chevalier newChevalier)
+    {
+        currentCDF = newChevalier.currentCDF;
+        currentPen = newChevalier.currentPen;
+        currentPa = newChevalier.currentPa;
+        currentPv = newChevalier.currentPv;
+        currentPe = newChevalier.currentPe;
+        name = newChevalier.name;
     }
 }
 

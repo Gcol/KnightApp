@@ -16,7 +16,10 @@ MonoBehaviour:
   PointArmure: 70
   PointEnergie: 60
   ChampDeForce: 10
-  allCapacite: []
+  allCapacite:
+  - {fileID: 11400000, guid: b86d07d4e276ef749b316d7676256fda, type: 2}
   allArme: []
   allModule:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 99fe89b7cef22ad438cf03b648dd8f93, type: 2}
+  - {fileID: 11400000, guid: 8f492fa76b5fc6d4c9b16abcb6b19cab, type: 2}
+  - {fileID: 11400000, guid: 5c6ea9ccdb74d1c478a3a2514579b0cf, type: 2}

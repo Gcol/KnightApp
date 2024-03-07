@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a6894bfe07bae4d89ebacbb62f38a9, type: 3}
+  m_Name: Mode Ghost
+  m_EditorClassIdentifier: 
+  energiCout: 2 pour un tour / 6 pour une minute en dehors ds combats
+  duree: 1 tour ou 1 minute
+  activation: Aucune
+  effet: "Gr\xE2ce au mode Ghost, le personnage devient totalement invisible \xE0
+    l\u2019oeil nu\r\net ne peut quasiment pas \xEAtre entendu gr\xE2ce \xE0 un champ
+    r\xE9ducteur de son.\r\nLorsque le mode Ghost est activ\xE9, le personnage est
+    invisible\r\net inaudible pour des personnages ne disposant\r\npas d\u2019un
+    aspect Machine exceptionnelle majeure.\r\nLorsque le PJ e.ectue une attaque de
+    combat ou\r\nde tir, le mode Ghost s\u2019arr\xEAte. Les attaques de combat\r\nou
+    de tir (uniquement avec des armes de tir poss\xE9dant\r\nl\u2019e.et silencieux
+    et toutes les armes de combat sauf celles\r\nposs\xE9dant l\u2019e.et lumi\xE8re)
+    re\xE7oivent cependant un bonus\r\nen d\xE9s au test et en bonus fixe aux d\xE9g\xE2ts
+    \xE9gal \xE0 la Discr\xE9tion\r\ndu porteur, overdrives compris (le score de
+    Discr\xE9tion\r\ns\u2019ajoute une nouvelle fois dans le combo si ce\r\nscore
+    est d\xE9j\xE0 utilis\xE9 pour l\u2019attaque, de m\xEAme le bonus\r\naux d\xE9g\xE2ts
+    s\u2019ajoute une nouvelle fois avec l\u2019effet silencieux\r\nd\u2019une arme).
+    Seule la premi\xE8re attaque du tour du\r\npersonnage dispose de ces bonus.\r\nAttention
+    : Le chevalier ne peut pas d\xE9sactiver son module\r\nGhost et le r\xE9activer
+    durant le m\xEAme tour de jeu."

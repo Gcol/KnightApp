@@ -28,7 +28,7 @@ public class UpdateStat : MonoBehaviour
     {
 
     }
-    public void InitValue(int newMaxValue, int newCurrentValue)
+    public void InitValue(int newCurrentValue, int newMaxValue)
     {
         maxValue = newMaxValue;
         currentValue = newCurrentValue;

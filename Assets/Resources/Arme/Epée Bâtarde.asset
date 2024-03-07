@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70675005c25376b4ab72e6a19d7b0cfe, type: 3}
+  m_Name: "Ep\xE9e B\xE2tarde"
+  m_EditorClassIdentifier: 
+  effet: " une main : Orf\xE9vrerie \xC0 deux mains : Lest\xE9e / deux mains"
+  portee: Contact
+  Degat1Main: "4D6 + Force + Dext\xE9rit\xE9 (avec orf\xE9vrerie)"
+  Degat2Main: "4D6 + Force x2 (avec lest\xE9)"
+  Violence1Main: 2D6
+  Violence2Main: 3D6
