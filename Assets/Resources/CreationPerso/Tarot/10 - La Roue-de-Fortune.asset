@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 10 - La Roue-de-Fortune
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 9e65e38d7acad5c43917cec2cde8f681, type: 3}
+  desc: "La dixi\xE8me lame du tarot, \xE0 l'inverse de l'Ermite, symbolise l'inattendu,
+    l'initiative, le partage, mais aussi la spontan\xE9it\xE9, l'intuition, l'instinct
+    ou encore des \xE9v\xE9nements inattendus mais heureux. Par extension, elle est
+    aussi associ\xE9e \xE0 la chance et aux jeux en g\xE9n\xE9ral."
+  passe: "Une intuition qui sauve la vie, une chance aux jeux, une victoire inattendue,
+    un gagnant \xE0 une loterie, une chance tr\xE8s favorable, un instinct hors du
+    commun, des initiatives heureuses, une g\xE9n\xE9rosit\xE9 bienvenue, une naissance
+    heureuse, un accident qui cr\xE9e du bon."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect B\xEAte et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Chanceux : Le personnage poss\xE8de une chance hors du commun. Il
+    est capable de r\xE9ussir des choses inattendues ou de gagner de mani\xE8re totalement
+    impr\xE9vue. En termes de jeu, une fois par partie, le PJ peut relancer gratuitement
+    tous les d\xE9s d\u2019un test qu\u2019il a rat\xE9."
+  desavantagePj: "Mauvaises intuitions  : Le h\xE9ros, s\u2019il est tr\xE8s intuitif,
+    a parfois des intuitions qui peuvent le conduire, lui et ses proches, \xE0 sa
+    perte. Ainsi, en termes de jeu, une fois par partie, le MJ peut d\xE9cider qu\u2019un
+    test comportant la caract\xE9ristique Instinct ou Perception effectu\xE9 par
+    le h\xE9ros \xE9choue automatiquement (apr\xE8s que le personnage a lanc\xE9
+    les d\xE9s)."
+  avantageIA: "Roue de la fortune  : L\u2019IA de l\u2019armure croit fermement \xE0
+    la chance, mais une chance contr\xF4l\xE9e. En termes de jeu, deux fois par partie,
+    le joueur peut relancer enti\xE8rement un jet de d\xE9s mais il devra accepter
+    le r\xE9sultat de ce nouveau jet, m\xEAme s\u2019il est moins bon."
+  desavantageIA: "Pessimiste  : Lorsque la situation semble mal engag\xE9e, l\u2019IA
+    de l\u2019armure commence \xE0 perdre courage et combativit\xE9, ce qui se ressent
+    sur ses fonctionnalit\xE9s. En termes de jeu, deux fois seulement par phase de
+    conflit, tant que les ennemis sont en surnombre ou ont plus de PV que les chevaliers
+    de la coterie, le MJ peut obliger un PJ \xE0 relancer un jet de d\xE9s r\xE9ussi."

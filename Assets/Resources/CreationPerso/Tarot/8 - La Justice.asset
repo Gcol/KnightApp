@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 8 - La Justice
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 70d9b43210bc10c469295310f75cb975, type: 3}
+  desc: "La huiti\xE8me lame du tarot symbolise l'ordre, l'\xE9quilibre, la stabilit\xE9,
+    mais aussi la logique et les math\xE9matiques. Elle repr\xE9sente aussi parfois
+    l'administration et un ordre complexe, fait de sous-ordres qui s'imbriquent telles
+    des organisations kafka\xEFennes."
+  passe: "Un poste dans une administration, une vie au service des forces de l'ordre,
+    une vie stable, un scientifique, une stabilit\xE9 qui d\xE9range, se noyer dans
+    l'administration, un ordre qui oblige \xE0 l'abominable, faire face \xE0 une
+    justice aveugle."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Machine et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Bon sens  : Disposant d\u2019un bon sens et d\u2019une logique inn\xE9s,
+    le h\xE9ros est particuli\xE8rement difficile \xE0 manipuler. Par cons\xE9quent,
+    il re\xE7oit un bonus d\u2019une r\xE9ussite automatique lors des jets qu\u2019il
+    effectue pour savoir s\u2019il est bern\xE9 ou non, peu importe le combo. De
+    plus, en cas d\u2019\xE9chec critique lors de ce jet, le PJ subit seulement les
+    effets d\u2019un \xE9chec normal."
+  desavantagePj: "Trop prudent  : Le personnage est si prudent qu\u2019il agit parfois
+    plus lentement que pr\xE9vu. Ce n\u2019est pas de la peur, \xE0 ce qu\u2019il
+    dit, mais plut\xF4t \xAB une analyse en d\xE9tail de la situation \xBB. En termes
+    de jeu, plut\xF4t que de lancer 3D6 pour d\xE9terminer son initiative, le PJ
+    lance seulement 2D6 (plus les bonus appropri\xE9s \xE9videmment)."
+  avantageIA: "D\xE9tection de la v\xE9rit\xE9 : L\u2019IA a conditionn\xE9 les amplificateurs
+    de son de la m\xE9ta-armure afin de capter les diff\xE9rences m\xEAme infimes
+    d\u2019intonations vocales chez ses interlocuteurs et de percevoir s\u2019ils
+    mentent. En termes de jeu, tous les tests du chevalier destin\xE9s \xE0 deviner
+    si une personne lui ment voient leur difficult\xE9 diminuer de 1."
+  desavantageIA: "Interdiction de mentir  : L\u2019IA abhorre le mensonge plus que
+    tout et fait en sorte que son chevalier n\u2019en use point. De ce fait, elle
+    brouille les vocalisateurs de l\u2019armure si celui-ci tente de mentir. En termes
+    de jeu, tous les tests ayant pour but de tromper une personne re\xE7oivent un
+    malus de 1."

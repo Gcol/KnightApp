@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87727ba1cf3b704883056312fa54415, type: 3}
+  m_Name: Korrigan
+  m_EditorClassIdentifier: 
+  chefSection: 5
+  Description: "Les chevaliers de la section Korrigan sont autant enqu\xEAteurs qu\u2019espions,
+    r\xE9unissant des informations sur les ennemis humains\r\ndu Knight et frappant
+    parfois tr\xE8s fort pour les faire taire."
+  Bonus: "+1 point dans l\u2019aspect Masque et +1 point dans les trois caract\xE9ristiques
+    qui y sont li\xE9es."
+  Avantage: "Le PJ re\xE7oit les modules suivants : relais satellite nv1, drone d\u2019espionnage,
+    cam\xE9raman"
+  Inconvenient: "Toujours un doute : Le PJ a \xE9t\xE9 form\xE9 pour toujours avoir
+    un doute sur quiconque et les autres chevaliers le lui\r\nrendent bien en ne
+    lui accordant qu\u2019une confiance tr\xE8s limit\xE9e. Pour symboliser cela,
+    le PJ, lorsqu\u2019il effectue des tests d\u2019aide envers\r\nles membres de
+    sa coterie ou d\u2019autres personnages alli\xE9s, subit un malus de 3D. De plus,
+    aucun PJ ou PNJ alli\xE9 ne peut utiliser de\r\nmodule ou d\u2019avantage pour
+    faire en sorte que le PJ provenant du Korrigan regagne des points d\u2019espoir."

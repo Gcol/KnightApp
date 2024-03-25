@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 15 - Le Diable
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 67de651a68075d14c9f8755cfb89f5a6, type: 3}
+  desc: "La lame du tarot nomm\xE9e le Diable repr\xE9sente tous les exc\xE8s, les
+    instincts primaires, le pouvoir, le sexe, l'argent et le rock'n'roll. Elle symbolise
+    aussi tous les app\xE9tits d\xE9vorants, l'excitation, l'animalit\xE9 et la bestialit\xE9
+    en g\xE9n\xE9ral. C'est sans doute une des lames les moins positives du tarot."
+  passe: "Une vie d'exc\xE8s, des instincts primaires qui conduisent \xE0 des probl\xE8mes,
+    une r\xE9action violente aux cons\xE9quences n\xE9fastes, une animalit\xE9 d\xE9rangeante,
+    un lien aux animaux, un probl\xE8me avec les animaux, la drogue, l'alcool, l'argent
+    utilis\xE9 pour se faire du mal, une d\xE9pendance."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect B\xEAte et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Instinct animal  : Le personnage poss\xE8de un instinct tr\xE8s prononc\xE9
+    qui lui permet de percevoir des choses et des \xE9v\xE9nements avant les autres.
+    En termes de jeu, le h\xE9ros re\xE7oit un bonus de +10 \xE0 son initiative lors
+    des embuscades qu\u2019il subit et conserve ses scores de d\xE9fense et de r\xE9action
+    lorsqu\u2019il subit une attaque surprise ou lorsqu\u2019il est attaqu\xE9 dans
+    le dos."
+  desavantagePj: "Brute : Le h\xE9ros est une brute finie, avec un comportement violent
+    et une attitude de bourrin. Si sa vie ne se r\xE9sume pas forc\xE9ment \xE0 ces
+    v\xE9rit\xE9s, il est probable que le h\xE9ros soit quelqu\u2019un de simpliste,
+    qui aime rabaisser les autres et qui adore la violence et ses cons\xE9quences.
+    En termes de jeu, le personnage ne peut pas augmenter son score dans l\u2019aspect
+    Machine au-del\xE0 de 5."
+  avantageIA: "Passionn\xE9e : L\u2019IA de l\u2019armure est une passionn\xE9e et
+    une risque-tout. Elle entend bien que son chevalier la suive m\xEAme en enfer
+    s\u2019il le faut pour gagner le combat. Pour cette raison, lorsque le PJ tente
+    une action extr\xEAmement p\xE9rilleuse , l \u2018IA met tout en \u0153uvre pour
+    qu\u2019il en sorte victorieux. En termes de jeu, quand le MJ estime que le joueur
+    tente une folie ou une action extr\xEAme, l\u2019IA puise dans son \xE9nergie
+    pour soutenir son chevalier : pour chaque tranche de 4 PE d\xE9pens\xE9s, le
+    chevalier peut ajouter 1 d\xE9 \xE0 un de ses jets (dans la limite d\u2019\xE9nergie
+    de la m\xE9ta-armure)."
+  desavantageIA: "\rExc\xE8s : L\u2019IA \xAB pousse au crime \xBB : d\xE8s que le
+    chevalier se trouve dans une situation au cours de laquelle il peut se laisser
+    aller \xE0 l\u2019exc\xE8s, l\u2019armure d\xE9folde automatiquement et le pousse
+    vers ce travers. En termes de jeu, tout test pour r\xE9sister \xE0 une perte
+    de contr\xF4le de soi, \xE0 l\u2019ivresse, \xE0 la drogue, au sexe, \xE0 la
+    gourmandise, etc. se r\xE9sout avec un malus de 2 d\xE9s (minimum 1).\r\n"

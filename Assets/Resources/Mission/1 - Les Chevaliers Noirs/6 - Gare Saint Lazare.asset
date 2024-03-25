@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 6 - Gare Saint Lazare
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 21300000, guid: cddc422ea3d7f4546b80fd9add395582, type: 3}
+  musicFond: {fileID: 8300000, guid: bffdc2087d28fdb46a9ebb27e567574f, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "un vector tr\xE8s ab\xEEm\xE9 et, autour,\r\nles cadavres de
+    centaines de cr\xE9atures bestiales.\nUn jet de\r\nbase Technique ou Perception
+    difficult\xE9 facile (1) permet de\r\nvoir que des milliers de morsures de noctes
+    constellent l\u2019appareil\r\net ont arrach\xE9 des plaques enti\xE8res de blindage.\nUn
+    jet base Perception difficult\xE9 normal (3) permet de voir\r\nqu\u2019un chevalier
+    en armure Paladin (le chevalier S\xE9l\xE8ne) est\r\npost\xE9 \xE0 une fen\xEAtre.\nSi
+    les chevaliers la remarquent, selene les contacte sur leur\r\ncanal audio. Elle
+    leur dit simplement que Clay les attendait.\n\nS\u2019ils attaquent les chevaliers
+    noirs, S\xE9l\xE8ne active son\r\nchamp de force Shrine et explique qu\u2019ils
+    ne sont pas des\r\nennemis. \xC0 ce moment, Brad (en armure Rogue) et Clay\r\n(en
+    armure Warrior) sortent accompagn\xE9s d\u2019une dizaine\r\nd\u2019enfants,
+    dont certains sont bless\xE9s\n\nS\u2019ils tentent de parlementer, ils voient
+    Brad (en armure\r\nRogue) et Clay (en armure Warrior) sortir avec une\r\ndizaine
+    d\u2019enfants bless\xE9s et affam\xE9s.\n\nClay est fatigu\xE9, son armure est
+    \xE9rafl\xE9e et ab\xEEm\xE9e\r\nen de nombreux endroits (comme celles de ses
+    coll\xE8gues). Il\r\nenl\xE8ve son heaume et parle \xE0 visage d\xE9couvert.\n\nIls
+    sont d\xE9sol\xE9s et n\u2019\xE9taient pas eux-m\xEAmes. Clay porte la\r\nresponsabilit\xE9
+    de cette folie.\r\n\u2022 Ils savaient que le Knight allait les retrouver, c\u2019est
+    pour\r\ncela qu\u2019ils ont laiss\xE9 Bill et les autres en vie \xE0 Cottenham.\r\n\u2022
+    Depuis leur mission au Louvre, lui, S\xE9l\xE8ne et Brad sont\r\nposs\xE9d\xE9s
+    par une entit\xE9 \xE9trange se nommant le Masque.\r\nIls ont d\xFB passer un
+    march\xE9 avec le Masque pour rester\r\nen vie et ne pas se faire tuer dans le
+    mus\xE9e, car ils \xE9taient\r\naccul\xE9s et allaient mourir.\n*Ils ne sont
+    plus poss\xE9d\xE9s depuis hier soir (en fait depuis\r\nque les PJ ont r\xE9solu
+    l\u2019affaire du meurtre et stopp\xE9 la\r\npropagation de la penombra durant
+    le sc\xE9nario du kit\r\nd\u2019initiation).\r\n\u2022 Quand la possession a
+    cess\xE9, ils ont entendu un cri de\r\nrage.\r\n\u2022 Quand ils \xE9taient poss\xE9d\xE9s,
+    ils n\u2019avaient plus le contr\xF4le\r\nde leur corps, ne pensaient plus \xE0
+    leurs actes, mais\r\nvoyaient ce qu\u2019ils faisaient et entendaient tout distinctement.\r\n\u2022
+    Ils sont tous au bord du d\xE9sespoir, mais, depuis qu\u2019ils\r\nsont lib\xE9r\xE9s
+    de la possession, ils essaient de racheter\r\nleurs erreurs.\r\n\u2022 Pendant
+    que S\xE9l\xE8ne occupait le roi de Lafayette avec les\r\ncaisses de penombra
+    qu\u2019elle voulait se faire rembourser,\r\nBrad est all\xE9 lib\xE9rer les
+    enfants prisonniers des galeries.\r\nClay r\xE9parait le vector et pr\xE9parait
+    la d\xE9fense du lieu, car\r\nil sait que les serviteurs du roi vont venir les
+    trouver. Ils\r\nvoulaient ramener les enfants dans le m\xE9tro, mais des\r\ncr\xE9atures
+    de la B\xEAte les emp\xEAchent de sortir d\u2019ici.\r\n\u2022 C\u2019est le
+    roi de Lafayette qui leur fournissait la penombra.\r\nLe Masque leur a donn\xE9
+    un moyen de contenter l\u2019app\xE9tit\r\ndu roi (la communaut\xE9 d\u2019enfants).\n\nClay,
+    Brad et S\xE9l\xE8ne veulent se racheter,\n\n\xAB Votre mission principale est
+    l\u2019\xE9limination des chevaliers noirs.\r\nPersonne, pas m\xEAme au Knight,
+    ne doit savoir que nous\r\npouvons perdre espoir. \xBB\n\nSi ils decident de
+    les ramener, + 1D6 ESP\nSinon, Clay demande a ce qu'on laisse Brad et S\xE9l\xE8ne
+    en vie c'est lui qui as pactiser\n\nTuer un chevalier fait perde 1D6 (ils ne
+    se d\xE9fendent plus)\n"

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 20 - Le Jugement
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 3d9fa2414994d434c9501f7b65faeeb6, type: 3}
+  desc: "La vingti\xE8me lame du tarot repr\xE9sente la foule et ce qui touche aux
+    interactions entre les personnes. Elle symbolise ainsi la r\xE9putation bonne
+    ou mauvaise, les jugements, les discours. Dans une moindre mesure, le Jugement
+    est aussi associ\xE9 \xE0 la lib\xE9ration et \xE0 l'emprisonnement, aux forces
+    de l'ordre, \xE0 l'\xE9quit\xE9 et son contraire."
+  passe: "Une bonne r\xE9putation, une mauvaise r\xE9putation, une manifestation,
+    une \xE9meute, un jugement qui sauve, un jugement qui condamne, un tribunal,
+    les forces de l'ordre, la prison, une lib\xE9ration, une injustice, un public."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Dame et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Empathie : Le personnage est dou\xE9 d\u2019une empathie naturelle
+    avec les gens. Il peut comprendre ses interlocuteurs, d\xE9tecter leurs sentiments
+    et leurs \xE9motions en quelques regards. En termes de jeu, lorsque le personnage
+    cherche \xE0 d\xE9celer les \xE9motions ou les sentiments d\u2019un interlocuteur,
+    il re\xE7oit un bonus d\u2019une r\xE9ussite automatique \xE0 son jet base Instinct
+    et ignore les \xE9ventuels \xE9checs critiques."
+  desavantagePj: "Prisonnier : Le personnage est un prisonnier, recrut\xE9 par le
+    Knight directement en prison. Pour s\u2019assurer qu\u2019il ne tente pas de
+    s\u2019\xE9chapper, la section Tarasque du Knight a implant\xE9 dans le h\xE9ros
+    un micro-explosif command\xE9 \xE0 distance capable de lui faire sauter la cervelle
+    \xE0 la moindre incartade. En termes de jeu, la motivation majeure du personnage
+    doit \xEAtre : Retrouver la libert\xE9. Tant que cette motivation n\u2019a pas
+    \xE9t\xE9 accomplie, le personnage ne peut pas r\xE9cup\xE9rer ou gagner de points
+    d\u2019espoir (les conditions de l\u2019accomplissement de cette motivation doivent
+    \xEAtre cr\xE9\xE9es en concertation avec le MJ, il peut par exemple s\u2019agir
+    d\u2019un nombre de missions accomplies, d\u2019un acte particuli\xE8rement h\xE9ro\xEFque,
+    etc.)."
+  avantageIA: "Jugement de la lumi\xE8re  : L\u2019IA a r\xE9ussi \xE0 magnifier
+    certains des composants de l\u2019armure afin qu\u2019ils procurent un effet
+    sp\xE9cial \xE0 une attaque que porte le chevalier lorsqu\u2019elle est d\xE9fold\xE9e.
+    En termes de jeu, une fois par phase de conflit, les attaques port\xE9es par
+    le chevalier (au corps \xE0 corps ou \xE0 distance) lors d\u2019un tour b\xE9n\xE9ficient
+    de l\u2019effet anti-Anath\xE8me ."
+  desavantageIA: "Jugement informatique  : L\u2019IA de l\u2019armure est tr\xE8s
+    critique envers le chevalier qui n\u2019a pas droit \xE0 l\u2019erreur. Lorsqu\u2019il
+    se trompe ou ne suit pas les conseils de l\u2019IA, celle-ci lui applique une
+    sanction. En termes de jeu, si le chevalier \xE9choue deux fois d\u2019affil\xE9e
+    \xE0 un m\xEAme test (base identique, quelle qu\u2019elle soit), l\u2019armure
+    se folde pour 1 tour ou une dizaine de secondes."

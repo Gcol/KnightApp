@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 19 - Le Soleil
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: d7f0961d0105fc449b2e06d69a5ca55e, type: 3}
+  desc: "Comme on peut s'en douter, la lame du tarot nomm\xE9e le Soleil repr\xE9sente
+    la lumi\xE8re, la joie, l'or et l'abondance. C'est une carte particuli\xE8rement
+    b\xE9n\xE9fique, qui est tout de m\xEAme rapproch\xE9e de la vanit\xE9, de l'\xE9go\xEFsme
+    et du para\xEEtre. Plus g\xE9n\xE9ralement, elle est aussi associ\xE9e \xE0 la
+    v\xE9rit\xE9, \xE0 l'illumination, au discernement, \xE0 la gloire et \xE0 la
+    c\xE9l\xE9brit\xE9."
+  passe: "Une illumination, une grande joie, une d\xE9couverte en or, une c\xE9l\xE9brit\xE9
+    bien acquise, une gloire m\xE9rit\xE9e, la d\xE9couverte de la v\xE9rit\xE9,
+    la d\xE9couverte d'un secret, un \xE9ducateur, un professeur, la vanit\xE9, une
+    envie de bien para\xEEtre."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Dame et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Rayonnement : Le personnage est dot\xE9 d\u2019une aura naturelle
+    qui r\xE9conforte les autres et leur permet de se d\xE9passer. Profond\xE9ment
+    bienveillant, c\u2019est un leader-n\xE9, qui est capable de pousser ses alli\xE9s
+    \xE0 donner le meilleur d\u2019eux-m\xEAmes. En termes de jeu, lorsque le personnage
+    est aid\xE9 par les PJ pour effectuer une action, ceux-ci re\xE7oivent un bonus
+    d\u2019un d\xE9 \xE0 leur jet, peu importe la caract\xE9ristique utilis\xE9e,
+    et ce, m\xEAme lors d\u2019un mode h\xE9ro\xEFque."
+  desavantagePj: " \xC9go\xEFste : Le personnage pense \xE0 lui avant de penser aux
+    autres, c\u2019est comme \xE7a. Son int\xE9grit\xE9, sa mise en avant, sa gloire
+    sont plus importantes que ce qui peut arriver aux autres, m\xEAme \xE0 ses alli\xE9s.
+    En termes de jeu, le personnage ne peut jamais \xEAtre adjuvant lors d\u2019un
+    mode h\xE9ro\xEFque. Il ne sort cependant pas de la sc\xE8ne et peut agir pendant
+    le mode, totalement normalement, comme si c\u2019\xE9tait une phase classique,
+    et accomplir des actions."
+  avantageIA: "Lueur d'espoir : L\u2019IA arrive \xE0 magnifier l\u2019armure afin
+    qu\u2019elle rayonne tel un phare dans la nuit. Le chevalier semble imposer sa
+    loi aux t\xE9n\xE8bres elles-m\xEAmes. En termes de jeu, une fois par partie,
+    si l\u2019armure est d\xE9fold\xE9e et que le chevalier fait partie d\u2019un
+    groupe qui gagne de l\u2019espoir, ce gain est augment\xE9 de deux points pour
+    les alli\xE9s (PJ et PNJ)."
+  desavantageIA: "Orgueilleux  : L\u2019IA de l\u2019armure est orgueilleuse. Elle
+    pense \xEAtre la meilleure et que son chevalier l\u2019est \xE9galement, qu\u2019il
+    se distingue sur le champ de bataille comme un vrai h\xE9ros ! Ainsi, elle refuse
+    qu\u2019on lui vienne en aide. Sans \xEAtre solitaire, elle ne supporte pas l\u2019assistanat.
+    En termes de jeu, le chevalier ne peut b\xE9n\xE9ficier d\u2019une aide de la
+    part des autres PJ. Cela ne s\u2019applique pas au mode h\xE9ro\xEFque puisque
+    le chevalier est au c\u0153ur de l\u2019action."

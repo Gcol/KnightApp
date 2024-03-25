@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efed071ad960d994482b0662ba2634ca, type: 3}
+  m_Name: Combattant
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: ecec043da174e6f4ba60eb58c31eedd9, type: 3}
+  desc: "Il y a encore peu de temps, le personnage construisait son existence autour
+    du combat, des armes et des fusillades. Professionnellement, il a \xE9t\xE9 pr\xE9par\xE9
+    \xE0 se battre et \xE0 r\xE9agir en tant qu\u2019homme d\u2019action. Il a peut-\xEAtre
+    \xE9t\xE9 un soldat dans une des nombreuses forces arm\xE9es du monde telles
+    qu'Eurocorps ou l\u2019arm\xE9e de la NAU. Il peut aussi avoir \xE9t\xE9 un membre
+    d\u2019une section d\u2019assaut de la police du type GIGN ou SWAT. Enfin, le
+    personnage peut avoir \xE9t\xE9 un mercenaire, membre d\u2019une arm\xE9e priv\xE9e,
+    voire m\xEAme un soldat de fortune \xE0 son compte, vendant ses talents aux plus
+    offrants."
+  grandImage: {fileID: 21300000, guid: a1055e5ac8031334188632862466e604, type: 3}
+  bonus: " Le personnage gagne 1 point dans la caract\xE9ristique Combat et 1 point
+    dans la caract\xE9ristique Tir."

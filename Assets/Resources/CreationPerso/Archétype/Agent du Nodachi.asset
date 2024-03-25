@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efed071ad960d994482b0662ba2634ca, type: 3}
+  m_Name: Agent du Nodachi
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 4e0cbcc96c235f3439154eca8e07be54, type: 3}
+  desc: "Avant que le Nodachi ne soit officiellement r\xE9v\xE9l\xE9 au monde, le
+    personnage en \xE9tait sans doute d\xE9j\xE0 membre. Il \xE9tait l\u2019un des
+    fervents d\xE9fenseurs du Japon et de sa coh\xE9sion, suivant les ordres du shogun
+    et de l\u2019empereur avec une exactitude et un respect in\xE9gal\xE9s. Un agent
+    capable de tout pour sa patrie. Mais malheureusement, pour une raison qui reste
+    \xE0 d\xE9finir, il ne fait plus partie du Nodachi. Peut-\xEAtre a-t-il \xE9t\xE9
+    licenci\xE9 ou encore a-t-il d\xE9missionn\xE9 suite \xE0 des \xE9v\xE9nements
+    trop lourds \xE0 supporter\u2026 Quoi qu\u2019il en soit, le chevalier peut avoir
+    \xE9t\xE9 un simple m\xE9ta-soldat du Nodachi, suivant les ordres de ses sup\xE9rieurs.
+    Il a peut-\xEAtre \xE9t\xE9 un shinobi, dissimul\xE9 dans l\u2019ombre et assassinant,
+    torturant ou kidnappant les ennemis du Japon. Ou alors l\u2019un des 88 samoura\xEFs,
+    un proche du shogun, capable de d\xE9fier un chevalier. Dans ce dernier cas,
+    le joueur doit trouver de bonnes raisons pour que son personnage ait quitt\xE9
+    le Nodachi."
+  grandImage: {fileID: 21300000, guid: 747f5a6b79f10354bb736ba1e3842c5c, type: 3}
+  bonus: "Le personnage gagne 1 point dans la caract\xE9ristique Combat ou Tir (au
+    choix) et 1 point dans la caract\xE9ristique Dext\xE9rit\xE9."

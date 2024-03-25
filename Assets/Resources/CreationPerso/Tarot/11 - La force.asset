@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 11 - La force
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 37fe658670e56c34d8c6349eb9bdcdc6, type: 3}
+  desc: "La lame de la Force repr\xE9sente la puissance et l'\xE9nergie de l'\xEAtre
+    humain. C'est aussi devenu par extension le symbole de la force d'une personne
+    dans son essence, mais aussi dans ce qu'elle ma\xEEtrise ou poss\xE8de."
+  passe: "Une puissance qui aide, une force physique d\xE9velopp\xE9e, une victoire
+    par la force, une victoire sportive, une carri\xE8re sportive, de nombreux atouts
+    \xE0 disposition, des possessions qui rendent puissant, une grande force d'esprit,
+    une grande force morale."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Chair et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Dur \xE0 cuir : Le personnage est plus r\xE9sistant que la moyenne
+    et dispose d\u2019une endurance presque hors du commun, pouvant subir plus de
+    coups et de blessures que quiconque. En termes de jeu, le personnage dispose
+    de 5 points de sant\xE9 suppl\xE9mentaires, ce qui augmente son total de points
+    de sant\xE9 de 5."
+  desavantagePj: "Forcen\xE9 : Le h\xE9ros pense que la violence et la force sont
+    les meilleures armes du Knight dans sa guerre contre l\u2019Anath\xE8me. Il use
+    et abuse de ses armes et de ses muscles, m\xEAme quand la situation exige discr\xE9tion
+    et subtilit\xE9. En termes de jeu, une fois par partie, le MJ peut obliger le
+    personnage \xE0 lancer une attaque sur un ennemi pr\xE9sent si l\u2019\xE9quipe
+    prend trop de temps \xE0 r\xE9fl\xE9chir \xE0 un plan ou \xE0 disserter sur la
+    meilleure organisation \xE0 mettre en place."
+  avantageIA: "Combative : L\u2019IA de l\u2019armure optimise ses capacit\xE9s de
+    combat afin d\u2019aider son chevalier. De ce fait, ce dernier b\xE9n\xE9ficie
+    d\u2019une r\xE9duction de difficult\xE9 de 1 lors de ses tests ayant pour base
+    la caract\xE9ristique Tir ou Combat (\xE0 d\xE9terminer lors de la cr\xE9ation
+    de l\u2019IA), tant que l\u2019armure est d\xE9fold\xE9e."
+  desavantageIA: "Imp\xE9tuosit\xE9 : L\u2019IA n\u2019a peur de rien, ni de personne,
+    et combat jusqu\u2019\xE0 la mort s\u2019il le faut. En termes de jeu, tant que
+    l\u2019armure est d\xE9fold\xE9e, il est impossible au chevalier de fuir un combat
+    ou une altercation."

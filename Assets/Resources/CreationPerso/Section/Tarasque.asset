@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87727ba1cf3b704883056312fa54415, type: 3}
+  m_Name: Tarasque
+  m_EditorClassIdentifier: 
+  chefSection: 7
+  Description: "Aussi fous que courageux, les membres de la section Tarasque sont
+    des chevaliers qui doivent racheter leurs actes lors de\r\nmissions particuli\xE8rement
+    dangereuses."
+  Bonus: "+1 point dans l\u2019aspect B\xEAte et +1 point dans les trois caract\xE9ristiques
+    qui y sont li\xE9es."
+  Avantage: ": Le PJ re\xE7oit les modules suivants : lame de bras nv1, attaque sur
+    casque nv1, saut nv1"
+  Inconvenient: "Fou dangereux : M\xEAme s\u2019il n\u2019est plus au sein de la
+    section Tarasque, le chevalier reste surveill\xE9 par Sagramor et par\r\nles
+    agents du Korrigan. \xC0 la moindre incartade, au moindre signe de d\xE9sespoir,
+    il est automatiquement \xAB neutralis\xE9 \xBB par l\u2019explosif\r\nque la
+    section Tarasque lui a plac\xE9 dans la t\xEAte. Pour repr\xE9senter cela, si
+    au d\xE9but d\u2019une sc\xE8ne le personnage est \xE0 moins de 10\r\npoints
+    d\u2019espoir, il est automatiquement tu\xE9 par l\u2019explosif et retir\xE9
+    du jeu."

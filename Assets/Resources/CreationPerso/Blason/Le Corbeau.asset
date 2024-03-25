@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e50f7c75f45bd438bd79c8eab27ced, type: 3}
+  m_Name: Le Corbeau
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 45fe5b22dc8fed0469b1cec10675dc7c, type: 3}
+  desc: "Le corbeau symbolise la compr\xE9hension. Un chevalier arborant ce blason
+    doit se montrer curieux et \xEAtre \xE0 l\u2019\xE9coute des autres. Il est souvent
+    port\xE9 par les chevaliers se sp\xE9cialisant comme enqu\xEAteurs."
+  grandImage: {fileID: 21300000, guid: 2f9ea3b1395b9e348b3d1961b1123189, type: 3}
+  voeu: "Participer \xE0 la r\xE9solution d\u2019un crime, d\u2019un enl\xE8vement,
+    d\u2019un meurtre ou d\u2019un assassinat."

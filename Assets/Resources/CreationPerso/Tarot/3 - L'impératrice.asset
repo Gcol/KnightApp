@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: "3 - L'imp\xE9ratrice"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: b3fb3c8da4c4c964fa871c3946831188, type: 3}
+  desc: "Cette lame repr\xE9sente la science, la connaissance et tous les savoirs
+    en g\xE9n\xE9ral. Elle symbolise aussi les \xE9tudes et l'apprentissage."
+  passe: "De longues \xE9tudes, de tr\xE8s courtes \xE9tudes, un apprentissage difficile,
+    un scientifique, un technicien, un savoir original, de nombreuses connaissances,
+    une absence de savoir, un entra\xEEnement intense."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Machine et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "M\xE9moire efficace  : Le personnage a une m\xE9moire qui lui permet
+    de tout assimiler comme il le d\xE9sire et de se rappeler \xE0 peu pr\xE8s tout.
+    Il peut, une fois durant chaque s\xE9ance de jeu, demander au MJ de lui fournir
+    un savoir acad\xE9mique, un souvenir ou simplement un savoir pass\xE9 que son
+    personnage aurait pu lire ou voir quelque part. Ce savoir ne peut pas r\xE9soudre
+    automatiquement une enqu\xEAte ou abattre toutes les difficult\xE9s d\u2019une
+    aventure, mais peut bien entendu aider \xE0 les r\xE9soudre."
+  desavantagePj: "Esprit de contradiction : Le h\xE9ros ne supporte pas que les autres
+    aient raison, il prend donc toujours le contre-pied de ce qu\u2019ils disent
+    au risque de faire tra\xEEner la discussion pendant des heures ou de provoquer
+    une r\xE9action hostile de l\u2019interlocuteur. Une fois par partie, quand le
+    MJ le d\xE9cide, lorsqu\u2019un personnage (joueur ou non) pose un argument qui
+    peut \xEAtre soumis \xE0 un doute, le PJ doit tenter de prouver l\u2019inexactitude
+    ou la fausset\xE9 de l\u2019argument en utilisant son savoir ou des moyens techniques."
+  avantageIA: "Protection maternelle  : L\u2019IA de l\u2019armure consid\xE8re son
+    porteur comme son enfant et fait tout ce qui est en son pouvoir pour qu\u2019il
+    reste en vie. Elle peut donc prendre l\u2019initiative de lui administrer automatiquement
+    un nod de soin et/ou d\u2019armure (sans que cela ne co\xFBte aucune action au
+    chevalier) si elle consid\xE8re que le personnage est en danger (et \xE0 plus
+    forte raison s\u2019il est inconscient). En outre, elle est en mesure de d\xE9clencher
+    la balise d\u2019alerte vers Camelot afin que des renforts soient envoy\xE9s
+    si cela s\u2019av\xE8re n\xE9cessaire."
+  desavantageIA: "Invasive  : L\u2019IA de l\u2019armure est amoureuse de son porteur.
+    Elle peut se montrer jalouse si le personnage vient \xE0 rencontrer une personne
+    avec laquelle il tisse des liens amoureux. En termes de jeu, toute personne qui
+    se rapproche trop du chevalier, d\u2019un point de vue charnel ou \xE9motionnel,
+    est rejet\xE9 par l\u2019IA de fa\xE7on passive ou active, allant jusqu\u2019\xE0
+    l\u2019attaque frontale."

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e50f7c75f45bd438bd79c8eab27ced, type: 3}
+  m_Name: Le Loup
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 94a3a1a0dba0f3e48868b78a27f7f24b, type: 3}
+  desc: "Le loup repr\xE9sente la solidarit\xE9 entre les chevaliers. Les membres
+    du Knight arborant ce blason sont particuli\xE8rement solidaires des autres chevaliers
+    et font tout pour les aider dans leurs actions, les prot\xE9ger, quitte \xE0
+    sacrifier leur propre vie."
+  grandImage: {fileID: 21300000, guid: 4c1413e4ef7e4874f8b33802394c866e, type: 3}
+  voeu: "Prot\xE9ger un chevalier alors qu\u2019il est en danger."

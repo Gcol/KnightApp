@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 1 - L'avant-Poste
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Savoir\r\ndifficult\xE9 faisable (2) qu\u2019ils sont proches
+    du solstice d\u2019hiver et\r\nque la zone \xE9tant \xE0 l\u2019int\xE9rieur
+    du cercle arctique, la nuit peut\r\ny durer plusieurs jours.\nMJ, insistez sur
+    le silence du lieu, le froid (il fait \xE0\r\nl\u2019ext\xE9rieur \u2013 40 \xB0C,
+    m\xEAme si les m\xE9ta-armures prot\xE8gent\r\nleur porteur du froid, ils seraient
+    autrement gel\xE9s sur place),\r\nla neige qui recouvre tout et qui tombe sans
+    discontinuer,\r\nemp\xEAchant d\u2019y voir \xE0 trois m\xE8tres.\n"

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 1.5 - Fouille Avant Post
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Voici ce que les chevaliers peuvent d\xE9couvrir en fouillant\r\nl\u2019avant-poste
+    et son espace de travail, sur des tests base\r\nPerception ou Instinct :\n\n\u2022
+    Il n\u2019y a pas de trace de la horde de la Chair au-del\xE0 de\r\nl\u2019escalier
+    qui part du hall d\u2019entr\xE9e. Apparemment, les\r\ncr\xE9atures qui ont attaqu\xE9
+    l\u2019avant-poste ne cherchaient\r\nrien ici.\r\n\u2022 Aucune information sur
+    les codes permettant d\u2019ouvrir les\r\ncoffres des prototypes ne peut \xEAtre
+    trouv\xE9e. Les h\xE9ros ne\r\npeuvent que trouver des rapports sur les tests
+    effectu\xE9s.\r\nSeul un test base Technique difficult\xE9 difficile (6) peut\r\npermettre
+    de forcer les coffres.\n\nUTILISER LES PROTOTYPES\r\nDE LA SECTION GIANT\r\nLes
+    coffres renferment des prototypes divers et vari\xE9s.\r\nSi certains sont ind\xE9finissables
+    et donc impossibles \xE0\r\nutiliser, les joueurs peuvent reconna\xEEtre une
+    arbal\xE8te\r\nmagn\xE9tique et un lance-grenade lourd (voir annexe 2 :\r\nArsenal
+    \u2013 Armement \u2013 pages 425 et 422). Attention\r\ncependant, s\u2019ils
+    veulent les utiliser, ils devront r\xE9ussir\r\nun test base Technique difficult\xE9
+    d\xE9licat (4) \xE0 chaque\r\ntir. S\u2019ils \xE9chouent, le prototype explose,
+    infligeant ses\r\nd\xE9g\xE2ts avec l\u2019effet dispersion 3 autour de lui et
+    ce sera\r\naux h\xE9ros de s\u2019expliquer aupr\xE8s de la section Giant \xE0\r\nCamelot.\n\n\u2022
+    La zone \xE9tait particuli\xE8rement calme dans les semaines\r\nqui ont pr\xE9c\xE9d\xE9
+    l\u2019attaque mortelle. A priori, aucune\r\npr\xE9sence de t\xE9n\xE8bres ou
+    de cr\xE9atures n\u2019a \xE9t\xE9 constat\xE9e\r\ndans la r\xE9gion.\r\n\u2022
+    En \xE9tudiant les rapports des \xE9changes radio entre\r\nl\u2019\xE9quipe pr\xE9sente
+    et la section Korrigan de Camelot,\r\nles h\xE9ros peuvent constater que les
+    Giants ont fait \xE9tat\r\nd\u2019empreintes de roues r\xE9currentes dans les
+    environs\r\n(au nord, nord-est).\r\n\u2022 Toujours dans les rapports des \xE9changes
+    radio, il est\r\nconstat\xE9 des signaux intercept\xE9s qui semblent provenir\r\nd\u2019un
+    ancien bunker situ\xE9 au nord de leur position.\n\nSi les h\xE9ros d\xE9cident
+    d\u2019attendre dans l\u2019avant-poste ou de s\u2019y\r\nreposer plus de 4 heures,
+    une nouvelle horde similaire \xE0 la\r\npr\xE9c\xE9dente viendra s\u2019\xE9chouer
+    sur leurs murs.\n\n"

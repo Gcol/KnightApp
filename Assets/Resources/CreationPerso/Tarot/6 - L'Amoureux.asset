@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 6 - L'Amoureux
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: e5b5b1cd247359042b8469e2bb8663f2, type: 3}
+  desc: "C'est la lame qui symbolise une d\xE9cision \xE0 prendre, un choix difficile,
+    une h\xE9sitation. Elle repr\xE9sente aussi le libre arbitre, l'initiation, l'amour,
+    le d\xE9sir ou encore la passion."
+  passe: "Un amour puissant, une absence d'amour, une activit\xE9 sexuelle d\xE9bordante,
+    une abstinence, un dilemme, un choix difficile, une h\xE9sitation qui cause du
+    malheur, un personnage libre, un hors-la-loi, une envie de libert\xE9, un anarchiste."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect B\xEAte et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Aisance : Par adaptabilit\xE9 ou par contr\xF4le de son corps, le
+    h\xE9ros fait preuve d\u2019une aisance particuli\xE8re avec tout type d\u2019armures
+    et d\u2019armes. Il peut, par exemple, tirer \xE0 la mitrailleuse tout en se
+    d\xE9pla\xE7ant ou nager avec une armure de plate. En termes de jeu, le PJ ignore
+    l\u2019effet lourd des armes. Cependant, il doit quand m\xEAme les tenir \xE0
+    deux mains pour pouvoir les utiliser."
+  desavantagePj: "Graveleux  : De fa\xE7on naturelle ou \xE0 cause d\u2019un traumatisme,
+    le PJ ne peut s\u2019emp\xEAcher d\u2019ins\xE9rer des remarques graveleuses
+    dans tout ce qu\u2019il dit. En outre, son obsession le pousse \xE0 agir parfois
+    dangereusement et \xE0 mettre dans l\u2019embarras ses co\xE9quipiers et les
+    personnes qui lui plaisent. Pour tous ses tests de Parole et d\u2019Aura impliquant
+    de communiquer avec une personne l\u2019attirant sexuellement (\xE0 la discr\xE9tion
+    du MJ), le PJ voit son niveau de difficult\xE9 augmenter d\u2019un cran."
+  avantageIA: "Amoureuse : L\u2019IA de l\u2019armure \xE9prouve un sentiment d\u2019amour
+    envers son chevalier et essaie par tous les moyens d\u2019anticiper ses r\xE9actions
+    afin de ne faire qu\u2019un avec lui. En termes de jeu, le chevalier obtient
+    un bonus de 1 en Initiative."
+  desavantageIA: "Libertine : L\u2019IA de l\u2019armure d\xE9borde de sensualit\xE9
+    et essaie par tous les moyens de vivre un amour charnel par procuration au travers
+    de son porteur. Si elle sent que son chevalier est en passe d\u2019avoir un \xE9change
+    d\u2019ordre sensuel ou sexuel, elle d\xE9folde d\u2019elle-m\xEAme la m\xE9ta-armure
+    afin de recouvrir le corps du chevalier et ressentir un peu de cette chaleur
+    humaine qu\u2019elle recherche. En termes de jeu, le chevalier doit g\xE9rer
+    une armure qui n\u2019en fait qu\u2019\xE0 sa t\xEAte lorsque les relations physiques
+    deviennent plus intimes."

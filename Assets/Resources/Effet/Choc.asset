@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: Choc
+  m_EditorClassIdentifier: 
+  description: "Si le jet pour toucher avec l\u2019arme est sup\xE9rieur au score\r\nde
+    l\u2019aspect Chair (divis\xE9 par 2 pour un PNJ) de la cible, celleci\r\nperd
+    ses X prochaines actions. Cet effet ne fonctionne pas\r\ncontre les bandes. Attention,
+    l\u2019effet ne peut pas se cumuler alors\r\nque la cible est d\xE9j\xE0 sous
+    l\u2019effet choc. Dans certaines circonstances,\r\nl\u2019effet choc peut \xEAtre
+    consid\xE9r\xE9 comme automatique et\r\nne prend donc pas en compte le score
+    de l\u2019aspect Chair. Lorsque\r\nl\u2019effet choc est cens\xE9 s\u2019appliquer
+    automatiquement, il faut tout\r\nde m\xEAme que le personnage touche sa cible.
+    En revanche, son\r\nr\xE9sultat n\u2019a pas besoin d\u2019\xE9galer l\u2019aspect
+    Chair divis\xE9 par deux\r\nde la cible pour que l\u2019effet fonctionne. En
+    fonction des circonstances,\r\nle MJ peut d\xE9cider qu\u2019un personnage sous
+    l\u2019effet choc\r\nsubit un malus de 2 \xE0 sa r\xE9action et \xE0 sa d\xE9fense."

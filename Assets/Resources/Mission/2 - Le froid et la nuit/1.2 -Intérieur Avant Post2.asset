@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: "1.2 -Int\xE9rieur Avant Post2"
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Dans le hall\r\nd\u2019entr\xE9e de la tour, un corps en combinaison
+    (il s\u2019agit de\r\nCarlo) est \xE9tendu dans les escaliers qui m\xE8nent \xE0
+    l\u2019\xE9tage du\r\nb\xE2timent. Enfin, sous les dizaines de cadavres \xE9tendus
+    dans\r\nle hall, le corps de Jimbo, lui aussi en combinaison, est \xE0\r\npeine
+    identifiable. Leur d\xE9c\xE8s est assez r\xE9cent, mais il n\u2019y a\r\nplus
+    moyen de leur venir en aide.\nEn dehors des trois chevaliers, les cadavres ressemblent\r\n\xE0
+    ceux d\u2019humains tr\xE8s ab\xEEm\xE9s. S\u2019ils sont habill\xE9s de v\xEAtements\r\nchauds
+    adapt\xE9s aux temp\xE9ratures glaciales du lieu,\r\nleurs tenues sont en tr\xE8s
+    mauvais \xE9tat et laissent voir une\r\nchair ab\xEEm\xE9e par le froid. Clairement,
+    ils ont parcouru un\r\nlong trajet pour venir jusqu\u2019ici et leur corps a
+    mal support\xE9\r\nles conditions du voyage (ils ont de nombreuses gelures,\r\ncertains
+    ont perdu des doigts, des orteils, des oreilles). Des\r\nhumains normaux n\u2019auraient
+    pas surv\xE9cu. Ce sont donc\r\nforc\xE9ment des cr\xE9atures de l\u2019Anath\xE8me.
+    Un jet base Savoir\r\ndifficult\xE9 facile (1) permet de d\xE9terminer que la
+    majorit\xE9 des\r\ncorps est compos\xE9e d\u2019infestes, les d\xE9sesp\xE9r\xE9s
+    de la Chair,\r\naccompagn\xE9s de quelques embryons qui devaient diriger\r\nl\u2019assaut.
+    Il semble peu probable que toute la horde ait \xE9t\xE9\r\nd\xE9cim\xE9e ici,
+    mais impossible de savoir o\xF9 sont partis les survivants\r\n\xE0 cause de la
+    nouvelle neige qui recouvre tout.\n\nLA MORT DE JIMBO\r\nSi les PJ regardent
+    en d\xE9tail le corps de Jimbo, ils d\xE9couvrent\r\nque sa m\xE9ta-armure a
+    subi un dysfonctionnement\r\net a d\xFB se folder en plein combat. C\u2019est
+    en fait\r\nCarlo qui a \xE9t\xE9 pris de d\xE9sespoir et a provoqu\xE9 la mort\r\nde
+    son coll\xE8gue en d\xE9sactivant sa m\xE9ta-armure (il est\r\nle Priest du groupe).
+    S\u2019ils observent le corps de Carlo,\r\nles PJ d\xE9couvrent des traces de
+    d\xE9sespoir (plaques\r\nnoires sur la peau, yeux enti\xE8rement noirs).\n\nTRANSMISSIONS
+    IMPOSSIBLES\r\n\xC0 cause de la neige, aucune transmission ne peut avoir\r\nlieu
+    entre Camelot et l\u2019avant-poste de Sib\xE9rie (sauf\r\ngr\xE2ce \xE0 un module
+    relais TacCom). Le vector ne peut\r\nplus revenir sur les lieux tant que la neige
+    n\u2019a pas arr\xEAt\xE9\r\nde tomber.\n"

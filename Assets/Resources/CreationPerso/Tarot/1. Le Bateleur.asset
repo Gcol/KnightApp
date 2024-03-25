@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 1. Le Bateleur
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 44de883f15590c6468180d7342775bf7, type: 3}
+  desc: "Le Bateleur est la figure du recommencement, de l\u2019initiative cr\xE9atrice
+    et du d\xE9veloppement des potentiel"
+  passe: "Une jeunesse d\u2019apprentissage, un don dont on a r\xE9colt\xE9 les fruits,
+    une d\xE9cision impr\xE9vue et heureuse, un choix soudain et malheureux, une
+    jeunesse riche et pleine d\u2019opportunit\xE9s, un changement de vie, un changement
+    de profession, une renaissance."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Dame et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Infatigable : De mani\xE8re naturelle, le corps du h\xE9ros r\xE9siste
+    aux chocs et \xE0 la fatigue engendr\xE9s par les coups port\xE9s sur sa m\xE9ta-armure.
+    De ce fait, il ne perd pas les points de sant\xE9 dus \xE0 des d\xE9g\xE2ts caus\xE9s
+    \xE0 son armure (habituellement 1 PS par tranche de 5 PA perdus en une fois)."
+  desavantagePj: "Col\xE9rique : Le h\xE9ros est sujet \xE0 des pics de nervosit\xE9
+    dus \xE0 presque tout et n\u2019importe quoi (opposition d\u2019id\xE9es, \xE9chec,
+    acte que le personnage ne supporte pas, etc.). Ces pics se transforment tr\xE8s
+    vite en col\xE8re semblable \xE0 de la folie. Le personnage subit un malus de
+    3 d\xE9s \xE0 tous ses tests base Sang-Froid lorsqu\u2019il tente de se calmer
+    ou de ne pas c\xE9der \xE0 la col\xE8re."
+  avantageIA: "Cr\xE9ative  :Les questions de l\u2019IA peuvent permettre au chevalier
+    d\u2019avancer dans une r\xE9flexion sur l\u2019enqu\xEAte en cours ou \xEAtre
+    d\u2019ordre plus futile. En termes de jeu, \xE0 la faveur du MJ, l\u2019IA peut
+    poser une question au PJ afin de l\u2019aiguiller dans une direction propice
+    \xE0 l\u2019avanc\xE9e du sc\xE9nario."
+  desavantageIA: "Curieuse  :L\u2019IA peut de temps en temps s\u2019adresser \xE0
+    la place du PJ \xE0 un interlocuteur afin de l\u2019interroger. Elle prend alors
+    la voix du chevalier porteur de l\u2019armure par le biais du synth\xE9tiseur
+    vocal. Dans ce cas, l\u2019IA n\u2019h\xE9site pas \xE0 poser des questions d\xE9rangeantes,
+    \xE0 l\u2019image de celles que des jeunes enfants posent, pourtant na\xEFves
+    dans leur bouche, ce qui ne l\u2019est pas forc\xE9ment dans celle d\u2019un
+    chevalier."

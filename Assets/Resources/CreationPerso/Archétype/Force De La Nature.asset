@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efed071ad960d994482b0662ba2634ca, type: 3}
+  m_Name: Force De La Nature
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: c06a8cb84efc6e140a666f2eb3d36a8e, type: 3}
+  desc: "Le h\xE9ros s\u2019est toujours bas\xE9 sur sa force physique pour r\xE9ussir.
+    Il n\u2019a pas forc\xE9ment \xE9t\xE9 une brute durant sa vie pass\xE9e, mais
+    a toujours privil\xE9gi\xE9 son corps \xE0 son esprit, simplement parce qu\u2019il
+    \xE9tait bon dans cela, comme un don de la nature. Le chevalier peut avoir \xE9t\xE9
+    un sportif de tr\xE8s haut niveau dans une discipline qui demande de tr\xE8s
+    gros efforts physiques comme l\u2019athl\xE9tisme, l\u2019halt\xE9rophilie ou
+    encore le rugby. Il a peut-\xEAtre aussi \xE9t\xE9 professionnel d\u2019un sport
+    de combat ou d\u2019un art martial, de la boxe en passant par le muay-tha\xEF.
+    Enfin, le personnage n\u2019a peut-\xEAtre jamais \xE9t\xE9 un sportif et peut
+    simplement avoir profit\xE9 de sa force et de son endurance durant son travail,
+    en tant que b\xFBcheron, mineur ou m\xEAme pompier."
+  grandImage: {fileID: 21300000, guid: dbeef9777344f8c4d89ff83caa849240, type: 3}
+  bonus: "Le personnage gagne 1 point dans la caract\xE9ristique Force et 1 point
+    dans la caract\xE9ristique Endurance."

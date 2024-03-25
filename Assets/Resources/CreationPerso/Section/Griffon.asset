@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87727ba1cf3b704883056312fa54415, type: 3}
+  m_Name: Griffon
+  m_EditorClassIdentifier: 
+  chefSection: 3
+  Description: "As du pilotage, drogu\xE9s \xE0 l\u2019adr\xE9naline, les chevaliers
+    de la section Griffon sont sp\xE9cialis\xE9s dans l\u2019exfiltration des VIP
+    et dans les\r\nop\xE9rations n\xE9cessitant des v\xE9hicules de combat."
+  Bonus: "+1 dans l\u2019aspect Masque et +1 point dans les trois caract\xE9ristiques
+    qui y sont li\xE9es."
+  Avantage: ": Le PJ re\xE7oit les modules suivants : d\xE9ploiement pour moto steed
+    (si la moto steed est d\xE9truite, le module, lui, n\u2019est\r\npas d\xE9truit
+    et la moto est remplac\xE9e \xE0 la fin de la mission, lorsque le chevalier retourne
+    \xE0 Camelot"
+  Inconvenient: "Jouteur : Le personnage est habitu\xE9 \xE0 combattre \xE0 moto
+    et est moins \xE0 l\u2019aise lorsqu\u2019il combat \xE0 pied. Pour\r\nsymboliser
+    cela, le personnage retire 2D \xE0 tous ses jets impliquant des actions de combat
+    et de tir lorsqu\u2019il combat \xE0 pied, c\u2019est-\xE0dire\r\nsans sa moto
+    steed ou en dehors de n\u2019importe quel v\xE9hicule du Knight."

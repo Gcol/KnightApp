@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 7 - Attaque du roi
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 21300000, guid: cddc422ea3d7f4546b80fd9add395582, type: 3}
+  musicFond: {fileID: 8300000, guid: bffdc2087d28fdb46a9ebb27e567574f, type: 3}
+  videoClip: {fileID: 0}
+  creatures:
+  - creature: {fileID: 11400000, guid: 71316982928eb01498acd482bd0975d4, type: 2}
+    nombreCreature: 0
+  - creature: {fileID: 11400000, guid: 25a8bc43de8eacd4fa67bec505123130, type: 2}
+    nombreCreature: 0
+  - creature: {fileID: 11400000, guid: c6eabb6d913e4d84fa53ca872f5f6c56, type: 2}
+    nombreCreature: 0
+  SceneDescription: "\xC0 ce moment, des centaines de bestians se mettent \xE0 sortir\r\nde
+    la gare et des centaines d\u2019autres arrivent par les rues alors\r\nque des
+    faunes se mettent \xE0 jeter voitures et lampadaires\r\nvers les PJ et PNJ (ils
+    ratent leurs attaques)\n\nTr\xE8s vite, les enfants se mettent \xE0 hurler et
+    Clay demande\r\naux PJ de monter dans le vector\n\nUn jet base Technique difficult\xE9\r\nnormal
+    (3) permet de prendre le contr\xF4le du vector. Un\r\ndeuxi\xE8me jet base Technique
+    difficult\xE9 d\xE9licat (4) permet de\r\nle faire d\xE9coller. Il faut en tout
+    une quarantaine de secondes,\r\nou quatre tours en phase de conflit, pour que
+    l\u2019appareil\r\nd\xE9colle.\n\nIl faut infliger au moins 150 points de violence
+    \xE0 la bande\r\nen 3 tours ou moins pour que Clay et S\xE9l\xE8ne repoussent
+    une\r\npremi\xE8re vague et montent dans le vector avec les PJ et les\r\nenfants.\n\nInfliger
+    plus de 50 points de violence permet seulement\r\nde sauver Clay, S\xE9l\xE8ne
+    subissant les coups d\xE9vastateurs\nelle est alors tu\xE9e par un\r\npanneau
+    plant\xE9 dans le cr\xE2ne.\n\nSi les PJ r\xE9ussissent \xE0 faire d\xE9coller
+    le vector, ils re\xE7oivent un\r\nappel du chevalier Guillaume de la tour Eiffel
+    qui leur dit que\r\ndes cr\xE9atures bestiales sont partout et que la lumi\xE8re
+    de la\r\ntour peut les prot\xE9ger de ces monstres. Il leur dit aussi que\r\ndes
+    nu\xE9es de centaines de milliers de noctes commencent \xE0\r\naffluer dans les
+    airs. Seuls les abords de la tour Eiffel semblent\r\n\xEAtre \xE9pargn\xE9s gr\xE2ce
+    \xE0 la puissante lumi\xE8re diffus\xE9e autour,\r\nnotamment par les projecteurs
+    UV.\r\n\n"

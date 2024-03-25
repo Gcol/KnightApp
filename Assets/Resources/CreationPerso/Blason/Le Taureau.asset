@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e50f7c75f45bd438bd79c8eab27ced, type: 3}
+  m_Name: Le Taureau
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 5363ec81d27d7564883670754c4411d6, type: 3}
+  desc: "Cet animal repr\xE9sente la force de conviction et l\u2019attachement aux
+    r\xE8gles. Un h\xE9ros poss\xE9dant ce blason est absolument loyal au Knight,
+    \xE0 ses membres et \xE0 son code."
+  grandImage: {fileID: 21300000, guid: a775b450f117d0e42b97b13a1b53ff34, type: 3}
+  voeu: "Respecter, \xE0 chaque mission, le code d\u2019honneur du Knight."

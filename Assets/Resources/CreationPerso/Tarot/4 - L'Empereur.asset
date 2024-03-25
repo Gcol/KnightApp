@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 4 - L'Empereur
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 5866bac34daab684e89734a6e5c019b4, type: 3}
+  desc: "La quatri\xE8me lame du tarot symbolise l'action et la concr\xE9tisation
+    des choses. Cette carte est aussi le symbole du commandement et de tous ceux
+    qui dirigent par leur charisme ou leur magn\xE9tisme."
+  passe: "Un grand projet qui se termine, un grand projet qui \xE9choue, un poste
+    d'officier, un chef abominable, un merveilleux mentor, un poste de dirigeant
+    suite \xE0 un long travail, un poste de dirigeant obtenu par hasard, un magn\xE9tisme
+    envo\xFBtant, une absence de charisme."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Dame et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Magn\xE9tique  : Que ce soit par sa gestuelle ou son magn\xE9tisme,
+    le h\xE9ros attire l\u2019attention de tous ceux qu\u2019il croise. De ce fait,
+    il b\xE9n\xE9ficie d\u2019un bonus d\u2019une r\xE9ussite automatique \xE0 tous
+    ses jets base Aura lorsqu\u2019il interagit avec des personnages humains."
+  desavantagePj: "Pr\xE9somptueux  : Le PJ a une tr\xE8s haute opinion de lui-m\xEAme,
+    ce qui le fait agir dangereusement et le rend parfois antipathique vis-\xE0-vis
+    de ceux qu\u2019il croise. Lorsqu\u2019il prend la parole, le h\xE9ros vante
+    souvent ses \xAB exploits \xBB et ses qualit\xE9s. En outre, il n\u2019h\xE9site
+    pas \xE0 monter \xE0 l\u2019assaut de cr\xE9atures bien plus fortes que lui (\xE0
+    la discr\xE9tion du MJ)."
+  avantageIA: "Force morale  : L\u2019IA de l\u2019armure apporte force de caract\xE8re
+    et sang-froid au chevalier dans les moments de doute et de stress. En termes
+    de jeu, lors de tests bas\xE9s sur la caract\xE9ristique Sang-Froid, la difficult\xE9
+    est diminu\xE9e de 1."
+  desavantageIA: "Born\xE9e : L\u2019IA de l\u2019armure est r\xE9fractaire au changement,
+    surtout si cela la concerne et met plus de temps \xE0 s\u2019adapter \xE0 un
+    changement de mat\xE9riel ou \xE0 l\u2019ajout de modules. En termes de jeu,
+    l\u2019achat de nouveau mat\xE9riel ou module pour le personnage co\xFBte 5 PG
+    de plus."

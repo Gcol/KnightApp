@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 2.6 Entretien avec MaoHou
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Si les chevaliers d\xE9cident de rencontrer le dernier cobaye\r\nramen\xE9
+    par Stasya, ils se retrouvent face \xE0 un homme qui dit\r\ns\u2019appeler Mao
+    Hou-Chi. D\xE8s le premier abord, il est \xE9vident\r\nqu\u2019il est diff\xE9rent
+    des d\xE9sesp\xE9r\xE9s qui hantent les autres cellules.\r\nLoin de hurler et
+    d\u2019insulter ses visiteurs, il semble rester\r\nplut\xF4t calme et apte \xE0
+    la discussion. De la m\xEAme fa\xE7on, il n\u2019a\r\npas cherch\xE9 \xE0 se
+    mutiler le corps et \xE0 mettre fin \xE0 ses jours.\r\nIl est parfaitement habill\xE9,
+    \xE0 la mode chinoise. Il sait apparemment\r\nparler anglais.\n\nQUI EST MAO
+    HOU-CHI ?\r\nSi les h\xE9ros scannent le cobaye et font une recherche\r\nsur
+    lui gr\xE2ce \xE0 leur IA, ils peuvent d\xE9couvrir qu\u2019il s\u2019agit\r\nd\u2019un
+    citoyen \xE9chelon 5, un ing\xE9nieur qui travaille au\r\nbon fonctionnement
+    des d\xF4mes de lumi\xE8re de l\u2019arche.\r\nIl a perdu sa famille lors de
+    l\u2019arriv\xE9e de l\u2019Anath\xE8me et a\r\nune vie sans histoire.\n\r\nToutefois,
+    pour un h\xE9ros un peu observateur, il n\u2019y a pas de\r\ndoute, cet homme
+    d\xE9gage quelque chose d\u2019\xE9trange. Un test\r\nbase Perception ou Instinct
+    difficult\xE9 faisable (2) permet de\r\nconstater que son attitude est distante,
+    il semble lointain,\r\npresque insensible \xE0 ce qui lui arrive. De m\xEAme,
+    un test base\r\nSavoir permet de constater qu\u2019il n\u2019a pas de r\xE9flexes
+    de mim\xE9tisme,\r\nsympt\xF4me de la psychopathie. Si l\u2019un des h\xE9ros
+    est\r\nen armure Warmaster, il peut activer son mode Falcon pour\r\nd\xE9couvrir
+    que l\u2019homme n\u2019a en rien les caract\xE9ristiques d\u2019un\r\nhumain.\n\nLes
+    chevaliers vont devoir faire preuve d\u2019un certain talent\r\npour les interrogatoires
+    s\u2019ils souhaitent lui soutirer des informations.\r\nSur un test base Instinct,
+    ils peuvent facilement se\r\nrendre compte que Mao n\u2019a en rien peur de la
+    Chair et de\r\nses cr\xE9atures et qu\u2019il souhaite plus que tout les rejoindre.\r\nCependant,
+    \xE0 la diff\xE9rence des autres d\xE9sesp\xE9r\xE9s, il ne donne\r\npas non
+    plus l\u2019impression de v\xE9n\xE9rer la Chair ou d\u2019\xEAtre attir\xE9\r\npar
+    elle malgr\xE9 lui. Mais les h\xE9ros auront beaucoup plus de\r\ndifficult\xE9
+    \xE0 faire avouer \xE0 l\u2019homme qu\u2019il n\u2019est en fait pas de\r\nnature
+    humaine.\r\nCar Mao Hou-Chi est en r\xE9alit\xE9 une cr\xE9ature de l\u2019Anath\xE8me,\r\nun
+    enfant de la Chair (voir annexe 1 : Bestiaire \u2013 Les cr\xE9atures\r\nde l\u2019Anath\xE8me
+    \u2013 page 375). Cr\xE9\xE9 de toutes pi\xE8ces par son\r\n\xAB Seigneur \xBB
+    \xE0 l\u2019image d\u2019un homme d\xE9vor\xE9 par la Chair, son\r\nma\xEEtre
+    se servait de lui pour infiltrer l\u2019arche de Chongquing\r\nen tant que technicien
+    sur le d\xF4me de lumi\xE8re. Bien s\xFBr, il\r\nn\u2019est pas le seul \xE0
+    tenir ce r\xF4le et bien d\u2019autres enfants de la\r\nChair jouent le r\xF4le
+    d\u2019espion dans d\u2019autres arches et ailleurs.\r\nMao refusera de dire
+    si son r\xF4le s\u2019arr\xEAtait \xE0 la r\xE9cup\xE9ration\r\nd\u2019informations
+    ou s\u2019il a agi pour l\u2019int\xE9r\xEAt de son Seigneur,\r\nn\xE9anmoins,
+    les h\xE9ros peuvent, s\u2019ils le souhaitent, contacter\r\nles autorit\xE9s
+    de l\u2019arche pour leur faire part du danger.\r\n\xC0 la suite de l\u2019aveu
+    de l\u2019enfant de la Chair, les h\xE9ros vont\r\ndevoir d\xE9cider ce qu\u2019ils
+    font :\r\n\u2022 Ils peuvent d\xE9cider de le tuer (malgr\xE9 les vives oppositions\r\nde
+    Stasya qui tiendra \xE0 l\u2019\xE9tudier). Attention, car les\r\nPJ penseront
+    certainement qu\u2019il est inoffensif ; or Mao\r\npeut faire appara\xEEtre des
+    armes dans ses mains gr\xE2ce \xE0\r\nla capacit\xE9 \xE9quipement et cherchera
+    \xE0 s\u2019enfuir s\u2019il se croit\r\nen danger.\r\n\u2022 Ils peuvent choisir
+    de le garder enferm\xE9 en attendant que\r\nla menace soit \xE9cart\xE9e.\r\n\u2022
+    Ils peuvent le lib\xE9rer.\r\nSi les chevaliers optent pour la derni\xE8re option,
+    ils peuvent\r\nfaire en sorte de le suivre, auquel cas ils arriveront au\r\ncharnier.\n\n"

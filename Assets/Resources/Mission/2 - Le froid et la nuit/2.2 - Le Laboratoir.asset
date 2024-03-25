@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 2.2 - Le Laboratoir
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Mais, les installations ont \xE9t\xE9 modifi\xE9es. Les placards
+    vitr\xE9s\r\nqui devaient renfermer des cellules souches contiennent\r\nmaintenant
+    des tubes avec de l\u2019\xE9l\xE9ment alpha. Les trop\r\npetites cellules ont
+    \xE9t\xE9 d\xE9laiss\xE9es au profit des plus grandes,\r\ndesquelles ont \xE9t\xE9
+    \xE9vacu\xE9es toutes esp\xE8ces animales pour\r\n\xEAtre remplac\xE9es par des
+    hommes ou des femmes atteints\r\npar le d\xE9sespoir. Ils semblent \xEAtre trait\xE9s
+    honorablement\r\nmalgr\xE9 leur attitude qui ne l\u2019est g\xE9n\xE9ralement
+    pas. Certains\r\nchevaliers pourront \xEAtre choqu\xE9s en voyant ces personnes\r\natteintes
+    par l\u2019Horreur et dont les attitudes deviennent\r\nsouvent ignobles. Les
+    h\xE9ros devront faire un test base\r\nHargne combo Sang-Froid pour ne pas perdre
+    1D6 point\r\nd\u2019espoir.\r\nLes lieux de vie du bunker sont agr\xE9ables.
+    Il est clair\r\nqu\u2019ils ont \xE9t\xE9 am\xE9nag\xE9s pour accueillir une
+    vingtaine de\r\npersonnes durant plusieurs mois. La pr\xE9sence de quelques\r\ntableaux,
+    d\u2019un fond musical constant et de machines \xE0\r\nnanoN et nanoE permettent
+    de vivre honorablement. Enfin,\r\nles chevaliers ne pourront manquer de constater
+    qu\u2019une\r\nlumi\xE8re tr\xE8s blanche baigne tout le complexe. Chaque recoin\r\ndu
+    centre de recherche, du lieu de vie et m\xEAme jusqu\u2019aux\r\nsanitaires est
+    inond\xE9 d\u2019une lumi\xE8re aveuglante.\r\nLa visite du bunker ne sera pas
+    tr\xE8s approfondie, Stasya\r\nrefuse d\u2019aller trop loin dans l\u2019explication
+    de leurs exp\xE9riences\r\net de leurs r\xE9sultats. Elle va tr\xE8s vite enjoindre
+    les\r\nh\xE9ros \xE0 leur venir en aide pour r\xE9organiser leurs forces,\r\n\xE9ventuellement
+    r\xE9parer les syst\xE8mes de protection et \xE9vacuer\r\nl\u2019entr\xE9e du
+    bunker des cadavres qui y sont accumul\xE9s.\r\nUn test base Perception ou Aura
+    difficult\xE9 faisable (2) permet\r\nde remarquer que certains chercheurs ont
+    \xE9t\xE9 tr\xE8s marqu\xE9s\r\npar l\u2019attaque subie. Certains commencent
+    \xE0 plisser les yeux\r\nsous la lumi\xE8re violente du bunker"

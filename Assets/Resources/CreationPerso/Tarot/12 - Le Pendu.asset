@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 12 - Le Pendu
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 914f01e164bfab141b899b2306626617, type: 3}
+  desc: "Cette lame symbolise tout ce qui emprisonne l'esprit humain et qui \xAB
+    le contraint \xBB au sens large du terme. On peut ainsi y associer le corps,
+    mais aussi les v\u0153ux, les id\xE9aux et les sacrifices. On associe aussi \xE0
+    la lame du Pendu l'oubli de soi, le d\xE9sint\xE9ressement et la puret\xE9 du
+    corps."
+  passe: "Un asc\xE8te, un code moral tr\xE8s prononc\xE9, un v\u0153u monacal, un
+    id\xE9al, un respect de la loi qui emprisonne, un coma de courte dur\xE9e, un
+    corps autrefois paralys\xE9, un sacrifice consenti, un sacrifice oblig\xE9, un
+    d\xE9sint\xE9r\xEAt de la soci\xE9t\xE9, un corps sain."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Chair et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Code moral  : Le personnage dispose d\u2019un code moral qui balise
+    sa vie et qui peut \xEAtre d\xE9fini en quelques points ou encore d\u2019un v\u0153u
+    qu\u2019il respecte \xE0 la lettre. Il peut \xEAtre proche du code du Knight
+    ou non. En termes de jeu, le personnage dispose d\u2019une motivation mineure
+    suppl\xE9mentaire (voir \xE9tape 6 \u2013 page 127 du LdB 1.5) intitul\xE9e :
+    respect du code."
+  desavantagePj: "Sacrifice total  : Le personnage a tout sacrifi\xE9 \xE0 un moment
+    de sa vie. Il n\u2019a plus de famille, plus d\u2019ami et est peut-\xEAtre une
+    nouvelle personne. Motiver le personnage est difficile et seul son travail au
+    Knight semble lui permettre d\u2019exister encore. En termes de jeu, le h\xE9ros
+    ne poss\xE8de pas de motivation majeure."
+  avantageIA: "Abn\xE9gation : L\u2019IA de l\u2019armure est capable d\u2019aller
+    tr\xE8s loin pour sauver la vie de son chevalier, quitte \xE0 s\u2019\xE9teindre
+    pour y parvenir. En termes de jeu, si le personnage est \xE0 l\u2019agonie et
+    tant que l\u2019armure dispose de points d\u2019\xE9nergie, celle-ci en d\xE9pense
+    pour transformer les nanoC qui la composent en nanoM pour le soigner. Elle peut
+    en utiliser au maximum 3D6 par tour, tant qu\u2019il lui reste des points d\u2019\xE9nergie.
+    En revanche, chaque point de sant\xE9 rendu r\xE9duit les points d\u2019armure
+    de un (en plus du point d\u2019\xE9nergie que co\xFBte la man\u0153uvre), car
+    l\u2019armure se d\xE9compose pour soigner le chevalier."
+  desavantageIA: "Sacrifice : Les tendances de l\u2019IA pour le sacrifice et la
+    qu\xEAte d\u2019un id\xE9al sup\xE9rieur sont telles qu\u2019elle entra\xEEne
+    son chevalier sur cette m\xEAme voie, qu\u2019il le souhaite ou non. En termes
+    de jeu, au cours d\u2019un combat, si l\u2019armure est d\xE9fold\xE9e, elle
+    peut s\u2019interposer pour recevoir une attaque \xE0 la place d\u2019un autre
+    chevalier qu\u2019elle juge dans le besoin (au choix du MJ \xE9videmment)."

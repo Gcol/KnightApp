@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 2.5 Reccherche au labot
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Visiter tous les cobayes d\xE9sesp\xE9r\xE9s du centre de recherche\r\net
+    toute l\u2019\xE9quipe risque de prendre beaucoup de temps aux\r\nchevaliers
+    et donc de d\xE9clencher l\u2019attaque d\u2019une nouvelle\r\nhorde. S\u2019ils
+    d\xE9cident d\u2019interroger Stasya Macharine sur les\r\nr\xE9cents \xE9v\xE9nements
+    et gr\xE2ce \xE0 des tests base Parole difficult\xE9\r\nfacile (1), les h\xE9ros
+    pourront apprendre les \xE9l\xE9ments\r\nsuivants :\r\n\u2022 Il existe plusieurs
+    types de d\xE9sesp\xE9r\xE9s, certains sont\r\ndirectement reli\xE9s \xE0 un
+    type de t\xE9n\xE8bres, c\u2019est-\xE0-dire que\r\nle d\xE9sespoir qui s\xE9vit
+    en Chine n\u2019a pas du tout les m\xEAmes\r\neffets sur ses victimes que celui
+    qui existe en Europe ou\r\naux \xC9tats-Unis. Des d\xE9sesp\xE9r\xE9s peuvent
+    aussi appara\xEEtre\r\nen dehors des zones d\u2019Anath\xE8me et ne semblent
+    pas\r\nforc\xE9ment avoir d\u2019influences particuli\xE8res. Par exemple,\r\ndans
+    certaines arches, une drogue nomm\xE9e la penombra\r\npeut transformer des citoyens
+    en d\xE9sesp\xE9r\xE9s. En outre,\r\nle d\xE9sespoir ne transforme pas forc\xE9ment
+    les humains\r\nde fa\xE7on brutale, il peut arriver de d\xE9tecter des traces
+    de\r\nd\xE9sespoir avant que ce soit irr\xE9versible et ainsi inverser\r\nle
+    processus.\r\n\u2022 Le centre de recherche regroupe des d\xE9sesp\xE9r\xE9s
+    originaires\r\nde beaucoup de pays et donc touch\xE9s par des\r\nd\xE9sespoirs
+    tr\xE8s diff\xE9rents. Bien s\xFBr, il y a parmi eux des\r\nd\xE9sesp\xE9r\xE9s
+    li\xE9s \xE0 la Chair.\r\n\u2022 Le dernier cobaye arriv\xE9 a \xE9t\xE9 amen\xE9
+    par Stasya ellem\xEAme\r\nde l\u2019arche de Chongquing. Il s\u2019agit pour
+    elle d\u2019un\r\nnouveau type de d\xE9sespoir beaucoup plus insidieux. Elle\r\nl\u2019a
+    ramen\xE9 il y a quatre jours.\r\nSi les chevaliers d\xE9cident de rencontrer
+    le dernier cobaye\r\nramen\xE9 par Stasya, ils se retrouvent face \xE0 un homme
+    qui dit\r\ns\u2019appeler Mao Hou-Chi. D\xE8s le premier abord, il est \xE9vident\r\nqu\u2019il
+    est diff\xE9rent des d\xE9sesp\xE9r\xE9s qui hantent les autres cellules.\r\nLoin
+    de hurler et d\u2019insulter ses visiteurs, il semble rester\r\nplut\xF4t calme
+    et apte \xE0 la discussion. De la m\xEAme fa\xE7on, il n\u2019a\r\npas cherch\xE9
+    \xE0 se mutiler le corps et \xE0 mettre fin \xE0 ses jours.\r\nIl est parfaitement
+    habill\xE9, \xE0 la mode chinoise. Il sait apparemment\r\nparler anglais.\n\nQUI
+    EST MAO HOU-CHI ?\r\nSi les h\xE9ros scannent le cobaye et font une recherche\r\nsur
+    lui gr\xE2ce \xE0 leur IA, ils peuvent d\xE9couvrir qu\u2019il s\u2019agit\r\nd\u2019un
+    citoyen \xE9chelon 5, un ing\xE9nieur qui travaille au\r\nbon fonctionnement
+    des d\xF4mes de lumi\xE8re de l\u2019arche.\r\nIl a perdu sa famille lors de
+    l\u2019arriv\xE9e de l\u2019Anath\xE8me et a\r\nune vie sans histoire\n\n"

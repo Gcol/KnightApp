@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efed071ad960d994482b0662ba2634ca, type: 3}
+  m_Name: "Membre d'une soci\xE9t\xE9 secr\xE8te"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 1604e63d442f5674a92490bc5fdf981c, type: 3}
+  desc: "Le chevalier \xE9tait il y a peu encore membre d\u2019une soci\xE9t\xE9
+    secr\xE8te qui a certainement influenc\xE9 des personnes et peut-\xEAtre le monde.
+    Qu\u2019il se soit fait exclure de la soci\xE9t\xE9 ou qu\u2019il ait pris la
+    fuite, le personnage en conna\xEEt encore quelques secrets importants, mais est
+    sans doute poursuivi par ses anciens patrons\u2026 Il peut ainsi avoir \xE9t\xE9
+    un membre de la Black Cell, cette myst\xE9rieuse agence secr\xE8te aux m\xE9thodes
+    atroces. Le chevalier a peut-\xEAtre aussi \xE9t\xE9 membre de la Fondation,
+    une soci\xE9t\xE9 de personnes tr\xE8s h\xE9t\xE9roclites qui enqu\xEAtaient
+    sur l\u2019Anath\xE8me avant qu\u2019il n\u2019arrive (auquel cas, le personnage
+    n\u2019a plus la m\xE9moire de son passage \xE0 la Fondation, il a tout oubli\xE9).
+    Enfin, le h\xE9ros peut avoir \xE9t\xE9 un membre des tr\xE8s myst\xE9rieux Illuminati,
+    v\xE9n\xE9rant la lumi\xE8re et semblant vouloir pousser le monde vers un nouvel
+    ordre mondial."
+  grandImage: {fileID: 21300000, guid: f3b452b8e8411134d99d680cfa0a99d6, type: 3}
+  bonus: "Le personnage gagne 1 point dans la caract\xE9ristique Savoir et 1 point
+    dans la caract\xE9ristique Combat ou Tir (au choix)."

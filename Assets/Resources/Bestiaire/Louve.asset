@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Louve
+  m_EditorClassIdentifier: Assembly-CSharp::Creature
+  enemiNiveau: 0
+  typeEnemy: 0
+  dangerosite: 1
+  currentImage: {fileID: 21300000, guid: 379a4da75b5c5cf498596704b856f537, type: 3}
+  stat:
+    def: 10
+    reac: 1
+    initative: 6
+    ps: 300
+    bouclier: 12
+    debordement: 0
+    "coh\xE9sion": 0
+  aspect:
+  - aspect: 0
+    valeurAspect: 12
+    aspestExceptionel: Majeur(3)
+  - aspect: 1
+    valeurAspect: 14
+    aspestExceptionel: Majeur(3)
+  - aspect: 2
+    valeurAspect: 2
+    aspestExceptionel: 
+  - aspect: 3
+    valeurAspect: 2
+    aspestExceptionel: 
+  - aspect: 4
+    valeurAspect: 2
+    aspestExceptionel: 
+  pointFaible: "Sang-Froid / Dext\xE9rit\xE9"
+  description: "La louve du Capitol, et plus g\xE9n\xE9ralement les louves, sont
+    des cr\xE9atures puissantes, associant la beaut\xE9 de ces pr\xE9dateurs \xE0\r\nla
+    rage des monstruosit\xE9s bestiales. Contrairement \xE0 leurs homologues animaux,
+    ces monstres agissent g\xE9n\xE9ralement seuls\r\net veillent sur des lieux mythiques,
+    des b\xE2timents sacr\xE9s ou des oeuvres d\u2019art dont ils ne peuvent pas
+    r\xE9ellement s\u2019approcher.\r\nLa premi\xE8re louve observ\xE9e l\u2019a
+    \xE9t\xE9 pr\xE8s du Neues Museum de Berlin et semblait garder l\u2019entr\xE9e
+    de ce lieu gorg\xE9 d\u2019oeuvres\r\nd\u2019art, d\xE9vorant quiconque souhaitait
+    y entrer. On raconte que, parfois, la monstruosit\xE9 \xE9voluait en silence
+    dans les galeries,\r\ncomme si le pouvoir de l\u2019art l\u2019affectait moins
+    que ses cong\xE9n\xE8res t\xE9n\xE9breux.\r\nD\u2019aspect, une louve est semblable
+    en tout point \xE0 son \xE9quivalent terrestre, \xE0 ceci pr\xE8s qu\u2019elle
+    peut mesurer jusqu\u2019\xE0 trois\r\nm\xE8tres au garrot et qu\u2019elle poss\xE8de
+    des crocs et des griffes d\u2019\xE9l\xE9ment alpha. Sa peau, comme ses os, sont
+    par ailleurs extr\xEAmement\r\nr\xE9sistants et nombre de chevaliers"
+  Tactique: "La louve s\u2019attaque en priorit\xE9 aux PJ avec le plus haut score
+    de Hargne, syst\xE9matiquement au contact"
+  Capacite: "Actions multiples (1) : Le PNJ poss\xE8de 1 action de combat en plus
+    de son action de d\xE9placement\r\net de combat de base. Cette action est \xE0
+    effectuer \xE0 son initiative.\r\nCharge brutale : Une fois par combat, le PNJ
+    peut parcourir instantan\xE9ment la distance\r\nqui le s\xE9pare d\u2019un ennemi
+    \xE0 port\xE9e moyenne ou inf\xE9rieure. Il doit faire un jet pour\r\ntoucher,
+    s\u2019il r\xE9ussit, il inflige \xE0 son ennemi les d\xE9g\xE2ts de son arme
+    auxquels s\u2019ajoute\r\ndeux fois son score de B\xEAte.\r\nR\xE9sistance lumineuse
+    : Bien qu\u2019elle soit une cr\xE9ature de l\u2019Anath\xE8me, la louve ignore
+    les\r\neffets lumi\xE8re X et anti-Anath\xE8me."
+  arme:
+    name: Croc & Griffes
+    degat: 
+    type: 0
+    effets:
+    - effet: {fileID: 11400000, guid: d37856b172237584fb5b999fe5d1f8c2, type: 2}
+      level: 2
+    - effet: {fileID: 11400000, guid: f8355b873f34f794299006a7aeff896e, type: 2}
+      level: 2

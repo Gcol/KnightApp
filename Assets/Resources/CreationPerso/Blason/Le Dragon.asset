@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e50f7c75f45bd438bd79c8eab27ced, type: 3}
+  m_Name: Le Dragon
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 03802924ad370ec4fba31e2fb273aaf7, type: 3}
+  desc: "Ceux qui arborent le blason du dragon sont les h\xE9ros les plus honn\xEAtes
+    qui soient, des symboles de droiture, de puret\xE9 et de respect. Ils suivent
+    la loi des Hommes et s\u2019adaptent \xE0 celle qu\u2019on leur dicte."
+  grandImage: {fileID: 21300000, guid: 838a00fa381fdbb40bc91db76b042391, type: 3}
+  voeu: Respecter la loi locale et ne jamais mentir.

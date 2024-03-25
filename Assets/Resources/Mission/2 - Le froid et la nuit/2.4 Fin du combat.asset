@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 2.4 Fin du combat
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "\xC0 la fin du combat, les h\xE9ros vont devoir trouver un moyen\r\nd\u2019arr\xEAter
+    les attaques incessantes des cr\xE9atures de la Chair.\r\nLa fr\xE9quence des
+    attaques doit normalement les emp\xEAcher\r\nde se reposer assez longtemps et
+    de r\xE9cup\xE9rer leurs points\r\nd\u2019\xE9nergie. MJ, s\u2019ils sont arriv\xE9s
+    depuis longtemps, vous\r\npouvez commencer \xE0 leur imposer des malus de fatigue
+    sur\r\nleurs jets.\r\nPlusieurs choix s\u2019offrent aux chevaliers. Ils peuvent
+    d\xE9cider\r\nd\u2019enqu\xEAter dans le centre de recherche afin de d\xE9couvrir\r\nqui
+    est \xAB l\u2019enfant du Seigneur \xBB recherch\xE9 par l\u2019abomination.\r\nIls
+    peuvent aussi d\xE9cider de suivre les traces de la horde afin\r\nde remonter
+    jusqu\u2019\xE0 la source du probl\xE8me. Bien s\xFBr, ces\r\ndeux solutions
+    ne sont pas incompatibles."

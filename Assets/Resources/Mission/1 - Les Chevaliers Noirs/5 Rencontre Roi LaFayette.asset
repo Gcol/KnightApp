@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 5 Rencontre Roi LaFayette
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 21300000, guid: 886c2fab567408d4999945813909ced5, type: 3}
+  musicFond: {fileID: 8300000, guid: bffdc2087d28fdb46a9ebb27e567574f, type: 3}
+  videoClip: {fileID: 0}
+  creatures:
+  - creature: {fileID: 11400000, guid: 71316982928eb01498acd482bd0975d4, type: 2}
+    nombreCreature: 8
+  - creature: {fileID: 11400000, guid: 25a8bc43de8eacd4fa67bec505123130, type: 2}
+    nombreCreature: 1
+  SceneDescription: "Le straces menent a un batiment d\xE9truit jouxtant les galeries
+    la fayette (ces dernieres se sont \xE9croul\xE9 sur elle meme)\n Me carrefour
+    est envahi par une v\xE9ritable jungle de bois un jet de base savoir difficult\xE9
+    (1), permet de se\r\nrendre compte que c\u2019est le m\xEAme bois qui a servi
+    \xE0 la fabrication\r\ndes caisses de penombra trouv\xE9es \xE0 Cottenham.\r\r\nLes
+    traces de l\u2019armure Paladin semblent s\u2019y rendre. En s\u2019approchant,\r\nles
+    PJ peuvent s\u2019apercevoir qu\u2019ils sont observ\xE9s\r\ndepuis l\u2019int\xE9rieur
+    des galeries Lafayette. une vingtaine de paire d'yeux rouges les scrutes\n\r\nSi
+    les PJ tentent de faire un pas pour entrer, ils entendent une \xE9norme voix\r\nbestiale,
+    parlant dans leur langue et leur ordonnant de ne\r\npas entrer dans le domaine
+    du roi de Lafayette.\r\nSi les PJ tentent d\u2019entrer tout de m\xEAme, ils
+    sont alors\r\nattaqu\xE9s. .\r\nSi les PJ tentent de r\xE9pondre \xE0 la voix
+    ou s\u2019ils ont vaincu les\r\nserviteurs, ils entendent un rire et la grosse
+    voix leur demande\r\nce qu\u2019ils font aux portes de son domaine. En fonction
+    de leurs\r\nquestions, la voix peut leur apprendre plusieurs choses, sur\r\ndes
+    jets base Parole difficult\xE9 facile (1) \xE0 normal (3) :\r\n\u2022 C\u2019est
+    le roi de Lafayette qui parle.\r\n\u2022 Un chevalier dans une grosse armure
+    est venu ici, mais\r\nil est reparti dans son antre (un seul \xE9tait visible
+    par les\r\ncr\xE9atures de la B\xEAte).\r\n\u2022 L\u2019antre des chevaliers
+    est situ\xE9 non loin, dans un lieu o\xF9\r\nl\u2019on trouve de grosses machines
+    de fer roulant sur des\r\nvoies ferr\xE9es. Il y a un temple d\xE9di\xE9 \xE0
+    la consommation\r\nsous ce lieu. Un jet base Savoir ou Technique difficult\xE9\r\nfaisable
+    (2) permet de savoir que le roi de Lafayette parle\r\nd\u2019une gare. La plus
+    proche est la gare Saint-Lazare.\r\n\u2022 Les chevaliers voulaient redonner
+    la penombra au roi et\r\nse voir rembourser de leur dernier paiement.\r\n\u2022
+    Le roi faune n\u2019avoue pas facilement qu\u2019il a \xE9t\xE9 pay\xE9 en\r\nenfants,
+    mais le peut si les PJ se montrent convaincants.\r\n\u2022 Hier, le roi a \xE9t\xE9
+    vol\xE9. Ses biens ont \xE9t\xE9 subtilis\xE9s par\r\nquelque chose d\u2019invisible,
+    qui sentait le m\xE9tal, qui sentait\r\ncomme les chevaliers (un jet base Instinct
+    ou Technique\r\ndifficult\xE9 facile (1) permet de comprendre qu\u2019il s\u2019agit\r\nd\u2019une
+    armure Rogue).\r\nDans tous les cas, si les PJ traquent le roi dans les galeries,\r\nils
+    ne le trouvent pas. S\u2019ils montent aux \xE9tages, ils peuvent\r\nvoir une
+    grande forme dispara\xEEtre dans une nu\xE9e de noctes\r\nsortant par la fen\xEAtre.
+    Le roi de Lafayette pr\xE9f\xE8re fuir que\r\ncombattre et fuira quoi qu\u2019il
+    arrive.\r\nSi les PJ n\u2019ont pas cherch\xE9 \xE0 discuter avec le roi et explorent\r\nles
+    galeries, ils d\xE9couvrent dans les sous-sols envahis par\r\ndes racines un
+    lieu abominable, un garde-manger sanglant,\r\navec des morceaux de petits corps
+    humains, des cages, des\r\ncha\xEEnes et des tables o\xF9 l\u2019on trouve de
+    la peau humaine et\r\nparfois des cheveux ou des ongles. Une bonne occasion de\r\ntester
+    l\u2019espoir des PJ.\r\nDe plus, s\u2019ils n\u2019ont pas obtenu les informations
+    de la part\r\ndu roi, les PJ peuvent rencontrer un petit bestian mutil\xE9,\r\nsouhaitant
+    survivre \xE0 tout prix et parlant la langue de chaque\r\nPJ. Cette cr\xE9ature,
+    sans doute l\u2019esclave du roi de Lafayette,\r\nexplique aux PJ les m\xEAmes
+    choses qu\u2019ils auraient pu apprendre\r\ndu roi."

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 0 - CottenHamArrive
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 21300000, guid: 6ba60dfd121c085438b2864022f84c6b, type: 3}
+  musicFond: {fileID: 8300000, guid: 984beb714c19dc449a7ce7ceacf1dd9c, type: 3}
+  SceneDescription: "Ce petit village anglais typique, avec sa mairie et son \xE9glise,\r\nse
+    trouve \xE0 moins de 10 kilom\xE8tres de Cambridge et n\u2019est\r\naujourd\u2019hui
+    qu\u2019une suite de maisons en ruines. Situ\xE9 entre\r\ndeux coteaux, Cottenham
+    est constamment battu par une\r\npluie \xE9paisse et toujours sous une p\xE9nombre
+    lugubre.\r\n\xC0 leur arriv\xE9e, apr\xE8s avoir \xE9t\xE9 d\xE9pos\xE9s par
+    le vector, les\r\nPJ peuvent enqu\xEAter un peu dans le village. L\u2019\xE9glise
+    ou la\r\nmairie sont de bons points de recherche et d\u2019enqu\xEAte. Les\r\nautres
+    b\xE2timents sont trop en ruines pour poss\xE9der un\r\nquelconque int\xE9r\xEAt.\r\nDans
+    l\u2019\xE9glise, sur un jet base Instinct ou Perception difficult\xE9\r\nfacile
+    (1) \xE0 normal (3), les PJ peuvent trouver :\r\n\u2022 Des restes de caisses
+    faites d\u2019un bois noir \xE9trangement\r\nentrelac\xE9, dans lesquelles on
+    trouve des r\xE9sidus de\r\npoudre noire (de la penombra).\r\n\u2022 Une vingtaine
+    de caisses en plastique, remplies de\r\npetites fioles vides servant \xE0 contenir
+    la penombra.\r\n\u2022 Cach\xE9s sous une trappe dans la sacristie, des sacs
+    de\r\ncouchage et du mat\xE9riel pour cuisiner (r\xE9chaud, bo\xEEtes\r\nde conserve).\r\n\u2022
+    Toujours dans la sacristie, une vingtaine de cha\xEEnes avec\r\ndes menottes
+    pour pieds et mains.\r\n\u2022 Au niveau du clocher, quelques douilles et les
+    marques\r\nd\u2019un tr\xE9pied sur un rebord.\r\n\u2022 Dans le cimeti\xE8re,
+    derri\xE8re l\u2019\xE9glise, les PJ peuvent se\r\nrendre compte que la terre
+    a r\xE9cemment \xE9t\xE9 retourn\xE9e.\r\nS\u2019ils creusent, ils peuvent d\xE9couvrir
+    un charnier o\xF9 sont\r\nenterr\xE9s une trentaine de corps de femmes, d\u2019enfants\r\net
+    de vieillards, horriblement abattus par des armes de\r\nguerre.\r\n\u2022 Sur
+    le sol, de lourdes empreintes. Sur un jet base Savoir\r\nou Instinct difficult\xE9
+    facile (1), un PJ peut reconna\xEEtre les\r\ntraces d\u2019une armure Paladin.\r\nDans
+    et autour de la mairie, sur un jet base Instinct ou Perception\r\ndifficult\xE9
+    facile (1) \xE0 normal (3), les PJ peuvent trouver :\r\n\u2022 Dans le jardin
+    de la mairie ferm\xE9 par une grille (facilement\r\nouvrable par la force), des
+    traces de pi\xE9tinement et\r\ndes cha\xEEnes et menottes par dizaines sont accroch\xE9es
+    \xE0\r\nun mur. Sur un jet base Technique ou Perception difficult\xE9\r\nfacile
+    (1), un PJ peut se rendre compte qu\u2019elles ont \xE9t\xE9\r\nutilis\xE9es.
+    On y voit du sang et de la peau.\r\n\u2022 Sur le parvis en pierre de la petite
+    mairie, des traces de\r\nbr\xFBlures \xE0 plusieurs endroits. Sur un jet base
+    Technique\r\nou Perception difficult\xE9 facile (1), un PJ peut se rendre\r\ncompte
+    qu\u2019il s\u2019agit des traces du d\xE9collage d\u2019un vector."

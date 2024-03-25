@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efed071ad960d994482b0662ba2634ca, type: 3}
+  m_Name: Voyageur
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 30c4c1c04a339154690fad991b5a548a, type: 3}
+  desc: "Avant la fin du monde et m\xEAme pendant quelque temps apr\xE8s l\u2019apparition
+    de l\u2019Anath\xE8me, le personnage \xE9tait un voyageur, un itin\xE9rant qui
+    ne pouvait pas tenir en place et qui faisait de sa vie une longue exp\xE9dition
+    sur les diff\xE9rents continents. Le h\xE9ros peut ainsi avoir \xE9t\xE9 un baroudeur,
+    passant sa vie dans les territoires les plus hostiles du monde, entre jungles
+    humides, d\xE9serts arides et toundras gel\xE9es. Il peut aussi avoir \xE9t\xE9
+    un grand reporter, un envoy\xE9 sp\xE9cial, pr\xE9sent sur tous les fronts et
+    ayant affront\xE9 des prises d\u2019otage, des fusillades et des guerres civiles.
+    Enfin, le personnage peut avoir \xE9t\xE9 un explorateur des temps modernes,
+    passant sa vie sur des navires d\u2019exp\xE9dition \xE0 la recherche de donn\xE9es
+    scientifiques, de terres inexplor\xE9es ou de reliques arch\xE9ologiques inestimables."
+  grandImage: {fileID: 21300000, guid: 143f39a2bbb6ca94b8c6feda838b95b0, type: 3}
+  bonus: "Le personnage gagne 1 point dans la caract\xE9ristique D\xE9placement et
+    1 point dans la caract\xE9ristique Perception."

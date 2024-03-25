@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 0 - Le Fou
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: f704d6f194f99ba4292803f0ed2ea730, type: 3}
+  desc: "Carte tr\xE8s myst\xE9rieuse, la lame du Fou n'est pas num\xE9rot\xE9e et
+    peut signifier un grand nombre d'\xE9l\xE9ments et symboliser quantit\xE9 de
+    choses. G\xE9n\xE9ralement, elle repr\xE9sente l'insouciance, la na\xEFvet\xE9,
+    l'innocence et bien entendu la folie. Certains l'associent aussi aux choses feintes,
+    \xE0 la fausse innocence, la fausse na\xEFvet\xE9."
+  passe: "Une innocence bafou\xE9e, une na\xEFvet\xE9 qui co\xFBte cher, des enfants,
+    des fous, des gens diminu\xE9s, une folie feinte, une culpabilit\xE9 dissimul\xE9e,
+    une d\xE9mence passag\xE8re, une maladie psychologique, un asile."
+  bonus: "Les bonus accord\xE9s par le Fou sont un peu particuliers. En effet, le
+    personnage ne re\xE7oit pas de bonus en point d\u2019aspect, mais \xE0 la place,
+    il re\xE7oit 6 points \xE0 r\xE9partir dans n\u2019importe quelles caract\xE9ristiques."
+  avantagePj: "Chevalier v\xE9ritable : Le personnage est pur, r\xE9ellement. Il
+    est bienveillant, g\xE9n\xE9reux, un v\xE9ritable chevalier, avec de l\u2019honneur,
+    aucune mauvaise intention et son but est de sauver l\u2019Humanit\xE9. Il fait
+    preuve d\u2019une abn\xE9gation sans pareille. C\u2019est un vrai h\xE9ros. En
+    termes de jeu, le personnage peut d\xE9clencher le mode h\xE9ro\xEFque lorsqu\u2019il
+    ne poss\xE8de que 4 points d\u2019h\xE9ro\xEFsme (au lieu des 6 points habituels),
+    mais son total reste toutefois limit\xE9 \xE0 6. En contrepartie, le moindre
+    acte de malveillance de sa part est puni par la perte d\u20181 point d\u2019h\xE9ro\xEFsme."
+  desavantagePj: "Troubel mental : Le personnage poss\xE8de un trouble psychologique
+    qui affecte sa vie de tous les jours et la rend difficile. En termes de jeu,
+    le personnage poss\xE8de soit une phobie (exemples : le sang, la foule, l\u2019altitude,
+    les insectes, l\u2019eau, les lieux ferm\xE9s, les maladies, etc.) ou un trouble
+    compulsif (exemples : pyromanie, kleptomanie, comptage de d\xE9tails qui l\u2019entourent,
+    etc.). Cet inconv\xE9nient est essentiellement bas\xE9 sur le roleplay, mais
+    peut tout de m\xEAme apporter des malus en d\xE9s sur un jet si le MJ le juge
+    n\xE9cessaire."
+  avantageIA: "Relais : L\u2019IA comprend qu\u2019il y a des moments o\xF9 le chevalier
+    doit dormir et se reposer, volontairement ou forc\xE9 par des blessures ou des
+    chocs. Une fois par mission, si le chevalier tombe inconscient pour une raison
+    ou une autre (somnif\xE8re, agonie, choc, etc.) et que l\u2019armure est d\xE9fold\xE9e,
+    elle poursuit l\u2019action en attendant son r\xE9veil pour un co\xFBt de 3 points
+    d\u2019\xE9nergie par tour (ou tranche de 10 secondes) et ce jusqu\u2019\xE0
+    ce que l\u2019armure n\u2019ait plus d\u2019\xE9nergie. Elle prend alors le contr\xF4le
+    total de l\u2019armure et de ce qu\u2019elle tient en main pour poursuivre l\u2019action
+    dans laquelle elle \xE9tait engag\xE9e (terminer un combat, une joute verbale,
+    etc\u2026). D\xE8s que le chevalier reprend conscience, le contr\xF4le de l\u2019armure
+    lui est rendu."
+  desavantageIA: "Somnambule : L\u2019IA de l\u2019armure, bien que consciente du
+    besoin naturel et obligatoire de repos de son chevalier, s\u2019arrange pour
+    continuer \xE0 faire des d\xE9couvertes pendant son sommeil. En termes de jeu,
+    une fois par partie, quand le chevalier s\u2019endort ou se repose, l\u2019armure
+    d\xE9folde et explore l\u2019endroit o\xF9 elle se trouve pendant une \xE0 deux
+    heures avant de reprendre la place qui \xE9tait la sienne. Si elle rencontre
+    des personnes, elle communique comme s\u2019il s\u2019agissait du chevalier et,
+    si elle doit entrer en action, elle s\u2019ex\xE9cute. Si elle d\xE9clenche une
+    sc\xE8ne d\u2019action mouvement\xE9e, telle qu\u2019un combat par exemple, son
+    porteur doit r\xE9ussir un test base Endurance difficult\xE9 d\xE9licat (4) afin
+    de se r\xE9veiller."

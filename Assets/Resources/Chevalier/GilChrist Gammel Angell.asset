@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82412af4000aa64e8ec3c561bf50d6e, type: 3}
+  m_Name: GilChrist Gammel Angell
+  m_EditorClassIdentifier: 
+  name: GilChrist Gammel Angell
+  alias: Lucky
+  pv: 0
+  pe: 0
+  armure: {fileID: 0}
+  currentSection: {fileID: 11400000, guid: f16be34f1832d1d4ca1db2b4e4574d01, type: 2}
+  currentVie: 0
+  currentEspoir: 0
+  currentEnergie: 0
+  currentArmor: 0
+  currentCDF: 0
+  hautFait: {fileID: 0}
+  archetype: {fileID: 0}
+  blason: {fileID: 0}
+  arcanes:
+  - IaAvantage: 0
+    IaDesavantage: 0
+    PjAvantage: 1
+    PjDesavantage: 0
+    card: {fileID: 11400000, guid: 94778f8679465834488e5a65568a0d75, type: 2}
+  - IaAvantage: 0
+    IaDesavantage: 0
+    PjAvantage: 1
+    PjDesavantage: 0
+    card: {fileID: 0}
+  - IaAvantage: 1
+    IaDesavantage: 0
+    PjAvantage: 0
+    PjDesavantage: 0
+    card: {fileID: 0}
+  - IaAvantage: 0
+    IaDesavantage: 0
+    PjAvantage: 0
+    PjDesavantage: 1
+    card: {fileID: 0}
+  - IaAvantage: 0
+    IaDesavantage: 1
+    PjAvantage: 0
+    PjDesavantage: 0
+    card: {fileID: 0}
+  allWeapon: []
+  description: 

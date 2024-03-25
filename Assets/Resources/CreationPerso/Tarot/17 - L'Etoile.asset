@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 17 - L'Etoile
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: d5d7fc8b290d2f24a9802146b877065f, type: 3}
+  desc: "Occulte par excellence et consid\xE9r\xE9e par beaucoup comme une carte
+    b\xE9n\xE9fique, cette lame repr\xE9sente litt\xE9ralement la bonne \xE9toile.
+    Elle est associ\xE9e au futur radieux, \xE0 la chance, mais aussi aux r\xEAves,
+    au sommeil et \xE0 la confiance en l'avenir."
+  passe: "Des r\xEAves pr\xE9monitoires, une chance insolente, une carri\xE8re exemplaire,
+    une vie facile, des amis en or, une confiance en l'avenir, des cauchemars, un
+    sommeil absent, des r\xE9ussites qui rendent jaloux."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Masque et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "R\xEAves pr\xE9monitoires : Le personnage fait r\xE9guli\xE8rement
+    des r\xEAves pr\xE9monitoires. Il en a conscience et, m\xEAme s\u2019il ne ma\xEEtrise
+    pas ce don, il peut parfois s\u2019av\xE9rer tr\xE8s utile. En termes de jeu,
+    une fois par partie, lorsque son personnage dort, le joueur peut demander au
+    MJ ce qu\u2019il voit dans ses r\xEAves pr\xE9monitoires. Le MJ doit r\xE9pondre
+    au joueur de fa\xE7on sibylline, par deux ou trois phrases all\xE9goriques sur
+    la suite du sc\xE9nario ou encore sur un personnage important de l\u2019aventure.
+    Cette r\xE9ponse ne doit pas mal aiguiller le joueur et, bien \xE9videmment,
+    ne pas l\u2019amener sur de fausses pistes (mais bien s\xFBr, le personnage peut
+    toujours mal interpr\xE9ter ses r\xEAves)."
+  desavantagePj: "Cauchemars : Depuis quelques ann\xE9es, suite \xE0 un traumatisme,
+    le personnage dort tr\xE8s mal et fait r\xE9guli\xE8rement des cauchemars terribles
+    (\xE0 pr\xE9ciser en accord avec le MJ) qui l\u2019emp\xEAchent de dormir et
+    d\xE9vorent son sommeil en plus d\u2019alimenter sa fatigue. En termes de jeu,
+    lorsque le personnage dort ou se repose pour r\xE9cup\xE9rer des points de sant\xE9,
+    il doit lancer 1D6. Sur un r\xE9sultat pair, tout va bien, la r\xE9cup\xE9ration
+    et la nuit sont normales. Sur un r\xE9sultat impair, le h\xE9ros subit une nuit
+    de cauchemars et ne r\xE9cup\xE8re aucun point de sant\xE9, m\xEAme en cas de
+    soin \xE0 l\u2019infirmerie du Knight, et perd 1 point d\u2019espoir."
+  avantageIA: "Trouver l'\xE9toile  : L\u2019IA est connect\xE9e au ciel et aux \xE9toiles,
+    et ce, m\xEAme lorsqu\u2019elles ne sont pas visibles \xE0 l\u2019\u0153il nu
+    ou dans la plus terrible des obscurit\xE9s. Il est impossible pour le chevalier
+    de se perdre, y compris dans les t\xE9n\xE8bres les plus profondes : il conna\xEEt
+    toujours la direction de l\u2019\xE9toile du berger et par cons\xE9quent du nord,
+    m\xEAme sous les t\xE9n\xE8bres."
+  desavantageIA: "Illusion : L\u2019IA cherche avant tout \xE0 prot\xE9ger son porteur
+    et parfois, lorsqu\u2019elle est d\xE9fold\xE9e, elle fait en sorte de masquer
+    les choses d\xE9sagr\xE9ables ou les dangers potentiels afin que son chevalier
+    ne se jette pas dessus. En termes de jeu, si l\u2019armure est d\xE9fold\xE9e,
+    les tests bas\xE9s sur la Perception pour rep\xE9rer un danger ou d\xE9couvrir
+    une sc\xE8ne horrible voient leur difficult\xE9 augmenter de 1."

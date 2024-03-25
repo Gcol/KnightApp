@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 4 . Epiloge
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Les h\xE9ros ont enfin r\xE9ussi \xE0 venir \xE0 bout de la
+    menace. Le\r\npersonnel du bunker les accueille en h\xE9ros et ils peuvent, s\u2019ils\r\nle
+    souhaitent, b\xE9n\xE9ficier d\u2019un repos m\xE9rit\xE9 avant de repartir\r\npour
+    Camelot.\r\nS\u2019ils n\u2019ont pas fait l\u2019\xE9tape \xAB un intrus dans
+    le centre de\r\nrecherche \xBB, les chevaliers peuvent bien \xE9videmment interroger\r\nStasya
+    et d\xE9couvrir l\u2019existence de l\u2019enfant de la Chair.\r\nDans le cas
+    o\xF9 Mao n\u2019a pas \xE9t\xE9 tu\xE9 par les h\xE9ros, ceux-ci\r\npeuvent
+    d\xE9cider d\u2019en r\xE9f\xE9rer \xE0 Camelot \u2013 lorsque les transmissions\r\nsont
+    r\xE9tablies \u2013, qui leur demandera de tuer Mao.\r\nLes chevaliers peuvent
+    retourner \xE0 Camelot afin de s\u2019y reposer\r\navant une nouvelle mission."

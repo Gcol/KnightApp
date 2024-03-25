@@ -14,14 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Marco Orlanda
   alias: Padre
-  armure: {fileID: 11400000, guid: 629cb4cf9b775da459b91f916871137a, type: 2}
   pv: 16
   pe: 50
-  currentPv: 0
-  currentPe: 0
-  currentPen: 0
-  currentPa: 0
+  armure: {fileID: 11400000, guid: 629cb4cf9b775da459b91f916871137a, type: 2}
+  currentSection: {fileID: 11400000, guid: 0bdb4e2686d426b40bfe5098af31fa10, type: 2}
+  currentVie: 0
+  currentEspoir: 0
+  currentEnergie: 0
+  currentArmor: 0
   currentCDF: 0
+  hautFait: {fileID: 0}
+  archetype: {fileID: 0}
+  blason: {fileID: 0}
+  arcanes:
+  - IaAvantage: 0
+    IaDesavantage: 0
+    PjAvantage: 1
+    PjDesavantage: 0
+    card: {fileID: 0}
+  - IaAvantage: 0
+    IaDesavantage: 0
+    PjAvantage: 1
+    PjDesavantage: 0
+    card: {fileID: 0}
+  - IaAvantage: 1
+    IaDesavantage: 0
+    PjAvantage: 0
+    PjDesavantage: 0
+    card: {fileID: 0}
+  - IaAvantage: 0
+    IaDesavantage: 0
+    PjAvantage: 0
+    PjDesavantage: 1
+    card: {fileID: 0}
+  - IaAvantage: 0
+    IaDesavantage: 1
+    PjAvantage: 0
+    PjDesavantage: 0
+    card: {fileID: 0}
   allWeapon:
   - {fileID: 11400000, guid: 4f7153617ee7caf4bb054e3530eeadbe, type: 2}
   description: "Juste avant l\u2019arriv\xE9e des t\xE9n\xE8bres sur Terre, Serge\xEF
@@ -53,85 +83,3 @@ MonoBehaviour:
     \xE0 prot\xE9ger, celui qui a encore beaucoup \xE0 apprendre.\r\nCette position
     l\u2019indiff\xE8re. Prudent de nature, il pr\xE9f\xE8re laisser les autres aller
     au-devant du danger."
-  newStat:
-    allStat:
-    - name: Chair
-      statValue:
-        value: 2
-        overdrive: 0
-    - name: "D\xE9placement"
-      statValue:
-        value: 1
-        overdrive: 0
-    - name: Force
-      statValue:
-        value: 1
-        overdrive: 1
-    - name: Endurance
-      statValue:
-        value: 1
-        overdrive: 1
-    - name: "B\xEAte"
-      statValue:
-        value: 2
-        overdrive: 0
-    - name: Hargne
-      statValue:
-        value: 2
-        overdrive: 0
-    - name: Combat
-      statValue:
-        value: 1
-        overdrive: 0
-    - name: Instinct
-      statValue:
-        value: 1
-        overdrive: 0
-    - name: Machine
-      statValue:
-        value: 5
-        overdrive: 0
-    - name: Tir
-      statValue:
-        value: 5
-        overdrive: 0
-    - name: Savoir
-      statValue:
-        value: 3
-        overdrive: 0
-    - name: Technique
-      statValue:
-        value: 4
-        overdrive: 0
-    - name: Dame
-      statValue:
-        value: 6
-        overdrive: 0
-    - name: Aura
-      statValue:
-        value: 6
-        overdrive: 1
-    - name: Parole
-      statValue:
-        value: 4
-        overdrive: 0
-    - name: Sang-Froid
-      statValue:
-        value: 5
-        overdrive: 1
-    - name: Masque
-      statValue:
-        value: 2
-        overdrive: 0
-    - name: "Discr\xE9tion"
-      statValue:
-        value: 1
-        overdrive: 0
-    - name: "Dext\xE9rit\xE9"
-      statValue:
-        value: 1
-        overdrive: 0
-    - name: Perception
-      statValue:
-        value: 1
-        overdrive: 0

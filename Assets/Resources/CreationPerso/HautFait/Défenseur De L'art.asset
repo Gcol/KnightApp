@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd1878293f69c2747b2b72bb1e16bea9, type: 3}
+  m_Name: "D\xE9fenseur De L'art"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 0}
+  desc: "Le h\xE9ros a d\xE9fendu avec ardeur une oeuvre d'art ou un artiste. Ayant
+    rapidement compris le pouvoir de l\u2019art, il l\u2019a emport\xE9 jusqu\u2019\xE0
+    une arche depuis des t\xE9n\xE8bres tr\xE8s denses. Le PJ \xE9tait pr\xEAt \xE0
+    y laisser sa vie, comme si une mission d\u2019int\xE9r\xEAt sup\xE9rieur motivait
+    son abn\xE9gation."
+  grandImage: {fileID: 0}
+  Condition: "N\xE9cessite un score minimum de 4 en Hargne ou de 4 en Sang-Froid."
+  Bonus: "Le PJ gagne 1 point dans l\u2019aspect B\xEAte ou Dame et 2 points \xE0
+    r\xE9partir comme il le d\xE9sire dans les caract\xE9ristiques qui sont li\xE9es
+    \xE0 l\u2019aspect choisi."
+  Surnoms: 

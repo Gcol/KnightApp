@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 7 - Le Chariot
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 8f59df08271f00b488aae61c5c9eeedf, type: 3}
+  desc: "Cette carte repr\xE9sente le progr\xE8s, la r\xE9ussite, mais aussi la conciliation
+    de forces oppos\xE9es, l'amiti\xE9 naissant entre des ennemis ou une haine se
+    dissolvant. Parfois, elle repr\xE9sente aussi une opposition tr\xE8s farouche."
+  passe: "Un ennemi devenu ami, une r\xE9ussite retentissante, un combat remport\xE9
+    avec facilit\xE9, une bataille remport\xE9e avec difficult\xE9, de la haine qui
+    se transforme en amour, un ennemi jur\xE9, des amis chers qui se trahissent."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect B\xEAte et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "S\xFBr de soi  : Le PJ est dot\xE9 d\u2019une confiance quasi absolue
+    dans ses paroles et son jugement sans pour autant faire preuve de pr\xE9tention.
+    De ce fait, il b\xE9n\xE9ficie d\u2019un bonus d\u2019une r\xE9ussite automatique
+    \xE0 tous ses jets base Parole lorsqu\u2019il interagit avec des personnages
+    humains."
+  desavantagePj: "Ennemi jur\xE9  : Le personnage s\u2019est fait un ennemi jur\xE9
+    dans une organisation rivale ou ennemie du Knight. Cet ennemi est un personnage
+    puissant (\xE0 la discr\xE9tion du MJ) et fera tout pour tuer le personnage,
+    jeter la honte sur lui, blesser ses proches ou simplement lui faire du mal."
+  avantageIA: "Imp\xE9tueuse : L\u2019IA de l\u2019armure du chevalier aime le combat
+    et prouver sa valeur lui importe beaucoup. Elle se lance dans les combats avec
+    hargne et fougue. En termes de jeu, lorsque la m\xE9ta-armure est d\xE9fold\xE9e,
+    tous les tests bas\xE9s sur la caract\xE9ristique Hargne voient leur difficult\xE9
+    diminuer de 1."
+  desavantageIA: "Gesticulation constante  : L\u2019IA de l\u2019armure a besoin
+    d\u2019\xEAtre en mouvement constant, sous peine de devenir insupportable pour
+    le chevalier et au point de finir par commettre une b\xEAtise. En termes de jeu,
+    l\u2019armure bouge en continu et cela impacte tous les tests bas\xE9s sur la
+    caract\xE9ristique Discr\xE9tion qui re\xE7oivent alors un malus de 1."

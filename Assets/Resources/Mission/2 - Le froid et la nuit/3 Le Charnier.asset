@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 3 Le Charnier
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Ce peut \xEAtre apr\xE8s avoir discut\xE9 avec l\u2019enfant
+    de la Chair ou\r\njuste apr\xE8s avoir subi une attaque de la horde, mais les
+    chevaliers\r\nvont devoir \xE0 un moment o\xF9 un autre d\xE9cider de suivre\r\nles
+    traces des cr\xE9atures de la Chair pour remonter jusqu\u2019\xE0\r\nleur source.
+    \xC9tant donn\xE9 l\u2019\xE9tat de leur corps, ils ne doivent\r\npas venir de
+    tr\xE8s loin et, la neige ayant cess\xE9 de tomber, les\r\nempreintes seront
+    assez faciles \xE0 suivre. Les h\xE9ros se dirigent\r\ndonc vers le sud et d\xE9passent
+    l\u2019avant-poste du Knight. Une\r\nheure plus tard, ils tombent sur un \xE9norme
+    charnier. Des centaines\r\nde cadavres humains et de d\xE9tritus (v\xE9hicules\u2026)
+    ont\r\n\xE9t\xE9 amoncel\xE9s et laiss\xE9s au d\xE9sert de la Sib\xE9rie et
+    \xE0 son froid\r\nglacial. Sur un test base Perception, les chevaliers peuvent\r\nremarquer
+    la pr\xE9sence dans le charnier de rares guerriers du\r\nNodachi morts. Apparemment,
+    ce cimeti\xE8re \xE0 ciel ouvert est\r\nl\u2019oeuvre de l\u2019organisation
+    japonaise. Les h\xE9ros doivent faire\r\nun test base Hargne combo Sang-Froid
+    difficult\xE9 normal (3)\r\npour ne pas perdre 1D6 points d\u2019espoir.\r\nTout
+    autour du charnier, une flore de chair s\u2019est abondamment\r\nd\xE9velopp\xE9e.
+    Reli\xE9e directement aux cadavres,\r\nelle semble les relever les uns apr\xE8s
+    les autres pour cr\xE9er \xE0\r\nnouveau une horde qui se jettera \xE0 l\u2019attaque
+    du bunker.\r\nSi les h\xE9ros ont d\xE9cid\xE9 de suivre l\u2019enfant de la
+    Chair, celui-ci\r\ns\u2019avance vers le charnier tandis qu\u2019une ouverture
+    semble\r\nse former pour lui faire un passage. L\u2019enfant de la Chair s\u2019y\r\nenfoncera
+    avant de dispara\xEEtre sauf si les chevaliers d\xE9cident\r\nd\u2019intervenir.
+    S\u2019ils le font, ils devront combattre Mao en plus\r\nde la horde.\r\nLes
+    chevaliers n\u2019ont d\u2019autre choix que de d\xE9truire ce\r\ncharnier, apparemment
+    la source des multiples hordes\r\nauxquelles ils ont eu affaire. Cette fois-ci
+    toutefois, en plus\r\nde combattre une horde de la m\xEAme puissance que les
+    pr\xE9c\xE9dentes,\r\nils devront en plus s\u2019opposer \xE0 la flore de chair
+    qui\r\nsemble sans cesse reconstituer ses forces et, le cas \xE9ch\xE9ant,\r\nl\u2019enfant
+    de la Chair.\r\nAlors que les chevaliers croient \xEAtre venus \xE0 bout des\r\ndeux
+    bandes ennemies, l\u2019amoncellement de cadavres semble\r\nlitt\xE9ralement
+    exploser, projetant des corps aux alentours.\r\nLes chevaliers se retrouvent
+    alors face \xE0 un monstre de chair\r\naccompagn\xE9 d\u2019un embryon par PJ
+    (voir l\u2019annexe 1 : Bestiaire \u2013\r\nLes cr\xE9atures de l\u2019Anath\xE8me
+    \u2013 page 372 et 375). Les h\xE9ros\r\nvont devoir le vaincre pour enfin mettre
+    fin au combat.\r\nLa bataille termin\xE9e, les chevaliers doivent trouver un
+    moyen\r\nde br\xFBler enti\xE8rement le charnier afin d\u2019\xE9viter que la
+    Chair\r\nn\u2019en reprenne le contr\xF4le. Ils peuvent emprunter du carburant\r\nau
+    bunker, ou simplement signaler le lieu \xE0 Camelot\r\nlorsque les transmissions
+    auront \xE9t\xE9 r\xE9tablies pour qu\u2019une\r\n\xE9quipe vienne s\u2019en
+    charger."

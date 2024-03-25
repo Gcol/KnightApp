@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd1878293f69c2747b2b72bb1e16bea9, type: 3}
+  m_Name: "Construction de la Premi\xE8re M\xE9ta-Armure"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: ba43604586ddf474eaf80cc4641e6e88, type: 3}
+  desc: "De pr\xE8s ou de loin, le personnage a aid\xE9 Merlin \xE0 concevoir Excalibur.
+    Il \xE9tait un des acteurs, lointain, de la lib\xE9ration de Dublin par Arthur.
+    Bien qu\u2019il ne connaisse pas tous les rouages des armures du Knight, le h\xE9ros
+    en a certainement dessin\xE9 des pi\xE8ces, fabriqu\xE9 des composants et peut-\xEAtre
+    m\xEAme cr\xE9\xE9 des pans entiers."
+  grandImage: {fileID: 21300000, guid: 897ba7d91089e29428c65e4a30392921, type: 3}
+  Condition: "N\xE9cessite un score minimum de 4 en Technique. Ce haut fait est interdit
+    \xE0 l\u2019arch\xE9type agent du Nodachi."
+  Bonus: "Le PJ gagne 1 point dans l\u2019aspect Machine et 2 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  Surnoms: "L\u2019Armurier, le Forgeron, le Fabricant"

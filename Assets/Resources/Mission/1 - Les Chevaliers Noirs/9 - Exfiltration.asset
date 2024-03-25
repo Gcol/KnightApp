@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 9 - Exfiltration
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 21300000, guid: 88cea7ec8fa168d4690a62375ecf4624, type: 3}
+  musicFond: {fileID: 0}
+  videoClip: {fileID: 0}
+  creatures:
+  - creature: {fileID: 11400000, guid: c6eabb6d913e4d84fa53ca872f5f6c56, type: 2}
+    nombreCreature: 200
+  - creature: {fileID: 11400000, guid: 25a8bc43de8eacd4fa67bec505123130, type: 2}
+    nombreCreature: 1
+  - creature: {fileID: 11400000, guid: 71316982928eb01498acd482bd0975d4, type: 2}
+    nombreCreature: 2
+  SceneDescription: "Si les PJ sont encore en vie et s\u2019ils arrivent aux abords
+    de\r\nla tour Eiffel, alors ils voient des dizaines de milliers de\r\nbestians
+    et des centaines de faunes commencer \xE0 traverser la\r\nSeine, tant\xF4t sur
+    les ponts, tant\xF4t \xE0 la nage ou par des bonds\r\ngigantesques. Au-dessus,
+    des dizaines de nu\xE9es de noctes\r\nsurvolent Paris et convergent vers la tour
+    Eiffel.\n\nLes PJ, les enfants et les chevaliers noirs sont vite accueillis\r\npar
+    Guillaume et ses chevaliers alors que la horde innombrable\r\ns\u2019approche
+    de la tour. Au loin, les PJ peuvent entendre\r\nune \xE9norme voix, celle du
+    roi de Lafayette, hurler \xE0 tue-t\xEAte :\r\n\xAB Rendez-moi les enfants !
+    Rendez-moi mon repas ! Rendezles-\r\nmoi ! \xBB\n\nLe pilote de leur vector\r\nles
+    contacte en leur disant qu\u2019il a re\xE7u l\u2019ordre de venir les\r\nchercher,
+    car la section Korrigan a re\xE7u une alerte s\xE9rieuse\r\nquant \xE0 l\u2019activit\xE9
+    des t\xE9n\xE8bres \xE0 Paris. Il sera l\xE0 dans quelques\r\nminutes avec deux
+    autres appareils qui exfiltreront l\u2019\xE9quipe\r\nde Guillaume.\n\nles PJ
+    doivent se d\xE9fendre et\r\nnotamment prot\xE9ger les enfants ainsi que le g\xE9n\xE9rateur
+    qui\r\npermet aux projecteurs UV d\u2019\xE9loigner les nu\xE9es de noctes.\n\nPour
+    r\xE9ussir \xE0 \xEAtre exfiltr\xE9s, les PJ doivent tenir 6 tour\n\nAu\r\npremier
+    tour, ils peuvent tirer sur les cr\xE9atures escaladant la\r\ntour Eiffel ou
+    sur ceux montant par les escaliers ou la cage\r\nd\u2019ascenseur.\r\nAu deuxi\xE8me
+    tour et \xE0 chaque tour suivant, un bestian\r\npar PJ et un faune par tranche
+    de 2 PJ viennent les attaquer.\n\nDurant le combat, il faudra faire des choix.
+    En plus de se\r\nbattre contre ses agresseurs, chacun des PJ peut ainsi choisir\r\nde
+    (pour une action de d\xE9placement) :\r\n\u2022 D\xE9fendre le g\xE9n\xE9rateur.\r\n\u2022
+    Aider les chevaliers noirs.\r\n\u2022 Aider Guillaume et ses chevaliers.\r\n\u2022
+    Aider les agents du Knight en poste \xE0 la tour Eiffel.\r\n\u2022 Prot\xE9ger
+    les enfants.\n\u2022 Emp\xEAcher d\u2019autres cr\xE9atures de monter.\n\nD\xE9fendre
+    le g\xE9n\xE9rateur permet d\u2019emp\xEAcher une bande de\r\nnoctes de s\u2019immiscer
+    dans le combat en assurant la diffusion\r\nde lumi\xE8re autour du monument.
+    Si les PJ ne d\xE9fendent pas\r\nle g\xE9n\xE9rateur durant deux tours successifs,
+    alors celui-ci est\r\nd\xE9truit par un faune et une bande de noctes\n\nAider
+    les chevaliers noirs permet d\u2019assurer leur survie. Ne\r\npas les aider pendant
+    deux tours successifs cause la mort\r\nd\u2019un des trois, au choix du MJ.\n\nAider
+    Guillaume et ses chevaliers permet d\u2019assurer leur\r\nsurvie. Ne pas les
+    aider pendant deux tours successifs cause\r\nla mort de l\u2019un d\u2019eux
+    (sauf Guillaume),\n\nAider les agents du Knight en poste \xE0 la tour Eiffel
+    permet\r\nde provoquer l\u2019effet lumi\xE8re 2\n\nProt\xE9ger les enfants permet
+    de ne pas perdre de points\r\nd\u2019espoir. Ne pas les aider pendant un seul
+    tour cause la mort\r\nd\u2019un ou deux enfants et la perte\n\nEmp\xEAcher d\u2019autres
+    cr\xE9atures de monter permet de retarder\r\nles assauts de bestians et de faunes
+    par tour et de limiter\r\nleur arriv\xE9e \xE0 seulement 1 bestian pour 2 PJ
+    et 1 faune pour\r\n4 PJ.\n\n\nLe monument\r\nse met \xE0 vaciller puis s\u2019\xE9croule
+    sous son propre poids vers\r\nle pont de l\u2019Alma dans un nuage de d\xE9bris
+    et de poussi\xE8re.\n"

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 13 - L'Arcane sans nom
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 6ea7b8459fe24624083c5a25a21a2bd9, type: 3}
+  desc: "L'Arcane sans nom, aussi nomm\xE9 la Mort, est une lame un peu particuli\xE8re,
+    car il symbolise la fin et une absence d'\xE9volution \xE0 venir. Pour certains,
+    il symboliserait aussi le renouveau, la renaissance ou la r\xE9g\xE9n\xE9ration."
+  passe: "Un accident brutal, une amn\xE9sie, la mort qui frappe un ou des proches,
+    un h\xE9ros sans famille, un personnage venu de nulle part, une identit\xE9 nouvelle,
+    un h\xE9ros \xE2g\xE9. (Cette lame est incompatible avec celle de la Maison-Dieu,
+    si cette derni\xE8re carte est tir\xE9e en m\xEAme temps que l'Arcane sans nom
+    dans le cas d'un tirage al\xE9atoire, le PJ doit remplacer une des deux cartes
+    par une autre tir\xE9e al\xE9atoirement.)"
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Masque et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Trompe la mort:  Le h\xE9ros semble \xEAtre ignor\xE9 par la mort,
+    comme s\u2019il s\u2019accrochait \xE0 la vie de toutes ses forces, m\xEAme lors
+    des pires situations. En termes de jeu, lorsque le personnage est mis \xE0 l\u2019agonie,
+    peu importe la raison, il ignore le r\xE9sultat \xAB mort \xBB sur la table des
+    blessures et prend le r\xE9sultat le plus proche. Cet avantage ne peut \xEAtre
+    utilis\xE9 qu\u2019une fois par mission."
+  desavantagePj: "V\xE9t\xE9ran : Le personnage est d\xE9j\xE0 bien \xE2g\xE9, il
+    a sans doute plus de 50 ans et ses potentiels sont plus difficiles \xE0 d\xE9velopper.
+    S\u2019il poss\xE8de d\xE9j\xE0 de l\u2019exp\xE9rience, il est plus difficile
+    pour lui d\u2019en acqu\xE9rir. En termes de jeu, le personnage ne peut augmenter
+    ses scores d\u2019aspects au-del\xE0 de 7."
+  avantageIA: "M\xE9moire du chevalier  : L\u2019IA est \xE0 tel point persuad\xE9e
+    d\u2019\xEAtre un chevalier mort au combat qu\u2019elle a scann\xE9 toutes les
+    bases de donn\xE9es possible et m\xEAme les dossiers les plus secrets du Knight.
+    Elle s\u2019est donc constitu\xE9 un stock important de m\xE9moires et d\u2019exp\xE9riences.
+    En termes de jeu, une fois par partie, le chevalier peut obtenir 2 succ\xE8s
+    automatiques \xE0 l\u2019un de ses tests, quel qu\u2019il soit, en plus de ceux
+    qu\u2019il peut obtenir par d\u2019\xE9ventuels overdrives : l\u2019IA reconna\xEEt
+    une situation \xAB qu\u2019elle a d\xE9j\xE0 v\xE9cu \xBB."
+  desavantageIA: "Terreur : L\u2019IA sait par quel type de cr\xE9ature a \xE9t\xE9
+    tu\xE9 le chevalier qu\u2019elle pense \xEAtre. Si elle doit affronter ce type
+    d\u2019\xEAtre, elle risque de perdre de mani\xE8re dramatique ses moyens. En
+    termes de jeu, \xE0 la cr\xE9ation de l\u2019IA, le MJ choisit secr\xE8tement
+    un type de cr\xE9ature, si le chevalier combat une entit\xE9 similaire, tous
+    ses tests contre celle-ci ou destin\xE9s \xE0 lui permettre de la fuir voient
+    leur difficult\xE9 augmenter de 1."

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 1.3 - Attaque de la horde
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Soudainement, un bruit diffus\r\nsemble venir de la plaine enneig\xE9e.
+    C\u2019est apparemment une\r\nnouvelle horde, semblable \xE0 celle qui est venue
+    \xE0 bout de\r\nleurs coll\xE8gues, qui se dirige vers eux. \nLes h\xE9ros n\u2019ont
+    que\r\nquelques minutes pour s\u2019y pr\xE9parer en prenant en main les\r\narmements
+    automatiques du lieu encore en \xE9tat.\n\nL\u2019ARMEMENT AUTOMATIQUE\r\nDE
+    L\u2019AVANT-POSTE\r\nLe lieu dans lequel se trouvent les h\xE9ros poss\xE8de\r\nquelques
+    syst\xE8mes de protection automatique (avec\r\ndrones et tourelles de d\xE9fense)
+    encore en \xE9tat de fonctionner.\r\nPour les prendre en main, un des membres
+    de\r\nla coterie doit r\xE9ussir un test base Technique difficult\xE9\r\nnormale
+    (3). S\u2019il y arrive, ceux-ci permettront de r\xE9duire\r\nle d\xE9bordement
+    de la horde de 2 points durant 4 tours,\r\nla bande \xE9tant aussi occup\xE9e
+    \xE0 les d\xE9truire.\n\nAlors qu\u2019ils voient appara\xEEtre des dizaines
+    de silhouettes \xE0\r\nl\u2019horizon brouill\xE9 par la neige qui tombe encore,
+    les h\xE9ros\r\ndoivent faire un test base Hargne combo Sang-Froid difficult\xE9\r\nnormal
+    (3) pour ne pas subir une perte d\u20191D6 point d\u2019espoir.\n\n\n"

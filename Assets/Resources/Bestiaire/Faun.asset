@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a94474019299544857326327dbabd1, type: 3}
+  m_Name: Faun
+  m_EditorClassIdentifier: 
+  enemiNiveau: 0
+  typeEnemy: 2
+  dangerosite: 2
+  currentImage: {fileID: 21300000, guid: 927d61370f81b4d4890210960b502b1b, type: 3}
+  stat:
+    def: 6
+    reac: 2
+    initative: 3
+    ps: 80
+    bouclier: 0
+    debordement: 0
+    "coh\xE9sion": 0
+    pointArmure: 0
+  aspect:
+  - aspect: 0
+    valeurAspect: 8
+    aspestExceptionel: 
+  - aspect: 1
+    valeurAspect: 10
+    aspestExceptionel: Majeur(6)
+  - aspect: 2
+    valeurAspect: 4
+    aspestExceptionel: 
+  - aspect: 3
+    valeurAspect: 4
+    aspestExceptionel: 
+  - aspect: 4
+    valeurAspect: 7
+    aspestExceptionel: Mineur (1)
+  pointFaible: 
+  description: "Les faunes sont les humains qui ont \xE9t\xE9 touch\xE9s par le d\xE9sespoir
+    dans le domaine de la B\xEAte. La plupart subissent des\r\ntransformations physiques
+    limit\xE9es, des \xE9cailles s\u2019\xE9tendent sur leur peau si ce ne sont des
+    poils, leurs doigts se palment ou\r\ndeviennent griffus et leurs yeux se noircissent
+    pour adapter leur vue \xE0 l\u2019obscurit\xE9. Leur personnalit\xE9 est, quant
+    \xE0 elle, g\xE9n\xE9ralement\r\nplus touch\xE9e par la pr\xE9sence du Seigneur.
+    Certains s\u2019isolent de toutes les autres cr\xE9atures, pr\xE9f\xE9rant chasser
+    pour\r\neux-m\xEAmes et s\u2019enfermer dans un mutisme haineux. Le reste se
+    d\xE9place par groupes d\u2019environ dix individus. Leurs mots\r\nfinissent
+    g\xE9n\xE9ralement par se transformer en cris. Ils attaquent de fa\xE7on organis\xE9e
+    des communaut\xE9s de rebuts pour trouver\r\nde la nourriture, mais, si celle-ci
+    vient \xE0 v\xE9ritablement manquer, ils sont capables de se d\xE9vorer entre
+    eux pour survivre ou\r\nde se s\xE9parer de leur groupe d\u2019origine.\r\nCar
+    voil\xE0 l\u2019objectif premier des faunes, survivre. Quelles que soient les
+    m\xE9thodes mises en oeuvre pour cela, ces d\xE9sesp\xE9r\xE9s\r\nparticuli\xE8rement
+    brutaux sont pr\xEAts \xE0 tout pour perdurer. Leur instinct les pousse \xE0
+    tuer les humains pour r\xE9cup\xE9rer du\r\nmat\xE9riel et des vivres."
+  Tactique: 
+  Capacite: "Charge brutale : Une fois par combat, le PNJ peut parcourir instantan\xE9ment
+    la distance\r\nqui le s\xE9pare d\u2019un ennemi \xE0 port\xE9e moyenne ou inf\xE9rieure.
+    Il doit faire un jet pour\r\ntoucher, s\u2019il r\xE9ussit, il inflige \xE0 son
+    ennemi les d\xE9g\xE2ts de son arme auxquels s\u2019ajoute\r\ndeux fois son score
+    de B\xEAte.\r\nModule (saut nv2) : Le PNJ b\xE9n\xE9ficie de l\u2019\xE9quivalent
+    du module saut au niveau 2."
+  arme:
+  - name: Arme Lourde
+    degat: 4D6 + 16
+    porte: 0
+    effets: []

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 9 - L'hermite
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 574c8196ba5c3134d950f2166255f5c8, type: 3}
+  desc: "Cette carte repr\xE9sente le temps qui passe, mais aussi la m\xE9ditation,
+    l'introspection et la solitude. C'est aussi le symbole du retard, d'une attente
+    qui dure ou encore de quelque chose qui ne vient pas."
+  passe: "Une retraite solitaire, une fuite loin du monde, de trop longues \xE9tudes,
+    un coma prolong\xE9, un ami ou un amour disparu, une promotion qui ne vient pas,
+    un h\xE9ros laiss\xE9 pour mort, un isolement en asile psychiatrique, un s\xE9jour
+    en prison."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Machine et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Esprit d'acier  : Le personnage est habitu\xE9 \xE0 g\xE9rer ses \xE9motions
+    seul et sait qu\u2019il peut compter sur lui-m\xEAme avant toute autre personne.
+    S\u2019il m\xE9canise souvent ses \xE9motions, il r\xE9siste mieux \xE0 l\u2019Horreur
+    et perd moins facilement espoir. En termes de jeu, lors des pertes de points
+    d\u2019espoir, peu importe leurs sources, le personnage perd toujours 1 point
+    d\u2019espoir de moins que ne l\u2019annoncent le MJ ou les d\xE9s."
+  desavantagePj: "Solitaire : Le personnage est habitu\xE9 \xE0 la solitude et ne
+    fait jamais totalement confiance aux autres. M\xEAme les chevaliers de sa coterie
+    ne sont pour lui que des amis, rien de plus. De fait, lorsque le PJ participe
+    \xE0 un test d\u2019aide, qu\u2019il en soit le PJ central ou non, la difficult\xE9
+    du test est augment\xE9e de un."
+  avantageIA: "Lumi\xE8re  : L\u2019IA guide le chevalier dans les t\xE9n\xE8bres,
+    quoi qu\u2019il arrive. Pour ce faire, elle magnifie son armure et se d\xE9place
+    de mani\xE8re \xE0 refl\xE9ter toujours un peu de lumi\xE8re. En termes de jeu,
+    le chevalier b\xE9n\xE9ficie toujours de l\u2019aspect lumi\xE8re 1 pour ses
+    attaques contre les cr\xE9atures de l\u2019Anath\xE8me."
+  desavantageIA: "Silence : L\u2019IA de l\u2019armure ne supporte pas les bavardages
+    inutiles et st\xE9riles. Par cons\xE9quent, lorsqu\u2019une discussion tourne
+    en rond ou l\u2019ennuie, elle coupe les micros et les haut-parleurs afin de
+    ne pas polluer l\u2019esprit du chevalier d\u2019idioties. En termes de jeu,
+    une fois par sc\xE9nario, le chevalier n\u2019entend plus et ne peut plus communiquer
+    avec son entourage tant que l\u2019armure n\u2019a pas d\xE9cr\xE9t\xE9 que la
+    discussion m\xE9rite son attention."

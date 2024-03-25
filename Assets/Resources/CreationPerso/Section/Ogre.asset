@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87727ba1cf3b704883056312fa54415, type: 3}
+  m_Name: Ogre
+  m_EditorClassIdentifier: 
+  chefSection: 2
+  Description: "Retors et taciturnes, les membres de la section Ogre combattent l\u2019Anath\xE8me
+    sur son territoire."
+  Bonus: "+1 point dans l\u2019aspect B\xEAte et +1 point dans les trois caract\xE9ristiques
+    qui y sont li\xE9es."
+  Avantage: "Le PJ re\xE7oit les modules suivants : d\xE9placement silencieux, vue
+    alternative (pr\xE9datrice), fumig\xE8ne"
+  Inconvenient: "Marqu\xE9 par les t\xE9n\xE8bres : Le personnage a vu beaucoup de
+    choses dans l\u2019obscurit\xE9 de l\u2019Anath\xE8me. Plus les jours passent,
+    plus il est taciturne. Pour repr\xE9senter cela, le personnage re\xE7oit un malus
+    de 2D \xE0 toutes ses interactions sociales avec des humains autres que les membres
+    de sa coterie ou de sa section."

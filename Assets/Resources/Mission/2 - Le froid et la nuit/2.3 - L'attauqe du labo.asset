@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 2.3 - L'attauqe du labo
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Alors qu\u2019ils finissent de visiter les installations, les
+    chevaliers\r\net Stasya sont interpell\xE9s par un des derniers gardes\r\ndu
+    bunker qui leur annonce la venue d\u2019une nouvelle horde.\r\nCette fois-ci,
+    une immense cr\xE9ature, une abomination (voir\r\nannexe 1 : Bestiaire \u2013
+    Les cr\xE9atures de l\u2019Anath\xE8me \u2013 page\r\n373), semble mener la charge.
+    Il est clair que l\u2019entr\xE9e du\r\nbunker ne r\xE9sistera pas \xE0 un tel
+    colosse, d\u2019autant que leur\r\nchamp de force est encore en cours de r\xE9paration.
+    Stasya\r\nsupplie les chevaliers d\u2019arr\xEAter la cr\xE9ature avant qu\u2019elle\r\nn\u2019atteigne
+    sa cible\n\nABOMINATION OU\r\nMONSTRE DE CHAIR\r\nSi aucun ou trop peu de h\xE9ros
+    poss\xE8dent des armes\r\navec l\u2019effet anti-v\xE9hicule, il est conseill\xE9
+    de transformer\r\nl\u2019abomination en un monstre de chair.\n\nSi les h\xE9ros
+    partent tout de suite aux devants de l\u2019abomination,\r\nils pourront mettre
+    une certaine distance entre elle et le\r\nbunker. S\u2019ils attendent avant
+    de la rencontrer, pour r\xE9parer\r\nle champ de force par exemple, la rencontre
+    se fera juste\r\ndevant le bunker.\n\nR\xC9PARER LE CHAMP DE FORCE\r\nSi les
+    h\xE9ros r\xE9ussissent \xE0 r\xE9parer le champ de force\r\ngr\xE2ce \xE0 un
+    test base Technique difficult\xE9 normal (3), le\r\nbunker et toutes les personnes
+    situ\xE9es dans le champ\r\nde force pourront r\xE9sister aux trois prochaines
+    attaques\r\nde horde (immunit\xE9 \xE0 3 tours de d\xE9bordement). Toutefois,\r\nl\u2019abomination
+    et les embryons passent \xE0 travers\r\ncette protection.\n\nEn arrivant aux
+    devants de la horde et de l\u2019abomination qui\r\nsemble la diriger, les chevaliers
+    se rendent compte que la\r\ncr\xE9ature n\u2019a apparemment pas l\u2019intention
+    de les attaquer.\r\nAlors qu\u2019elle est encore \xE0 bonne distance d\u2019eux,
+    elle les\r\nalpague de son immense bouche. Elle le fait m\xEAme s\u2019ils ont\r\nd\xE9cid\xE9
+    de l\u2019attaquer sans pr\xE9ambule. Elle leur hurle de lui\r\nrendre \xAB l\u2019enfant
+    du Seigneur \xBB et le r\xE9p\xE8te incessamment. La\r\ncr\xE9ature semble persuad\xE9e
+    que ce qu\u2019elle souhaite r\xE9cup\xE9rer\r\nest dans le centre de recherche
+    et le veut \xE0 tout prix.\n\nLes chevaliers peuvent essayer de parlementer avec\r\nl\u2019abomination,
+    mais celle-ci n\u2019est apparemment pas dou\xE9e\r\nd\u2019une grande intelligence
+    et n\u2019exprime que peu de choses en\r\ndehors de sa volont\xE9 de r\xE9cup\xE9rer
+    \xAB l\u2019enfant du Seigneur \xBB.\r\nUn test base Perception ou Instinct difficult\xE9
+    faisable (2)\r\npermet toutefois de constater que le colosse n\u2019est pas \xE0
+    l\u2019origine\r\nde cette requ\xEAte et qu\u2019il ob\xE9it \xE0 un commandement.\n\nSi
+    les chevaliers cherchent trop longtemps \xE0 discuter ou\r\ns\u2019ils restent
+    inactifs, l\u2019abomination finira par s\u2019\xE9nerver et par\r\nles attaquer,
+    entra\xEEnant avec elle la horde qui la suit dans le\r\ncombat. Bien s\xFBr,
+    les h\xE9ros peuvent d\xE9cider \xE0 tout moment\r\nde s\u2019attaquer \xE0 elle.\n\r\nSi
+    les chevaliers souhaitent convaincre la cr\xE9ature de ne\r\npas agir en attendant
+    qu\u2019ils lui ram\xE8nent ce qu\u2019elle demande,\r\nils doivent r\xE9ussir
+    un test base Parole ou Aura difficult\xE9\r\nd\xE9licat (4) pour la faire patienter.
+    Autrement, elle se lassera\r\net finira par attaquer les chevaliers ou le centre
+    de recherche\r\nune fois qu\u2019ils seront partis.\n\n373). Si le combat s\u2019engage\r\nloin
+    du centre de recherche, les chevaliers peuvent \xE9ventuellement\r\n\xEAtre mis
+    en difficult\xE9 si une partie de la bande se\r\ndirige directement sur le bunker.
+    Elle pourra alors finir de\r\nd\xE9truire les syst\xE8mes de protection et tuer
+    les derniers gardes\r\n(faisant ainsi perdre des points d\u2019espoir aux chevaliers).\n\n"

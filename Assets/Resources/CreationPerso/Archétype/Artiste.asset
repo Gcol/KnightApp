@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efed071ad960d994482b0662ba2634ca, type: 3}
+  m_Name: Artiste
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 5a825a34cbff5234abc0739d2fe124c5, type: 3}
+  desc: "Artiste parmi les artistes, cr\xE9ateur passionn\xE9, le personnage est
+    l\u2019une des rares personnes de talent encore capables de pratiquer leur art.
+    Il est certainement dot\xE9 d\u2019une fougue et d\u2019une passion impressionnantes
+    et d\u2019un magn\xE9tisme ressenti par beaucoup. Pr\xE9cieux, il a \xE9t\xE9
+    recrut\xE9 par le Knight pour ses talents et sa force de caract\xE8re. Le h\xE9ros
+    peut ainsi avoir \xE9t\xE9 un peintre ou un sculpteur total, sacrifiant sa vie
+    de famille et ses loisirs pour son art. Il a peut-\xEAtre \xE9t\xE9 un chanteur
+    engag\xE9, connu mais trop franc pour \xEAtre reconnu par les m\xE9dias et l\u2019ensemble
+    de la population. Enfin, il peut avoir \xE9t\xE9 un artiste contemporain, danseur
+    ou plasticien, exprimant des choses par son art et une pratique parfois herm\xE9tique."
+  grandImage: {fileID: 21300000, guid: 5013d2f9b665313499d5b863d015bc94, type: 3}
+  bonus: "Le personnage gagne 1 point dans la caract\xE9ristique Hargne et 1 point
+    dans la caract\xE9ristique Aura."

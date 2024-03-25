@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: "2.1 - Arriv\xE9 centre de recherche"
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "\rC\u2019est en entrant dans le bunker que les chevaliers vont\r\npouvoir
+    constater l\u2019\xE9tendue des d\xE9g\xE2ts provoqu\xE9s par la\r\nhorde. En
+    plus d\u2019avoir ab\xEEm\xE9 les syst\xE8mes de s\xE9curit\xE9, les\r\ncr\xE9atures
+    de la Chair ont tu\xE9 une grande partie des miliciens\r\nqui prot\xE9geaient
+    le lieu et quelques personnes en\r\nblouse blanche. Heureusement pour eux que
+    l\u2019avant-poste\r\ndu Knight avait d\xE9j\xE0 d\xE9cim\xE9 une grande partie
+    du groupe,\r\nsinon, ils n\u2019auraient certainement pas pu r\xE9sister.\n\nPOUR
+    QUI TRAVAILLENT-ILS ?\r\nLes h\xE9ros vont rapidement constater que la plupart\r\ndes
+    personnes pr\xE9sentes dans le bunker savent\r\nparler anglais. Apparemment,
+    ce centre de recherche\r\nest financ\xE9 par l\u2019arche de Londres et les gardes
+    qui\r\nprot\xE8gent les scientifiques sont des anciens de la\r\nmilice de l\u2019arche.
+    S\u2019ils sont si heureux de l\u2019arriv\xE9e des\r\nchevaliers, c\u2019est
+    qu\u2019ils croient que l\u2019arche de Londres\r\nleur a envoy\xE9 des renforts
+    malgr\xE9 la neige qui brouillait\r\nles communications.\n\n\xC0 leur arriv\xE9e
+    dans le bunker, les h\xE9ros vont rencontrer\r\nStasya Macharine (voir le chapitre
+    10 : Cadres d\u2019aventures \u2013\r\nSib\xE9rie centrale \u2013 page 271),
+    la scientifique responsable\r\ndu lieu. Elle leur explique qu\u2019il s\u2019agit
+    en fait d\u2019un centre de\r\nrecherche sp\xE9cialis\xE9 dans l\u2019\xE9tude
+    des d\xE9sesp\xE9r\xE9s. Elle peut\r\n\xE9ventuellement leur faire rapidement
+    visiter les lieux. Au\r\npremier abord, le centre de recherche semble dater des\r\nann\xE9es
+    2010. La pr\xE9sence des sas de d\xE9contamination, de\r\ncombinaisons compl\xE8tes
+    et de cellules herm\xE9tiques laisse \xE0\r\npenser que son objectif \xE9tait
+    plut\xF4t d\u2019\xE9tudier des maladies\r\nhautement contagieuses.\n\n"

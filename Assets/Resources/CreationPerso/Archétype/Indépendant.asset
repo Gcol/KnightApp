@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efed071ad960d994482b0662ba2634ca, type: 3}
+  m_Name: "Ind\xE9pendant"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 1c1f82d05e14d1c419af21d63e3c75e7, type: 3}
+  desc: "Le personnage s\u2019est toujours consid\xE9r\xE9 comme libre et est expert
+    pour d\xE9nicher ce qu\u2019il y a de pire dans le monde. Il a donc fait en sorte
+    que son travail et sa vie refl\xE8tent cet \xE9tat d\u2019esprit. De fait, il
+    a exerc\xE9 une profession en accord avec ses aptitudes et ses attentes. Il peut
+    ainsi avoir \xE9t\xE9 un journaliste freelance, \xE0 la recherche du scoop, du
+    scandale qui devait faire tomber des puissants. Le h\xE9ros a peut-\xEAtre aussi
+    \xE9t\xE9 un d\xE9tective priv\xE9, travaillant dans l\u2019ombre, surveillant
+    des gens et enqu\xEAtant parfois sur des affaires un peu sordides. Enfin, il
+    peut avoir \xE9t\xE9 un ind\xE9pendant, engag\xE9 par de riches personnes pour
+    accomplir des t\xE2ches garantissant la s\xE9curit\xE9 de l\u2019entreprise ou
+    de la famille, des missions tant\xF4t violentes, tant\xF4t tranquilles."
+  grandImage: {fileID: 21300000, guid: 65c0f3ffe5800a14496cb5588ba4767a, type: 3}
+  bonus: "Le personnage gagne 1 point dans la caract\xE9ristique Perception et 1
+    point dans la caract\xE9ristique Instinct."

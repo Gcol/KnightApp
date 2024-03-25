@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 10 - in
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 21300000, guid: 909babc9143c60b4c98f679edcd4e85e, type: 3}
+  musicFond: {fileID: 0}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "De retour au Knight, les chevaliers peuvent d\xE9briefer avec\r\nleur
+    chevalier de la Table Ronde et lui expliquer ce qui se\r\npasse \xE0 Paris. S\u2019ils
+    ont d\xE9cid\xE9 d\u2019accepter la r\xE9demption de\r\nClay et de ses chevaliers,
+    ils ne sont pas sermonn\xE9s s\u2019ils expliquent\r\nbien que les cibles cherchaient
+    la r\xE9demption. Clay,\r\nBrad et S\xE9l\xE8ne, du moins ceux qui ont surv\xE9cu,
+    sont tout de\r\nm\xEAme mis au cachot pour un temps ind\xE9termin\xE9. Les agents,\r\nGuillaume
+    et ses chevaliers sont affect\xE9s \xE0 d\u2019autres missions.\r\nSi les PJ
+    ont sauv\xE9 les enfants, ceux-ci sont int\xE9gr\xE9s \xE0\r\nl\u2019arche et
+    une mission de secours est envoy\xE9e pour sauver\r\nles autres vivant dans le
+    m\xE9tro.\r\nEnfin, si les PJ parlent de la penombra et de son fabricant,\r\nils
+    permettent au Knight de faire un pas dans sa lutte contre\r\nla penombra et re\xE7oivent
+    ainsi 5 PG suppl\xE9mentaires.\r\nPass\xE9 quelques heures de repos, les PJ re\xE7oivent
+    un\r\nmessage de la part de leur chevalier de la Table Ronde leur\r\ndisant qu\u2019un
+    lac de t\xE9n\xE8bres nocturnes vient d\u2019appara\xEEtre sur\r\nParis et que
+    la zone est mise en quarantaine pour un temps\r\nind\xE9termin\xE9."

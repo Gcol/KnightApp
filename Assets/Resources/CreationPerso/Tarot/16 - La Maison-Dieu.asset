@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: 16 - La Maison-Dieu
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 90973657cdbc508409b4721e8e007696, type: 3}
+  desc: "Sans doute une des lames les plus connues du tarot, la Maison-Dieu repr\xE9sente
+    la destruction, la fin, l'acte d'exterminer la vie, les choses et faire table
+    rase de tout. Mais cette lame est aussi associ\xE9e \xE0 la renaissance apr\xE8s
+    une destruction n\xE9cessaire et \xE0 la naissance de nouveaux potentiels. Elle
+    peut donc symboliser le renouveau et une nouvelle capacit\xE9 \xE0 mieux \xE9voluer."
+  passe: "Une amn\xE9sie, une ville ou un village an\xE9anti, la fin d'une vie, une
+    naissance heureuse, une perte ch\xE8re, une table rase du pass\xE9, la jeunesse,
+    une envie d'exp\xE9rience, un manque d'exp\xE9rience. (Cette lame est incompatible
+    avec l'Arcane sans nom, si cette derni\xE8re carte est tir\xE9e en m\xEAme temps
+    que la Maison-Dieu, dans le cas d'un tirage al\xE9atoire, le PJ doit remplacer
+    une des deux cartes par une autre tir\xE9e al\xE9atoirement.)"
+  bonus: "Les bonus accord\xE9s par la Maison-Dieu sont un peu particuliers. En effet,
+    le personnage ne re\xE7oit pas de bonus en point de caract\xE9ristique, mais
+    \xE0 la place, il re\xE7oit 2 points d\u2019aspect \xE0 r\xE9partir librement."
+  avantagePj: "Soif d'apprendre : Le personnage est sans doute jeune et a besoin
+    d\u2019en apprendre toujours plus de ses co\xE9quipiers. Il les prend sans doute
+    pour exemple et essaie de devenir aussi bon qu\u2019eux dans leurs domaines de
+    pr\xE9dilection. En termes de jeu, une fois par partie et uniquement \xE0 Camelot,
+    le h\xE9ros peut apprendre d\u2019un autre personnage joueur pour augmenter une
+    caract\xE9ristique. Ce personnage, qui est nomm\xE9 professeur, entra\xEEne le
+    h\xE9ros pendant des heures. Il ne peut le faire que s\u2019il poss\xE8de la
+    caract\xE9ristique concern\xE9e \xE0 un niveau sup\xE9rieur de 2 points \xE0
+    celui du h\xE9ros. Au terme de l\u2019entra\xEEnement, le h\xE9ros peut augmenter
+    la caract\xE9ristique concern\xE9e de 1 point, en payant un co\xFBt en exp\xE9rience
+    divis\xE9 par 2."
+  desavantagePj: "Amn\xE9sique : Qu\u2019il ait \xE9t\xE9 retrouv\xE9 \xE0 moiti\xE9
+    mort sur une plage ou qu\u2019il se soit r\xE9veill\xE9 dans un h\xF4pital, le
+    personnage semble n\u2019avoir aucun pass\xE9 et \xEAtre inconnu de tous. Il
+    semble tout de m\xEAme poss\xE9der un avenir glorieux au sein du Knight. En termes
+    de jeu, le pass\xE9 du h\xE9ros doit \xEAtre compos\xE9 par le MJ et rester secret,
+    ses avantages sont aussi choisis par le MJ et seront r\xE9v\xE9l\xE9s au h\xE9ros
+    au cours des diff\xE9rentes parties de Knight (au bon vouloir du MJ)."
+  avantageIA: "Aucun: L\u2019IA ne souhaitant pas aider son porteur, elle n\u2019offre
+    aucun atout."
+  desavantageIA: "Aucun : L\u2019IA ne souhaitant pas aider son porteur, elle n\u2019offre
+    aucun handicap."

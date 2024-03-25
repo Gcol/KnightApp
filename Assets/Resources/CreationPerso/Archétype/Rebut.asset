@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efed071ad960d994482b0662ba2634ca, type: 3}
+  m_Name: Rebut
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: fe401f5fa047efb41b7003d00bbd5939, type: 3}
+  desc: "Le personnage a refus\xE9 de suivre les immortels, bien d\xE9cid\xE9 \xE0
+    vivre une existence libre et d\xE9barrass\xE9e d\u2019une autorit\xE9 injuste.
+    Il est de fait devenu un rebut pour la pl\xE8be citoyenne et ceux qui la dirigent.
+    Le h\xE9ros peut avoir \xE9t\xE9 un survivaliste, vivant durant une poign\xE9e
+    d\u2019ann\xE9es une existence difficile, faite de combats, de violence, de soif
+    et de faim. Il peut aussi avoir \xE9t\xE9 un rebelle, un combattant de la libert\xE9,
+    pr\xE9parant et imaginant des actions, des attentats contre les immortels et
+    leurs serviteurs. Enfin, le personnage a peut-\xEAtre \xE9t\xE9 un pillard, membre
+    d\u2019une bande violente et dangereuse qui ran\xE7onnait voire d\xE9truisait
+    les autres communaut\xE9s de rebuts."
+  grandImage: {fileID: 21300000, guid: 5456ccba87426ce4486ec80eba6e1132, type: 3}
+  bonus: "Le personnage gagne 1 point dans la caract\xE9ristique D\xE9placement et
+    1 point dans la caract\xE9ristique Endurance."

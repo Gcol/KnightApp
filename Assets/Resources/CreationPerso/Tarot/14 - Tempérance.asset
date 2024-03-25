@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69319941a8a09ee4b92619f511538895, type: 3}
+  m_Name: "14 - Temp\xE9rance"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: d438b40f22154b546985cae52b90bbf3, type: 3}
+  desc: "La quatorzi\xE8me lame du tarot symbolise l'\xE9quilibre du corps, la gu\xE9rison,
+    la r\xE9g\xE9n\xE9ration, les soins et les miracles. Elle signifie aussi l'\xE9volution
+    positive du corps, et parfois un changement n\xE9gatif, notamment en ce qui concerne
+    les maladies ou le laisser-aller."
+  passe: "Une gu\xE9rison miraculeuse, une maladie grave soign\xE9e, des blessures
+    graves vite oubli\xE9es, une r\xE9g\xE9n\xE9ration hors du commun, une vie \xE0
+    perfectionner son corps, une vie au service des malades, une vie dans un lieu
+    de soin, un soigneur, des maladies nombreuses, une maladie rare, un laisser-aller
+    total."
+  bonus: "Le PJ gagne 1 point dans l\u2019aspect Chair et 3 points \xE0 r\xE9partir
+    comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
+  avantagePj: "Gu\xE9rison rapide  : Le personnage est dot\xE9 d\u2019un m\xE9tabolisme
+    plus rapide que la normale. Il r\xE9cup\xE8re vite, tr\xE8s vite, et semble pouvoir
+    se remettre de blessures qui laisseraient normalement sur le carreau. En termes
+    de jeu, cela signifie que le personnage met deux fois moins de temps \xE0 r\xE9cup\xE9rer
+    ses points de sant\xE9. De plus, lorsque le personnage r\xE9cup\xE8re des points
+    de sant\xE9 gr\xE2ce \xE0 des soins, des nanoM ou des nods m\xE9dicaux, il en
+    r\xE9cup\xE8re toujours 3 de plus."
+  desavantagePj: "Immunit\xE9 d\xE9ficiente  : Le h\xE9ros a le malheur de poss\xE9der
+    une r\xE9sistance aux maladies, aux poisons et aux toxines quasi nulle, ce qui
+    peut le mettre dans des situations tr\xE8s p\xE9rilleuses. En termes de jeu,
+    lorsque le personnage doit subir une maladie, les effets d\u2019un poison ou
+    d\u2019une toxine, le MJ ne lance pas de d\xE9s de d\xE9g\xE2ts, car le PJ subit
+    automatiquement le maximum."
+  avantageIA: "Vertueuse : L\u2019IA de l\u2019armure veille sur l\u2019\xE2me de
+    son chevalier afin qu\u2019il reste dans le droit chemin. Il est plus difficile
+    de prendre le contr\xF4le de son esprit ou de lui faire faire quelque chose de
+    r\xE9pr\xE9hensible. En termes de jeu, tous les tests visant \xE0 r\xE9sister
+    \xE0 un contr\xF4le mental ou une ruse voient leur difficult\xE9 diminuer de
+    1."
+  desavantageIA: "Psychorigide : L\u2019IA de l\u2019armure est obnubil\xE9e par
+    la puret\xE9 et la vertu, au point de devenir rigide envers tout et n\u2019importe
+    quoi. Le chevalier n\u2019a plus la possibilit\xE9 de faire un faux pas ou de
+    d\xE9vier du droit chemin. En termes de jeu, d\xE8s que le chevalier s\u2019aventure
+    sur le chemin du vice (alcool, sexe, gourmandise, haine, etc.), l\u2019armure
+    se d\xE9folde automatiquement et rechigne \xE0 se mouvoir. Tous les tests effectu\xE9s
+    dans ces cas de figure voient leur difficult\xE9 augmenter de 1."

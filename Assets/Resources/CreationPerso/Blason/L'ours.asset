@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e50f7c75f45bd438bd79c8eab27ced, type: 3}
+  m_Name: L'ours
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 9c7c7f6b852c95b4e8d593c3991600d8, type: 3}
+  desc: "Ce blason repr\xE9sente la protection. C\u2019est celui des gardiens, des
+    sentinelles, des protecteurs en g\xE9n\xE9ral, de tous ceux qui d\xE9fendent
+    la vie. Les chevaliers qui l\u2019arborent d\xE9fendent la vie humaine \xE0 tout
+    prix, faisant \xE9cran de leur propre corps pour emp\xEAcher un massacre ou un
+    meurtre."
+  grandImage: {fileID: 21300000, guid: b037b1b3714fa594aac427c6e4a3c3e1, type: 3}
+  voeu: "Emp\xEAcher la mort d\u2019un \xEAtre humain."

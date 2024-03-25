@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 2 - Trajet Centre De Recherche
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Les chevaliers se dirigent vers le bunker indiqu\xE9 par les\r\ninformations
+    de l\u2019avant-poste. Alors qu\u2019ils partent vers le\r\nnord, ils peuvent
+    d\xE9couvrir \xE0 quelque distance plusieurs\r\ncr\xE9atures de la Chair compl\xE8tement
+    gel\xE9es. Vu leur \xE9tat,\r\nelles faisaient apparemment partie de la toute
+    premi\xE8re cohorte\r\nqui avait attaqu\xE9 l\u2019avant-poste. Le trajet dure
+    environ\r\nune heure, durant laquelle la neige finit enfin de tomber.\r\nAlors
+    qu\u2019ils arrivent aux coordonn\xE9es indiquant l\u2019emplacement\r\ndu bunker,
+    les h\xE9ros ne peuvent pas avoir de\r\ndoute : celui-ci a lui aussi \xE9t\xE9
+    victime d\u2019une attaque. Ses syst\xE8mes\r\nautomatiques d\u2019armement (tourelles
+    automatiques\r\net drones) sont apparemment arriv\xE9s \xE0 bout d\u2019une grande\r\npartie
+    des ennemis avant d\u2019\xEAtre mis hors service. En s\u2019approchant,\r\nles
+    chevaliers vont se faire interpeller et les personnes\r\npr\xE9sentent dans le
+    complexe vont les accueillir en h\xE9ros.\r\nApparemment, ils ont subi de grosses
+    pertes.\r."

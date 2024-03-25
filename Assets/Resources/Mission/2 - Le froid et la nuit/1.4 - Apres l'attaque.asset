@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81d091ed8096c143ab2870ab31ef022, type: 3}
+  m_Name: 1.4 - Apres l'attaque
+  m_EditorClassIdentifier: 
+  fondSprite: {fileID: 0}
+  musicFond: {fileID: 8300000, guid: e034761fc6fd18847a73d1286eb5b86b, type: 3}
+  videoClip: {fileID: 0}
+  creatures: []
+  SceneDescription: "Si les chevaliers observent les cadavres\r\n, ils peuvent constater
+    que ces derniers\r\nont beaucoup moins subi le coup du froid de la Sib\xE9rie.\r\nIls
+    viennent apparemment de plus pr\xE8s que la premi\xE8re\r\ncohorte. Si les h\xE9ros
+    souhaitent suivre leurs traces jusqu\u2019\xE0\r\nleur origine, plus au sud,
+    celles-ci seront tr\xE8s vite effac\xE9es\r\npar la neige qui tombe incessamment
+    (le relais satellite\r\ns\u2019av\xE8re inefficace \xE0 cause de la neige).\n\nLes
+    chevaliers peuvent maintenant prendre le temps\r\nd\u2019explorer l\u2019avant-poste
+    et d\u2019\xE9tudier les quelques informations\r\nr\xE9colt\xE9es par leurs coll\xE8gues
+    avant leur d\xE9c\xE8s. Le b\xE2timent\r\nest assez petit et, en dehors des lieux
+    de vie des trois\r\nmembres de la section Giant d\xE9c\xE9d\xE9s (dortoir, cuisine,
+    salle\r\nde repos) au 1er \xE9tage, de la r\xE9serve o\xF9 les prototypes sont\r\nentrepos\xE9s
+    (dans des coffres ferm\xE9s par des codes) au rezde-\r\nchauss\xE9e et du centre
+    de contr\xF4le du syst\xE8me de s\xE9curit\xE9\r\nau 2e \xE9tage, seul l\u2019espace
+    de travail (aussi au 2e \xE9tage) peut\r\nregrouper des indices pour les h\xE9ros.\n\n\n"

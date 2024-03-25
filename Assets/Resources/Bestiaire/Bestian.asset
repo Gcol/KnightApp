@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a94474019299544857326327dbabd1, type: 3}
+  m_Name: Bestian
+  m_EditorClassIdentifier: 
+  enemiNiveau: 0
+  typeEnemy: 1
+  dangerosite: 2
+  currentImage: {fileID: 21300000, guid: 8d191605e96b3bd4d94864805d31163f, type: 3}
+  stat:
+    def: 4
+    reac: 3
+    initative: 2
+    ps: 20
+    bouclier: 0
+    debordement: 0
+    "coh\xE9sion": 0
+    pointArmure: 0
+  aspect:
+  - aspect: 0
+    valeurAspect: 4
+    aspestExceptionel: 
+  - aspect: 1
+    valeurAspect: 8
+    aspestExceptionel: Mineu(2)
+  - aspect: 2
+    valeurAspect: 2
+    aspestExceptionel: 
+  - aspect: 3
+    valeurAspect: 1
+    aspestExceptionel: 
+  - aspect: 4
+    valeurAspect: 5
+    aspestExceptionel: 
+  pointFaible: 
+  description: "Les bestians sont tous les animaux qui ont subi avec violence l\u2019influence
+    de la B\xEAte. Qu\u2019elles soient mammif\xE8res, reptiles,\r\nvolatiles ou
+    autres, toutes les cr\xE9atures qui ont surv\xE9cu au passage des noctes ont
+    malgr\xE9 tout subi des transformations importantes\r\nface aux t\xE9n\xE8bres.
+    La plupart de ces modifications sont de deux ordres. D\u2019une part, les caract\xE9ristiques
+    physiques\r\nde ces animaux ont mut\xE9 pour se rapprocher des cr\xE9atures nocturnes
+    et abyssales. Capables de voir la nuit, comportant\r\n\xE9cailles et branchies
+    par lesquelles ils aspirent l\u2019obscurit\xE9 qui les environne, les bestians
+    ne sont plus que l\u2019ombre de l\u2019esp\xE8ce\r\n\xE0 laquelle ils appartenaient
+    auparavant. D\u2019autre part, leur comportement suit d\u2019\xE9tranges changements.
+    Tous, quelle que soit\r\nleur nature originelle, sont des pr\xE9dateurs. Patients,
+    souvent plus intelligents qu\u2019ils ne l\u2019\xE9taient avant, ils sont sp\xE9cialistes
+    de\r\nla traque et des attaques coordonn\xE9es. Agissant la plupart du temps
+    en meutes, bancs, essaims, ils tourmentent leurs proies\r\njusqu\u2019\xE0 ce
+    que celles-ci finissent par abandonner et se laisser faire.\r\nLe passage d\u2019animal
+    \xE0 bestian peut arriver brutalement ou \xEAtre plus lent, parfois m\xEAme ind\xE9celable.
+    L\u2019arche de\r\nMadrid n\u2019accueille plus aucun animal de compagnie depuis
+    que des chats et des chiens, n\u2019ayant pourtant subi aucune modification\r\nphysique,
+    ont attaqu\xE9 ou harcel\xE9 leur ma\xEEtre sans raison apparente."
+  Tactique: "es bestians attaquent d\u2019abord les combattants au contact. G\xE9n\xE9ralement,
+    un quart d\u2019entre eux reste \xE0 distance\r\npour vomir des flots de t\xE9n\xE8bres.
+    Ils ciblent en priorit\xE9 les ennemis poss\xE9dant un haut score en Dame puis
+    en Aura."
+  Capacite: "Module (saut nv1) : Le PNJ b\xE9n\xE9ficie de l\u2019\xE9quivalent du
+    module saut au niveau 1."
+  arme:
+  - name: Griffes Et Crocs
+    degat: 5D6 + 2
+    porte: 0
+    effets: []
+  - name: Float de tenebres
+    degat: 3D6
+    porte: 2
+    effets:
+    - effet: {fileID: 11400000, guid: d37856b172237584fb5b999fe5d1f8c2, type: 2}
+      level: 1

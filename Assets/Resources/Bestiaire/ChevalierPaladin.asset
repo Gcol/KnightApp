@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a94474019299544857326327dbabd1, type: 3}
+  m_Name: ChevalierPaladin
+  m_EditorClassIdentifier: 
+  enemiNiveau: 0
+  typeEnemy: 0
+  dangerosite: 0
+  currentImage: {fileID: 0}
+  stat:
+    def: 4
+    reac: 4
+    initative: 4
+    ps: 33
+    bouclier: 8
+    debordement: 0
+    "coh\xE9sion": 0
+    pointArmure: 120
+  aspect:
+  - aspect: 0
+    valeurAspect: 0
+    aspestExceptionel: 
+  - aspect: 1
+    valeurAspect: 0
+    aspestExceptionel: 
+  - aspect: 2
+    valeurAspect: 0
+    aspestExceptionel: 
+  - aspect: 3
+    valeurAspect: 0
+    aspestExceptionel: 
+  - aspect: 4
+    valeurAspect: 0
+    aspestExceptionel: 
+  pointFaible: 
+  description: 
+  Tactique: 
+  Capacite: 
+  arme: []

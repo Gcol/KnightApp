@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e50f7c75f45bd438bd79c8eab27ced, type: 3}
+  m_Name: L'Aigle
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 0011dfd4f18b0194c896141776b7881e, type: 3}
+  desc: "Nomm\xE9s \xAB les justes \xBB, ceux qui arborent le blason de l\u2019aigle
+    sont les garants de la justice au sein du Knight et ailleurs. Ils font respecter
+    la loi du Knight et son code o\xF9 qu\u2019ils aillent, peu importe leurs interlocuteurs
+    (sauf les immortels et leurs principaux attach\xE9s)."
+  grandImage: {fileID: 21300000, guid: 0cb794405a1e4b241b10d503004a5349, type: 3}
+  voeu: " Faire respecter le code d\u2019honneur du Knight lorsqu\u2019il semble
+    bafou\xE9."
