@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a6894bfe07bae4d89ebacbb62f38a9, type: 3}
+  m_Name: Mode Changeling
+  m_EditorClassIdentifier: 
+  description: "Gr\xE2ce aux nanomachines, la m\xE9ta-armure peut se faire passer
+    pour une cr\xE9ature, une personne, un \xEAtre diff\xE9rent. Cette transformation
+    par les nanomachines peut \xEAtre \xE9tendue jusqu\u2019\xE0 3 m\xE8tres de rayon
+    autour de l\u2019armure pour g\xE9n\xE9rer des \xAB faux \xEAtres \xBB de nanomachines
+    suppl\xE9mentaires. Le chevalier peut ainsi faire croire qu\u2019il est accompagn\xE9
+    ou augmenter la taille de sa fausse apparence pour se faire passer pour un \xEAtre
+    plus grand.\r\n\r\nAttention : Les nanomachines permettant ces transformations
+    sont toujours en mouvement et cr\xE9ent une sorte d\u2019enveloppe molle sur
+    la m\xE9ta-armure. Le personnage transform\xE9 peut prendre ou ramasser des choses,
+    mais si quelqu\u2019un entre en contact avec lui, il lui est ais\xE9 de rep\xE9rer
+    la supercherie."
+  energiCout: "6 PE transformation personnelle / 8 PE transformation \xE9tendue /
+    3 PE par \xAB faux \xEAtre \xBB g\xE9n\xE9r\xE9 (maximum 4)."
+  activation: 1 tour en phase de conflit ou 6 secondes en dehors d'une phase de conflit.
+  duree: "Une sc\xE8ne, une phase ou une heure, peu importe la phase"
+  effet: " Lorsque le mode est activ\xE9, la m\xE9ta-armure g\xE9n\xE8re une fausse
+    apparence pouvant donner l\u2019illusion qu\u2019une autre personne est pr\xE9sente
+    ou faire croire \xE0 la pr\xE9sence d\u2019une machine, etc. Les transformations
+    ainsi g\xE9n\xE9r\xE9es doivent provenir d\u2019\xE9l\xE9ments que le personnage
+    peut voir ou d\u2019\xE9l\xE9ments pris dans la base de donn\xE9es de l\u2019armure.
+    En plus des apparences de base incluses dans l\u2019IA, celle-ci scanne automatiquement
+    les personnes et cr\xE9atures avec lesquelles le chevalier est en contact direct
+    pendant plus d\u2019une minute.\r\n\r\nLe chevalier peut aussi cr\xE9er des projections,
+    des \xAB faux \xEAtres \xBB, qui doivent avoir une d\xE9marche coh\xE9rente par
+    rapport \xE0 l\u2019illusion que le chevalier veut donner et qui, \xE9tant g\xE9r\xE9s
+    par l\u2019IA de la m\xE9ta-armure, ne peuvent accomplir d\u2019action complexe.
+    Le chevalier dispose d\u2019une IA suffisamment performante pour pouvoir g\xE9rer
+    tous les faux \xEAtres, et la limite du nombre de faux-\xEAtres tient compte
+    de la capacit\xE9 du chevalier \xE0 maintenir une illusion cr\xE9dible en les
+    contr\xF4lant tous \xE0 la fois aid\xE9 de son IA. Les faux \xEAtres qui clonent
+    un alli\xE9 ou d\xE9guisent un alli\xE9 ne sont pas contr\xF4l\xE9s par lui,
+    c\u2019est toujours le Bard et son IA qui contr\xF4le. Les faux \xEAtres ne peuvent
+    s\u2019\xE9loigner \xE0 plus de 3 m\xE8tres du chevalier et sont totalement intangibles,
+    incapables de se battre, de prendre des choses, etc.\r\n\r\nPour percer l\u2019illusion,
+    un hostile, un salopard ou un patron doit r\xE9ussir un test de Machine difficult\xE9
+    difficile (6). Les PJ, quant \xE0 eux, doivent r\xE9ussir un test base Perception
+    difficult\xE9 normale (3). Le personnage peut d\xE9sactiver le mode d\u2019une
+    simple pens\xE9e. Un chevalier en m\xE9ta-armure Ranger utilisant la Vision peut
+    d\xE9tecter un chevalier utilisant le mode Changeling sans faire de test.\r\n\r\nC\u2019est
+    au MJ de d\xE9terminer les limites du mode Changeling avec le PJ poss\xE9dant
+    la m\xE9ta-armure Bard.\r\n\r\nAttention : si le Bard utilise le mode et que
+    sa pr\xE9sence ne pose pas de questions aux gens qui l\u2019entourent, il ne
+    provoque aucun test. Percer l\u2019illusion (que ce soit pour un PJ ou un PNJ)
+    n\xE9cessite de la concentration et est une action de d\xE9placement. Cette action
+    doit na\xEEtre d\u2019une volont\xE9 et n\u2019est pas quelque chose d\u2019automatique."

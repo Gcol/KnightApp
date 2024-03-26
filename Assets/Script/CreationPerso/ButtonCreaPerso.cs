@@ -7,13 +7,12 @@ using UnityEngine.UI;
 public class ButtonCreaPerso : MonoBehaviour
 {
     public CreaPerso entity;
-    public TextMeshProUGUI cText;
-    public Image cImage;
 
     // Start is called before the first frame update
     void Start()
     {
-        cText.text = entity.name;
-        cImage.sprite = entity.currentSprite;
+        gameObject.name = entity.name;
+        transform.Find("Text (TMP)").GetComponent<TextMeshProUGUI>().text = entity.name;
+        gameObject.GetComponent<Image>().sprite = entity.currentSprite;
     }
 }

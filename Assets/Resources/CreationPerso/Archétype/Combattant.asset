@@ -25,3 +25,6 @@ MonoBehaviour:
   grandImage: {fileID: 21300000, guid: a1055e5ac8031334188632862466e604, type: 3}
   bonus: " Le personnage gagne 1 point dans la caract\xE9ristique Combat et 1 point
     dans la caract\xE9ristique Tir."
+  bonusCarac:
+  - choixCarac: 09000000
+  - choixCarac: 0b000000

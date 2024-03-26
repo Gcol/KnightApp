@@ -12,11 +12,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9d7266a299c1641b490efbee3df7dc, type: 3}
   m_Name: Ranger
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 0}
+  currentSprite: {fileID: 21300000, guid: e4120bdfb45212e4eaaaeee7c9ec8646, type: 3}
+  desc: "\r\nD'aspect, la Ranger est une armure Rogue sur laquelle les plaques de
+    blindage ont \xE9t\xE9 r\xE9duites \xE0 seulement 3 centim\xE8tres afin d'all\xE9ger
+    le porteur, le fusil Longbow \xE9tant d\xE9j\xE0 tr\xE8s lourd. Dans le dos de
+    l'armure, un r\xE9acteur \xE0 \xE9nergie alpha, fiable et bien prot\xE9g\xE9,
+    pourvoit tous les syst\xE8mes en \xE9nergie. Particularit\xE9 notable, l'armure
+    Ranger abrite des r\xE9servoirs de nanomachines et est reli\xE9e au fusil Longbow
+    par des tubes blind\xE9s o\xF9 un liquide charg\xE9 de mat\xE9riaux et de nanomachines
+    circule dans toutes les parties du fusil \xE0 travers une armature t\xE9lescopique
+    creuse, un peu comme un syst\xE8me sanguin. Les nanomachines changent sur commande
+    le calibre de l'arme et assemblent les munitions en suivant des sch\xE9mas pr\xE9\xE9tablis.
+    La lunette du fusil et les capteurs de l'armure recueillent nombre de rayonnements
+    pour rep\xE9rer l'adversaire et analyser la trajectoire du projectile malgr\xE9
+    la m\xE9t\xE9o et les obstacles (arbre, b\xE9ton, m\xE9taux, etc.). Petite information
+    non n\xE9gligeable, l'ordinateur int\xE9gr\xE9 \xE0 l'armure calcule tr\xE8s
+    pr\xE9cis\xE9ment la trajectoire de la munition jusqu'\xE0 3 km.\r\n\r\nLe Longbow
+    peut assembler plusieurs types de munitions selon les calibres. Des munitions
+    lumi\xE8re, avec ou sans flash, tra\xE7antes ou non, pour \xE9viter de se faire
+    rep\xE9rer, des uraniums perce- armures, simples, \xE0 c\u0153ur explosif ou
+    \xE0 nanomachines offensives, etc. \xC9videmment, toutes ces technologies co\xFBtent
+    cher en \xE9nergie, mais elles permettent au Ranger de faire face \xE0 la grande
+    majorit\xE9 des situations.\r\n"
+  historique: "Il est tr\xE8s difficile d'\xE9voquer l'armure Ranger sans parler
+    du fusil Longbow qui l'accompagne. En fait, l\xE0 o\xF9 la plupart des m\xE9ta-armures
+    sont cr\xE9\xE9es pour un besoin bien pr\xE9cis sur le terrain, pour accomplir
+    une fonction requ\xE9rant des aptitudes particuli\xE8res, souvent in\xE9dites,
+    l'armure Ranger, elle, a \xE9t\xE9 pens\xE9e autour d'une arme, le fusil polymorphe
+    polycalibre Longbow. Invent\xE9 par Merlin lui-m\xEAme suite \xE0 la mort de
+    plusieurs chevaliers lors du si\xE8ge d'un avant-poste par des cr\xE9atures colossales
+    de l'Anath\xE8me, le fusil Longbow est taill\xE9 pour abattre les ennemis les
+    plus gros et effacer les meutes d'abominations de la carte, le tout \xE0 n'importe
+    quelle distance. La m\xE9ta-armure Ranger et le fusil Longbow ne sont en fait
+    qu'une seule machinerie qui concilie la puissance et la pr\xE9cision d'un fusil
+    anti-mat\xE9riel avec la polyvalence n\xE9cessaire \xE0 celui qui \xE9volue dans
+    les territoires de l'Anath\xE8me. \xC0 la base, un fusil anti-mat\xE9riel est
+    une arme surdimensionn\xE9e con\xE7ue pour tirer des munitions de mitrailleuse
+    lourde et de canon antia\xE9rien depuis une position s\xE9curis\xE9e, loin de
+    sa cible. Or un chevalier en armure Ranger est appel\xE9 \xE0 rencontrer des
+    adversaires sur des terrains de combat \xE9troits o\xF9 un fusil aussi encombrant
+    est inutilisable. Le fusil Longbow compense ce probl\xE8me en \xE9tant parfaitement
+    modifiable en termes de taille et de calibre, et ce, en quelques secondes seulement."
   PointArmure: 50
   PointEnergie: 70
   ChampDeForce: 12
+  generationMetaArmure: 1
   allCapacite:
-  - {fileID: 0}
-  - {fileID: 0}
-  evolution: 
+  - {fileID: 11400000, guid: 247d202b1128b714fb58e14c59d88846, type: 2}
+  - {fileID: 11400000, guid: c67ff08923a3a7642b3de0dd6965e5a8, type: 2}
+  overdrive: 00000000060000000c0000000d000000
+  slot:
+  - nameSlot: BrasD
+    number: 4
+  - nameSlot: "T\xEAte"
+    number: 4
+  - nameSlot: BrasG
+    number: 4
+  - nameSlot: Torse
+    number: 6
+  - nameSlot: JambeD
+    number: 4
+  - nameSlot: JambeL
+    number: 4
+  evolution:
+  - numberPG: 50
+    effect: "D\xE9sormais, pour 6 PE par effet, le chevalier ajoute un ou plusieurs
+      effets parmi ceuxci (maximum 3) \xE0 son prochain tir : anti-Anath\xE8me, d\xE9moralisant,
+      p\xE9n\xE9trant 10, ignore armure, en cha\xEEne, fureur."
+    buyable: 1
+  - numberPG: 50
+    effect: "Limite d\xE9g\xE2ts et de violence par PE augment\xE9 (max 14D6 d\xE9g\xE2ts
+      et 12D6 violence). Profil de base: \r\nD\xE9g\xE2ts 5D6\r\nViolence 3D6\r\nPort\xE9e
+      Moyenne\r\nEffets Lourd / deux mains / assistance \xE0 l\u2019attaque"
+    buyable: 1
+  - numberPG: 50
+    effect: "Le Longbow ne poss\xE8de plus l\u2019effet\r\nlourd, mais garde l\u2019effet
+      deux mains"
+    buyable: 1
+  - numberPG: 100
+    effect: "Tous les effets ajout\xE9s lors d\u2019un tir (pas les augmentations
+      de d\xE9g\xE2ts ou de violence) du Longbow co\xFBtent \xE0 pr\xE9sent 2 PE
+      de moins (avec un minimum de 1 par effet ajout\xE9)."
+    buyable: 1

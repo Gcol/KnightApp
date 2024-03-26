@@ -8,9 +8,12 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Nouvelle Capacite Sans Degat", menuName = "Knight / CapaciteSansDegat")]
 public class CapaciteSansDegat : Capacite
 {
+    [TextArea(0, 100)]
     public string energiCout;
-    public string duree;
+    [TextArea(0, 100)]
     public string activation;
-    [Multiline]
+    [TextArea(0, 100)]
+    public string duree;
+    [TextArea(0, 100)]
     public string effet;
 }

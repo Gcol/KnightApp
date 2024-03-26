@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a6894bfe07bae4d89ebacbb62f38a9, type: 3}
+  m_Name: Mode Companion
+  m_EditorClassIdentifier: 
+  description: "La m\xE9ta-armure Druid est capable de g\xE9n\xE9rer trois types
+    de compagnons diff\xE9rents. Un seul type peut \xEAtre g\xE9n\xE9r\xE9 \xE0 la
+    fois et uniquement de la mani\xE8re dont il est pr\xE9sent\xE9 plus loin. Deux
+    ou trois types de compagnons ne peuvent \xEAtre cr\xE9\xE9s en m\xEAme temps
+    lors d\u2019une m\xEAme sc\xE8ne ou d\u2019une m\xEAme phase de conflit, un seul
+    type pouvant exister \xE0 la fois. Lorsque le chevalier g\xE9n\xE8re un compagnon,
+    il d\xE9ploie des nanomachines depuis la paume de son gantelet, nanomachines
+    qui se mat\xE9rialisent en un ou plusieurs alli\xE9s robotiques.\r\n\r\nChaque
+    type de compagnon dure le temps d\u2019une sc\xE8ne ou d\u2019une phase de conflit.
+    Pour prolonger la \xAB vie \xBB d\u2019un type de compagnon lors de la sc\xE8ne
+    ou de la phase de conflit suivante, le chevalier doit d\xE9penser la moiti\xE9
+    des PE qu\u2019il d\xE9penserait normalement. L\u2019activation co\xFBte 6 secondes,
+    ou un tour complet. D\xE9sactiver un compagnon ne co\xFBte ni PE, ni action.\r\n\r\nSi
+    un chevalier souhaite changer de type de compagnon alors qu\u2019un type est
+    d\xE9j\xE0 pr\xE9sent, il doit de nouveau payer le co\xFBt normal en PE et utiliser
+    l\u2019activation standard du mod. Le compagnon pr\xE9sent tombe en scories de
+    nanomachines alors qu\u2019un autre se cr\xE9e, ses PA et ses PE \xE9tant au
+    maximum.\r\n\r\nDans tous les cas, si les PA (ou la coh\xE9sion) du type de compagnon
+    cr\xE9\xE9 tombent \xE0 z\xE9ro, il est d\xE9truit. Un nouveau type de compagnon
+    peut \xEAtre cr\xE9\xE9 pour un co\xFBt normal en \xE9nergie.\r\n\r\nL\u2019effet
+    ignore armure n\u2019a aucun effet sur les PA du compagnon, les d\xE9g\xE2ts
+    sont appliqu\xE9s normalement. En outre, il ignore toutes les capacit\xE9s de
+    type domination et peur X.\r\n\r\nLes compagnons ne peuvent jamais s\u2019\xE9loigner
+    du porteur de la m\xE9ta-armure Druid d\u2019une distance sup\xE9rieure \xE0
+    la port\xE9e longue. Si un compagnon d\xE9passe cette distance, il tombe en scories
+    de nano-machines et est consid\xE9r\xE9 comme d\xE9truit.\r\n\r\nLes compagnons
+    agissent \xE0 leur initiative, le chevalier n\u2019a besoin d\u2019aucune action
+    pour les faire agir.\r\n\r\nEnfin, les compagnons peuvent recevoir les b\xE9n\xE9fices
+    apport\xE9s par les nods et toutes les capacit\xE9s appropri\xE9es. Leurs PE
+    se rechargent de la m\xEAme mani\xE8re que ceux des chevaliers et ils peuvent
+    r\xE9cup\xE9rer des PA en \xE9tant r\xE9par\xE9s, gr\xE2ce \xE0 des capacit\xE9s
+    ou des nods."
+  energiCout: "16 / 8 pour prolonger un compagnon lors de la sc\xE8ne ou de la phase
+    de conflit suivante"
+  activation: 1 tour en phase de conflit ou 6 secondes en dehors d'une phase de conflit.
+  duree: "Une sc\xE8ne ou une phase de conflit"
+  effet: "G\xE9n\xE9ration de compagnon\r\n\r\nLorsque le chevalier cr\xE9e un type
+    de compagnon, il doit d\xE9cider de lui octroyer un minimum de PE depuis son
+    propre noyau d\u2019\xE9nergie. Pour effectuer cela, il doit choisir de baisser
+    temporairement son total de PE de 10, 20, 30, 40 ou 50 points. Ses PE actuels
+    sont diminu\xE9s du nombre de PE totaux sacrifi\xE9s. Attention, un chevalier
+    ne peut pas sacrifier plus de PE de son total qu\u2019il n\u2019en poss\xE8de
+    dans son score actuel.\r\n\r\nCes points sont sacrifi\xE9s tant que le type de
+    compagnon est pr\xE9sent et forment le total de PE du compagnon ainsi que ses
+    PE actuels. Pour utiliser ses modules, le type de compagnon devra d\xE9penser
+    ces PE.\r\n\r\nLorsque le compagnon est d\xE9truit ou lorsqu\u2019il dispara\xEEt,
+    le chevalier r\xE9cup\xE8re son total de PE et ses PE actuels sont augment\xE9s
+    \xE0 hauteur de ceux que poss\xE9dait le compagnon \xE0 sa destruction."

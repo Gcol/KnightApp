@@ -16,6 +16,13 @@ public class BlasonManager : MonoBehaviour
     public TextMeshProUGUI supInfoText;
     public TextMeshProUGUI supInfoVoeu;
     public TextMeshProUGUI supInfoButton;
+
+    public Blason currentObj;
+
+    public void UpdatePerso()
+    {
+        cMM.UpdatePerso(currentObj);
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +32,7 @@ public class BlasonManager : MonoBehaviour
 
     public void PushButton(Blason blason)
     {
+        currentObj  = blason;
         tarotInfoPannel.SetActive(true);
         supInfoImage.sprite = blason.grandImage;
         supInfoTitre.text = blason.name;

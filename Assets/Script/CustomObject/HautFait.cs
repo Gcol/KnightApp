@@ -13,5 +13,6 @@ public class HautFait : CreaPerso
     public string Bonus;
     [TextArea(2, 40)]
     public string Surnoms;
+    public List<ChoixCarac> bonusCarac;
 
 }

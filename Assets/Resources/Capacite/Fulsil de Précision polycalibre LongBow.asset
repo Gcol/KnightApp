@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175ec16ba29f9754a834520cec546a68, type: 3}
+  m_Name: "Fulsil de Pr\xE9cision polycalibre LongBow"
+  m_EditorClassIdentifier: 
+  description: "La m\xE9ta-armure Ranger et le fusil Longbow ne sont qu\u2019une
+    seule machinerie qui concilie la puissance et la pr\xE9cision d\u2019un fusil
+    anti-mat\xE9riel avec la polyvalence n\xE9cessaire \xE0 celui qui \xE9volue seul
+    dans les territoires de l\u2019Anath\xE8me. Le fusil Longbow est sans doute l\u2019arme
+    principale d\u2019un chevalier en armure Ranger. Le fusil de pr\xE9cision Longbow
+    peut \xEAtre rack\xE9. Il compte dans la limite des armes contenues dans le rack
+    de la m\xE9ta-armure. De plus, au m\xEAme titre qu\u2019une autre arme de tir,
+    il peut recevoir des am\xE9liorations d\u2019armes, mais dans la limite de deux
+    (et seulement deux) maximum, avec les m\xEAmes restrictions que les armes poss\xE9dant
+    l\u2019effet lourd.\n\nGr\xE2ce au fusil Longbow, le chevalier en m\xE9ta-armure
+    Ranger peut choisir lui-m\xEAme les d\xE9g\xE2ts et la violence de ses tirs.
+    Chaque modification dure le temps d\u2019un tir, et activer une ou plusieurs
+    modifications en m\xEAme temps ne co\xFBte aucune action. Enfin, le chevalier
+    peut ajouter des effets \xE0 ses tirs en d\xE9pensant les PE n\xE9cessaires.
+    \xC0 chaque tir, il peut choisir jusqu\u2019\xE0 trois effets distincts dans
+    chaque liste et changer \xE0 chacun de ses tirs. L\u2019effet n\u2019est disponible
+    que pour un seul tir (une seule attaque) mais ses cons\xE9quences peuvent perdurer
+    au-del\xE0 d\u2019un tour (exemple : d\xE9g\xE2ts continus, d\xE9signation\u2026).
+    Il faut payer l\u2019\xE9nergie idoine \xE0 chaque tir."
+  nbDiceDegat: 3
+  nbDiceViolence: 1
+  degatBonus: 0
+  violenceBonus: 0
+  energiCout: 0
+  portee: Moyenne
+  duree: 1 round
+  activation: Action de combat
+  effet: "Lourd / deux mains / assistance \xE0 l\u2019attaque\n\n\u2022 Pour 1 PE
+    par effet, le chevalier peut augmenter la violence ou les d\xE9g\xE2ts d\u20191D6
+    lors de son prochain tir, avec un maximum de 6D6 d\xE9s g\xE9n\xE9r\xE9s (et
+    donc un maximum de 9D6 lanc\xE9s en d\xE9g\xE2ts et 7D6 lanc\xE9s en violence).
+    Il peut aussi augmenter sa port\xE9e (moyenne \xE0 longue, longue \xE0 lointaine).\r\n\u2022
+    Pour 2 PE par effet, le chevalier ajoute un ou plusieurs effets parmi ceux-ci
+    (maximum 3) \xE0 son prochain tir : d\xE9g\xE2ts continus 3, silencieux, choc
+    1, perce armure 40, ultraviolence, d\xE9signation.\r\n\u2022 Pour 3 PE par effet,
+    le chevalier ajoute un ou plusieurs effets parmi ceux-ci (maximum 3) \xE0 son
+    prochain tir : lumi\xE8re 4, dispersion 3, artillerie, p\xE9n\xE9trant 6, perce
+    armure 60, anti-v\xE9hicule."

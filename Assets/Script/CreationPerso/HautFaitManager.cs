@@ -18,8 +18,16 @@ public class HautFaitManager : MonoBehaviour
 
     public TextMeshProUGUI boutonText;
 
+
+    public HautFait currentObj;
+
+    public void UpdatePerso()
+    {
+        cMM.UpdatePerso(currentObj);
+    }
     public void PushButton(HautFait cObjct)
     {
+        currentObj = cObjct;
         PannelInfoPannel.SetActive(true);
         supInfoImage.sprite = cObjct.grandImage;
         supInfoTitre.text = cObjct.name;

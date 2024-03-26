@@ -12,14 +12,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9d7266a299c1641b490efbee3df7dc, type: 3}
   m_Name: Barbarian
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 21300000, guid: a26cfde94ad065b428c2b20e52f69634, type: 3}
-  PointArmure: 70
+  currentSprite: {fileID: 21300000, guid: 02432c59cc41e7b4c8a39639ecc514f5, type: 3}
+  desc: "\rD'aspect, l'armure Barbarian est une armure de deuxi\xE8me g\xE9n\xE9ration
+    plus r\xE2bl\xE9e et aux muscles impressionnants. Le mode Goliath, utilis\xE9
+    pour modifier l'armure, change diam\xE9tralement son aspect. Ainsi, lorsque la
+    force de l'armure est augment\xE9e, les muscles se multiplient et la taille de
+    l'armure s'accro\xEEt consid\xE9rablement.\r\n\r\nCes prodiges peuvent \xEAtre
+    effectu\xE9s gr\xE2ce aux canaux microscopiques qui parcourent l'armure et dans
+    lesquels les nanomachines circulent pour se d\xE9ployer sur les parties du corps
+    d\xE9finies par le mode Goliath. Par une simple pens\xE9e, le chevalier choisit
+    d'augmenter sa taille et sa force et, en une \xE0 deux secondes, l'armure r\xE9pond.\r\n\r\nSeul
+    b\xE9mol, ce module tire trop sur le r\xE9acteur standard mis en place lors de
+    son d\xE9veloppement et, vu la fragilit\xE9 des r\xE9acteurs Infinity, il \xE9tait
+    hors de question d'en inclure un dans une armure taill\xE9e pour le combat au
+    contact. Le mode Goliath \xE9tant tr\xE8s gourmand en \xE9nergie, le porteur
+    doit donc faire constamment attention \xE0 ne pas l'\xE9puiser. En plus d'\xEAtre
+    de bons combattants, les chevaliers en armure Barbarian doivent donc \xEAtre
+    assez malins pour ne pas siphonner leur r\xE9serve d'\xE9nergie et se retrouver
+    sans augmentation au mauvais moment.\r\n"
+  historique: "Derni\xE8re-n\xE9e de l'esprit de Merlin, la m\xE9ta-armure Barbarian
+    est un monstre de combat d'une puissance inimaginable. Sa conception risqu\xE9e
+    et son utilit\xE9 en font une armure rare autant qu'impressionnante. La combinaison,
+    dont l'aspect et le fonctionnement sont calqu\xE9s sur le corps humain, est uniquement
+    constitu\xE9e d'\xE9l\xE9ment alpha, de soie d'araign\xE9e et de nanomachines.
+    Gr\xE2ce \xE0 ces derni\xE8res, pr\xE9sentes dans le moindre interstice, elle
+    peut \xEAtre modifi\xE9e par le porteur afin d'obtenir une puissance accrue.
+    Le chevalier peut ainsi augmenter la taille et la densit\xE9 des muscles hauts
+    de l'armure pour obtenir une force extraordinaire en un temps record. En somme,
+    l'armure Barbarian se r\xE9v\xE8le utile sur les fronts qui n\xE9cessitent des
+    frappes brutales et peut d\xE9ployer en quelques secondes une force colossale.
+    Toutes ces aptitudes ne fonctionnent qu'avec les capacit\xE9s physiques de l'armure
+    telles que la force. De fait, les chevaliers en m\xE9ta-armure Barbarian deviennent
+    souvent des adeptes du combat au contact, capables de tordre des r\xE9verb\xE8res,
+    de se battre en \xE9crasant des v\xE9hicules sur leurs adversaires ou d'arracher
+    les membres de leurs ennemis."
+  PointArmure: 60
   PointEnergie: 60
-  ChampDeForce: 10
+  ChampDeForce: 12
+  generationMetaArmure: 2
   allCapacite:
   - {fileID: 11400000, guid: b86d07d4e276ef749b316d7676256fda, type: 2}
-  allArme: []
-  allModule:
-  - {fileID: 11400000, guid: 99fe89b7cef22ad438cf03b648dd8f93, type: 2}
-  - {fileID: 11400000, guid: 8f492fa76b5fc6d4c9b16abcb6b19cab, type: 2}
-  - {fileID: 11400000, guid: 5c6ea9ccdb74d1c478a3a2514579b0cf, type: 2}
+  overdrive: 01000000020000000300000004000000
+  slot:
+  - nameSlot: BrasD
+    number: 5
+  - nameSlot: "T\xEAte"
+    number: 5
+  - nameSlot: BrasG
+    number: 5
+  - nameSlot: Torse
+    number: 8
+  - nameSlot: JambeD
+    number: 5
+  - nameSlot: JambeL
+    number: 5
+  evolution:
+  - numberPG: 150
+    effect: "La limite de taille du mode Goliath est de 8 m\xE8tres (soit une augmentation
+      de 6 m\xE8tres)."
+    buyable: 0
+  - numberPG: 200
+    effect: "La d\xE9fense ne baisse plus lors de l\u2019activation du mode Goliath
+      (mais la r\xE9action diminue encore)."
+    buyable: 0
+  - numberPG: 250
+    effect: "La limite de taille du mode Goliath est de 10 m\xE8tres (soit une augmentation
+      de 8 m\xE8tres)."
+    buyable: 0

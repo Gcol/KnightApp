@@ -25,3 +25,5 @@ MonoBehaviour:
   Bonus: "Le PJ gagne 1 point dans l\u2019aspect Machine et 2 points \xE0 r\xE9partir
     comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
   Surnoms: "L\u2019Architecte, le Cr\xE9ateur, le Constructeur"
+  bonusCarac:
+  - choixCarac: 04000000

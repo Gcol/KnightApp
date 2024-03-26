@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd1878293f69c2747b2b72bb1e16bea9, type: 3}
   m_Name: Sauveur
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 0}
-  desc: "Un des chevaliers de la Table Ronde d\u2019une mort certaine ou d\u2019un
-    accident. Depuis, il est entr\xE9 au service de ce chevalier, poss\xE9dant une
-    relation privil\xE9gi\xE9e pouvant prendre la forme d\u2019une confiance solide,
-    d\u2019une amiti\xE9 vraie ou m\xEAme d\u2019une forme d\u2019amour. Le h\xE9ros
-    est connu pour \xEAtre le protecteur de ce chevalier de la Table Ronde."
-  grandImage: {fileID: 0}
+  currentSprite: {fileID: 21300000, guid: 4c1ed04685cd3bb488b986cacd631b93, type: 3}
+  desc: "Il a sauv\xE9 un des chevaliers de la Table Ronde d\u2019une mort certaine
+    ou d\u2019un accident. Depuis, il est entr\xE9 au service de ce chevalier, poss\xE9dant
+    une relation privil\xE9gi\xE9e pouvant prendre la forme d\u2019une confiance
+    solide, d\u2019une amiti\xE9 vraie ou m\xEAme d\u2019une forme d\u2019amour.
+    Le h\xE9ros est connu pour \xEAtre le protecteur de ce chevalier de la Table
+    Ronde."
+  grandImage: {fileID: 21300000, guid: b6caea9832971e749a7b71280de7f323, type: 3}
   Condition: "N\xE9cessite un score minimum de 4 en Perception ou de 4 en Sang-Froid."
   Bonus: " Le PJ gagne 1 point dans l\u2019aspect Masque ou Dame et 2 points \xE0
     r\xE9partir comme il le d\xE9sire dans les caract\xE9ristiques qui sont li\xE9es
     \xE0 l\u2019aspect choisi."
   Surnoms: Le Protecteur, le Sauveur, le Garde du corps
+  bonusCarac:
+  - choixCarac: 0300000002000000

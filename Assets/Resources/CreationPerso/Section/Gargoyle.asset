@@ -12,19 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a87727ba1cf3b704883056312fa54415, type: 3}
   m_Name: Gargoyle
   m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 9ae49d207d76c0a48b42bbdbefe31c9f, type: 3}
+  desc: "Les membres de la section Gargoyle sont les gardiens du Knight et de ses
+    personnalit\xE9s. Incorruptibles et implacables, ils forment presque une organisation
+    \xE0 part enti\xE8re au coeur du Knight."
+  grandImage: {fileID: 21300000, guid: 1cbaea1dd5836814180110d417401eba, type: 3}
   chefSection: 1
-  Description: "Les membres de la section Gargoyle sont les gardiens du Knight et
-    de ses personnalit\xE9s. Incorruptibles et implacables, ils forment\r\npresque
-    une organisation \xE0 part enti\xE8re au coeur du Knight."
   Bonus: "+1 point dans l\u2019aspect Chair et +1 point dans les trois caract\xE9ristiques
     qui y sont li\xE9es."
   Avantage: "Le PJ re\xE7oit les modules suivants : banner, relais TacCom."
   Inconvenient: "Surprotecteur : Le PJ est un protecteur-n\xE9, incapable de laisser
-    une personne qu\u2019il consid\xE8re comme pr\xE9cieuse ou\r\nfaible sans protection.
+    une personne qu\u2019il consid\xE8re comme pr\xE9cieuse ou faible sans protection.
     Pour symboliser cela, le PJ doit d\xE9signer un (et un seul) membre de la coterie
-    (n\xE9cessairement un autre PJ)\r\ncomme \xE9tant son prot\xE9g\xE9. Une fois
-    cet alli\xE9 d\xE9sign\xE9, le PJ doit appliquer les r\xE8gles suivantes : lorsque
-    le prot\xE9g\xE9 est mis \xE0 l\u2019agonie,\r\nle PJ perd 1D6+3 points d\u2019espoir
+    (n\xE9cessairement un autre PJ) comme \xE9tant son prot\xE9g\xE9. Une fois cet
+    alli\xE9 d\xE9sign\xE9, le PJ doit appliquer les r\xE8gles suivantes : lorsque
+    le prot\xE9g\xE9 est mis \xE0 l\u2019agonie, le PJ perd 1D6+3 points d\u2019espoir
     et si le prot\xE9g\xE9 est tu\xE9, le PJ perd 2D6+6 points d\u2019espoir en plus
-    de tous points perdus normalement\r\npar les membres de la coterie \xE0 la mort
+    de tous points perdus normalement par les membres de la coterie \xE0 la mort
     d\u2019un compagnon d\u2019armes."

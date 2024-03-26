@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a87727ba1cf3b704883056312fa54415, type: 3}
   m_Name: Ogre
   m_EditorClassIdentifier: 
-  chefSection: 2
-  Description: "Retors et taciturnes, les membres de la section Ogre combattent l\u2019Anath\xE8me
+  currentSprite: {fileID: 21300000, guid: 471b844cf8e842d4fbd6385dbb921e6b, type: 3}
+  desc: "Retors et taciturnes, les membres de la section Ogre combattent l\u2019Anath\xE8me
     sur son territoire."
+  grandImage: {fileID: 21300000, guid: e1d75567190ca6e41a9ba4e05ab8b2c6, type: 3}
+  chefSection: 2
   Bonus: "+1 point dans l\u2019aspect B\xEAte et +1 point dans les trois caract\xE9ristiques
     qui y sont li\xE9es."
   Avantage: "Le PJ re\xE7oit les modules suivants : d\xE9placement silencieux, vue

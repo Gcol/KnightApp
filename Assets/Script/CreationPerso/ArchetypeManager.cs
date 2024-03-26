@@ -14,11 +14,20 @@ public class ArchetypeManager : MonoBehaviour
     public TextMeshProUGUI supInfoText;
     public TextMeshProUGUI supInfoBonus;
 
-
     public TextMeshProUGUI boutonText;
+
+
+    public Archetype currentObj;
+
+    public void UpdatePerso()
+    {
+        cMM.UpdatePerso(currentObj);
+    }
+
 
     public void PushButton(Archetype cObjct)
     {
+        currentObj = cObjct;
         PannelInfoPannel.SetActive(true);
         supInfoImage.sprite = cObjct.grandImage;
         supInfoTitre.text = cObjct.name;

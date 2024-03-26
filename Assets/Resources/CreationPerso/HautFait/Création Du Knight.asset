@@ -23,3 +23,5 @@ MonoBehaviour:
   Bonus: "Le PJ gagne 1 point dans l\u2019aspect Dame et 2 points \xE0 r\xE9partir
     comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
   Surnoms: "Le Fondateur, le S\xE9n\xE9chal, l\u2019Alli\xE9"
+  bonusCarac:
+  - choixCarac: 02000000

@@ -27,3 +27,6 @@ MonoBehaviour:
   grandImage: {fileID: 21300000, guid: 65c0f3ffe5800a14496cb5588ba4767a, type: 3}
   bonus: "Le personnage gagne 1 point dans la caract\xE9ristique Perception et 1
     point dans la caract\xE9ristique Instinct."
+  bonusCarac:
+  - choixCarac: 13000000
+  - choixCarac: 0a000000

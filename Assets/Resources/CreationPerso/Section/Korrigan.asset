@@ -12,18 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a87727ba1cf3b704883056312fa54415, type: 3}
   m_Name: Korrigan
   m_EditorClassIdentifier: 
-  chefSection: 5
-  Description: "Les chevaliers de la section Korrigan sont autant enqu\xEAteurs qu\u2019espions,
-    r\xE9unissant des informations sur les ennemis humains\r\ndu Knight et frappant
+  currentSprite: {fileID: 21300000, guid: fcb54e5eb3f6aca4d89906bf39526aea, type: 3}
+  desc: "Les chevaliers de la section Korrigan sont autant enqu\xEAteurs qu\u2019espions,
+    r\xE9unissant des informations sur les ennemis humains du Knight et frappant
     parfois tr\xE8s fort pour les faire taire."
+  grandImage: {fileID: 21300000, guid: 5c2feb8e12600174d992ec39e54413cd, type: 3}
+  chefSection: 5
   Bonus: "+1 point dans l\u2019aspect Masque et +1 point dans les trois caract\xE9ristiques
     qui y sont li\xE9es."
   Avantage: "Le PJ re\xE7oit les modules suivants : relais satellite nv1, drone d\u2019espionnage,
     cam\xE9raman"
   Inconvenient: "Toujours un doute : Le PJ a \xE9t\xE9 form\xE9 pour toujours avoir
-    un doute sur quiconque et les autres chevaliers le lui\r\nrendent bien en ne
-    lui accordant qu\u2019une confiance tr\xE8s limit\xE9e. Pour symboliser cela,
-    le PJ, lorsqu\u2019il effectue des tests d\u2019aide envers\r\nles membres de
-    sa coterie ou d\u2019autres personnages alli\xE9s, subit un malus de 3D. De plus,
-    aucun PJ ou PNJ alli\xE9 ne peut utiliser de\r\nmodule ou d\u2019avantage pour
-    faire en sorte que le PJ provenant du Korrigan regagne des points d\u2019espoir."
+    un doute sur quiconque et les autres chevaliers le lui rendent bien en ne lui
+    accordant qu\u2019une confiance tr\xE8s limit\xE9e. Pour symboliser cela, le
+    PJ, lorsqu\u2019il effectue des tests d\u2019aide envers les membres de sa coterie
+    ou d\u2019autres personnages alli\xE9s, subit un malus de 3D. De plus, aucun
+    PJ ou PNJ alli\xE9 ne peut utiliser de module ou d\u2019avantage pour faire en
+    sorte que le PJ provenant du Korrigan regagne des points d\u2019espoir."

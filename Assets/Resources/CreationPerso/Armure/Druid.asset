@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9d7266a299c1641b490efbee3df7dc, type: 3}
+  m_Name: Druid
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: a26cfde94ad065b428c2b20e52f69634, type: 3}
+  desc: "\r\nLa m\xE9ta-armure Druid est une m\xE9ta-armure de troisi\xE8me g\xE9n\xE9ration,
+    r\xE9sistante et taill\xE9e pour le combat. Elle poss\xE8de un r\xE9acteur \xE9nerg\xE9tique
+    Infinity et une IA qui compte parmi les plus \xE9volu\xE9es de l'organisation,
+    capable de prendre des d\xE9cisions et de litt\xE9ralement lire dans l'esprit
+    de son porteur afin de pr\xE9venir ses volont\xE9s. De fait, l'IA et le chevalier
+    se lient encore plus qu'\xE0 l'accoutum\xE9e, devenant des amis, des proches
+    et parfois m\xEAme d\xE9veloppant une forme d'amour \xE0 l'instar d'Arthur et
+    de Gueni\xE8vre.\r\n\r\nD'une simple pens\xE9e, un chevalier en armure Druid
+    peut g\xE9n\xE9rer un ou plusieurs compagnons qui servent de corps \xE0 son IA.
+    Ce ou ces compagnons sont issus de nanoC projet\xE9s depuis le gantelet droit
+    de la m\xE9ta-armure et peuvent \xEAtre de trois types diff\xE9rents : un type
+    solo nomm\xE9 Lion, un trin\xF4me nomm\xE9 Wolf et une nu\xE9e nomm\xE9e Crow.
+    Chaque compa- gnon g\xE9n\xE9r\xE9 prend avec lui une partie de l'\xE9nergie
+    de la m\xE9ta-amure pour alimenter sa structure et ses modules. Peu importe son
+    type, l'IA peut toujours communiquer avec son porteur mais aussi avec l'ext\xE9rieur
+    gr\xE2ce \xE0 un synth\xE9tiseur vocal.\r\n\r\nLe type Lion est le plus commun.
+    C'est un corps humano\xEFde robotique poss\xE9dant des slots dans lesquels sont
+    \xE9quip\xE9s des modules choisis par le chevalier et son IA. Il mesure plus
+    de deux m\xE8tres cinquante, poss\xE8de un corps massif, asexu\xE9 et puissant,
+    ainsi qu'un \xAB visage \xBB sculpt\xE9 en gueule de lion stylis\xE9e. Sur le
+    corps du compagnon, le chevalier peut faire apposer par des orf\xE8vres de l'arsenal
+    des gravures, des symboles et bien entendu des couleurs.\r\n\r\nLe type Wolf
+    est constitu\xE9 de trois petits compagnons humano\xEFdes, mesurant environ un
+    m\xE8tre et demi et poss\xE9dant des visages semblables \xE0 des gueules de loups
+    stylis\xE9es. Agiles, pr\xE9cis, dot\xE9s d'un \xE9quipement technique ou m\xE9dical,
+    ils sont capables d'aider le chevalier \xE0 accomplir des t\xE2ches complexes
+    mais ne sont pas \xE9quip\xE9s pour mener un combat \xE0 eux seuls. Ils peuvent
+    cependant appuyer un chevalier en g\xEAnant sa cible ou en faisant diversion.\r\n\r\nEnfin,
+    la nu\xE9e nomm\xE9e Crow est compos\xE9e d'une trentaine de petites unit\xE9s
+    robotiques volantes, pouvant lancer des d\xE9charges \xE9lectriques sur les ennemis
+    en utilisant leur propre \xE9nergie. La nu\xE9e Crow est g\xE9n\xE9ralement utilis\xE9e
+    pour contenir les foules d'ennemis ou les ralentir pendant que le chevalier se
+    replie.\r\n\r\nGr\xE2ce \xE0 ces diff\xE9rents types de compagnons, la m\xE9ta-armure
+    Druid est un outil polyvalent. Il est \xE0 noter que, suite aux excellents r\xE9sultats
+    obtenus par les chevaliers en armure Druid et leurs compagnons sur les diff\xE9rents
+    th\xE9\xE2tres d'op\xE9rations du Knight, Gauvain \xE9tudie la possibilit\xE9
+    d'ajouter des compagnons \xE0 chacune des m\xE9ta-armures cr\xE9\xE9es.\r\n"
+  historique: "\rLorsqu'il \xE9tait encore en poste \xE0 Johannesburg, James Niakat\xE9
+    travaillait seul sur de nombreux projets secrets. Au fil des ann\xE9es, le scientifique
+    a \xE9t\xE9 harass\xE9 par ses trop longues journ\xE9es et surtout par son impossibilit\xE9
+    \xE0 r\xE9ussir l'ensemble de ses projets. Incapable de cesser ses travaux, le
+    g\xE9nie a alors imagin\xE9 un moyen de se dupliquer ou plut\xF4t de se cr\xE9er
+    plusieurs corps, contr\xF4lables par de simples pens\xE9es. Gr\xE2ce \xE0 des
+    interfaces robotiques humano\xEFdes, James Niakat\xE9 imaginait pouvoir travailler
+    plus rapidement dans ses nombreux laboratoires et sur ses tout aussi nombreux
+    projets. Si la conception des interfaces robotiques a \xE9t\xE9 facile, \xE7a
+    n'a pas \xE9t\xE9 le cas du syst\xE8me de contr\xF4le que le g\xE9nie n'a pas
+    r\xE9ussi \xE0 mettre au point efficacement. Les robots tombaient, \xE9taient
+    incapables d'effectuer des t\xE2ches pr\xE9cises et ne pouvaient \xEAtre contr\xF4l\xE9s
+    longtemps. Niakat\xE9 a donc mis cette id\xE9e au placard et l'a abandonn\xE9e.\r\n\r\nC'est
+    Gauvain, tombant par hasard sur des notes de Merlin, qui a ressorti le projet
+    pour le d\xE9velopper. En certains endroits du globe, lors de certaines missions,
+    les chevaliers du Knight en sous nombre ont particuli\xE8rement besoin de renforts
+    ou d'unit\xE9s suppl\xE9mentaires, simplement pour g\xE9rer des foules, se d\xE9faire
+    d'un combat o\xF9 ils sont en inf\xE9riorit\xE9 ou encore effectuer des op\xE9rations
+    complexes demandant la concentration de nombreuses personnes. C'est en ce sens
+    que Gauvain a repens\xE9 le projet de James Niakat\xE9. Il a imagin\xE9 une armure
+    capable de g\xE9n\xE9rer des alli\xE9s robotiques, des \xAB compagnons \xBB,
+    qui pourraient g\xE9rer des situations simples ou appuyer le chevalier en combat.
+    Dans l'id\xE9e de Gauvain, ce n'est pas le chevalier qui contr\xF4lerait directement
+    ses doubles, mais l'IA de l'armure. L'homme dans la machine pourrait ainsi se
+    battre et son IA pourrait faire de m\xEAme tout en aidant directement les autres
+    chevaliers au combat.\r\n\r\nLa m\xE9ta-armure Druid \xE9tait ainsi n\xE9e et
+    avec elle les premiers alli\xE9s robotiques du Knight. Contr\xF4l\xE9s directement
+    par l'IA, ils ont \xE9t\xE9 nomm\xE9s compagnons et Gauvain les a dessin\xE9s
+    pour qu'ils poss\xE8dent des traits animaux gracieux et artistiques, afin qu'ils
+    soient facilement identifiables par les chevaliers et appr\xE9ci\xE9s par les
+    civils.\r\n"
+  PointArmure: 50
+  PointEnergie: 80
+  ChampDeForce: 12
+  generationMetaArmure: 2
+  allCapacite:
+  - {fileID: 11400000, guid: b86d07d4e276ef749b316d7676256fda, type: 2}
+  overdrive: 04000000050000000600000008000000
+  slot:
+  - nameSlot: BrasD
+    number: 5
+  - nameSlot: "T\xEAte"
+    number: 5
+  - nameSlot: BrasG
+    number: 5
+  - nameSlot: Torse
+    number: 8
+  - nameSlot: JambeD
+    number: 5
+  - nameSlot: JambeL
+    number: 5
+  evolution:
+  - numberPG: 0
+    effect: " \t\r\nLa m\xE9ta-armure Druid en elle-m\xEAme n\u2019a pas d\u2019\xE9volutions,
+      ce sont ses compagnons qui peuvent \xE9voluer. Lorsque les PG du chevalier
+      atteignent un multiple de 100 (100, 200, 300, 400, 500 etc.), il peut choisir
+      de faire \xE9voluer un (et un seul) type de compagnon. Chaque \xE9volution
+      possible pour un type de compagnon est d\xE9crite dans son profil et chaque
+      \xE9tape pr\xE9sent\xE9e est \xE0 suivre."
+    buyable: 0

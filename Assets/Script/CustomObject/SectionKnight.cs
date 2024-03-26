@@ -5,12 +5,11 @@ using UnityEngine;
 
 [Serializable]
 [CreateAssetMenu(fileName = "Nouvelle Section", menuName = "Knight / Section")]
-public class SectionKnight : ScriptableObject
+public class SectionKnight : CreaPerso
 {
+    public Sprite grandImage;
     [SerializeField]
     ChevalierChef chefSection;
-    [TextArea(3, 20)]
-    public string Description;
     [TextArea(3, 20)]
     public string Bonus;
     [TextArea(3, 20)]

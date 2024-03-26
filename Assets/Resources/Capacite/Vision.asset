@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a6894bfe07bae4d89ebacbb62f38a9, type: 3}
+  m_Name: Vision
+  m_EditorClassIdentifier: 
+  description: "Gr\xE2ce au syst\xE8me de vision de l\u2019armure Ranger, le personnage
+    peut voir, pendant quelques secondes, des choses qui ne devraient pas \xEAtre
+    vues. Gr\xE2ce \xE0 la \xAB Vision \xBB, le personnage peut distinguer les gaz,
+    le vent, les maladies, la respiration, les cr\xE9atures microscopiques, les ondes
+    radio, l\u2019Anath\xE8me, les pens\xE9es, etc. C\u2019est au joueur de dire
+    au MJ ce qu\u2019il d\xE9sire voir. En fonction de la difficult\xE9 de la vision,
+    le chevalier doit d\xE9penser de 5 \xE0 10 points d\u2019\xE9nergie, au choix
+    du MJ.\r\nLe MJ d\xE9crit ensuite au PJ ce qu\u2019il voit durant quelques secondes,
+    il peut \xEAtre tr\xE8s pr\xE9cis ou, \xE0 l\u2019inverse, n\xE9buleux, la Vision
+    \xE9tant parfois peu pr\xE9cise.\r\nLa Vision ne passe bien entendu que par la
+    vue. Si le PJ choisit par exemple de voir les pens\xE9es d\u2019une personne,
+    il voit des mots ou des images, mais n\u2019entend aucun son."
+  energiCout: "5 \xE0 10"
+  activation: "Action de d\xE9placement en phase de conflit ou 6 secondes en dehors
+    d'une phase de conflit"
+  duree: 6 secondes
+  effet: "Le personnage voit des choses normalement invisibles sur un simple jet
+    base Perception, d\u2019une difficult\xE9 faisable (2) \xE0 tr\xE8s difficile
+    (9) (au choix du MJ). Il peut aussi, gr\xE2ce \xE0 la Vision, rep\xE9rer des
+    cr\xE9atures invisibles ou un chevalier utilisant le mode Ghost."

@@ -15,6 +15,6 @@ public class CapaciteArmure : Capacite
     public string portee;
     public string duree;
     public string activation;
-    [Multiline]
+    [TextArea(0, 100)]
     public string effet;
 }

@@ -21,7 +21,7 @@ public enum PorteArme
 
 [Serializable]
 [CreateAssetMenu(fileName = "Nouvelle Arme", menuName = "Knight / Arme")]
-public class Arme : ScriptableObject
+public class Arme : CreaPerso
 {
     public ArmeType typeArme;
     public PorteArme porteArme;

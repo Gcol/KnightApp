@@ -33,3 +33,6 @@ MonoBehaviour:
   grandImage: {fileID: 21300000, guid: e64ec87c672baa443af634a726599f34, type: 3}
   bonus: "Le personnage gagne 1 point dans la caract\xE9ristique Sang-Froid et 1
     point dans la caract\xE9ristique Discr\xE9tion."
+  bonusCarac:
+  - choixCarac: 10000000
+  - choixCarac: 11000000

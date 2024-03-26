@@ -27,6 +27,13 @@ public class TarotManager : MonoBehaviour
     public TextMeshProUGUI supInfoDavIA;
 
 
+
+    public Tarot currentObj;
+
+    public void UpdatePerso()
+    {
+        cMM.UpdatePerso(currentObj);
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +59,7 @@ public class TarotManager : MonoBehaviour
 
     public void PushButton(Tarot tarotCard)
     {
+        currentObj = tarotCard;
         tarotInfoPannel.SetActive(true);
         supInfoImage.sprite = tarotCard.currentSprite;
         supInfoTitre.text = tarotCard.name;

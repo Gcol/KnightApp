@@ -12,19 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a87727ba1cf3b704883056312fa54415, type: 3}
   m_Name: Giant
   m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 72af460e267c4a44b9f2c26bd387b563, type: 3}
+  desc: "Serviables et g\xE9niaux, les membres de la section Giant r\xE9parent et
+    entretiennent l\u2019\xE9quipement des chevaliers tout en fournissant un soutien
+    technique sur le terrain."
+  grandImage: {fileID: 21300000, guid: 396819bac4c1a1b44802cae2ddba4426, type: 3}
   chefSection: 4
-  Description: "Serviables et g\xE9niaux, les membres de la section Giant r\xE9parent
-    et entretiennent l\u2019\xE9quipement des chevaliers tout en fournissant\r\nun
-    soutien technique sur le terrain."
   Bonus: "+1 point dans l\u2019aspect Machine et +1 point dans les trois caract\xE9ristiques
     qui y sont li\xE9es"
   Avantage: "Le PJ re\xE7oit un overdrive de Technique suppl\xE9mentaire lorsqu\u2019il
-    porte sa m\xE9ta-armure. S\u2019il poss\xE8de d\xE9j\xE0 un overdrive\r\nde Technique
+    porte sa m\xE9ta-armure. S\u2019il poss\xE8de d\xE9j\xE0 un overdrive de Technique
     sur sa m\xE9ta-armure, il augmente cet overdrive au niveau 2."
   Inconvenient: "Rat d\u2019atelier : Le PJ \xE9tait plus souvent \xE0 l\u2019atelier
-    que sur le terrain et il est encore mal habitu\xE9 aux cr\xE9atures et\r\nhorreurs
+    que sur le terrain et il est encore mal habitu\xE9 aux cr\xE9atures et horreurs
     de l\u2019Anath\xE8me. Pour repr\xE9senter cela, celui-ci subit le r\xE9sultat
-    \xE9chec critique de la capacit\xE9 peur sans pouvoir faire de test\r\npour y
-    r\xE9sister. Le nombre de tours que le PJ passe \xE0 ne rien pouvoir faire est
-    \xE9gal, en D6, au score de la capacit\xE9 peur pr\xE9sent\r\ndans le profil
-    de l\u2019ennemi."
+    \xE9chec critique de la capacit\xE9 peur sans pouvoir faire de test pour y r\xE9sister.
+    Le nombre de tours que le PJ passe \xE0 ne rien pouvoir faire est \xE9gal, en
+    D6, au score de la capacit\xE9 peur pr\xE9sent dans le profil de l\u2019ennemi."

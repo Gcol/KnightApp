@@ -26,3 +26,6 @@ MonoBehaviour:
   grandImage: {fileID: 21300000, guid: 5013d2f9b665313499d5b863d015bc94, type: 3}
   bonus: "Le personnage gagne 1 point dans la caract\xE9ristique Hargne et 1 point
     dans la caract\xE9ristique Aura."
+  bonusCarac:
+  - choixCarac: 08000000
+  - choixCarac: 0e000000

@@ -26,3 +26,6 @@ MonoBehaviour:
   grandImage: {fileID: 21300000, guid: 460141bb5ae64cc41ab5db29add941c1, type: 3}
   bonus: "Le personnage gagne 1 point dans la caract\xE9ristique Savoir et 1 point
     dans la caract\xE9ristique Parole."
+  bonusCarac:
+  - choixCarac: 0c000000
+  - choixCarac: 0f000000

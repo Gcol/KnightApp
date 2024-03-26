@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd1878293f69c2747b2b72bb1e16bea9, type: 3}
   m_Name: Guide
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 0}
+  currentSprite: {fileID: 21300000, guid: ee4b06a77209bff4b91d00ee8ed4b273, type: 3}
   desc: "Le personnage a sauv\xE9 une communaut\xE9 enti\xE8re quand il en a pris
     la t\xEAte pour la guider face \xE0 l\u2019invasion des t\xE9n\xE8bres. Que la
     communaut\xE9 ait \xE9t\xE9 noy\xE9e sous les t\xE9n\xE8bres ou menac\xE9e par
@@ -20,8 +20,10 @@ MonoBehaviour:
     et a r\xE9ussi \xE0 mobiliser les bonnes personnes autour de lui. Gr\xE2ce \xE0
     son charisme et sa capacit\xE9 \xE0 diriger, il a \xE9t\xE9 recrut\xE9 par le
     Knight."
-  grandImage: {fileID: 0}
+  grandImage: {fileID: 21300000, guid: 3e55c96a1cf649843bbbbb5cb66caa10, type: 3}
   Condition: "N\xE9cessite un score minimum de 4 en Parole ou de 4 en Perception."
   Bonus: "Le PJ gagne 1 point dans l\u2019aspect Dame et 2 points \xE0 r\xE9partir
     comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
   Surnoms: Le Guide, le Voyageur, le Capitaine
+  bonusCarac:
+  - choixCarac: 02000000

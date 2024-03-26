@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a87727ba1cf3b704883056312fa54415, type: 3}
   m_Name: Dragon
   m_EditorClassIdentifier: 
-  Description: "Lumineux et humanistes, les chevaliers de la section Dragon luttent
-    contre les d\xE9sesp\xE9r\xE9s et l\u2019Horreur.\r"
+  currentSprite: {fileID: 21300000, guid: 56ffab8407932ab40bab1b58a14c7ce0, type: 3}
+  desc: "Lumineux et humanistes, les chevaliers de la section Dragon luttent contre
+    les d\xE9sesp\xE9r\xE9s et l\u2019Horreur.\r"
+  grandImage: {fileID: 21300000, guid: 9836e3622bc29f04eb92bc1237d6db3d, type: 3}
+  chefSection: 0
   Bonus: "+1 point dans l\u2019aspect Dame et +1 point dans les trois caract\xE9ristiques
     qui y sont li\xE9es."
   Avantage: "Le PJ re\xE7oit les modules suivants : pod fus\xE9es \xE9clairantes,
     flash, attaque non l\xE9tale nv1."
   Inconvenient: "Humaniste : Le personnage est attach\xE9 \xE0 la vie humaine, m\xEAme
-    corrompue. Il essaie toujours de sauver le\r\nmaximum de personnes, d\xE9sesp\xE9r\xE9es
+    corrompue. Il essaie toujours de sauver le maximum de personnes, d\xE9sesp\xE9r\xE9es
     ou non, et son moral risque de se briser lorsqu\u2019il \xE9choue. Pour symboliser
-    cela, lorsque le PJ\r\ndoit subir la capacit\xE9 d\xE9sesp\xE9rant, il perd 1D6+6
+    cela, lorsque le PJ doit subir la capacit\xE9 d\xE9sesp\xE9rant, il perd 1D6+6
     points d\u2019espoir"

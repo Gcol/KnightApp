@@ -12,15 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd1878293f69c2747b2b72bb1e16bea9, type: 3}
   m_Name: Le Renouveau De l'espoir
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 0}
+  currentSprite: {fileID: 21300000, guid: 5b0f33e3949dfe040bf7f31bee531f39, type: 3}
   desc: "Le h\xE9ros a subi le d\xE9sespoir, il a peut-\xEAtre fait du mal \xE0 ses
     proches ou \xE0 des innocents et poss\xE9dait les stigmates de la perte totale
     d\u2019esp\xE9rance. Cependant, seul, le personnage a retrouv\xE9 l\u2019espoir.
     Gr\xE2ce \xE0 sa propre hargne, \xE0 sa combativit\xE9, il est l\u2019un des
     rares \xE0 \xEAtre sorti seul de cet \xE9tat qui rend fou et tue une quantit\xE9
     tristement ph\xE9nom\xE9nale d\u2019\xEAtres humains."
-  grandImage: {fileID: 0}
+  grandImage: {fileID: 21300000, guid: f0f2c15f758caa942a7de7c511d5f547, type: 3}
   Condition: "N\xE9cessite un score minimum de 4 en Hargne ou de 4 en Sang-Froid."
   Bonus: "Le PJ gagne 1 point dans l\u2019aspect B\xEAte et 2 points \xE0 r\xE9partir
     comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."
   Surnoms: "L\u2019Esp\xE9r\xE9, le Lumineux, l\u2019Innocent"
+  bonusCarac:
+  - choixCarac: 01000000
