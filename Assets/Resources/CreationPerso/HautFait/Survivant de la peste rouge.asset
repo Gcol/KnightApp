@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd1878293f69c2747b2b72bb1e16bea9, type: 3}
   m_Name: Survivant de la peste rouge
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 21300000, guid: 85d322ae46d110e42968b7e57c3f64f7, type: 3}
+  currentSprite: {fileID: 21300000, guid: 2685998eb75811e4f8dc8de54e4b5f10, type: 3}
   desc: "Lorsque la peste rouge a frapp\xE9 la c\xF4te Est des \xC9tats-Unis, le
     h\xE9ros \xE9tait pr\xE9sent et a \xE9t\xE9 touch\xE9 par ce mal. Son corps en
     a subi tous les sympt\xF4mes et, contre toute attente, il a surv\xE9cu au pire.
     M\xEAme s\u2019il en garde des s\xE9quelles graves sur le corps, le personnage
     est connu pour \xEAtre plus r\xE9sistant que la normale."
-  grandImage: {fileID: 21300000, guid: afa4cd55389ee514f9122702034f8c1d, type: 3}
+  grandImage: {fileID: 21300000, guid: 40b29d30ddfd6d443a3bddd3f7a42261, type: 3}
   Condition: "N\xE9cessite un score minimum de 4 en Endurance ou de 4 en Hargne."
   Bonus: "Le PJ gagne 1 point dans l\u2019aspect Chair et 2 points \xE0 r\xE9partir
     comme il le d\xE9sire dans les caract\xE9ristiques qui y sont li\xE9es."

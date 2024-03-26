@@ -28,3 +28,4 @@ MonoBehaviour:
     Tarasque lui a plac\xE9 dans la t\xEAte. Pour repr\xE9senter cela, si au d\xE9but
     d\u2019une sc\xE8ne le personnage est \xE0 moins de 10 points d\u2019espoir,
     il est automatiquement tu\xE9 par l\u2019explosif et retir\xE9 du jeu."
+  caract: 1

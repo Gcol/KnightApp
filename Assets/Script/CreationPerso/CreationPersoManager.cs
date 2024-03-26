@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -42,6 +43,12 @@ public class caracPerso
 
 public class CreationPersoManager : MonoBehaviour
 {
+    List<caractéristique> chairCarac = new List<caractéristique>() { caractéristique.Chair, caractéristique.Déplacement, caractéristique.Force, caractéristique.Endurance };
+    List<caractéristique> BeteCarac = new List<caractéristique>() { caractéristique.Bête, caractéristique.Hargne, caractéristique.Combat, caractéristique.Instinct };
+    List<caractéristique> MachineCarac = new List<caractéristique>() { caractéristique.Machine, caractéristique.Tir, caractéristique.Savoir, caractéristique.Technique };
+    List<caractéristique> DameCarac = new List<caractéristique>() { caractéristique.Aura, caractéristique.Parole, caractéristique.Dame, caractéristique.Sang_Froid };
+    List<caractéristique> MasqueCarac = new List<caractéristique>() { caractéristique.Masque, caractéristique.Discrétion, caractéristique.Dextérité, caractéristique.Perception };
+
     public TaroDeck taroDeck = new TaroDeck();
     public Archetype archetype;
     public HautFait HautFait;
@@ -49,11 +56,16 @@ public class CreationPersoManager : MonoBehaviour
     public SectionKnight section;
     public Armure Armure;
     public GameObject ChoixCaracPopup;
+    public GameObject ChoixCaracPopupFree;
 
     public Image metaArmure;
 
-    public List<caractéristique> ArchetypeValueUpdated;
-    public List<caractéristique> HautFaitValueUpdated;
+    public List<caractéristique> SectionValueUpdate = new List<caractéristique>();
+    public List<caractéristique> ArchetypeValueUpdated = new List<caractéristique>();
+    public List<caractéristique> HautFaitValueUpdated = new List<caractéristique>();
+
+    public int CaracToAddPopup;
+    public caractéristique caracPopup;
     //TODO pourquoi pas le convertir avec un dict string sur le type en clé
 
     [SerializeField]
@@ -99,7 +111,7 @@ public class CreationPersoManager : MonoBehaviour
         if (this.archetype != null)
         {
             foreach(caractéristique CP in ArchetypeValueUpdated)
-                SupCarac(CP, "Archetype", 0);;
+                SupCarac(CP, "Archetype", 0);
         }
         ArchetypeValueUpdated.Clear();
         ApplyArchetypeBonus(archetype);
@@ -109,7 +121,44 @@ public class CreationPersoManager : MonoBehaviour
     }
     public void UpdatePerso(SectionKnight sectionKnight)
     {
-        section = sectionKnight; 
+        if (this.section != null)
+        {
+            foreach (caractéristique CP in SectionValueUpdate)
+                SupCarac(CP, "Section", 0);
+        }
+        SectionValueUpdate.Clear();
+        section = sectionKnight;
+        AddCarac(section.caract, "Section");
+        switch(section.caract)
+        {
+            case caractéristique.Bête:
+                AddCarac(caractéristique.Hargne, "Section");
+                AddCarac(caractéristique.Combat, "Section");
+                AddCarac(caractéristique.Instinct, "Section");
+                break;
+            case caractéristique.Machine:
+                AddCarac(caractéristique.Tir, "Section");
+                AddCarac(caractéristique.Savoir, "Section");
+                AddCarac(caractéristique.Technique, "Section");
+                break;
+            case caractéristique.Masque:
+                AddCarac(caractéristique.Discrétion, "Section");
+                AddCarac(caractéristique.Dextérité, "Section");
+                AddCarac(caractéristique.Perception, "Section");
+                break;
+            case caractéristique.Dame:
+                AddCarac(caractéristique.Aura, "Section");
+                AddCarac(caractéristique.Parole, "Section");
+                AddCarac(caractéristique.Sang_Froid, "Section");
+                break;
+            case caractéristique.Chair:
+                AddCarac(caractéristique.Déplacement, "Section");
+                AddCarac(caractéristique.Force, "Section");
+                AddCarac(caractéristique.Endurance, "Section");
+                break;
+            default:
+                break;
+        }
         UPdateRecapInfo(section);
     }
     public void UpdatePerso(HautFait hautFait)
@@ -126,6 +175,7 @@ public class CreationPersoManager : MonoBehaviour
     }
     public void ApplyHautFaitBonus(HautFait hautFait)
     {
+        CaracToAddPopup = 2;
         //Todo standadisé cette fonction avec un if type pour donnée le string, peux être créer une autre classe parente avec le bonus Carac
         foreach (ChoixCarac choixCarac in hautFait.bonusCarac)
         {
@@ -136,7 +186,48 @@ public class CreationPersoManager : MonoBehaviour
                 ChoixCaracPopup.transform.Find("Image").Find("Button (2)").GetComponent<AddCaracButton>().InitCarac(choixCarac.choixCarac[1], "HautFait");
             }
             else
+            {
                 AddCarac(choixCarac.choixCarac[0], "HautFait");
+            }
+        }
+    }
+
+    public void ApplyHautFaitBonusCarac()
+    {
+        if (CaracToAddPopup > 0)
+        {
+            CaracToAddPopup -= 1;
+            ChoixCaracPopupFree.SetActive(true);
+            switch(caracPopup)
+            {
+                case caractéristique.Bête:
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (2)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Hargne, "HautFaitBonus");
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (3)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Combat, "HautFaitBonus");
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (4)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Instinct, "HautFaitBonus");
+                    break;
+                case caractéristique.Machine:
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (2)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Tir, "HautFaitBonus");
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (3)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Savoir, "HautFaitBonus");
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (4)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Technique, "HautFaitBonus");
+                    break;
+                case caractéristique.Masque:
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (2)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Discrétion, "HautFaitBonus");
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (3)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Dextérité, "HautFaitBonus");
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (4)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Perception, "HautFaitBonus");
+                    break;
+                case caractéristique.Dame:
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (2)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Aura, "HautFaitBonus");
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (3)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Parole, "HautFaitBonus");
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (4)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Sang_Froid, "HautFaitBonus");
+                    break;
+                case caractéristique.Chair:
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (2)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Déplacement, "HautFaitBonus");
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (3)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Force, "HautFaitBonus");
+                    ChoixCaracPopupFree.transform.Find("Image").Find("Button (4)").GetComponent<AddCaracButton>().InitCarac(caractéristique.Endurance, "HautFaitBonus");
+                    break;
+                default:
+                    break;
+            }
         }
     }
 
@@ -157,28 +248,37 @@ public class CreationPersoManager : MonoBehaviour
                 ChoixCaracPopup.transform.Find("Image").Find("Button (2)").GetComponent<AddCaracButton>().InitCarac(choixCarac.choixCarac[1], "Archetype");
             }
             else
+            {
                 AddCarac(choixCarac.choixCarac[0], "Archetype");
+            }
         }
     }
 
     public void AddCarac(caractéristique caracName, string from, int value=1, int od = 0)
     {
-        if (from == "Archetype")
+        if (from == "Section")
+        {
+            SectionValueUpdate.Add(caracName);
+            caracPlayer[caracName].sectionValue += value;
+        }
+        else if (from == "Archetype")
         {
             ArchetypeValueUpdated.Add(caracName);
-            caracPlayer[caracName].archetypeValue = value;
-            UpdateCharacPannel(caracName);
+            caracPlayer[caracName].archetypeValue += value;
         }
-        else if (from == "HautFait")
+        else if (from == "HautFait" || from == "HautFaitBonus")
         {
+            if (from == "HautFait")
+                caracPopup = caracName;
             HautFaitValueUpdated.Add(caracName);
-            caracPlayer[caracName].HautFait = value;
-            UpdateCharacPannel(caracName);
+            caracPlayer[caracName].HautFait += value;
+            ApplyHautFaitBonusCarac();
         }
         else
         {
             Debug.LogError(from + " dans AddCaracButton non reconnue");
         }
+        UpdateCharacPannel(caracName);
     }
 
     public void SupCarac(caractéristique caracName, string from, int value = 1, int od = 0)
@@ -187,26 +287,22 @@ public class CreationPersoManager : MonoBehaviour
             caracPlayer[caracName].archetypeValue = value;
         if (from == "HautFait")
             caracPlayer[caracName].HautFait = value;
+        if (from == "Section")
+            caracPlayer[caracName].sectionValue = value;
         UpdateCharacPannel(caracName);
     }
     public void UpdateCharacPannel(caractéristique caracName)
     {
-        List<caractéristique> chairCarac = new List<caractéristique>() { caractéristique.Chair, caractéristique.Déplacement, caractéristique.Force, caractéristique.Endurance };
         if (chairCarac.Contains(caracName))
             UpdateCharacPannelText("Chair", caracName);
-        List<caractéristique> BeteCarac = new List<caractéristique>() { caractéristique.Bête, caractéristique.Hargne, caractéristique.Combat, caractéristique.Instinct };
         if (BeteCarac.Contains(caracName))
             UpdateCharacPannelText("Bête", caracName);
-        List<caractéristique> MachineCarac = new List<caractéristique>() { caractéristique.Machine, caractéristique.Tir, caractéristique.Savoir, caractéristique.Technique };
         if (MachineCarac.Contains(caracName))
             UpdateCharacPannelText("Machine", caracName);
-        List<caractéristique> DameCarac = new List<caractéristique>() { caractéristique.Aura, caractéristique.Parole, caractéristique.Dame, caractéristique.Sang_Froid };
         if (DameCarac.Contains(caracName))
             UpdateCharacPannelText("Dame", caracName);
-        List<caractéristique> MasqueCarac = new List<caractéristique>() { caractéristique.Masque, caractéristique.Discrétion, caractéristique.Dextérité, caractéristique.Perception };
         if (MasqueCarac.Contains(caracName))
             UpdateCharacPannelText("Masque", caracName);
-
     }
 
     public void UpdateCharacPannelText(string categoryName, caractéristique caracName)
@@ -226,17 +322,16 @@ public class CreationPersoManager : MonoBehaviour
         Transform stat = transform.Find("Stat").Find("Stat");
         Transform module = transform.Find("Stat").Find("MetaArmure");
 
-
         UpdateStat(stat, "PA", armure.PointArmure.ToString());
         UpdateStat(stat, "PE", armure.PointEnergie.ToString());
         UpdateStat(stat, "CdF", armure.ChampDeForce.ToString());
         UpdateStat(stat, "Gen", armure.generationMetaArmure.ToString());
 
+        metaArmure.gameObject.SetActive(true);
         module.GetComponent<Image>().sprite = armure.currentSprite;
         foreach (moduleSlot currMs in armure.slot)
             module.Find(currMs.nameSlot).GetComponent<TextMeshProUGUI>().text = currMs.number.ToString();
     }
-
 
     public void UpdateStat(Transform stat, string statName, string valueStat)
     {

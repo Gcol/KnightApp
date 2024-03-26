@@ -27,7 +27,7 @@ public class TarotManager : MonoBehaviour
     public TextMeshProUGUI supInfoDavIA;
 
 
-
+    public GameObject InstructionPannel;
     public Tarot currentObj;
 
     public void UpdatePerso()
@@ -37,6 +37,7 @@ public class TarotManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        InstructionPannel = transform.Find("Instruction").gameObject;
         cMM = FindObjectOfType<CreationPersoManager>();
         UpdateObjectif();
 
@@ -44,17 +45,27 @@ public class TarotManager : MonoBehaviour
 
     void UpdateObjectif()
     {
-        objectif.text = "Selectionner:\n";
+
         if (cMM.taroDeck.avJ == null)
-            objectif.text += "2 Avantage Joueur\n";
-        else if (cMM.taroDeck.avJ.Count < 2)
-            objectif.text += (2 - cMM.taroDeck.avJ.Count) + " Avantage Joueur\n";
+            InstructionPannel.transform.Find("Instruction (AvJ)").GetComponent<TextMeshProUGUI>().text = "2 Avantage Joueur";
+        else
+            InstructionPannel.transform.Find("Instruction (AvJ)").GetComponent<TextMeshProUGUI>().text = (2 - cMM.taroDeck.avJ.Count) + " Avantage Joueur";
+
         if (cMM.taroDeck.DavJ == null)
-            objectif.text += "1 Desavantage Joueur\n";
+            InstructionPannel.transform.Find("Instruction (DavJ)").GetComponent<TextMeshProUGUI>().text  = "1 Desavantage Joueur";
+        else
+            InstructionPannel.transform.Find("Instruction (DavJ)").GetComponent<TextMeshProUGUI>().text = "0 Desavantage Joueur";
+
         if (cMM.taroDeck.avIa == null)
-            objectif.text += "1 Avantage IA\n";
+            InstructionPannel.transform.Find("Instruction (AvIA)").GetComponent<TextMeshProUGUI>().text = "1 Avantage IA";
+        else
+            InstructionPannel.transform.Find("Instruction (AvIA)").GetComponent<TextMeshProUGUI>().text = "0 Avantage IA";
+
         if (cMM.taroDeck.DavIa == null)
-            objectif.text += "1 Desavantage IA\n";
+            InstructionPannel.transform.Find("Instruction (DavIA)").GetComponent<TextMeshProUGUI>().text = "1 Desavantage IA";
+        else
+            InstructionPannel.transform.Find("Instruction (DavIA)").GetComponent<TextMeshProUGUI>().text = "0 Desavantage IA";
+
     }
 
     public void PushButton(Tarot tarotCard)

@@ -16,4 +16,5 @@ public class SectionKnight : CreaPerso
     public string Avantage;
     [TextArea(3, 20)]
     public string Inconvenient;
+    public caractéristique caract;
 }
