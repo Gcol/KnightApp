@@ -9,7 +9,7 @@ public class SectionKnight : CreaPerso
 {
     public Sprite grandImage;
     [SerializeField]
-    ChevalierChef chefSection;
+    public ChevalierChef chefSection;
     [TextArea(3, 20)]
     public string Bonus;
     [TextArea(3, 20)]
@@ -17,4 +17,5 @@ public class SectionKnight : CreaPerso
     [TextArea(3, 20)]
     public string Inconvenient;
     public caractéristique caract;
+    public List<ShopItem> shopItems;
 }

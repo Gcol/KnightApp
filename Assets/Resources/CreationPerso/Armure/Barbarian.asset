@@ -52,7 +52,7 @@ MonoBehaviour:
   generationMetaArmure: 2
   allCapacite:
   - {fileID: 11400000, guid: b86d07d4e276ef749b316d7676256fda, type: 2}
-  overdrive: 01000000020000000300000004000000
+  overdrive: 06000000070000000800000009000000
   slot:
   - nameSlot: BrasD
     number: 5

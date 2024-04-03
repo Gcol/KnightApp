@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7a6f3067da474f83b12cd915d6645, type: 3}
+  m_Name: Bouclier Amovible
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 02092ddcd7dc65b4491a0866089e73c0, type: 3}
+  desc: "C\u2019est pour prot\xE9ger les chevaliers au contact que ce bouclier carr\xE9
+    a \xE9t\xE9 cr\xE9\xE9. Quatre panneaux amovibles aux bords dent\xE9s d\xE9multiplient
+    sa surface de couverture et sa dangerosit\xE9. Au centre, une charge explosive
+    directionnelle \xE0 usage unique permet de balayer l\u2019adversit\xE9. Pour
+    l\u2019utiliser, il vaut mieux planter le bouclier au sol. Si le sol est en b\xE9ton,
+    le chevalier doit frapper plus fort !\n\xAB Attention, la charge ne peut \xEAtre
+    d\xE9clench\xE9e que si le bouclier est d\xE9ploy\xE9. Me suis-je bien fait comprendre
+    ? \xBB \u2013 Gauvain"
+  icon: {fileID: 0}
+  rarete: 0
+  price: 20
+  surnom: "l\u2019enclume / le couvert"
+  degatArmes:
+  - typeAttaque: 0
+    degat:
+      nbDice: 1
+      addDegat: 0
+      "caract\xE9ristique": 06000000
+    violence:
+      nbDice: 1
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet:
+    - effet: {fileID: 11400000, guid: 787668d870f2956488098320b2003075, type: 2}
+      level: 2
+    - effet: {fileID: 11400000, guid: 1e95eff89701062478f7866fe5b646cf, type: 2}
+      level: 0
+  - typeAttaque: 7
+    degat:
+      nbDice: 2
+      addDegat: 6
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 2
+      addDegat: 6
+      "caract\xE9ristique": 
+    portee: 0
+    effet:
+    - effet: {fileID: 11400000, guid: 6012b502ecaba874199d2d1b7c908f73, type: 2}
+      level: 4
+    - effet: {fileID: 11400000, guid: 646427379faa74b4086cce25085291a7, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: 741c881cf368f4f47bff36fe779640c4, type: 2}
+      level: 1

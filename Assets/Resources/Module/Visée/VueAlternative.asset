@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3017bf08d3eae04a840c6573af6c0d7, type: 3}
+  m_Name: VueAlternative
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: fb4622ec22ed02349910baf6dd1ec17c, type: 3}
+  desc: "Multiples \xAB yeux \xBB sur l\u2019armure, visi\xE8re double, visi\xE8re
+    cam\xE9ra\r\n\r\nLe module ajoute un type de vision \xE0 l\u2019armure au choix
+    parmi :\r\n\u2022 Vision thermique \u2013 Permet de rep\xE9rer les sources de
+    chaleur \xE0 travers des obstacles peu \xE9pais, annule les malus environnementaux
+    impactant la visibilit\xE9 (pluie, fum\xE9e\u2026).\r\n\u2022 Vision magn\xE9tique
+    \u2013 Permet de rep\xE9rer les \xE9l\xE9ments m\xE9talliques \xE0 travers les
+    obstacles, annule les malus environnementaux impactant la visibilit\xE9 lorsqu\u2019il
+    s\u2019agit de rep\xE9rer ou d\u2019attaquer des choses ou des \xEAtres portant
+    du m\xE9tal.\r\n\u2022 Vision heartbeat \u2013 Permet de rep\xE9rer les battements
+    de coeur \xE0 travers les obstacles, ceux-ci servent de sonar, annule les \xE9ventuels
+    malus environnementaux impactant la visibilit\xE9 lorsqu\u2019il s\u2019agit
+    de rep\xE9rer ou d\u2019attaquer des \xEAtres ayant un coeur battant.\r\n\u2022
+    Vision pr\xE9datrice \u2013 Permet de d\xE9signer un ennemi et de le suivre \xE0
+    travers les obstacles jusqu\u2019\xE0 une distance de 2 kilom\xE8tres"
+  icon: {fileID: 0}
+  rarete: 0
+  price: 10
+  moduleType: 3
+  porte: 0
+  activation: Aucune
+  "dur\xE9e": "Une sc\xE8ne / Une phase de conflit"
+  energie: 2
+  degatModule:
+    typeAttaque: 24
+    degat:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet: []
+  slot:
+  - slotModule: 1
+    size: 1
+  evolutionModules:
+  - rarete: 0
+    duree: 
+    price: 10
+    description: "Ajoute un deuxi\xE8me type de vue."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 0
+    duree: 
+    price: 10
+    description: "Ajoute un troisi\xE8me type de vue."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []

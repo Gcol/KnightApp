@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04b0059f44a44441840df7f9f049029, type: 3}
+  m_Name: Tir
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 0}
+  desc: "Assistance au tir : +1 overdrive de Tir \xE0 chaque achat"
+  icon: {fileID: 0}
+  rarete: 1
+  price: 0
+  description:
+  - rarete: 1
+    duree: 
+    price: 10
+    description: 
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 1
+    duree: 
+    price: 30
+    description: "Le personnage ignore le premier malus de port\xE9e. S\u2019il veut
+      tirer \xE0 port\xE9e moyenne avec une arme \xE0 port\xE9e courte, il ne re\xE7oit
+      pas de malus. Cependant, s\u2019il veut tirer \xE0 port\xE9e longue avec une
+      arme \xE0 port\xE9e courte, il re\xE7oit le malus pr\xE9cis\xE9 par les r\xE8gles,
+      et ainsi de suite. Seul le premier malus est annul\xE9."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 50
+    description: "Le personnage peut utiliser le style akimbo avec les armes \xE0
+      distance en ayant seulement un malus de 1 d\xE9 \xE0 ses jets d\u2019attaque."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 70
+    description: "Le personnage peut utiliser le style ambidextre avec les armes
+      \xE0 distance en ayant seulement un malus de 1 d\xE9 \xE0 ses jets d\u2019attaque.
+      Ce bonus ne fonctionne pas avec le mode Watchtower de la m\xE9ta-armure Paladin."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 100
+    description: "Lorsqu\u2019une bande est pr\xE9sente dans une phase de conflit
+      contre un hostile, un salopard, un patron ou un colosse, le personnage peut
+      d\xE9cider, avec une seule et m\xEAme attaque de tir par tour, d\u2019infliger
+      la violence de ses armes \xE0 la bande et les d\xE9g\xE2ts de son attaque \xE0
+      l\u2019ennemi vis\xE9. L\u2019attaque doit toucher l\u2019ennemi cibl\xE9,
+      la violence sur la bande n\u2019\xE9tant qu\u2019un effet bonus."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  "caract\xE9ristique": 11

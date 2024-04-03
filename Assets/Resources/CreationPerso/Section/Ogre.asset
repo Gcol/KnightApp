@@ -27,3 +27,7 @@ MonoBehaviour:
     de 2D \xE0 toutes ses interactions sociales avec des humains autres que les membres
     de sa coterie ou de sa section."
   caract: 1
+  shopItems:
+  - {fileID: 11400000, guid: 70d931dc3b2e38b4ab54348476fbb9fc, type: 2}
+  - {fileID: 11400000, guid: 939588f5f8151a74abdd145151c37c63, type: 2}
+  - {fileID: 11400000, guid: 15ff42f5570dba74aabdefb1b0cfc407, type: 2}

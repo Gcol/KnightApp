@@ -16,6 +16,7 @@ MonoBehaviour:
   desc: "C'est la lame qui symbolise une d\xE9cision \xE0 prendre, un choix difficile,
     une h\xE9sitation. Elle repr\xE9sente aussi le libre arbitre, l'initiation, l'amour,
     le d\xE9sir ou encore la passion."
+  caract: 1
   passe: "Un amour puissant, une absence d'amour, une activit\xE9 sexuelle d\xE9bordante,
     une abstinence, un dilemme, un choix difficile, une h\xE9sitation qui cause du
     malheur, un personnage libre, un hors-la-loi, une envie de libert\xE9, un anarchiste."

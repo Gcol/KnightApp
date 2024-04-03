@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3017bf08d3eae04a840c6573af6c0d7, type: 3}
+  m_Name: Moto Speed
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: f9d3c415117213d408cddeb335b7457a, type: 3}
+  desc: "Ces petits modules plats peuvent \xEAtre gliss\xE9s sur le sol ou lanc\xE9s
+    pour lib\xE9rer des billes contenant des nanomachines. En lan\xE7ant le module
+    au sol et en lui fournissant un peu d'\xE9nergie, le chevalier peut d\xE9ployer
+    une moto de combat Steed du Knight (voir dans V\xE9hicules - page 447). La moto
+    est d\xE9j\xE0 incluse dans l'achat du module et se d\xE9ploie en moins de six
+    secondes. En utilisant simplement son IA, le chevalier peut replier la moto en
+    environ 6 secondes, jusqu'\xE0 une distance de 1 km.\r\n\r\nAttention : si la
+    moto est d\xE9truite de quelque mani\xE8re que ce soit, le module l'est aussi
+    et lib\xE8re son emplacement. Il faut en racheter un nouveau pour b\xE9n\xE9ficier
+    \xE0 nouveau de la moto Steed."
+  icon: {fileID: 0}
+  rarete: 0
+  price: 30
+  moduleType: 0
+  porte: 5
+  activation: "Action de d\xE9placement"
+  "dur\xE9e": "Jusqu\u2019\xE0 d\xE9sactivation"
+  energie: 1
+  degatModule:
+    typeAttaque: 0
+    degat:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet: []
+  slot:
+  - slotModule: 3
+    size: 1
+  evolutionModules: []

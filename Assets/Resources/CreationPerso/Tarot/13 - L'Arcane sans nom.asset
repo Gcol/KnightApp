@@ -16,6 +16,7 @@ MonoBehaviour:
   desc: "L'Arcane sans nom, aussi nomm\xE9 la Mort, est une lame un peu particuli\xE8re,
     car il symbolise la fin et une absence d'\xE9volution \xE0 venir. Pour certains,
     il symboliserait aussi le renouveau, la renaissance ou la r\xE9g\xE9n\xE9ration."
+  caract: 3
   passe: "Un accident brutal, une amn\xE9sie, la mort qui frappe un ou des proches,
     un h\xE9ros sans famille, un personnage venu de nulle part, une identit\xE9 nouvelle,
     un h\xE9ros \xE2g\xE9. (Cette lame est incompatible avec celle de la Maison-Dieu,

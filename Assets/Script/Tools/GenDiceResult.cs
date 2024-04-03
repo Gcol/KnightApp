@@ -16,7 +16,6 @@ public class GenDiceResult : MonoBehaviour
 
 
     public TMP_InputField nbDiceField;
-    public TMP_InputField nbFaceDiceField;
     public TMP_InputField nbAddToDiceField;
 
     public TextMeshProUGUI status;
@@ -25,7 +24,6 @@ public class GenDiceResult : MonoBehaviour
     public Button currentButton;
 
     public int nbDice;
-    public int nbDiceFace;
     public int nbOverdrive;
 
     public bool stop = false;
@@ -42,13 +40,7 @@ public class GenDiceResult : MonoBehaviour
 
     public void UpdateTexteStatus()
     {
-        status.text = "Lancer : " + nbDice + "D" + nbDiceFace + " + " + nbOverdrive;
-    }
-
-    public void UpdateValueNbFace()
-    {
-        int.TryParse(nbFaceDiceField.text, out nbDiceFace);
-        UpdateTexteStatus();
+        status.text = "Lancer : " + nbDice + "D6 + " + nbOverdrive;
     }
 
     public void UpdateNbAdd()
@@ -73,17 +65,16 @@ public class GenDiceResult : MonoBehaviour
             Destroy(curreGO);
         }
         resultat.text = "En attente de Lancement";
-        UpdateValueNbFace();
     }
 
     public void Lance()
     {
         CleanOldDice();
         stop = false;
-        StartCoroutine(LanceCoRoutine(nbDice, nbDiceFace,  nbOverdrive));
+        StartCoroutine(LanceCoRoutine(nbDice,  nbOverdrive));
     }
 
-    IEnumerator LanceCoRoutine(int nbDes, int nbDiceFace,  int overdrive)
+    IEnumerator LanceCoRoutine(int nbDes,  int overdrive)
     {
         currentButton.interactable = false;
         resultat.text = "Des en cours de lancement";
@@ -94,7 +85,7 @@ public class GenDiceResult : MonoBehaviour
                 break;
             yield return new WaitForSeconds(0.5f);
             GameObject newDice = Instantiate(dicePrefab, dicePannel.transform);
-            nbReussit += newDice.GetComponent<Dice>().Lancer(nbDiceFace, false);
+            nbReussit += newDice.GetComponent<Dice>().Lancer(6, false);
             allPreviousDice.Add(newDice);
         }
         if (!stop)

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3017bf08d3eae04a840c6573af6c0d7, type: 3}
+  m_Name: "Tourelle Automatis\xE9e"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 5119eb9391d13d247b4674044f6804d0, type: 3}
+  desc: "Petite valise dans le dos, bo\xEEte octogonale \xE0 la ceinture\r\n\nLe
+    chevalier peut d\xE9ployer une petite tourelle de s\xE9curit\xE9 poss\xE9dant
+    une arme de tir au choix. Lorsque vous choisissez l\u2019arme \xE0 l\u2019achat
+    du module, n\u2019oubliez pas de payer le co\xFBt de l\u2019arme. La tourelle
+    est \xE9quip\xE9e d\u2019un sonar et tire sur tous les ennemis que le chevalier
+    d\xE9signe. Elle peut \xEAtre activ\xE9e en mode s\xE9curit\xE9 pour tirer sur
+    toute autre personne que des chevaliers. Elle poss\xE8de une action de combat
+    \xE0 chaque tour. La tourelle est trait\xE9e comme un PNJ, avec un profil tr\xE8s
+    simplifi\xE9.\n\nPa : 50\nCdf : 6\n\nJet pour toucher : 8D6 + 2\nD\xE9gat : ceux
+    de l'arme"
+  icon: {fileID: 0}
+  rarete: 0
+  price: 10
+  moduleType: 8
+  porte: 5
+  activation: "Action de d\xE9placement"
+  "dur\xE9e": "Jusqu'a r\xE9cuperation"
+  energie: 
+  degatModule:
+    typeAttaque: 24
+    degat:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet: []
+  slot:
+  - slotModule: 3
+    size: 2
+  evolutionModules: []

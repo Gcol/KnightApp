@@ -18,17 +18,12 @@ public class StatInfo : MonoBehaviour
 
     public void InsertNewPerso(Chevalier currentChevalier)
     {
-        transform.Find("PointSanté/GameObject").gameObject.GetComponent<UpdateStat>().InitValue(currentChevalier.currentVie, currentChevalier.pv);
-        transform.Find("Point D'espoir/GameObject").gameObject.GetComponent<UpdateStat>().InitValue(currentChevalier.currentEspoir, currentChevalier.pe);
-        transform.Find("Point D'énergie/GameObject").gameObject.GetComponent<UpdateStat>().InitValue(currentChevalier.currentEnergie, currentChevalier.armure.PointEnergie);
-        transform.Find("Points D'armure/GameObject").gameObject.GetComponent<UpdateStat>().InitValue(currentChevalier.currentArmor, currentChevalier.armure.PointArmure);
+        transform.Find("PointSanté/GameObject").gameObject.GetComponent<UpdateStat>().InitValue(currentChevalier.currentStat["Vie"], currentChevalier.PointDeVie());
+        transform.Find("Point D'espoir/GameObject").gameObject.GetComponent<UpdateStat>().InitValue(currentChevalier.currentStat["Espoir"], currentChevalier.Espoir());
+        transform.Find("Point D'énergie/GameObject").gameObject.GetComponent<UpdateStat>().InitValue(currentChevalier.currentStat["Energie"], currentChevalier.armure.PointEnergie);
+        transform.Find("Points D'armure/GameObject").gameObject.GetComponent<UpdateStat>().InitValue(currentChevalier.currentStat["Armure"], currentChevalier.armure.PointArmure);
         transform.Find("Champ de Force/GameObject").gameObject.GetComponent<UpdateStat>().InitValue(currentChevalier.armure.ChampDeForce, currentChevalier.armure.ChampDeForce);
 
-        transform.Find("PointSanté/Text (TMP)").gameObject.GetComponent<TextMeshProUGUI>().text = currentChevalier.currentVie.ToString();
-        transform.Find("Point D'espoir/Text (TMP)").gameObject.GetComponent<TextMeshProUGUI>().text = currentChevalier.currentEspoir.ToString();
-        transform.Find("Point D'énergie/Text (TMP)").gameObject.GetComponent<TextMeshProUGUI>().text = currentChevalier.currentEnergie.ToString();
-        transform.Find("Points D'armure/Text (TMP)").gameObject.GetComponent<TextMeshProUGUI>().text = currentChevalier.currentArmor.ToString();
-        transform.Find("Champ de Force/Text (TMP)").gameObject.GetComponent<TextMeshProUGUI>().text = currentChevalier.armure.ChampDeForce.ToString();
 
     }
 

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7a6f3067da474f83b12cd915d6645, type: 3}
+  m_Name: "Ep\xE9e Batarde"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 3920e3631ed69994786986bcc618d3a7, type: 3}
+  desc: "Au Knight, on forme des chevaliers. Et un chevalier, bien souvent, \xE7a
+    porte une \xE9p\xE9e b\xE2tarde. Cette lame droite en \xE9l\xE9ment alpha est
+    aiguis\xE9e au nanom\xE8tre. Sa garde \xE9paisse prot\xE8ge une poign\xE9e t\xE9lescopique
+    lest\xE9e qui permet d\u2019utiliser l\u2019arme \xE0 une ou \xE0 deux mains
+    sans sacrifier l\u2019\xE9quilibrage. Il suffit d\u2019appuyer sur un bouton
+    pour que la poign\xE9e s\u2019allonge et que la garde redistribue son poids afin
+    de trancher au mieux. \n\xAB Une merveille je vous dis ! T\xE2chez d\u2019en
+    \xEAtre dignes ! \xBB \u2013 Lamorak"
+  icon: {fileID: 0}
+  rarete: 0
+  price: 30
+  surnom: la joyeuse / la griffe
+  degatArmes:
+  - typeAttaque: 5
+    degat:
+      nbDice: 4
+      addDegat: 0
+      "caract\xE9ristique": 0600000012000000
+    violence:
+      nbDice: 2
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet:
+    - effet: {fileID: 11400000, guid: f46efac357e304b4e9fe3fb677912807, type: 2}
+      level: 0
+  - typeAttaque: 6
+    degat:
+      nbDice: 4
+      addDegat: 0
+      "caract\xE9ristique": 0600000006000000
+    violence:
+      nbDice: 3
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet:
+    - effet: {fileID: 11400000, guid: 44a92b9a3678f514abd978286b6e64ac, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: d818c99f66d22534bb9449045055305c, type: 2}
+      level: 0

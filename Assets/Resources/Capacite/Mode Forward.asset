@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a6894bfe07bae4d89ebacbb62f38a9, type: 3}
+  m_Name: Mode Forward
+  m_EditorClassIdentifier: 
+  description: "La m\xE9ta-armure est capable d\u2019acc\xE9l\xE9rer le temps sur
+    elle-m\xEAme pour se d\xE9placer plus rapidement."
+  energiCout: "3 pour augmenter la port\xE9e de d\xE9placement de 1 niveau"
+  activation: Aucune
+  duree: 6 secondes ou 1 tour en phase de conflit
+  effet: "Les port\xE9es de d\xE9placement du chevalier \u2013 que ce soit son d\xE9placement
+    normal ou ceux octroy\xE9s par les modules de course, de saut ou de vol \u2013
+    sont augment\xE9es d\u2019un niveau jusqu\u2019\xE0 un maximum \xE9gal \xE0 port\xE9e
+    longue. Une port\xE9e contact devient ainsi une port\xE9e courte, une port\xE9e
+    courte devient une port\xE9e moyenne et une port\xE9e moyenne devient une port\xE9e
+    longue. Au-del\xE0, l\u2019int\xE9grit\xE9 de l\u2019armure est trop en danger
+    pour que l\u2019IA autorise un tel d\xE9placement. Le d\xE9placement en v\xE9hicule,
+    les d\xE9placements accord\xE9s par l\u2019OD de D\xE9placement de niveau 1 ou
+    3 et par le module de t\xE9l\xE9portation ne sont pas affect\xE9s par cette capacit\xE9.\n\nAttention
+    : Seule la port\xE9e est augment\xE9e, les d\xE9g\xE2ts accord\xE9s par les modules
+    de course ou de saut ne sont pas affect\xE9s par cette capacit\xE9."

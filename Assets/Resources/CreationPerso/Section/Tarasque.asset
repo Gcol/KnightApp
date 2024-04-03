@@ -29,3 +29,7 @@ MonoBehaviour:
     d\u2019une sc\xE8ne le personnage est \xE0 moins de 10 points d\u2019espoir,
     il est automatiquement tu\xE9 par l\u2019explosif et retir\xE9 du jeu."
   caract: 1
+  shopItems:
+  - {fileID: 11400000, guid: cca5c156830189541aafc8372055d730, type: 2}
+  - {fileID: 11400000, guid: 0f0753f5f5f27d3408acbae920b66c3d, type: 2}
+  - {fileID: 11400000, guid: 5cec0ec63830d7c4b8ac2621446f7a60, type: 2}

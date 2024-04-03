@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9d7266a299c1641b490efbee3df7dc, type: 3}
   m_Name: Sorcerer
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 21300000, guid: a26cfde94ad065b428c2b20e52f69634, type: 3}
+  currentSprite: {fileID: 21300000, guid: 04281aa48f04a6646a333465b32d4f55, type: 3}
   desc: 
   historique: 
   PointArmure: 70
@@ -22,17 +22,4 @@ MonoBehaviour:
   allCapacite:
   - {fileID: 11400000, guid: b86d07d4e276ef749b316d7676256fda, type: 2}
   overdrive: 
-  slot:
-  - nameSlot: BrasD
-    number: 0
-  - nameSlot: "T\xEAte"
-    number: 0
-  - nameSlot: BrasG
-    number: 0
-  - nameSlot: Torse
-    number: 0
-  - nameSlot: JambeD
-    number: 0
-  - nameSlot: JambeL
-    number: 0
   evolution: []

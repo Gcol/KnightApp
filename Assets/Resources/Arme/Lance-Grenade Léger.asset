@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7a6f3067da474f83b12cd915d6645, type: 3}
+  m_Name: "Lance-Grenade L\xE9ger"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 29a2431c9b138d940a2b4c8cfc4d5c6c, type: 3}
+  desc: "Ce lance-grenade semi-automatique lourd donne \xE0 un chevalier la puissance
+    d\u2019une petite section d\u2019artillerie. Il est aliment\xE9 par un chargeur
+    revolver automatis\xE9 contenant 24 grenades 40mm haute v\xE9locit\xE9. Ce chargeur
+    arme le type de grenade qu\u2019on lui demande d\u2019un simple mot prononc\xE9
+    \xE0 voix haute. \n\nQuelle que soit la grenade tir\xE9e, les effets suivants
+    s\u2019appliquent : Assistance \xE0 l\u2019attaque / lourd / deux mains."
+  icon: {fileID: 0}
+  rarete: 0
+  price: 40
+  surnom: le bulldog / le doberman
+  degatArmes:
+  - typeAttaque: 2
+    degat:
+      nbDice: 4
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 3
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 2
+    effet:
+    - effet: {fileID: 11400000, guid: f8355b873f34f794299006a7aeff896e, type: 2}
+      level: 3
+  - typeAttaque: 3
+    degat:
+      nbDice: 3
+      addDegat: 10
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 1
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 2
+    effet:
+    - effet: {fileID: 11400000, guid: 66ca54ffe3dc78649b506c7aa5451051, type: 2}
+      level: 0
+  - typeAttaque: 4
+    degat:
+      nbDice: 2
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 3
+      addDegat: 10
+      "caract\xE9ristique": 
+    portee: 2
+    effet:
+    - effet: {fileID: 11400000, guid: 894b4d6aba420d148b30c2bea88fdb7d, type: 2}
+      level: 3

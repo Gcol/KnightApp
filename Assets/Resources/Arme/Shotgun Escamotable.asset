@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7a6f3067da474f83b12cd915d6645, type: 3}
+  m_Name: Shotgun Escamotable
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: cc36cdc38a50dfd4f9e34510948da7ec, type: 3}
+  desc: "Ce shotgun pliable est install\xE9 \xE0 c\xF4t\xE9 des extincteurs dans
+    les couloirs de Camelot et dans les v\xE9hicules du Knight. D\xE9crocher, d\xE9plier
+    les poign\xE9es, un d\xE9clic se fait entendre, \xE9carter les poign\xE9es \xE9nergiquement,
+    \xE7a coulisse, nouveau d\xE9clic, et voil\xE0, un fusil \xE0 pompe arm\xE9 et
+    pr\xEAt \xE0 tirer. Il se recharge par l\u2019arri\xE8re, sous la crosse, dans
+    deux chargeurs tubulaires. Il est utilisable sans m\xE9ta-armure.\n\xAB Viser,
+    plomber, la chevrotine n\u2019a pas besoin de pr\xE9sentations. \xBB \u2013 Lamorak"
+  icon: {fileID: 0}
+  rarete: 0
+  price: 20
+  surnom: le riotgun / le clic-clac
+  degatArmes:
+  - typeAttaque: 1
+    degat:
+      nbDice: 2
+      addDegat: 10
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 2
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 2
+    effet:
+    - effet: {fileID: 11400000, guid: c066c0ba73fc9a64ca3909e880a39e4e, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: d37856b172237584fb5b999fe5d1f8c2, type: 2}
+      level: 1
+    - effet: {fileID: 11400000, guid: 2b54d24cbcbdad2488467a3de5d59e7e, type: 2}
+      level: 2
+    - effet: {fileID: 11400000, guid: d818c99f66d22534bb9449045055305c, type: 2}
+      level: 0

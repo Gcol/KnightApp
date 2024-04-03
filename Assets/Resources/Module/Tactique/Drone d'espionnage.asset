@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3017bf08d3eae04a840c6573af6c0d7, type: 3}
+  m_Name: Drone d'espionnage
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 66cdb60f17b4c54499cd36dfb82bb5b1, type: 3}
+  desc: "Le petit quadript\xE8re repli\xE9 dans le dos et celui \xE0 la ceinture
+    constituent un outil d'espionnage discret et efficace. Ce petit h\xE9licopt\xE8re
+    \xE0 quatre rotors, ressemblant \xE0 un jouet, est \xE9quip\xE9 d'une cam\xE9ra
+    et d'un microphone reli\xE9s au casque de l'utilisateur. Il peut voler silencieusement
+    pendant environ 2 heures et \xEAtre envoy\xE9 jusqu'\xE0 une distance de 20 kilom\xE8tres
+    du chevalier avant que le signal ne devienne instable. Les quatre rotors peuvent
+    \xEAtre convertis en une roue pour une meilleure maniabilit\xE9, selon la volont\xE9
+    de l'utilisateur.\r\n\r\nLe drone d'espionnage ne poss\xE8de pas de caract\xE9ristiques
+    d\xE9taill\xE9es comme les PNJ, mais plut\xF4t un profil simplifi\xE9 pour refl\xE9ter
+    son r\xF4le dans le jeu.\n\nD\xE9fense : 5\nR\xE9action : 5\nArmure : 20\nCDF
+    : 10\nVitesse : 3\n\nJet de discretion : 10D6 +2\nJet de d\xE9placement : 8D6"
+  icon: {fileID: 0}
+  rarete: 1
+  price: 20
+  moduleType: 5
+  porte: 3
+  activation: "Action de d\xE9placement"
+  "dur\xE9e": "Une sc\xE8ne / Une pahse de conflit"
+  energie: 0
+  degatModule:
+    typeAttaque: 24
+    degat:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet: []
+  slot:
+  - slotModule: 3
+    size: 1
+  evolutionModules: []

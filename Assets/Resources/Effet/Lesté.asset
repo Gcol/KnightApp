@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: "Lest\xE9"
+  m_EditorClassIdentifier: 
+  description: "Lorsque l\u2019arme est utilis\xE9e, son utilisateur ajoute le score
+    de la caract\xE9ristique Force multipli\xE9e par deux (ou Chair complet pour
+    un PNJ) lorsqu\u2019il d\xE9termine les d\xE9g\xE2ts plut\xF4t que sa Force seule
+    (ou Chair divis\xE9 par 2).\nSeuls les PJ ayant un score de Force \xE9gal ou
+    sup\xE9rieur \xE0 4 ou poss\xE9dant un overdrive de Force peuvent utiliser une
+    arme avec un tel effet."

@@ -16,6 +16,7 @@ MonoBehaviour:
   desc: "Cette lame symbolise la religion, le fait de croire et toute forme de spiritualit\xE9.
     C'est aussi la carte qui repr\xE9sente la morale et le fait de respecter la loi
     ou non, aussi bien celle des Hommes, de la nature ou des dieux."
+  caract: 4
   passe: "La croyance, une ou des pratiques religieuses, l'absence de foi, une morale
     \xE0 toute \xE9preuve (bonne ou mauvaise), un garant de la loi, un hors-la-loi,
     le fanatisme, la d\xE9couverte de la spiritualit\xE9, la haine du divin."

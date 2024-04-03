@@ -17,70 +17,88 @@ public class TarotManager : MonoBehaviour
     public TextMeshProUGUI supInfoText;
     public TextMeshProUGUI supInfoPasse;
     public TextMeshProUGUI supInfoBonus;
+
     public Button supInfoAvJButton;
-    public TextMeshProUGUI supInfoAvJ;
     public Button supInfoAvIAButton;
-    public TextMeshProUGUI supInfoAvIA;
     public Button supInfoDavJButton;
-    public TextMeshProUGUI supInfoDavJ;
     public Button supInfoDavIAButton;
+
+    public TextMeshProUGUI supInfoAvJ;
+    public TextMeshProUGUI supInfoAvIA;
+    public TextMeshProUGUI supInfoDavJ;
     public TextMeshProUGUI supInfoDavIA;
 
 
     public GameObject InstructionPannel;
     public Tarot currentObj;
+    public string emplacement;
+    public Button currentButton;
 
     public void UpdatePerso()
     {
-        cMM.UpdatePerso(currentObj);
+        cMM.UpdatePerso(currentObj, emplacement);
     }
     // Start is called before the first frame update
     void Start()
     {
         InstructionPannel = transform.Find("Instruction").gameObject;
         cMM = FindObjectOfType<CreationPersoManager>();
-        UpdateObjectif();
-
     }
 
-    void UpdateObjectif()
+    public void UpdateEmplacement(string emplacement)
     {
-
-        if (cMM.taroDeck.avJ == null)
-            InstructionPannel.transform.Find("Instruction (AvJ)").GetComponent<TextMeshProUGUI>().text = "2 Avantage Joueur";
-        else
-            InstructionPannel.transform.Find("Instruction (AvJ)").GetComponent<TextMeshProUGUI>().text = (2 - cMM.taroDeck.avJ.Count) + " Avantage Joueur";
-
-        if (cMM.taroDeck.DavJ == null)
-            InstructionPannel.transform.Find("Instruction (DavJ)").GetComponent<TextMeshProUGUI>().text  = "1 Desavantage Joueur";
-        else
-            InstructionPannel.transform.Find("Instruction (DavJ)").GetComponent<TextMeshProUGUI>().text = "0 Desavantage Joueur";
-
-        if (cMM.taroDeck.avIa == null)
-            InstructionPannel.transform.Find("Instruction (AvIA)").GetComponent<TextMeshProUGUI>().text = "1 Avantage IA";
-        else
-            InstructionPannel.transform.Find("Instruction (AvIA)").GetComponent<TextMeshProUGUI>().text = "0 Avantage IA";
-
-        if (cMM.taroDeck.DavIa == null)
-            InstructionPannel.transform.Find("Instruction (DavIA)").GetComponent<TextMeshProUGUI>().text = "1 Desavantage IA";
-        else
-            InstructionPannel.transform.Find("Instruction (DavIA)").GetComponent<TextMeshProUGUI>().text = "0 Desavantage IA";
-
+        this.emplacement =  emplacement;
     }
 
-    public void PushButton(Tarot tarotCard)
+    public void UpdateObjectif(string emplacement)
     {
-        currentObj = tarotCard;
+        Debug.Log(emplacement);
+        if (emplacement != "Avantage Joueur")
+        {
+            emplacement = emplacement.Replace(" 2", "");
+            InstructionPannel.transform.Find($"Instruction {emplacement}").GetComponent<TextMeshProUGUI>().text = $"<s>0 {emplacement}</s>";
+            InstructionPannel.transform.Find($"Instruction {emplacement}").GetComponent<TextMeshProUGUI>().color = Color.grey;
+            switch (emplacement)
+            {
+                case "Avantage Joueur":
+                    supInfoAvJButton.interactable = false;
+                    break;
+                case "Avantage IA":
+                    supInfoAvIAButton.interactable = false;
+                    break;
+                case "Desavantage Joueur":
+                    supInfoDavJButton.interactable = false;
+                    break;
+                case "Desavantage IA":
+                    supInfoDavIAButton.interactable = false;
+                    break;
+            }
+
+        }
+        else
+            InstructionPannel.transform.Find($"Instruction {emplacement}").GetComponent<TextMeshProUGUI>().text = $"1 {emplacement}";
+
+    }
+    
+    public void DeactiveButton()
+    {
+        currentButton.interactable = false;
+    }
+
+    public void PushButton(CreaPerso tarotCard, Button currentButton)
+    {
+        this.currentButton = currentButton;
+        currentObj = (Tarot)tarotCard;
         tarotInfoPannel.SetActive(true);
         supInfoImage.sprite = tarotCard.currentSprite;
         supInfoTitre.text = tarotCard.name;
         supInfoText.text = tarotCard.desc;
-        supInfoPasse.text = "Passe : " + tarotCard.passe;
-        supInfoBonus.text = "Bonus : " + tarotCard.bonus;
-        supInfoAvJ.text = tarotCard.avantagePj;
-        supInfoAvIA.text = tarotCard.avantageIA;
-        supInfoDavJ.text = tarotCard.desavantagePj;
-        supInfoDavIA.text = tarotCard.desavantageIA;
+        supInfoPasse.text = "Passe : " + currentObj.passe;
+        supInfoBonus.text = "Bonus : " + currentObj.bonus;
+        supInfoAvJ.text = currentObj.avantagePj;
+        supInfoAvIA.text = currentObj.avantageIA;
+        supInfoDavJ.text = currentObj.desavantagePj;
+        supInfoDavIA.text = currentObj.desavantageIA;
     }
 
 }

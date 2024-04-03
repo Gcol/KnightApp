@@ -30,14 +30,14 @@ public class BlasonManager : MonoBehaviour
 
     }
 
-    public void PushButton(Blason blason)
+    public void PushButton(ButtonCreaPerso script)
     {
-        currentObj  = blason;
+        currentObj = (Blason)script.entity;
         tarotInfoPannel.SetActive(true);
-        supInfoImage.sprite = blason.grandImage;
-        supInfoTitre.text = blason.name;
-        supInfoText.text = blason.desc;
-        supInfoVoeu.text = blason.voeu;
-        supInfoButton.text = "Choissir le blason : " + blason.name;
+        supInfoImage.sprite = currentObj.grandImage;
+        supInfoTitre.text = currentObj.name;
+        supInfoText.text = currentObj.desc;
+        supInfoVoeu.text = currentObj.voeu;
+        supInfoButton.text = "Choissir le blason : " + currentObj.name;
     }
 }

@@ -13,11 +13,8 @@ public class creatureRencontre
 }
 
 [CreateAssetMenu(fileName = "Nouvelle Scene", menuName = "Knight / Mission")]
-public class MissionScene : ScriptableObject
+public class MissionScene : Mission
 {
-    public Sprite fondSprite;
-    public AudioClip musicFond;
-    public VideoClip videoClip;
     [SerializeField]
     public creatureRencontre[] creatures;
     [TextArea(10, 100)]

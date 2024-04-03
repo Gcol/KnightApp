@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Nouveau Tarot", menuName = "Knight / Tarot")]
 public class Tarot : CreaPerso
 {
+
+    public caractéristique caract;
     [TextArea(1, 100)]
     public string passe;
     [TextArea(3, 100)]

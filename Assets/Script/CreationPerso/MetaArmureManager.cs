@@ -12,6 +12,7 @@ public class MetaArmureManager : MonoBehaviour
     public TextMeshProUGUI textMeshProPrefab;
 
     public GameObject PannelInfoPannel;
+    public GameObject PannelMetaArmureAff;
     public TextMeshProUGUI supInfoTitre;
     public Image supInfoImage;
 
@@ -27,7 +28,9 @@ public class MetaArmureManager : MonoBehaviour
 
     public void UpdatePerso()
     {
+
         cMM.UpdatePerso(currentArmure);
+        PannelMetaArmureAff.SetActive(true);    
     }
 
     public void Clean()
@@ -61,10 +64,10 @@ public class MetaArmureManager : MonoBehaviour
         UpdateStat(stat, "Gen", cObjct.generationMetaArmure.ToString());
 
 
-        foreach(moduleSlot currMs in cObjct.slot)
-        {
-            module.Find(currMs.nameSlot).GetComponent<TextMeshProUGUI>().text  = currMs.number.ToString();  
-        }
+        //foreach(moduleSlot currMs in cObjct.slot)
+        //{
+        //    module.Find(currMs.nameSlot).GetComponent<TextMeshProUGUI>().text  = currMs.number.ToString();  
+        //}
 
         foreach (caractéristique currC in cObjct.overdrive)
         {

@@ -12,27 +12,110 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9d7266a299c1641b490efbee3df7dc, type: 3}
   m_Name: Monk
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 21300000, guid: a26cfde94ad065b428c2b20e52f69634, type: 3}
-  desc: 
-  historique: 
+  currentSprite: {fileID: 21300000, guid: 283f8cfe35eb2414884f6c31d56c59b8, type: 3}
+  desc: "Gr\xE2ce \xE0 un r\xE9seau de fines veines de C\xE9a reliant le r\xE9acteur
+    \xE9nerg\xE9tique de la m\xE9ta-armure \xE0 ses gantelets, le porteur d'une m\xE9ta-armure
+    Monk peut propulser \xE0 bonne distance de l'\xE9nergie alpha de trois mani\xE8res
+    diff\xE9rentes, selon des gestes \xE9tudi\xE9s. D'abord en effectuant un large
+    mouvement de bras, paume ouverte, le chevalier envoie de l'\xE9nergie alpha sous
+    forme de vagues noires diffuses servant \xE0 parasiter les syst\xE8mes \xE9lectroniques
+    des v\xE9hicules, des b\xE2timents et des m\xE9ta-armures. Ensuite, en effectuant
+    un mouvement rapide du bras vers l'avant, paume ouverte, le porteur de la m\xE9ta-armure
+    propulse l'\xE9nergie sous forme de salves d\xE9vastatrices compos\xE9es de plusieurs
+    projectiles bleu nuit, tr\xE8s utiles contre les bandes ennemies. Enfin, en tendant
+    son bras lentement et en ouvrant la main progressivement, le chevalier envoie
+    de l'\xE9nergie alpha sous forme d'un rayon concentr\xE9, capable de percer les
+    blindages les plus \xE9pais et clairement destin\xE9 \xE0 an\xE9antir les ennemis
+    les plus armur\xE9s ou les v\xE9hicules les plus blind\xE9s. Chaque utilisation
+    de cette capacit\xE9 d\xE9pense \xE9videmment sa part d'\xE9nergie alpha, mais
+    aussi sa part d'espoir. Heureusement, l'IA de la m\xE9ta-armure est sp\xE9cialement
+    \xE9tudi\xE9e pour limiter le d\xE9sespoir et peut enclencher, \xE0 la demande
+    du chevalier, un mode de m\xE9ditation qui permet \xE0 son porteur de mettre
+    son esprit au repos et de recouvrer un peu de son espoir perdu.\r\n\r\nD'aspect,
+    la m\xE9ta-armure Monk est comme toutes les armures de 3e g\xE9n\xE9ration :
+    fine, peu blind\xE9e mais poss\xE9dant un r\xE9acteur d'\xE9nergie puissant et
+    un excellent champ de force. Sur diff\xE9rentes parties de la m\xE9ta-armure,
+    on distingue des \xE9vents servant \xE0 refroidir les syst\xE8mes apr\xE8s une
+    projection d'\xE9nergie alpha. Son signe le plus distinctif reste l'\xE9nergie
+    exsudant de ses gantelets et diffusant une lueur bleu nuit.\r\n\r\nEnfin, les
+    chevaliers portant une m\xE9ta-armure Monk doivent composer entre leur capacit\xE9
+    \xE0 propulser l'\xE9nergie alpha par leur gantelet et l'utilisation d'une pi\xE8ce
+    de l'armement du Knight. Devant effectuer des gestes pr\xE9cis d'une main, ils
+    la laissent g\xE9n\xE9ralement libre et conservent une arme l\xE9g\xE8re dans
+    l'autre.\r\n"
+  historique: "Depuis sa cr\xE9ation, le Knight cherche \xE0 exploiter l'\xE9nergie
+    alpha comme une arme, notamment face aux ennemis humains du Knight. Pouvant provoquer
+    des impulsions \xE9lectromagn\xE9tiques et traverser l'\xE9l\xE9ment alpha, cette
+    \xE9nergie pouvait \xEAtre un \xE9l\xE9ment crucial pour les chevaliers qui souhaitaient
+    se lancer dans la traque de chevaliers noirs ou s'\xE9quiper dans le cas d'une
+    \xE9ventuelle tra\xEEtrise de la part d'alli\xE9s. Profond\xE9ment destructrice
+    mais aussi tr\xE8s instable, l'\xE9nergie alpha \xE9tait jusque-l\xE0 consid\xE9r\xE9e
+    comme trop dangereuse pour \xEAtre exploit\xE9e en dehors des r\xE9acteurs blind\xE9s
+    et des noyaux pr\xE9sents sur les armures, les v\xE9hicules ou les b\xE2timents.\r\n\r\nC'est
+    Lancelot qui a trouv\xE9, par hasard, le moyen d'exploiter l'\xE9nergie alpha
+    \xE0 des fins guerri\xE8res. Lors d'une mission aux \xC9tats-Unis, le chevalier
+    de la Table Ronde a affront\xE9 une cr\xE9ature terrible se servant d'une sorte
+    d'arme faite d'un bois noir pour lancer de terribles salves d'\xE9nergie alpha.
+    D\xE9fiant puis tuant le monstre, Lancelot a r\xE9cup\xE9r\xE9 l'arme et l'a
+    fait analyser par les chercheurs de la section Cyclope. Ce mat\xE9riau semblable
+    \xE0 du bois, inconnu, \xE9tait capable d'emmagasiner l'\xE9nergie alpha par
+    simple exposition pour la rel\xE2cher en une salve destructrice, ou m\xEAme en
+    un rayon, gr\xE2ce \xE0 des mouvements particuliers et \xE9tudi\xE9s. Il a \xE9t\xE9
+    nomm\xE9 C\xE9a, pour catalyseur d'\xE9nergie alpha.\r\n\r\nLa section Cyclope,
+    avec l'appui de Lancelot et de Dagonnet, a alors lanc\xE9 une grande qu\xEAte
+    pour r\xE9cup\xE9rer du C\xE9a aupr\xE8s des cr\xE9atures vaincues. En v\xE9rit\xE9,
+    avec peu de succ\xE8s. Rare, le C\xE9a n'\xE9tait trouv\xE9 que sur de rares
+    horreurs (visiblement des chefs). Devant ce souci, Dagonnet et Lancelot ont d\xE9cid\xE9
+    de lancer la cr\xE9ation d'un nouveau type de m\xE9ta-armure dont une partie
+    serait compos\xE9e du rare C\xE9a disponible et reli\xE9e \xE0 un r\xE9acteur
+    \xE0 \xE9nergie alpha de type Infinity. La m\xE9ta-armure Monk \xE9tait con\xE7ue.\r\n\r\nSon
+    seul probl\xE8me est qu'en manipulant l'\xE9nergie alpha d'aussi pr\xE8s et aussi
+    intens\xE9ment, son porteur perd peu \xE0 peu sa volont\xE9 et entre doucement
+    dans le d\xE9sespoir. Les chevaliers pouvant porter cette m\xE9ta-armure sont
+    donc tri\xE9s sur le volet et choisis pour leur capacit\xE9 \xE0 r\xE9sister
+    \xE0 l'Horreur. Heureusement, l'IA de la m\xE9ta-armure Monk est \xE9tudi\xE9e
+    pour aider le chevalier \xE0 lutter contre le d\xE9sespoir.\r\n"
   PointArmure: 70
   PointEnergie: 60
   ChampDeForce: 10
   generationMetaArmure: 0
   allCapacite:
   - {fileID: 11400000, guid: b86d07d4e276ef749b316d7676256fda, type: 2}
-  overdrive: 
+  overdrive: 08000000090000000b00000010000000
   slot:
   - nameSlot: BrasD
-    number: 0
+    number: 8
   - nameSlot: "T\xEAte"
-    number: 0
+    number: 7
   - nameSlot: BrasG
-    number: 0
+    number: 8
   - nameSlot: Torse
-    number: 0
+    number: 10
   - nameSlot: JambeD
-    number: 0
+    number: 6
   - nameSlot: JambeL
-    number: 0
-  evolution: []
+    number: 6
+  evolution:
+  - numberPG: 150
+    effect: "D\xE9sormais, les scores de d\xE9g\xE2ts et de violence de chacun des
+      types de propulsion du mode C\xE9a re\xE7oivent un bonus de 2D6."
+    buyable: 0
+  - numberPG: 200
+    effect: "\r\nD\xE9sormais, le mode Zen peut \xEAtre activ\xE9 pour r\xE9cup\xE9rer
+      les points d\u2019espoir qui ont \xE9t\xE9 perdus \xE0 cause du C\xE9a lors
+      de n\u2019importe quelle phase de conflit ayant eu lieu pendant la mission
+      en cours. C\u2019est au chevalier de bien noter ses diff\xE9rentes pertes.
+      Si le chevalier n\u2019active pas le mode Zen durant une sc\xE8ne de la mission
+      en cours, les points d\u2019espoir perdus \xE0 cause du mode C\xE9a lors d\u2019une
+      phase de conflit de la mission en cours le sont d\xE9finitivement et leur r\xE9cup\xE9ration
+      est soumise aux r\xE8gles standards."
+    buyable: 0
+  - numberPG: 250
+    effect: "Certains effets des types de propulsion du mode C\xE9a s\u2019am\xE9liorent
+      :\r\n\r\n    L\u2019effet parasitage 2 de la vague d\u2019\xE9nergie devient
+      l\u2019effet parasitage 4.\r\n    L\u2019effet dispersion 3 de la salve d\u2019\xE9nergie
+      devient l\u2019effet dispersion 6.\r\n    L\u2019effet perce armure 40 du rayon
+      d\u2019\xE9nergie devient l\u2019effet ignore armure.\r\n\r\nDe plus, les scores
+      de d\xE9g\xE2ts et de violence de chacun des types de propulsion du mode C\xE9a
+      re\xE7oivent de nouveau un bonus de 2D6."
+    buyable: 0

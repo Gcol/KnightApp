@@ -21,8 +21,7 @@ MonoBehaviour:
   Bonus: "+1 dans l\u2019aspect Machine et +1 point dans les trois caract\xE9ristiques
     qui y sont li\xE9es."
   Avantage: "Le PJ re\xE7oit un overdrive de Savoir suppl\xE9mentaire lorsqu\u2019il
-    porte sa m\xE9ta-armure. S\u2019il poss\xE8de d\xE9j\xE0 un overdrive de Savoir
-    sur sa m\xE9ta-armure, il augmente cet overdrive au niveau 2"
+    porte sa m\xE9ta-armure."
   Inconvenient: "Sensible \xE0 l\u2019Anath\xE8me : Le personnage est curieux de
     tout ce qui touche \xE0 l\u2019Anath\xE8me et cette curiosit\xE9 s\u2019est mu\xE9e
     en une \xE9trange fascination. Le chevalier devient, \xE0 mesure que les jours
@@ -31,3 +30,5 @@ MonoBehaviour:
     et tout ennemi tentant de lui appliquer la capacit\xE9 domination re\xE7oit un
     bonus de 3 r\xE9ussites automatiques \xE0 son test."
   caract: 4
+  shopItems:
+  - {fileID: 11400000, guid: 81776853355eb524393dcd0013b8206a, type: 2}

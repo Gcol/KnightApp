@@ -5,33 +5,25 @@ using System.Collections;
 using System;
 using UnityEditor;
 using System.Linq;
+using Unity.VisualScripting;
+using System.IO;
 
 
 
 [Serializable]
-[CreateAssetMenu(fileName = "Nouveau Chevalier", menuName = "Knight / Chevalier")]
 public class Chevalier : ScriptableObject
 {
     public string fullname;
+    public bool isArmure;
     public string alias;
     // valuer calculer 
-
-    [HideInInspector]
-    public int pv = 0;
-
-    [HideInInspector]
-    public int pe = 50;
 
     public Armure armure;
     public SectionKnight section;
 
-    [HideInInspector]
     public int currentVie;
-    [HideInInspector]
     public int currentEspoir;
-    [HideInInspector]
     public int currentEnergie;
-    [HideInInspector]
     public int currentArmor;
 
     [HideInInspector]
@@ -42,90 +34,155 @@ public class Chevalier : ScriptableObject
     public Blason blason;
 
 
-    public List<ModuleBase> allModule;
-    [HideInInspector]
-    public Motivation[] motiv = new Motivation[]
-    {
-        new Motivation("", true, false),
-        new Motivation("", true, false),
-        new Motivation("", false, true),
+    public Dictionary<string, int> currentStat;
+
+    public String[] motivation = new string[3] {"","",""};
+
+    public List<Arme> allWeapon;
+    public List<string> tarots = new List<string>();
+
+    public Dictionary<caractéristique, CharacValue> allStat = new Dictionary<caractéristique, CharacValue>() {
+        {caractéristique.Chair, new CharacValue(0,0)},
+        {caractéristique.Déplacement, new CharacValue(0,0)},
+        {caractéristique.Force, new CharacValue(0,0)},
+        {caractéristique.Endurance, new CharacValue(0,0)},
+        {caractéristique.Bête, new CharacValue(0,0)},
+        {caractéristique.Hargne, new CharacValue(0,0)},
+        {caractéristique.Combat, new CharacValue(0,0)},
+        {caractéristique.Instinct, new CharacValue(0,0)},
+        {caractéristique.Machine, new CharacValue(0,0)},
+        {caractéristique.Tir, new CharacValue(0,0)},
+        {caractéristique.Savoir, new CharacValue(0,0)},
+        {caractéristique.Technique, new CharacValue(0,0)},
+        {caractéristique.Dame, new CharacValue(0,0)},
+        {caractéristique.Aura, new CharacValue(0,0)},
+        {caractéristique.Parole, new CharacValue(0,0)},
+        {caractéristique.Sang_Froid, new CharacValue(0,0)},
+        {caractéristique.Masque, new CharacValue(0,0)},
+        {caractéristique.Discrétion, new CharacValue(0,0)},
+        {caractéristique.Dextérité, new CharacValue(0,0)},
+        {caractéristique.Perception, new CharacValue(0,0)}
     };
 
-    [HideInInspector]
-    public TarotEffet[] arcanes = new TarotEffet[]
-    {
-        new TarotEffet(false, false, true),
-        new TarotEffet(false, false, true),
-        new TarotEffet(true),
-        new TarotEffet(false, false, false, true),
-        new TarotEffet(false, true)
-    };
 
-    public Dictionary<string, CharacValue> allStat = new Dictionary<string, CharacValue>() {
-        {"Chair", new CharacValue(0,0)},
-        {"Déplacement", new CharacValue(0,0)},
-        {"Force", new CharacValue(0,0)},
-        {"Endurance", new CharacValue(0,0)},
-        {"Bête", new CharacValue(0,0)},
-        {"Hargne", new CharacValue(0,0)},
-        {"Combat", new CharacValue(0,0)},
-        {"Instinct", new CharacValue(0,0)},
-        {"Machine", new CharacValue(0,0)},
-        {"Tir", new CharacValue(0,0)},
-        {"Savoir", new CharacValue(0,0)},
-        {"Technique", new CharacValue(0,0)},
-        {"Dame", new CharacValue(0,0)},
-        {"Aura", new CharacValue(0,0)},
-        {"Parole", new CharacValue(0,0)},
-        {"Sang-Froid", new CharacValue(0,0)},
-        {"Masque", new CharacValue(0,0)},
-        {"Discrétion", new CharacValue(0,0)},
-        {"Dextérité", new CharacValue(0,0)},
-        {"Perception", new CharacValue(0,0)}
-    };
+   
 
-    public List<Weapon> allWeapon;
 
     [HideInInspector]
     public string description;
 
     public void Init()
     {
-        pe = 50;
     }
 
-}
-
-public class Motivation
-{
-    public string objectif;
-    public bool motivationMineur;
-    public bool motivationMajeur;
-
-    public Motivation(string nObjective, bool nMotivationMineur, bool nMotivationMajeur)
+    public void UpdateCarac(Dictionary<caractéristique, caracPerso> caracPlayer)
     {
-        objectif = nObjective;
-        motivationMineur = nMotivationMineur;
-        motivationMajeur = nMotivationMajeur;
+        foreach(KeyValuePair<caractéristique, caracPerso> keyValuePair in caracPlayer)
+            allStat[keyValuePair.Key] = new CharacValue(keyValuePair.Value.value(), keyValuePair.Value.odValue);
     }
-}
-
-
-[Serializable]
-public class TarotEffet
-{
-    public bool IaAvantage;
-    public bool IaDesavantage;
-    public bool PjAvantage;
-    public bool PjDesavantage;
-    public Tarot card;
-
-    public TarotEffet(bool iaAv=false, bool iaD=false, bool pjAv=false, bool pjD=false)
+    
+    public Chevalier()
     {
-        IaAvantage = iaAv;
-        IaDesavantage = iaD;
-        PjAvantage = pjAv;
-        PjDesavantage= pjD;
+    }
+
+    public Chevalier(Player newPlayer)
+    {
+        currentStat = new Dictionary<string, int>();
+
+        allWeapon = new List<Arme>();
+        foreach(StatSave statsave in newPlayer.stat)
+            currentStat[statsave.name] = statsave.currentValue;
+
+
+        SectionKnight[] section = Resources.LoadAll<SectionKnight>("CreationPerso/Section");
+        Armure[] allArmure = Resources.LoadAll<Armure>("CreationPerso/Armure");
+        Arme[] allArme = Resources.LoadAll<Arme>("Arme");
+        Module[] allModule = Resources.LoadAll<Module>("Module");
+
+        foreach (SectionKnight currentSection in section)
+        {
+            if (currentSection.name == newPlayer.section)
+            {
+                this.section = currentSection;
+                break;
+            }
+        }
+        if (this.section == null)
+            Debug.LogError("On as pas trouvé la section " + newPlayer.section);
+
+        foreach (Armure currentArmure in allArmure)
+        {
+            if (currentArmure.name == newPlayer.armure)
+            {
+                this.armure = currentArmure;
+                break;
+            }
+        }
+
+        if (armure == null)
+            Debug.LogError("On as pas trouvé l'armure " + newPlayer.armure);
+
+        List<String> armes = new List<String>(newPlayer.allWeapon);
+        List<String> modules = new List<String>(newPlayer.allModule);
+
+        foreach (Arme currentArme in allArme)
+        {
+            while(armes.Contains(currentArme.name))
+            {
+                allWeapon.Add(currentArme);
+                armes.Remove(currentArme.name);
+            }
+        }
+        foreach (String name in armes)
+            Debug.LogError("On as pas trouvé l'arme " + name);
+
+
+
+        foreach (Module currentModule in allModule)
+        {
+            while (modules.Contains(currentModule.name))
+            {
+                this.armure.modules.Add(currentModule);
+                modules.Remove(currentModule.name);
+            }
+        }
+
+        foreach (String name in modules)
+            Debug.LogError("On as pas trouvé le module " + name);
+
+        foreach (CaracSave caracSave in newPlayer.allCarac)
+            allStat[(caractéristique)Enum.Parse(typeof(caractéristique), caracSave.name)] = new CharacValue(caracSave.value, caracSave.od);
+
+    }
+    int maxOfCarac(caractéristique carac1, caractéristique carac2, caractéristique carac3, bool odInclus = false)
+    {
+        int max = Math.Max(allStat[carac1].value + (odInclus ? allStat[carac1].overdrive : 0), allStat[carac2].value + (odInclus ? allStat[carac2].overdrive : 0));
+        return Math.Max(max, allStat[carac3].value + (odInclus ? allStat[carac3].overdrive : 0));
+    }
+
+    public int PointDeVie()
+    {
+        return 10 + 6 * maxOfCarac(caractéristique.Déplacement, caractéristique.Force, caractéristique.Endurance);
+    }
+    public int Défense()
+    {
+        return maxOfCarac(caractéristique.Hargne, caractéristique.Combat, caractéristique.Instinct, true);
+    }
+    public int Reaction()
+    {
+        return maxOfCarac(caractéristique.Tir, caractéristique.Savoir, caractéristique.Technique, true);
+    }
+    public int Iniative()
+    {
+        return maxOfCarac(caractéristique.Discrétion, caractéristique.Dextérité, caractéristique.Perception, true);
+    }
+    public int Contact()
+    {
+        return maxOfCarac(caractéristique.Aura, caractéristique.Parole, caractéristique.Sang_Froid, true);
+    }
+    public int Espoir()
+    {
+        return 50 + (tarots.Contains("Forteresse spirituelle") ? 5 : 0);
     }
 
 }

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3017bf08d3eae04a840c6573af6c0d7, type: 3}
+  m_Name: "PodFus\xE9esEclairantes"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 654dd49059d28cd4a876f5948d5765fc, type: 3}
+  desc: "Caisson de fus\xE9es dans le dos, petite ouverture dans l\u2019\xE9pauli\xE8re,
+    lance-fus\xE9e sur l\u2019\xE9paule.\n\nGr\xE2ce \xE0 ce module, le personnage
+    tire dans le ciel (il vaut donc mieux utiliser le module en ext\xE9rieur ou depuis
+    une ouverture vers l\u2019ext\xE9rieur) une fus\xE9e \xE9clairante g\xE9n\xE9rant
+    une lumi\xE8re blanche tr\xE8s \xE9blouissante.\r\n\r\nEn termes de jeu, la fus\xE9e
+    \xE9clairante br\xFBle dans le ciel durant 1D6 tours. Les personnages humains
+    pr\xE9sents dans la sc\xE8ne ou la phase de conflit qui ne sont pas en m\xE9ta-armure
+    et qui ne poss\xE8dent aucune protection aux yeux subissent un malus de 1 d\xE9
+    \xE0 toutes leurs actions. Les cr\xE9atures de l\u2019Anath\xE8me pr\xE9sentes
+    dans la sc\xE8ne ou la phase de conflit, quant \xE0 elles, subissent un malus
+    de 2 d\xE9s \xE0 toutes leurs actions, ainsi que l\u2019effet lumi\xE8re 2. Les
+    fus\xE9es n\u2019infligent aucun d\xE9g\xE2t et aucune violence. En tirer plusieurs
+    alors que l\u2019effet d\u2019une fus\xE9e \xE9clairante s\u2019applique d\xE9j\xE0
+    n\u2019apporte aucun bonus suppl\xE9mentaire."
+  icon: {fileID: 0}
+  rarete: 0
+  price: 10
+  moduleType: 6
+  porte: 0
+  activation: "Action de d\xE9placement"
+  "dur\xE9e": 1D6 tours
+  energie: 2
+  degatModule:
+    typeAttaque: 24
+    degat:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet:
+    - effet: {fileID: 11400000, guid: 741c881cf368f4f47bff36fe779640c4, type: 2}
+      level: 3
+    - effet: {fileID: 11400000, guid: 6012b502ecaba874199d2d1b7c908f73, type: 2}
+      level: 2
+  slot:
+  - slotModule: 9
+    size: 1
+  evolutionModules:
+  - rarete: 0
+    duree: 
+    price: 30
+    description: "En plus des effets pr\xE9cit\xE9s, les fus\xE9es infligent d\xE9sormais
+      l\u2019effet lumi\xE8re 4. L\u2019effet chargeur 3 devient l\u2019effet chargeur
+      6."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet:
+      - effet: {fileID: 11400000, guid: 741c881cf368f4f47bff36fe779640c4, type: 2}
+        level: 6
+      - effet: {fileID: 11400000, guid: 6012b502ecaba874199d2d1b7c908f73, type: 2}
+        level: 4
+  - rarete: 0
+    duree: 
+    price: 30
+    description: "En plus des effets pr\xE9cit\xE9s, les fus\xE9es infligent d\xE9sormais
+      l\u2019effet anti-Anath\xE8me. L\u2019effet chargeur 6 devient l\u2019effet
+      chargeur 9."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet:
+      - effet: {fileID: 11400000, guid: 741c881cf368f4f47bff36fe779640c4, type: 2}
+        level: 9
+      - effet: {fileID: 11400000, guid: 6012b502ecaba874199d2d1b7c908f73, type: 2}
+        level: 4
+      - effet: {fileID: 11400000, guid: 646427379faa74b4086cce25085291a7, type: 2}
+        level: 0

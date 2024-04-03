@@ -15,6 +15,7 @@ MonoBehaviour:
   currentSprite: {fileID: 21300000, guid: 44de883f15590c6468180d7342775bf7, type: 3}
   desc: "Le Bateleur est la figure du recommencement, de l\u2019initiative cr\xE9atrice
     et du d\xE9veloppement des potentiel"
+  caract: 2
   passe: "Une jeunesse d\u2019apprentissage, un don dont on a r\xE9colt\xE9 les fruits,
     une d\xE9cision impr\xE9vue et heureuse, un choix soudain et malheureux, une
     jeunesse riche et pleine d\u2019opportunit\xE9s, un changement de vie, un changement

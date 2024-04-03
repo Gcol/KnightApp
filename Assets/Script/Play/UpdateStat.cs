@@ -23,17 +23,13 @@ public class UpdateStat : MonoBehaviour
         currentGO = transform.Find("Panel").gameObject;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void InitValue(int newCurrentValue, int newMaxValue)
     {
         maxValue = newMaxValue;
         currentValue = newCurrentValue;
         
         TextUpdate(currentValue);
+        transform.parent.Find("Text (TMP)").gameObject.GetComponent<TextMeshProUGUI>().text = newCurrentValue.ToString();
     }
 
     public void UpdateText()

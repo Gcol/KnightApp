@@ -30,3 +30,7 @@ MonoBehaviour:
     et si le prot\xE9g\xE9 est tu\xE9, le PJ perd 2D6+6 points d\u2019espoir en plus
     de tous points perdus normalement par les membres de la coterie \xE0 la mort
     d\u2019un compagnon d\u2019armes."
+  caract: 0
+  shopItems:
+  - {fileID: 11400000, guid: b51d53ae36c67fe49bb0f37e44acd66f, type: 2}
+  - {fileID: 11400000, guid: 3960d469104d9cc4387099b9563f8ba0, type: 2}

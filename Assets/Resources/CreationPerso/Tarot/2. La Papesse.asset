@@ -15,6 +15,7 @@ MonoBehaviour:
   currentSprite: {fileID: 21300000, guid: e6eb0aca8ffdcd246a1c7de7ceeb437b, type: 3}
   desc: "La deuxi\xE8me lame du tarot symbolise les secrets qui cheminent, les myst\xE8res
     et les intrigues qui forgent la connaissance."
+  caract: 3
   passe: "Un personnage menteur, un mensonge qui cr\xE9e du malheur, un mensonge
     qui permet une \xE9volution, des myst\xE8res r\xE9v\xE9l\xE9s, un chercheur de
     l'occulte, des intrigues haut plac\xE9es, des cheminements en politique, un secret

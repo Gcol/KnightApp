@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: Perce armure
+  m_EditorClassIdentifier: 
+  description: "L\u2019arme ignore X point d\u2019armure.\nSi la valeur est \xE9gale
+    ou sup\xE9rieure aux points d\u2019armure de l\u2019ennemi, le total de PA est
+    simplement ignor\xE9 et la sant\xE9 est directement touch\xE9e."

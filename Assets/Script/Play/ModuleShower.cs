@@ -5,17 +5,17 @@ using TMPro;
 
 public class ModuleShower : MonoBehaviour
 {
-    ModuleBase currentModule;
+    Module currentModule;
     public GameObject currentPannel;
     public bool activate;
 
-    public void InitModule(ModuleBase newModule)
+    public void InitModule(Module newModule)
     {
         activate = false;
         string pannelName = "";
         currentModule = newModule;
         transform.Find("Name").gameObject.GetComponent<TextMeshProUGUI>().text = currentModule.name;
-        if (currentModule.effet != "" && currentModule.portee != "")
+        /*if (currentModule.effet != "" && currentModule.portee != "")
         {
             pannelName = "ModuleEffetPorte";
             transform.Find("Panel/" + pannelName + "/Bas/Effet").GetComponent<TextMeshProUGUI>().text = currentModule.effet;
@@ -47,7 +47,7 @@ public class ModuleShower : MonoBehaviour
         transform.Find("Panel/" + pannelName + "/Bas/Activation").GetComponent<TextMeshProUGUI>().text = currentModule.activation;
         transform.Find("Panel/" + pannelName + "/Bas/Duree").GetComponent<TextMeshProUGUI>().text = currentModule.duree;
         transform.Find("Panel/Desc/Desc").GetComponent<TextMeshProUGUI>().text = currentModule.description;
-
+        */
     }
 
     public void PushButton()

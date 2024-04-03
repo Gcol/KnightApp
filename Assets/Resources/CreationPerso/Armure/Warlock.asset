@@ -12,27 +12,111 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9d7266a299c1641b490efbee3df7dc, type: 3}
   m_Name: Warlock
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 21300000, guid: a26cfde94ad065b428c2b20e52f69634, type: 3}
-  desc: 
-  historique: 
-  PointArmure: 70
+  currentSprite: {fileID: 21300000, guid: cc2d01ba101c84d458e1c09dd597362e, type: 3}
+  desc: "\r\n\r\nLa m\xE9ta-armure Warlock a \xE9t\xE9 faite pour abattre les cibles
+    du Knight tr\xE8s rapidement et se retirer tout aussi vite. C'est une m\xE9ta-armure
+    martiale, violente, mais dont l'utilisation reste dangereuse. Les porteurs de
+    la Warlock le savent bien et l'utilisent avec prudence tant elle semble parfois
+    provoquer de lourds changements sur leur personne. Ils savent ainsi que chaque
+    utilisation d'une des trois capacit\xE9s de la m\xE9ta-armure provoque sur eux
+    un effet diff\xE9rent, qu'ils devront subir \xE0 un moment ou \xE0 un autre.\r\n\r\nPourtant
+    class\xE9e dans les armures de troisi\xE8me g\xE9n\xE9ration, la composition
+    de la Warlock est unique dans tout le panel de l'arsenal du Knight. Compos\xE9e
+    quasi uniquement de fines couches d'\xE9l\xE9ment alpha, elle d\xE9gage un impressionnant
+    sentiment d'angoisse et son physique noueux renforce encore cet aspect. L\xE9g\xE8re,
+    pourvue d'un blindage cons\xE9quent gr\xE2ce \xE0 sa composition et d'un noyau
+    d'\xE9nergie alpha puissant, elle poss\xE8de cependant un champ de force assez
+    faible, parasit\xE9 par la masse d'\xE9l\xE9ment alpha qui constitue l'armure.
+    Chacune des capacit\xE9s de la Warlock est en plus tr\xE8s gourmande en \xE9nergie
+    et demande une gestion pointue de la part du porteur pour qu'il ne se retrouve
+    pas \xE0 court au mauvais moment car, si la m\xE9ta-armure peut annuler les d\xE9g\xE2ts
+    subis en revenant dans le temps, l'\xE9nergie, elle, ne semble pas vouloir se
+    r\xE9g\xE9n\xE9rer de cette mani\xE8re.\r\n\r\nD'aspect, la Warlock est une armure
+    sombre, longue et inqui\xE9tante. Le mat\xE9riau noir la recouvre presque enti\xE8rement
+    pour ne laisser appara\xEEtre que de rares plaques de blindage et le tout semble
+    aspirer la lumi\xE8re sur quelques centim\xE8tres. Beaucoup de ses porteurs tentent
+    d'am\xE9liorer son aspect gr\xE2ce \xE0 des ornements pour la rendre moins repoussante,
+    mais l'\xE9l\xE9ment alpha para\xEEt toujours ternir ces changements.\r\n\r\nEnfin,
+    les capacit\xE9s de la m\xE9ta-armure Warlock la rendent v\xE9ritablement unique
+    et son fonctionnement peut parfois \xEAtre difficile \xE0 comprendre pour les
+    chevaliers qui ne l'ont pas essay\xE9e. Pour simplifier, la Warlock ne manipule
+    le temps que sur elle-m\xEAme. Le monde autour ne subit aucun changement. Ainsi,
+    par exemple, lorsque l'armure remonte le temps de quelques secondes, elle revient
+    \xE0 sa place et \xE0 son \xE9tat ant\xE9rieur, mais tout ce qu'il y a autour,
+    l'environnement, comme les personnes et les monstres, ne subissent aucun retour
+    dans le pass\xE9. La manipulation temporelle est un pouvoir personnel qui n'agit
+    que sur l'armure et son porteur, mais qui peut s'appliquer de bien des mani\xE8res.\r\n"
+  historique: "\r\n\xC0 l'origine du Knight, ses cr\xE9ateurs pensaient avant tout
+    \xE0 d\xE9velopper des armements versatiles, destin\xE9s \xE0 toutes les situations,
+    permettant de repousser ou de tuer chaque ennemi de l'Anath\xE8me. Au fil des
+    mois de lutte, de nombreux prototypes d'armures ont \xE9t\xE9 dessin\xE9s, test\xE9s
+    et parfois mis \xE0 l'essai sur le terrain avec tant\xF4t des r\xE9sultats positifs,
+    tant\xF4t des \xE9checs. C'est ainsi qu'ont \xE9t\xE9 mises au point les m\xE9ta-armures
+    Druid ou Psion et que les prototypes des m\xE9ta-armures Pistolero ou Swashbuckler
+    ont \xE9t\xE9 abandonn\xE9s. Mais une seule m\xE9ta-armure est rest\xE9e longtemps
+    \xE0 l'\xE9tat de prototype, en phase de test, sans \xEAtre abandonn\xE9e ni
+    d\xE9ploy\xE9e sur le terrain : la m\xE9ta-armure Warlock.\r\n\r\nCette armure
+    est bas\xE9e sur une des qualit\xE9s de l'Anath\xE8me : sa capacit\xE9 \xE0 distendre
+    et \xE0 jouer avec les r\xE8gles temporelles. En r\xE9coltant de l'\xE9l\xE9ment
+    alpha, le mat\xE9riau noir qui peut \xEAtre trouv\xE9 sous les t\xE9n\xE8bres,
+    et en le soumettant \xE0 de nombreux tests, les ing\xE9nieurs de la section Giant
+    et les scientifiques de la section Cyclope ont compris que le mat\xE9riau \xE9tait
+    capable de changer d'\xE9tat temporel gr\xE2ce \xE0 quelques manipulations. L'\xE9l\xE9ment
+    alpha est ainsi capable de se r\xE9g\xE9n\xE9rer en remontant de quelques secondes
+    dans le temps ou, \xE0 l'inverse, d'\xEAtre d\xE9plac\xE9 rapidement en avan\xE7ant
+    de quelques secondes dans l'avenir. Il peut m\xEAme \xEAtre d\xE9doubl\xE9 durant
+    quelques instants en existant deux fois au m\xEAme moment. Forts de cette d\xE9couverte,
+    Gauvain et Dagonnet ont essay\xE9 de mettre au point une m\xE9ta-armure, compos\xE9e
+    en majorit\xE9 d'\xE9l\xE9ment alpha, qui pourrait jouer avec son propre \xE9tat
+    temporel et ainsi se r\xE9parer en remontant dans le temps ou encore se d\xE9placer
+    rapidement et se r\xE9pliquer durant quelques secondes. Malheureusement, l'int\xE9grit\xE9
+    de l'\xE9quipement \xE9tait tr\xE8s vite mise \xE0 mal apr\xE8s une manipulation
+    temporelle et, pire encore, le porteur subissait de nombreux contrecoups physiques
+    et mentaux qui le laissaient rapidement exsangue et presque fou.\r\n\r\nMois
+    apr\xE8s mois, les deux chevaliers de la Table Ronde menaient des tests sans
+    aucun succ\xE8s, mais ne souhaitaient pas abandonner ce concept prometteur. \xC9tonnamment,
+    c'est Sagramor qui a trouv\xE9 la solution. Responsable de l'encadrement des
+    premiers essais accomplis par des membres de sa section, le chevalier de la Table
+    Ronde a vite r\xE9alis\xE9 que ce qui ab\xEEmait les porteurs de la m\xE9ta-armure
+    \xE9tait le fait qu'ils ne changeaient pas d'\xE9tat temporel alors que l'armure,
+    elle, en changeait. Ils \xE9taient ainsi transport\xE9s violemment d'un temps
+    \xE0 un autre et le corps ainsi que l'esprit \xE9taient malmen\xE9s. Pour que
+    les porteurs suivent la m\xE9ta-armure dans ces changements, il fallait donc
+    leur fabriquer une combinaison enti\xE8re, herm\xE9tique, compos\xE9e majoritairement
+    d'\xE9l\xE9ment alpha et reli\xE9e \xE0 de minuscules implants corporels faits
+    du m\xEAme mat\xE9riau et r\xE9partis sur tout le corps... avec \xE9videmment
+    ce que cela impliquait sur leur espoir.\r\n\r\nCette solution en t\xEAte, des
+    tests ont \xE9t\xE9 de nouveau men\xE9s. La combinaison et les implants de mat\xE9riau
+    noir permettaient au porteur de mieux r\xE9sister et l'int\xE9grit\xE9 de l'armure,
+    \xE9tonnamment, semblait augmenter, comme si le porteur et l'\xE9quipement \xE9taient
+    en v\xE9ritable symbiose. Malheureusement, apr\xE8s des jours et des jours de
+    tests, Dagonnet et Gauvain ont compris que si les testeurs ne subissaient plus
+    de contrecoup physique et mental, ils semblaient au fil des essais se d\xE9tacher
+    du temps.\r\n\r\nAinsi, les quelques chevaliers qui ont \xE9t\xE9 d\xE9sign\xE9s
+    pour tester le prototype sur le terrain se sont mis \xE0 avoir de petites pertes
+    de m\xE9moire et se sentaient d\xE9phas\xE9s, comme s'ils ne faisaient plus partie
+    de la bonne ligne temporelle. Un bien pi\xE8tre mal compar\xE9 aux qualit\xE9s
+    martiales de la m\xE9ta-armure.\r\n"
+  PointArmure: 60
   PointEnergie: 60
-  ChampDeForce: 10
-  generationMetaArmure: 0
+  ChampDeForce: 8
+  generationMetaArmure: 2
   allCapacite:
-  - {fileID: 11400000, guid: b86d07d4e276ef749b316d7676256fda, type: 2}
-  overdrive: 
-  slot:
-  - nameSlot: BrasD
-    number: 0
-  - nameSlot: "T\xEAte"
-    number: 0
-  - nameSlot: BrasG
-    number: 0
-  - nameSlot: Torse
-    number: 0
-  - nameSlot: JambeD
-    number: 0
-  - nameSlot: JambeL
-    number: 0
+  - {fileID: 11400000, guid: 873273d48499200469549e200e0087ac, type: 2}
+  - {fileID: 11400000, guid: 4586edd918d825a41a6b1a18c0a8e290, type: 2}
+  - {fileID: 11400000, guid: 43bc0d3d966c8d24bbc2f9668c647e0b, type: 2}
+  - {fileID: 11400000, guid: 7357258b5cf34864ab30542d681036c4, type: 2}
+  overdrive: 0900000012000000050000000a000000
+  modules:
+  - {fileID: 11400000, guid: 70d931dc3b2e38b4ab54348476fbb9fc, type: 2}
+  - {fileID: 11400000, guid: 939588f5f8151a74abdd145151c37c63, type: 2}
+  - {fileID: 11400000, guid: 15ff42f5570dba74aabdefb1b0cfc407, type: 2}
+  - {fileID: 11400000, guid: 70d931dc3b2e38b4ab54348476fbb9fc, type: 2}
+  - {fileID: 11400000, guid: 939588f5f8151a74abdd145151c37c63, type: 2}
+  - {fileID: 11400000, guid: 15ff42f5570dba74aabdefb1b0cfc407, type: 2}
+  - {fileID: 11400000, guid: 70d931dc3b2e38b4ab54348476fbb9fc, type: 2}
+  - {fileID: 11400000, guid: 939588f5f8151a74abdd145151c37c63, type: 2}
+  - {fileID: 11400000, guid: 15ff42f5570dba74aabdefb1b0cfc407, type: 2}
+  - {fileID: 11400000, guid: 28c115fc0e77421479fd5cbf92623782, type: 2}
+  - {fileID: 11400000, guid: 70d931dc3b2e38b4ab54348476fbb9fc, type: 2}
   evolution: []

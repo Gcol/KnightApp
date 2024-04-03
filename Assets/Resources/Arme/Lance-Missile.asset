@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7a6f3067da474f83b12cd915d6645, type: 3}
+  m_Name: Lance-Missile
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 0}
+  desc: "Des cr\xE9atures \xE9normes peuvent surgir des t\xE9n\xE8bres, d\xE9truisant
+    tout sur leur passage. De plus, il y a encore des tanks plein les hangars. C\u2019est
+    pourquoi le Knight propose ce lance-missile aux chevaliers. Noir mat pour la
+    discr\xE9tion, long de 1m50 une fois d\xE9pli\xE9, il dispose de quatre f\xFBts
+    pour y mettre missiles et roquettes, et d\u2019une vis\xE9e laser pour l\u2019acquisition
+    des cibles.\n\nLe chevalier souhaitant s\u2019armer de munitions pour le lance-missile
+    doit s\u2019acquitter de 10 PG par lot de 5 projectiles, roquettes et missiles
+    confondus. L\u2019ensemble ne prend qu\u2019une place dans le module rack du
+    chevalier."
+  icon: {fileID: 0}
+  rarete: 1
+  price: 15
+  surnom: morrigan / schwarzy
+  degatArmes:
+  - typeAttaque: 8
+    degat:
+      nbDice: 7
+      addDegat: 10
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 3
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 4
+    effet:
+    - effet: {fileID: 11400000, guid: bf99afcac54a6e644b2e19c766ad3696, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: db78de46d125a044a929896b1c401818, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: 5a3d8ec4464aeab45aed0757b30544fa, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: 18e895e3da100cf4d93a3c970c47c2cc, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: d818c99f66d22534bb9449045055305c, type: 2}
+      level: 0
+  - typeAttaque: 9
+    degat:
+      nbDice: 3
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 7
+      addDegat: 10
+      "caract\xE9ristique": 
+    portee: 4
+    effet:
+    - effet: {fileID: 11400000, guid: f8355b873f34f794299006a7aeff896e, type: 2}
+      level: 6
+    - effet: {fileID: 11400000, guid: 94c558ebd23df004691652355de5ae71, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: 5a3d8ec4464aeab45aed0757b30544fa, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: 18e895e3da100cf4d93a3c970c47c2cc, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: d818c99f66d22534bb9449045055305c, type: 2}
+      level: 0

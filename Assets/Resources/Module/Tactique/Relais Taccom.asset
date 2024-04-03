@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3017bf08d3eae04a840c6573af6c0d7, type: 3}
+  m_Name: Relais Taccom
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 66cdb60f17b4c54499cd36dfb82bb5b1, type: 3}
+  desc: "Antenne sur le c\xF4t\xE9 du casque, antennes dans le dos de l\u2019armure\n\nPermet
+    d\u2019avoir un lien constant avec Camelot, m\xEAme en cas de couverture nulle
+    ou parasit\xE9e, m\xEAme dans l\u2019Anath\xE8me. En outre, le relais ne peut
+    \xEAtre pirat\xE9.\n\nBonus de 1D6 aux d\xE9g\xE2ts et \xE0 la violence de toutes
+    les actions d\u2019un alli\xE9 pendant un tour. Ne peut pas se cumuler avec les
+    impulsions d\u2019une m\xE9ta-armure Warmaster."
+  icon: {fileID: 0}
+  rarete: 0
+  price: 20
+  moduleType: 5
+  porte: 5
+  activation: Aucune
+  "dur\xE9e": "Jusqu'a d\xE9sactivation"
+  energie: 
+  degatModule:
+    typeAttaque: 0
+    degat:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet: []
+  slot:
+  - slotModule: 8
+    size: 1
+  evolutionModules: []

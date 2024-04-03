@@ -4,10 +4,42 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public enum ArmeType
+public enum Rarete
 {
-    melee,
-    distance
+    Standart,
+    Avancé,
+    Rare,
+    Espoir
+}
+
+public enum TypeAttaque
+{
+    contact,
+    tir,
+    GrenadeExplosive,
+    GrenadeAnti_Blindage,
+    GrenadeIncendiaire,
+    UneMain,
+    DeuxsMains,
+    TirBouclierDeploye,
+    Missiles,
+    Roquettes,
+    GrenadeAdhésive,
+    FléchetteANeuroToxine,
+    FléchetteChoc,
+    FléchetteANaNoMachines,
+    TargePliée,
+    TargeDéploée,
+    _600NE,
+    T800,
+    CarreayBarbelé,
+    CarreauANeuroToxine,
+    CarreauChoc,
+    CarreauANanoMachines,
+    Pavois,
+    Charge,
+    Aucun
+
 }
 public enum PorteArme
 {
@@ -16,19 +48,33 @@ public enum PorteArme
     Moyenne_15_50m,
     Longue_50_300m,
     Lointaine_300_m,
+    Aucun
 }
 
 
 [Serializable]
-[CreateAssetMenu(fileName = "Nouvelle Arme", menuName = "Knight / Arme")]
-public class Arme : CreaPerso
+public class CalculDegat
 {
-    public ArmeType typeArme;
-    public PorteArme porteArme;
-    public string Degat1Main;
-    public string Degat2Main;
-    public string Violence1Main;
-    public string Violence2Main;
-    public string effet;
-    public string portee;
+    public int nbDice;
+    public int addDegat = 0;
+    public List<caractéristique> caractéristique;
+}
+
+[Serializable]
+[CreateAssetMenu(fileName = "Nouvelle Arme", menuName = "Knight / Arme")]
+public class Arme : ShopItem
+{
+    public string surnom;
+    public List<DegatArme> degatArmes;
+}
+
+
+[Serializable]
+public class DegatArme
+{
+    public TypeAttaque typeAttaque;
+    public CalculDegat degat;
+    public CalculDegat violence;
+    public PorteArme portee;
+    public List<EffectLvl> effet;
 }

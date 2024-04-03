@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3017bf08d3eae04a840c6573af6c0d7, type: 3}
+  m_Name: Relais Satellite
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 66cdb60f17b4c54499cd36dfb82bb5b1, type: 3}
+  desc: "Antenne sur le c\xF4t\xE9 du casque, antennes dans le dos de l\u2019armure\n\nPermet
+    d\u2019avoir acc\xE8s aux satellites du Knight et d\u2019obtenir des relev\xE9s
+    topographiques d\u2019un lieu ainsi que des images tr\xE8s r\xE9centes (d\u2019une
+    journ\xE9e \xE0 quelques minutes)."
+  icon: {fileID: 0}
+  rarete: 0
+  price: 10
+  moduleType: 5
+  porte: 5
+  activation: Aucune
+  "dur\xE9e": Aucun
+  energie: 4
+  degatModule:
+    typeAttaque: 0
+    degat:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet: []
+  slot:
+  - slotModule: 8
+    size: 1
+  evolutionModules:
+  - rarete: 0
+    duree: 
+    price: 10
+    description: "Permet l\u2019acc\xE8s aux relev\xE9s thermiques et magn\xE9tiques
+      du lieu."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 0
+    duree: 
+    price: 10
+    description: "Les relev\xE9s sont en haute d\xE9finition et permettent de rep\xE9rer
+      les troupes ennemies avec pr\xE9cision."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []

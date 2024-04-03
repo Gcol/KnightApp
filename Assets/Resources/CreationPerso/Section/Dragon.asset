@@ -27,3 +27,7 @@ MonoBehaviour:
     cela, lorsque le PJ doit subir la capacit\xE9 d\xE9sesp\xE9rant, il perd 1D6+6
     points d\u2019espoir"
   caract: 2
+  shopItems:
+  - {fileID: 11400000, guid: 69ac183e45d9efd419f216192aa66527, type: 2}
+  - {fileID: 11400000, guid: 6665ec79a81242c43b2cb24ed5dfed59, type: 2}
+  - {fileID: 11400000, guid: aec676acd2cc3b343a0e79aa2893f51e, type: 2}

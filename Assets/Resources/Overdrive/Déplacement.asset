@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04b0059f44a44441840df7f9f049029, type: 3}
+  m_Name: "D\xE9placement"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 0}
+  desc: "Calculateur de trajectoire et servomoteurs am\xE9lior\xE9s : +1 overdrive
+    de D\xE9placement \xE0 chaque achat"
+  icon: {fileID: 0}
+  rarete: 1
+  price: 0
+  description:
+  - rarete: 1
+    duree: 
+    price: 10
+    description: "Le h\xE9ros peut parcourir en une action de d\xE9placement une
+      distance \xE9gale ou inf\xE9rieure \xE0 port\xE9e courte. En cas d\u2019utilisation
+      du module de course avec cet overdrive, l\u2019action de d\xE9placement cit\xE9e
+      plus haut est gratuite et ne compte pas comme une action de d\xE9placement.
+      Une seule peut \xEAtre effectu\xE9e par tour."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 1
+    duree: 
+    price: 30
+    description: "Le personnage devient extr\xEAmement agile, m\xEAme si son armure
+      semble ne pas pouvoir le permettre. Lorsqu\u2019il effectue une action de d\xE9placement,
+      les obstacles de sa taille ne le g\xEAnent pas (muret, couvert, camionnette,
+      portail, etc.). Il peut les passer sans effectuer de test. Attention, cela
+      ne veut pas dire qu\u2019il est silencieux."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 50
+    description: "Le h\xE9ros peut parcourir en une action de d\xE9placement une
+      distance \xE9gale ou inf\xE9rieure \xE0 port\xE9e moyenne. En cas d\u2019utilisation
+      du module de course avec cet overdrive, cette action est gratuite et ne compte
+      pas comme une action de d\xE9placement. Une seule peut \xEAtre effectu\xE9e
+      par tour."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 70
+    description: "Le personnage devient aussi agile qu\u2019un f\xE9lin, m\xEAme
+      si son armure semble ne pas pouvoir le permettre. Lorsqu\u2019il effectue une
+      action de d\xE9placement, les obstacles dont la taille est \xE9gale ou inf\xE9rieure
+      \xE0 5 m\xE8tres ne le g\xEAnent pas (mur, fen\xEAtre du premier \xE9tage,
+      remorque de camion, etc.). Il peut les passer sans effectuer de test."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 100
+    description: "En m\xE9ta-armure, le personnage est si agile qu\u2019il ne subit
+      les d\xE9g\xE2ts et malus de chute que depuis des hauteurs \xE9gales \xE0 50
+      m\xE8tres et plus. En dessous, il sait se r\xE9ceptionner sans d\xE9g\xE2ts."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  "caract\xE9ristique": 5

@@ -18,9 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniGame.unity
     guid: dec225d423407e8488facbb1edfa8db4
   - enabled: 1
-    path: Assets/Scenes/Prepare.unity
+    path: Assets/Scenes/CreatePlayer.unity
     guid: ca271c868cc3a634392c16dfdc3f079e
   - enabled: 1
-    path: Assets/Scenes/CreatePlayer.unity
+    path: Assets/Scenes/Prepare.unity
     guid: db6ea8940cc6f4442a6acfaf4cb9cc1b
+  - enabled: 1
+    path: Assets/Scenes/ChoixPerso.unity
+    guid: 30b1361c14e4abd45a7e415e2c8c64b8
   m_configObjects: {}

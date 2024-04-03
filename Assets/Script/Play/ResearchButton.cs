@@ -8,27 +8,17 @@ using System;
 public class ResearchButton : MonoBehaviour
 {
     public TMP_InputField myInputField;
+    public TwitchChatClient twitchChatClient;
 
-    Dictionary<string, Sprite> dictBattleMap;
-
-    public Image currentBattleMap;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        dictBattleMap = new Dictionary<string, Sprite>();
-        Sprite[] ressourceSprite = Resources.LoadAll<Sprite>("Bdd");
-        foreach (Sprite sprite in ressourceSprite)
-        {
-            dictBattleMap.Add(sprite.name, sprite);
-        }
+                
     }
 
-    public void LaunchResearch()
+    public void LaunchMessage()
     {
         string myKey = myInputField.text;
-        if (dictBattleMap.ContainsKey(myKey))
-            currentBattleMap.sprite = dictBattleMap[myKey];
+        twitchChatClient.SendMessage(myKey);
     }
 
 }

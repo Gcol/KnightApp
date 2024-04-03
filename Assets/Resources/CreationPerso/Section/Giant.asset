@@ -21,8 +21,7 @@ MonoBehaviour:
   Bonus: "+1 point dans l\u2019aspect Machine et +1 point dans les trois caract\xE9ristiques
     qui y sont li\xE9es"
   Avantage: "Le PJ re\xE7oit un overdrive de Technique suppl\xE9mentaire lorsqu\u2019il
-    porte sa m\xE9ta-armure. S\u2019il poss\xE8de d\xE9j\xE0 un overdrive de Technique
-    sur sa m\xE9ta-armure, il augmente cet overdrive au niveau 2."
+    porte sa m\xE9ta-armure"
   Inconvenient: "Rat d\u2019atelier : Le PJ \xE9tait plus souvent \xE0 l\u2019atelier
     que sur le terrain et il est encore mal habitu\xE9 aux cr\xE9atures et horreurs
     de l\u2019Anath\xE8me. Pour repr\xE9senter cela, celui-ci subit le r\xE9sultat
@@ -30,3 +29,5 @@ MonoBehaviour:
     Le nombre de tours que le PJ passe \xE0 ne rien pouvoir faire est \xE9gal, en
     D6, au score de la capacit\xE9 peur pr\xE9sent dans le profil de l\u2019ennemi."
   caract: 4
+  shopItems:
+  - {fileID: 11400000, guid: be6b7e553fa6f014b99842e0998c3a45, type: 2}

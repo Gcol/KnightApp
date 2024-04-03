@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e50f7c75f45bd438bd79c8eab27ced, type: 3}
+  m_Name: Le Cheval
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: e30f388ada8e7a743b378fac93bbbbe7, type: 3}
+  desc: "Ce blason repr\xE9sente la fid\xE9lit\xE9 et la loyaut\xE9 envers des personnes
+    que l\u2019on consid\xE8re comme sup\xE9rieures et importantes. Beaucoup de membres
+    de la section Gargoyles portent le blason du cheval et en sont fiers. Les chevaliers
+    qui l\u2019arborent n\u2019existent que pour prot\xE9ger les personnes qui leur
+    ont \xE9t\xE9 d\xE9sign\xE9es comme pr\xE9cieuses ou n\xE9cessaire \xE0 l\u2019accomplissement
+    d\u2019un objectif. Et pour cela, ils sont pr\xEAts \xE0 sacrifier leur vie."
+  grandImage: {fileID: 21300000, guid: ecbf9fb1fa9047543b4e674271dab89b, type: 3}
+  voeu: "Se montrer fid\xE8le, loyal et protecteur envers une personne d'importance."

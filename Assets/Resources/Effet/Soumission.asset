@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: Soumission
+  m_EditorClassIdentifier: 
+  description: "Apr\xE8s avoir touch\xE9 sa cible avec un effet soumission, l\u2019attaquant
+    peut soumettre sa cible physiquement et l\u2019emp\xEAcher de se d\xE9placer
+    ou d\u2019attaquer qui que ce soit d\u2019autre que l\u2019attaquant, et ce au
+    contact. Pour se lib\xE9rer de l\u2019effet soumission, la cible touch\xE9e doit,
+    \xE0 son tour, r\xE9ussir un test base D\xE9placement ou Combat (aspect Chair
+    ou B\xEAte) dont la difficult\xE9 est d\xE9finie par le nombre de r\xE9ussites
+    de l\u2019attaquant. Si la cible n\u2019a pas pu se lib\xE9rer \xE0 son tour,
+    l\u2019attaquant peut maintenir la soumission sans relancer les d\xE9s et infliger
+    des d\xE9g\xE2ts normalement, ou relancer un test d\u2019attaque afin de renforcer
+    sa prise.\nSi le jet est \xE0 nouveau r\xE9ussi, les d\xE9g\xE2ts sont inflig\xE9s
+    sans prendre en consid\xE9ration tout \xE9ventuel champ de force ou bouclier
+    (pour les cr\xE9atures de l\u2019Anath\xE8me). \nL\u2019effet soumission ne peut
+    impacter les colosses tel quel mais peut tout de m\xEAme \xEAtre pris en compte
+    par le MJ."

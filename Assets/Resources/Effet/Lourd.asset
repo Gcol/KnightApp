@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: Lourd
+  m_EditorClassIdentifier: 
+  description: "Pour utiliser cette arme, vous devez d\xE9penser une (et une seule)
+    action de d\xE9placement et une (et une seule) action de combat. Les actions
+    suppl\xE9mentaires acquises ne sont pas touch\xE9es par cet effet."

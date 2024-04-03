@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7a6f3067da474f83b12cd915d6645, type: 3}
+  m_Name: Ceste Lourd
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: c7d8f6abba2a1a34d8a33eb15d13e27a, type: 3}
+  desc: "Il y a des chevaliers qui pr\xE9f\xE8rent se battre \xE0 mains nues. Gauvain
+    a pens\xE9 \xE0 eux. Les cestes lourds se passent par-dessus les gants de la
+    m\xE9ta-armure avant d\u2019aller boxer des horreurs. Ils sont forg\xE9s dans
+    un alliage \xE0 la fois lourd et solide et sont dot\xE9s de pointes meurtri\xE8res
+    capables de d\xE9foncer des blind\xE9s. Avec \xE7a, c\u2019est la joie des directs,
+    des uppercuts et des crochets.\n\xAB Un mot d\u2019ordre ? Massacrez-les. \xBB
+    \u2013 B\xE9div\xE8re"
+  icon: {fileID: 0}
+  rarete: 0
+  price: 20
+  surnom: "hell\u2019s bells / le poing am\xE9ricain / alpha knuckles"
+  degatArmes:
+  - typeAttaque: 0
+    degat:
+      nbDice: 3
+      addDegat: 0
+      "caract\xE9ristique": 0600000006000000
+    violence:
+      nbDice: 1
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet:
+    - effet: {fileID: 11400000, guid: 44a92b9a3678f514abd978286b6e64ac, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: 1e95eff89701062478f7866fe5b646cf, type: 2}
+      level: 0

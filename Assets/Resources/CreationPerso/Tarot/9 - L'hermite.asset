@@ -16,6 +16,7 @@ MonoBehaviour:
   desc: "Cette carte repr\xE9sente le temps qui passe, mais aussi la m\xE9ditation,
     l'introspection et la solitude. C'est aussi le symbole du retard, d'une attente
     qui dure ou encore de quelque chose qui ne vient pas."
+  caract: 4
   passe: "Une retraite solitaire, une fuite loin du monde, de trop longues \xE9tudes,
     un coma prolong\xE9, un ami ou un amour disparu, une promotion qui ne vient pas,
     un h\xE9ros laiss\xE9 pour mort, un isolement en asile psychiatrique, un s\xE9jour

@@ -15,6 +15,7 @@ MonoBehaviour:
   currentSprite: {fileID: 21300000, guid: b3fb3c8da4c4c964fa871c3946831188, type: 3}
   desc: "Cette lame repr\xE9sente la science, la connaissance et tous les savoirs
     en g\xE9n\xE9ral. Elle symbolise aussi les \xE9tudes et l'apprentissage."
+  caract: 4
   passe: "De longues \xE9tudes, de tr\xE8s courtes \xE9tudes, un apprentissage difficile,
     un scientifique, un technicien, un savoir original, de nombreuses connaissances,
     une absence de savoir, un entra\xEEnement intense."

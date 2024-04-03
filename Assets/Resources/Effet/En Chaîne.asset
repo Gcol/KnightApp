@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: "En Cha\xEEne"
+  m_EditorClassIdentifier: 
+  description: "Lorsque le PJ utilisant cette arme r\xE9ussit \xE0 \xE9liminer (pas
+    forc\xE9ment \xE0 tuer, neutraliser suffit) un hostile ou un salopard, il peut
+    effectuer au prix de 3 PE, au m\xEAme tour et \xE0 la m\xEAme initiative, une
+    autre attaque sur un autre hostile ou un autre salopard qui se trouve \xE0 port\xE9e
+    de son arme (un test pour toucher est de nouveau n\xE9cessaire).\nSi cette deuxi\xE8me
+    attaque \xE9limine la cible, l\u2019effet peut s\u2019appliquer une nouvelle
+    fois et ainsi de suite. Le co\xFBt en \xE9nergie intervient en plus de l\u2019\xE9ventuel
+    co\xFBt en \xE9nergie de l\u2019arme.\nChaque nouvelle attaque doit donner lieu
+    \xE0 une d\xE9pense d\u2019\xE9nergie en cons\xE9quence. Dans le cas o\xF9 plusieurs
+    ennemis sont \xE9limin\xE9s en m\xEAme temps, l\u2019effet en cha\xEEne ne s\u2019applique
+    qu\u2019une seule fois."

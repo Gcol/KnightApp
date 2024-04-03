@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04b0059f44a44441840df7f9f049029, type: 3}
+  m_Name: Parole
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 0}
+  desc: "Modulateur de voix : +1 overdrive de Parole \xE0 chaque achat"
+  icon: {fileID: 0}
+  rarete: 1
+  price: 0
+  description:
+  - rarete: 1
+    duree: 
+    price: 10
+    description: "Lorsqu\u2019un alli\xE9 vient de tomber \xE0 0 point de vie (il
+      y a moins d\u2019une minute), le h\xE9ros peut d\xE9cider de lui parler et
+      de l\u2019encourager \xE0 rester en vie. Tant que le h\xE9ros lui parle, l\u2019alli\xE9
+      conserve un dernier souffle de vie et ne mourra pas, m\xEAme s\u2019il a subi
+      la mort sur son tirage de blessure grave (dans ce cas, il doit effectuer un
+      nouveau jet jusqu\u2019\xE0 ce qu\u2019il obtienne autre chose que la mort).
+      Le h\xE9ros ne peut rien faire d\u2019autre qu\u2019\xEAtre au chevet de l\u2019alli\xE9
+      (un seul alli\xE9). Ce bonus ne modifie pas les autres effets des blessures
+      et ceux des soins prodigu\xE9s par les autorit\xE9s comp\xE9tentes."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 1
+    duree: 
+    price: 30
+    description: "Par ses paroles, le personnage peut faire regagner 1D6 points d\u2019espoir
+      \xE0 un autre h\xE9ros. Il doit d\xE9clamer un discours plein d\u2019espoir.
+      Il ne peut utiliser ce bonus qu\u2019une fois par h\xE9ros lors d\u2019une
+      mission."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 50
+    description: "Le personnage est capable d\u2019imiter la voix de n\u2019importe
+      quelle personne qu\u2019il a d\xE9j\xE0 entendue parler sans effectuer de jet
+      base Parole ou Discr\xE9tion."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 70
+    description: "En modulant sa voix et en se concentrant sur un \xEAtre humain
+      (pas une cr\xE9ature ou un robot), le personnage est capable de l\u2019hypnotiser
+      tant qu\u2019il parle, sur un jet base Parole oppos\xE9 \xE0 son score de Machine
+      divis\xE9 par 2. Si le test r\xE9ussit, tant que le h\xE9ros parle (au prix
+      d\u2019une action de combat lors d\u2019une phase de conflit), la personne
+      vis\xE9e ne peut plus agir et est en pleine hypnose. Avec un test r\xE9ussi
+      base Parole contre le score de Machine divis\xE9 par 2 de la personne vis\xE9e,
+      le h\xE9ros peut lui faire accomplir des actions simples (qui n\u2019attent
+      \xE0 la vie de personne) tant qu\u2019il reste concentr\xE9 et tant qu\u2019il
+      parle. Les PNJ disposant d\u2019un aspect B\xEAte exceptionnelle majeure, Machine
+      exceptionnelle majeure, Dame exceptionnelle majeure ou Masque exceptionnel
+      majeur sont immunis\xE9s \xE0 cet effet."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 100
+    description: "Par ses paroles, le personnage peut faire regagner 2D6 points d\u2019espoir
+      \xE0 un alli\xE9. Il doit d\xE9clamer un discours plein d\u2019espoir. Il ne
+      peut utiliser ce bonus qu\u2019une fois par alli\xE9 lors d\u2019une mission.
+      Cette capacit\xE9 remplace celle du niveau 2."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  "caract\xE9ristique": 15

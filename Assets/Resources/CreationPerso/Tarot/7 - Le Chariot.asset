@@ -16,6 +16,7 @@ MonoBehaviour:
   desc: "Cette carte repr\xE9sente le progr\xE8s, la r\xE9ussite, mais aussi la conciliation
     de forces oppos\xE9es, l'amiti\xE9 naissant entre des ennemis ou une haine se
     dissolvant. Parfois, elle repr\xE9sente aussi une opposition tr\xE8s farouche."
+  caract: 1
   passe: "Un ennemi devenu ami, une r\xE9ussite retentissante, un combat remport\xE9
     avec facilit\xE9, une bataille remport\xE9e avec difficult\xE9, de la haine qui
     se transforme en amour, un ennemi jur\xE9, des amis chers qui se trahissent."

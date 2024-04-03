@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7a6f3067da474f83b12cd915d6645, type: 3}
+  m_Name: "Marteau-\xE9pieu"
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 0}
+  desc: "Cette grosse arme est un lourd marteau int\xE9gralement en m\xE9tal avec
+    une t\xEAte octogonale d\u2019un c\xF4t\xE9 et un \xE9pieu recourb\xE9 de l\u2019autre.
+    Tr\xE8s courante chez les \xE9cuyers, elle sert tout autant d\u2019outil que
+    d\u2019arme. Au cas o\xF9, une cartouche de calibre 8 est install\xE9e dans le
+    prolongement du manche et permet un tir unique, mais d\xE9vastateur, de chevrotine
+    incendiaire-lumineuse.\n\xAB Taper. D\xE9clencher la charge quand il y a trop
+    de monde. C\u2019est pas compliqu\xE9, non ? \xBB \u2013 Lamorak\r"
+  icon: {fileID: 0}
+  rarete: 0
+  price: 10
+  surnom: le bec-de-corbin / la pioche / le corbac
+  degatArmes:
+  - typeAttaque: 0
+    degat:
+      nbDice: 3
+      addDegat: 0
+      "caract\xE9ristique": 06000000
+    violence:
+      nbDice: 1
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet:
+    - effet: {fileID: 11400000, guid: 74f5a4aa327ed594995dfc6b2d10ee38, type: 2}
+      level: 0
+  - typeAttaque: 1
+    degat:
+      nbDice: 3
+      addDegat: 12
+      "caract\xE9ristique": 0600000006000000
+    violence:
+      nbDice: 3
+      addDegat: 12
+      "caract\xE9ristique": 
+    portee: 1
+    effet:
+    - effet: {fileID: 11400000, guid: 894b4d6aba420d148b30c2bea88fdb7d, type: 2}
+      level: 3
+    - effet: {fileID: 11400000, guid: f8355b873f34f794299006a7aeff896e, type: 2}
+      level: 3
+    - effet: {fileID: 11400000, guid: 6012b502ecaba874199d2d1b7c908f73, type: 2}
+      level: 2
+    - effet: {fileID: 11400000, guid: 741c881cf368f4f47bff36fe779640c4, type: 2}
+      level: 1

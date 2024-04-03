@@ -9,11 +9,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9a49cde55f28c94daabc30dce49bc35, type: 3}
-  m_Name: "Fusil De Pr\xE9cision"
+  m_Script: {fileID: 11500000, guid: 2ef7a6f3067da474f83b12cd915d6645, type: 3}
+  m_Name: "Fusil de pr\xE9cision"
   m_EditorClassIdentifier: 
-  effet: "Tir en s\xE9curit\xE9 / pr\xE9cision / assistance \xE0 l\u2019attaque /
-    d\xE9signation / deux mains"
-  portee: Lointaine
-  Degat: "4D6 + 6 + Tir (avec pr\xE9cision)"
-  Violence: 1D6
+  currentSprite: {fileID: 21300000, guid: 3729b1cedd68d7444b2800e68934f50f, type: 3}
+  desc: "Le fusil de pr\xE9cision est l\u2019arme pr\xE9f\xE9r\xE9e des recrues qui
+    tirent \xE0 longue distance. Avec \xE7a, un chevalier tire du gros calibre au
+    coup par coup \xE0 plus de 500 m\xE8tres, avec la plus grande simplicit\xE9.
+    Une cam\xE9ra hyper-performante permet de tirer sans quitter son couvert. La
+    vis\xE9e est reproduite sur l\u2019affichage R\xE9alit\xE9 Augment\xE9e de l\u2019armure.
+    Mieux encore, un chevalier peut d\xE9signer des cibles qui seront signal\xE9es
+    sur tous les affichages RA de l\u2019escouade. De plus, une fois la cible d\xE9sign\xE9e,
+    le tireur profite d\u2019une assistance balistique automatis\xE9e qui affichera
+    la trajectoire id\xE9ale pour lui ouvrir un troisi\xE8me \u0153il. \xAB Franchement,
+    les snipers ne peuvent demander mieux. \xBB \u2013 Kay"
+  icon: {fileID: 0}
+  rarete: 0
+  price: 40
+  surnom: "third eye / le troisi\xE8me oeil / strike eagle"
+  degatArmes:
+  - typeAttaque: 1
+    degat:
+      nbDice: 4
+      addDegat: 6
+      "caract\xE9ristique": 0b000000
+    violence:
+      nbDice: 1
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 2
+    effet:
+    - effet: {fileID: 11400000, guid: d709509298fe72243b66578c39b90d57, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: f07afd38ed8c92c429a287a89676d9c8, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: 5a3d8ec4464aeab45aed0757b30544fa, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: c8e884308a589674e8e8562b8233645e, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: d818c99f66d22534bb9449045055305c, type: 2}
+      level: 0

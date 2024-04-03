@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3017bf08d3eae04a840c6573af6c0d7, type: 3}
+  m_Name: Canon Balder
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 9db03522961671b48ba5a47f58b547b2, type: 3}
+  desc: "Canon laser sur le bras, canon sur l\u2019\xE9paule Ce petit canon \xE0
+    faisceau tire un laser \xE0 haute densit\xE9 capable de d\xE9couper la chair,
+    la pierre ou le m\xE9tal.\n\n+1D6 par 2 points d\u2019\xE9nergie d\xE9pens\xE9s
+    (3D6 en plus au maximum)\n"
+  icon: {fileID: 0}
+  rarete: 0
+  price: 20
+  moduleType: 2
+  porte: 5
+  activation: "Action de d\xE9placement"
+  "dur\xE9e": "Instantan\xE9e"
+  energie: 1
+  degatModule:
+    typeAttaque: 24
+    degat:
+      nbDice: 1
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 1
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet:
+    - effet: {fileID: 11400000, guid: 646427379faa74b4086cce25085291a7, type: 2}
+      level: 0
+  slot:
+  - slotModule: 6
+    size: 2
+  evolutionModules: []

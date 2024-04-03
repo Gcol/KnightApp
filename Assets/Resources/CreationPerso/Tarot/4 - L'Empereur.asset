@@ -16,6 +16,7 @@ MonoBehaviour:
   desc: "La quatri\xE8me lame du tarot symbolise l'action et la concr\xE9tisation
     des choses. Cette carte est aussi le symbole du commandement et de tous ceux
     qui dirigent par leur charisme ou leur magn\xE9tisme."
+  caract: 2
   passe: "Un grand projet qui se termine, un grand projet qui \xE9choue, un poste
     d'officier, un chef abominable, un merveilleux mentor, un poste de dirigeant
     suite \xE0 un long travail, un poste de dirigeant obtenu par hasard, un magn\xE9tisme

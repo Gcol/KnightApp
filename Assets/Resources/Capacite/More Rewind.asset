@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a6894bfe07bae4d89ebacbb62f38a9, type: 3}
+  m_Name: More Rewind
+  m_EditorClassIdentifier: 
+  description: "Dans un flash incolore suivi d\u2019un mouvement rapide presque invisible,
+    la m\xE9ta-armure (et par cons\xE9quent son porteur) peut dispara\xEEtre et revenir
+    \xE0 l\u2019\xE9tat et \xE0 la position qu\u2019elle avait exactement 6 secondes
+    auparavant, r\xE9cup\xE9rant ce qu\u2019elle avait perdu durant ce laps de temps
+    ou annulant ce qui lui avait \xE9t\xE9 inflig\xE9. L\u2019environnement autour
+    ne se modifie pas, seule la Warlock subit ce retour temporel."
+  energiCout: 15
+  activation: 'Aucune. '
+  duree: "Instantan\xE9e"
+  effet: "Activer cette capacit\xE9 permet ainsi d\u2019obtenir les effets suivants
+    :\r\n\r\n    Revenir aux points de sant\xE9 poss\xE9d\xE9s il y a moins de 6
+    secondes (ou au tour de jeu pr\xE9c\xE9dent), qu\u2019ils soient inf\xE9rieurs
+    ou sup\xE9rieurs.\r\n    Revenir aux points d\u2019armure poss\xE9d\xE9s il y
+    a moins de 6 secondes (ou au tour de jeu pr\xE9c\xE9dent), qu\u2019ils soient
+    inf\xE9rieurs ou sup\xE9rieurs.\r\n    Annuler une blessure grave re\xE7ue il
+    y a moins de 6 secondes (ou au tour de jeu pr\xE9c\xE9dent).\r\n    R\xE9cup\xE9rer
+    la(les) munition(s) d\u2019un module (et seulement d\u2019un module) utilis\xE9e(s)
+    il y a moins de 6 secondes (ou au tour de jeu pr\xE9c\xE9dent).\r\n    R\xE9cup\xE9rer
+    un(des) nod(s) utilis\xE9(s) il y a moins de 6 secondes (ou au tour de jeu pr\xE9c\xE9dent).\r\n   
+    Se d\xE9placer instantan\xE9ment \xE0 sa position d\u2019il y a 6 secondes (ou
+    au tour de jeu pr\xE9c\xE9dent).\r\n\r\nL\u2019ensemble des effets s\u2019activent
+    en m\xEAme temps. C\u2019est au PJ de r\xE9guler ses scores et ses \xE9quipements.
+    Les points d\u2019espoir et les points d\u2019\xE9nergie ne sont pas concern\xE9s
+    par ces effets. Les armes cass\xE9es et tous les \xE9quipements autres que les
+    nods et munitions de modules utilis\xE9s ne sont pas affect\xE9s non plus.\r\n\r\nAttention
+    : L\u2019effet est personnel et est restreint \xE0 la m\xE9ta-armure elle-m\xEAme,
+    \xE0 son porteur, \xE0 ses armes, \xE0 ses modules et \xE0 l\u2019\xE9quipement
+    situ\xE9 dans son pack. Ce qui est pr\xE9sent autour de la m\xE9ta-armure ou
+    en contact avec elle (comme un alli\xE9) n\u2019est pas affect\xE9. S\u2019il
+    advenait qu\u2019un \xE9l\xE9ment emp\xEAche le retour de la m\xE9ta-armure et
+    de son porteur \xE0 sa position ant\xE9rieure, alors ils se rapprochent simplement
+    le plus possible de cette position sans entrer en collision avec.\n\nIl doit
+    attendre 6s apr\xE8s un Rewind pour l'activer de nouveau. Cela signifie qu'en
+    phase de conflit, il ne peut faire qu'un Rewind/tour."

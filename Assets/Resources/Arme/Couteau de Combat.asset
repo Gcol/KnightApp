@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef7a6f3067da474f83b12cd915d6645, type: 3}
+  m_Name: Couteau de Combat
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: ced2b1d7d762b564a850cddd2a5fc1f2, type: 3}
+  desc: "Tout soldat qui se respecte a \xE9t\xE9 form\xE9 au combat au couteau. Celui
+    du Knight est forg\xE9 dans un alliage d\u2019\xE9l\xE9ment alpha quasi indestructible.
+    La lame est courb\xE9e tel un sabre. Le dos est crant\xE9 pour mieux scier. La
+    poign\xE9e est prot\xE9g\xE9e par une garde solide. Bref, c\u2019est l\u2019arme
+    id\xE9ale pour couper des gorges en silence et multiplier les coups d\u2019estoc
+    et de taille.\n\xAB Rien de mieux pour \xE9liminer un hostile de pr\xE8s et en
+    silence. \xBB \u2013 Kay"
+  icon: {fileID: 0}
+  rarete: 0
+  price: 15
+  surnom: le bowie knife / le flambard / le schlass
+  degatArmes:
+  - typeAttaque: 0
+    degat:
+      nbDice: 3
+      addDegat: 0
+      "caract\xE9ristique": 0600000012000000
+    violence:
+      nbDice: 1
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet:
+    - effet: {fileID: 11400000, guid: f46efac357e304b4e9fe3fb677912807, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: 6e54a95ecfaabe6459fc64f08d7a9bf1, type: 2}
+      level: 0
+    - effet: {fileID: 11400000, guid: 1e95eff89701062478f7866fe5b646cf, type: 2}
+      level: 0

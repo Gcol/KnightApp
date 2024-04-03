@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: "D\xE9moralisant"
+  m_EditorClassIdentifier: 
+  description: "Avec une attaque r\xE9ussie, l\u2019arme enl\xE8ve 2 points au score
+    de d\xE9bordement que les bandes compos\xE9es d\u2019humains infligent. Les d\xE9g\xE2ts
+    effectifs du tour sont donc \xE9gaux au nombre de tours \xE9coul\xE9s multipli\xE9
+    par le d\xE9bordement moins 2 \xE0 ce tour. Autrement dit, d\xE9moralisant r\xE9duit
+    le d\xE9bordement pour le tour en cours, et uniquement le tour en cours. Pr\xE9cision
+    : Si l\u2019effet d\xE9moralisant est appliqu\xE9 plusieurs fois, cela se cumule
+    en ajoutant un tour de dur\xE9e (et non pas en soustrayant des points suppl\xE9mentaires
+    au d\xE9bordement de la bande cibl\xE9e)."

@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04b0059f44a44441840df7f9f049029, type: 3}
+  m_Name: Technique
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 0}
+  desc: "Syst\xE8me d\u2019ing\xE9nierie int\xE9gr\xE9 (gant outil, bras articul\xE9,
+    etc.) :\r\n+1 overdrive de Technique \xE0 chaque achat"
+  icon: {fileID: 0}
+  rarete: 1
+  price: 0
+  description:
+  - rarete: 1
+    duree: 
+    price: 10
+    description: "Le personnage peut se connecter, s\u2019il est \xE0 port\xE9e de
+      contact, \xE0 n\u2019importe quel appareil technologique, n\u2019importe quelle
+      machine, etc., pour peu qu\u2019il n\u2019y ait pas de pare-feu. En se connectant,
+      le personnage peut r\xE9cup\xE9rer des donn\xE9es, mais aussi voir l\u2019\xE9tat
+      de la machine, etc."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 1
+    duree: 
+    price: 30
+    description: "Le h\xE9ros peut effectuer un test base Technique pour conna\xEEtre
+      le fonctionnement, r\xE9parer, hacker, modifier, bricoler ou d\xE9monter n\u2019importe
+      quel objet technologique ou machine, m\xEAme ceux qu\u2019il ne conna\xEEt
+      pas et dont il n\u2019a jamais entendu parler. La difficult\xE9 du test d\xE9pend
+      de la complexit\xE9 de l\u2019objet, elle est donc \xE0 la discr\xE9tion du
+      MJ."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 50
+    description: "Le personnage peut se connecter \xE0 n\u2019importe quel objet
+      technologique ou machine \xE0 port\xE9e lointaine gr\xE2ce au wifi. Il peut
+      en outre passer directement les pare-feu les plus simples, sans effectuer de
+      test, toujours \xE0 la discr\xE9tion du MJ."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 70
+    description: "Comme action de d\xE9placement, le personnage peut d\xE9cider d\u2019effectuer
+      une r\xE9paration d\u2019urgence d\u2019une m\xE9ta-armure, d\u2019une arme
+      cass\xE9e ou d\u2019un v\xE9hicule. En r\xE9ussissant un test base Technique
+      difficult\xE9 tr\xE8s difficile (9), le personnage peut rendre 6 PA \xE0 une
+      m\xE9ta-armure ou \xE0 un v\xE9hicule. Dans le cas d\u2019une arme cass\xE9e,
+      le personnage r\xE9ussit \xE0 la r\xE9parer lorsqu\u2019il r\xE9ussit le test.
+      Rater la r\xE9paration d\u2019une arme cass\xE9e emp\xEAche quiconque de la
+      r\xE9parer et il faudra la faire remplacer \xE0 Camelot."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 100
+    description: "Le personnage peut bidouiller instinctivement des virus, des programmes
+      de contr\xF4le ou encore des routines qu\u2019il peut inclure \xE0 distance
+      dans une machine ou un objet technologique. La puissance du programme est \xE9gale
+      \xE0 un test base Technique lors de sa cr\xE9ation. Cette puissance doit \xEAtre
+      oppos\xE9e \xE0 une difficult\xE9 pouvant repr\xE9senter un pare-feu ou encore
+      la distance entre le h\xE9ros et la machine. Le personnage peut faire fonctionner
+      en simultan\xE9e un nombre de programmes \xE9gal \xE0 son score de Technique
+      sans les overdrives. Il ne peut lancer qu\u2019un programme par tour de jeu
+      et, en phase de conflit, cela lui co\xFBte son action de d\xE9placement. Enfin,
+      lors de la cr\xE9ation d\u2019un programme, le h\xE9ros doit discuter de ses
+      effets avec le MJ. Les effets doivent rester simples (activer et commander
+      un v\xE9hicule \xE0 distance, r\xE9cup\xE9rer des donn\xE9es apr\xE8s un compte
+      \xE0 rebours, d\xE9truire des donn\xE9es via un virus, etc.)."
+    degatModule:
+      typeAttaque: 24
+      degat:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      violence:
+        nbDice: 0
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  "caract\xE9ristique": 13

@@ -39,15 +39,6 @@ public class StatE
 }
 
 [Serializable]
-public class EffectLvl
-{
-    [SerializeField]
-    Effet effet;
-    [SerializeField]
-    int level;
-}
-
-[Serializable]
 public class CreatureArme
 {
     public string name;

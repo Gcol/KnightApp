@@ -17,6 +17,7 @@ MonoBehaviour:
     instincts primaires, le pouvoir, le sexe, l'argent et le rock'n'roll. Elle symbolise
     aussi tous les app\xE9tits d\xE9vorants, l'excitation, l'animalit\xE9 et la bestialit\xE9
     en g\xE9n\xE9ral. C'est sans doute une des lames les moins positives du tarot."
+  caract: 1
   passe: "Une vie d'exc\xE8s, des instincts primaires qui conduisent \xE0 des probl\xE8mes,
     une r\xE9action violente aux cons\xE9quences n\xE9fastes, une animalit\xE9 d\xE9rangeante,
     un lien aux animaux, un probl\xE8me avec les animaux, la drogue, l'alcool, l'argent
@@ -44,7 +45,7 @@ MonoBehaviour:
     pour soutenir son chevalier : pour chaque tranche de 4 PE d\xE9pens\xE9s, le
     chevalier peut ajouter 1 d\xE9 \xE0 un de ses jets (dans la limite d\u2019\xE9nergie
     de la m\xE9ta-armure)."
-  desavantageIA: "\rExc\xE8s : L\u2019IA \xAB pousse au crime \xBB : d\xE8s que le
+  desavantageIA: "Exc\xE8s : L\u2019IA \xAB pousse au crime \xBB : d\xE8s que le
     chevalier se trouve dans une situation au cours de laquelle il peut se laisser
     aller \xE0 l\u2019exc\xE8s, l\u2019armure d\xE9folde automatiquement et le pousse
     vers ce travers. En termes de jeu, tout test pour r\xE9sister \xE0 une perte

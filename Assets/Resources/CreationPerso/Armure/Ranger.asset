@@ -60,7 +60,7 @@ MonoBehaviour:
   allCapacite:
   - {fileID: 11400000, guid: 247d202b1128b714fb58e14c59d88846, type: 2}
   - {fileID: 11400000, guid: c67ff08923a3a7642b3de0dd6965e5a8, type: 2}
-  overdrive: 00000000060000000c0000000d000000
+  overdrive: 050000000b0000001100000012000000
   slot:
   - nameSlot: BrasD
     number: 4

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: Barrage
+  m_EditorClassIdentifier: 
+  description: "Le chevalier peut d\xE9cider de sacrifier ses d\xE9g\xE2ts ou sa
+    violence (selon ce qui s\u2019applique) pour diminuer la d\xE9fense et la r\xE9action
+    de la bande ou du PNJ cibl\xE9 d\u2019un nombre de points \xE9gal \xE0 X jusqu\u2019au
+    d\xE9but de son prochain tour, permettant ainsi \xE0 ses alli\xE9s de toucher
+    plus facilement.\nDe la m\xEAme fa\xE7on, si le chevalier attaque un PJ, il peut
+    sacrifier ses d\xE9s pour diminuer ses scores de d\xE9fense et de r\xE9action
+    d\u2019un nombre de points \xE9gal \xE0 X jusqu\u2019au d\xE9but de son prochain
+    tour.\nAucun test d\u2019attaque ne doit \xEAtre effectu\xE9, l\u2019effet s\u2019appliquant
+    automatiquement. Plusieurs effets de barrage peuvent s\u2019appliquer sur une
+    m\xEAme cible pour faciliter les attaques des alli\xE9s. Mais attention, l\u2019effet
+    barrage inflig\xE9 par l\u2019arme d\u2019un PJ prend fin d\xE8s le d\xE9but
+    du tour suivant l\u2019application de l\u2019effet."

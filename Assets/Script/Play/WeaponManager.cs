@@ -12,10 +12,10 @@ public class WeaponManager : MonoBehaviour
     {
         currentChevalier = newChevalier;
 
-        foreach (Weapon currentWeapon in newChevalier.allWeapon)
+        foreach (Arme currentWeapon in newChevalier.allWeapon)
         {
             GameObject newModule = Instantiate(currentPrefab, transform);
-            newModule.GetComponent<WeaponShower>().Init(currentWeapon);
+            //newModule.GetComponent<Arme>().Init(currentWeapon);
         }
     }
 }

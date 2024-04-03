@@ -19,7 +19,7 @@ public enum ChevalierChef
 }
 
 [CreateAssetMenu(fileName = "0 - MissionBonus", menuName = "Knight / AdditionalMission")]
-public class AdditionalMission : ScriptableObject
+public class AdditionalMission : Mission
 {
     [SerializeField]
     public Dictionary<ChevalierChef, string> mission  = new Dictionary<ChevalierChef, string>()

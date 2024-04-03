@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: "D\xE9signation"
+  m_EditorClassIdentifier: 
+  description: "L\u2019arme peut d\xE9signer une cible (une seule cible, pas une
+    bande) une fois par tour. Son utilisateur et ses alli\xE9s re\xE7oivent un bonus
+    de 1 r\xE9ussite automatique pour toucher la cible et ignorent toujours les \xE9ventuels
+    \xE9checs critiques qu\u2019ils pourraient subir lorsqu\u2019ils tentent de la
+    toucher. D\xE9signer une cible ne co\xFBte pas d\u2019action. Il n\u2019y a aucun
+    test \xE0 effectuer pour d\xE9signer une cible et la port\xE9e de la d\xE9signation
+    est celle de l\u2019arme utilis\xE9e. La cible demeure d\xE9sign\xE9e durant
+    toute la sc\xE8ne ou toute la phase de conflit. Une fois d\xE9sign\xE9e, l\u2019armure
+    va suivre les mouvements et les bruits de la cible et repr\xE9senter sa position,
+    ce qui permet au chevalier de lui tirer dessus avec une arme disposant de l\u2019effet
+    artillerie notamment, ou d\u2019utiliser automatiquement tout effet venant de
+    ses \xE9ventuelles visions alternatives. L\u2019effet permet par exemple, coupl\xE9
+    avec un module de type vision pr\xE9datrice, de voir la cible \xE0 travers les
+    murs, silhouett\xE9e sur la visi\xE8re \xE0 r\xE9alit\xE9 augment\xE9e de la
+    m\xE9ta-armure. Tant que la signature de la cible reste visible par la m\xE9ta-armure,
+    la cible reste d\xE9sign\xE9e. Attention : L\u2019effet ne peut \xEAtre cumul\xE9
+    sur une m\xEAme cible.\r"

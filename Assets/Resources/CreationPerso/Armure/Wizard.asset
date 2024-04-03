@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9d7266a299c1641b490efbee3df7dc, type: 3}
   m_Name: Wizard
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 21300000, guid: a26cfde94ad065b428c2b20e52f69634, type: 3}
+  currentSprite: {fileID: 21300000, guid: 1452d3cb81d78a849aebd1c8116db9f8, type: 3}
+  desc: 
+  historique: 
   PointArmure: 70
   PointEnergie: 60
   ChampDeForce: 10
+  generationMetaArmure: 0
   allCapacite:
   - {fileID: 11400000, guid: 42a5b55b841b322429eaebb7045cc9fb, type: 2}
   - {fileID: 11400000, guid: 4df0407007b17d744b44b0452b709a9f, type: 2}
-  allArme: []
-  allModule:
-  - {fileID: 11400000, guid: 8f492fa76b5fc6d4c9b16abcb6b19cab, type: 2}
+  overdrive: 
+  evolution: []

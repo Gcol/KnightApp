@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: Deux mains
+  m_EditorClassIdentifier: 
+  description: "Cet effet signifie simplement que le chevalier doit utiliser ses
+    deux mains pour frapper ou tirer avec l\u2019arme. Utiliser \xE0 une main une
+    arme poss\xE9dant cet effet est impossible, l\u2019arme \xE9tant trop lourde
+    ou poss\xE9dant trop de recul pour toucher efficacement."

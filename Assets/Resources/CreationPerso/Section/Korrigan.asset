@@ -30,3 +30,7 @@ MonoBehaviour:
     PJ ou PNJ alli\xE9 ne peut utiliser de module ou d\u2019avantage pour faire en
     sorte que le PJ provenant du Korrigan regagne des points d\u2019espoir."
   caract: 3
+  shopItems:
+  - {fileID: 11400000, guid: e1b6268ec6ac8d445abd348af009da36, type: 2}
+  - {fileID: 11400000, guid: 8724fc605b4e8bc489c62cb1c211ba58, type: 2}
+  - {fileID: 11400000, guid: b8d4e5be6da144745a34f1375f60a566, type: 2}

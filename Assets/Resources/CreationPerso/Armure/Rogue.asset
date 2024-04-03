@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9d7266a299c1641b490efbee3df7dc, type: 3}
   m_Name: Rogue
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 21300000, guid: a26cfde94ad065b428c2b20e52f69634, type: 3}
+  currentSprite: {fileID: 21300000, guid: 894a185dd14f7e140aab19425babced0, type: 3}
+  desc: 
+  historique: 
   PointArmure: 70
   PointEnergie: 60
   ChampDeForce: 12
+  generationMetaArmure: 0
   allCapacite:
   - {fileID: 11400000, guid: bebce754f39340146b02233abab05c1b, type: 2}
-  allArme: []
-  allModule:
-  - {fileID: 11400000, guid: 99fe89b7cef22ad438cf03b648dd8f93, type: 2}
-  - {fileID: 11400000, guid: 8f492fa76b5fc6d4c9b16abcb6b19cab, type: 2}
-  - {fileID: 11400000, guid: ae724ec5c369ab14e995f4b3f1c2ac88, type: 2}
+  overdrive: 
+  evolution: []

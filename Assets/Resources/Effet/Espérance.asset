@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: "Esp\xE9rance"
+  m_EditorClassIdentifier: 
+  description: "Contre des d\xE9sesp\xE9r\xE9s, l\u2019\xE9quipement est extr\xEAmement
+    puissant. S\u2019il le veut, un PJ peut d\xE9cider d\u2019\xE9changer les d\xE9g\xE2ts
+    qu\u2019il devrait infliger contre l\u2019application de l\u2019effet esp\xE9rance.
+    L\u2019arme, plut\xF4t que d\u2019infliger des d\xE9g\xE2ts, traverse alors le
+    corps du d\xE9sesp\xE9r\xE9, arrachant une partie de son d\xE9sespoir. S\u2019il
+    le fait, chaque PNJ d\xE9sesp\xE9r\xE9 touch\xE9 par l\u2019attaque peut effectuer
+    un test de B\xEAte difficult\xE9 ardu (5) (ou Hargne combo Sang-Froid dans le
+    cas d\u2019un PJ) pour combattre le d\xE9sespoir. Chaque attaque suppl\xE9mentaire
+    inflig\xE9e par l\u2019\xE9quipement \xE0 un m\xEAme d\xE9sesp\xE9r\xE9 et appliquant
+    l\u2019effet esp\xE9rance fait baisser le niveau de difficult\xE9 du test de
+    1.\nSi le d\xE9sesp\xE9r\xE9 r\xE9ussit son test, alors il a r\xE9ussi \xE0 vaincre
+    le d\xE9sespoir et n\u2019est plus un ennemi. Il peut se joindre aux chevaliers
+    ou rester terroris\xE9 par ce qu\u2019il a commis ou par ce qui lui est arriv\xE9
+    (au choix du MJ). Contre une bande de d\xE9sesp\xE9r\xE9s, on consid\xE8re que
+    l\u2019\xE9quipement fait simplement baisser sa coh\xE9sion. \nCependant, si
+    le personnage utilisant un \xE9quipement avec l\u2019effet esp\xE9rance a inflig\xE9
+    assez de violence \xE0 une bande pour qu\u2019elle tombe \xE0 0 point de coh\xE9sion,
+    les d\xE9sesp\xE9r\xE9s qui la composent reprennent espoir et retrouvent simplement
+    leurs esprits.\nIls se souviendront tout de m\xEAme des actes qu\u2019ils ont
+    commis.\n\nContre les autres types d\u2019ennemis, les \xE9quipements poss\xE9dant
+    l\u2019effet esp\xE9rance infligent des d\xE9g\xE2ts et de la violence de mani\xE8re
+    normale."

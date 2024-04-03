@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3017bf08d3eae04a840c6573af6c0d7, type: 3}
+  m_Name: Flash
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 82c7c046b39cbd24799406fd1e696023, type: 3}
+  desc: "Projecteur flash, diffuseur de magn\xE9sium inflammable sur le casque, lampe
+    stroboscopique sur le casque Le module d\xE9clenche une lumi\xE8re intense g\xEAnante
+    \xE0 port\xE9e de contact qui permet au porteur d\u2019\xE9blouir son ennemi.
+    Si l\u2019ennemi a un aspect Chair de 8 ou moins, il subit l\u2019effet choc
+    1 (sans qu\u2019il y ait besoin d\u2019un test d\u2019attaque)."
+  icon: {fileID: 0}
+  rarete: 0
+  price: 10
+  moduleType: 4
+  porte: 0
+  activation: Aucune
+  "dur\xE9e": 1 tour / 10 secondes
+  energie: 2
+  degatModule:
+    typeAttaque: 24
+    degat:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    violence:
+      nbDice: 0
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet:
+    - effet: {fileID: 11400000, guid: 6012b502ecaba874199d2d1b7c908f73, type: 2}
+      level: 2
+  slot:
+  - slotModule: 1
+    size: 1
+  evolutionModules: []

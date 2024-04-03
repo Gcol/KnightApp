@@ -11,12 +11,12 @@ public class ModuleManager : MonoBehaviour
     public void currentInit(Chevalier newChevalier)
     {
         currentChevalier = newChevalier;
-        
+        /*
         foreach (ModuleBase currentModule in newChevalier.allModule)
         {
             GameObject newModule = Instantiate(currentPrefab, transform);
             newModule.GetComponent<ModuleShower>().InitModule(currentModule);
-        }
+        }*/
     }
        
 

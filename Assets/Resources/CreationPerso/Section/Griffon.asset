@@ -30,3 +30,5 @@ MonoBehaviour:
     et de tir lorsqu\u2019il combat \xE0 pied, c\u2019est-\xE0dire sans sa moto steed
     ou en dehors de n\u2019importe quel v\xE9hicule du Knight."
   caract: 3
+  shopItems:
+  - {fileID: 11400000, guid: 55498ab567832584fab258c3f8e720ca, type: 2}

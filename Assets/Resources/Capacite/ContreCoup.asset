@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a6894bfe07bae4d89ebacbb62f38a9, type: 3}
+  m_Name: ContreCoup
+  m_EditorClassIdentifier: 
+  description: "Gr\xE2ce \xE0 ce mode, le chevalier peut manipuler le temps pour
+    enregistrer une attaque qu\u2019il va effectuer et faire en sorte qu\u2019un
+    double du pass\xE9 apparaisse fugacement pour la reproduire jusqu\u2019\xE0 6
+    secondes plus tard. Ainsi, il peut enregistrer une attaque d\u2019un tour donn\xE9,
+    se d\xE9placer et frapper au tour suivant, tout en reproduisant l\u2019attaque
+    enregistr\xE9e."
+  energiCout: "12 pour enregistrer une attaque. Reproduire une attaque ne co\xFBte
+    aucun PE."
+  activation: 'Aucune. '
+  duree: "Instantan\xE9e"
+  effet: "En activant ce mode, le chevalier d\xE9clenche l\u2019enregistrement de
+    la prochaine attaque qu\u2019il va accomplir durant ce tour. Il doit activer
+    le mode avant de faire son attaque. Elle peut \xEAtre effectu\xE9e avec une arme
+    ou un module. Au tour suivant, il peut effectuer ses actions normalement et activer
+    le mode sans co\xFBt en \xE9nergie pour reproduire exactement son attaque effectu\xE9e
+    au tour pr\xE9c\xE9dent, un double de lui-m\xEAme, comme une r\xE9manence, apparaissant
+    pour frapper ou tirer de nouveau.\n\nAttention : L\u2019action d\u2019attaque
+    enregistr\xE9e est reproduite \xE0 l\u2019identique. Cela signifie que le jet
+    d\u2019attaque, le jet de d\xE9g\xE2ts ou de violence, la port\xE9e et les effets
+    sont exactement les m\xEAmes (m\xEAme si le joueur a d\xE9pens\xE9 un point d\u2019h\xE9ro\xEFsme
+    pour faire le maximum de d\xE9g\xE2ts). L\u2019\xE9nergie d\xE9pens\xE9e pour
+    augmenter les d\xE9g\xE2ts ou ajouter des effets, ainsi que les munitions, ne
+    sont pas \xE0 d\xE9duire de nouveau. L\u2019attaque peut cependant \xEAtre port\xE9e
+    sur la m\xEAme cible ou une autre. En cons\xE9quence, si le jet d\u2019attaque
+    n\u2019est pas suffisant pour toucher, l\u2019attaque rate simplement et aura
+    \xE9t\xE9 enregistr\xE9e pour rien.\n\nCependant, une seule attaque peut \xEAtre
+    enregistr\xE9e par tour.\n\nL'attaque enregistr\xE9e lors d'un tour doit \xEAtre
+    reproduite au tour suivant, sinon elle et l'\xE9nergie sont perdues."

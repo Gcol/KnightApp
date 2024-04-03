@@ -37,11 +37,11 @@ public class FichePerso : MonoBehaviour
         
         foreach (var kvp in currentChevalier.allStat)
         {
-            charactValueText[kvp.Key].valueText.text = kvp.Value.value.ToString();
+            charactValueText[kvp.Key.ToString()].valueText.text = kvp.Value.value.ToString();
             if (kvp.Value.overdrive != 0)
-                charactValueText[kvp.Key].overdriveText.text = kvp.Value.ToString();
-            else if (charactValueText[kvp.Key].overdriveText != null)
-                charactValueText[kvp.Key].overdriveText.text = "";
+                charactValueText[kvp.Key.ToString()].overdriveText.text = kvp.Value.ToString();
+            else if (charactValueText[kvp.Key.ToString()].overdriveText != null)
+                charactValueText[kvp.Key.ToString()].overdriveText.text = "";
         }
     }
 

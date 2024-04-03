@@ -18,6 +18,7 @@ MonoBehaviour:
     ou mauvaise, les jugements, les discours. Dans une moindre mesure, le Jugement
     est aussi associ\xE9 \xE0 la lib\xE9ration et \xE0 l'emprisonnement, aux forces
     de l'ordre, \xE0 l'\xE9quit\xE9 et son contraire."
+  caract: 2
   passe: "Une bonne r\xE9putation, une mauvaise r\xE9putation, une manifestation,
     une \xE9meute, un jugement qui sauve, un jugement qui condamne, un tribunal,
     les forces de l'ordre, la prison, une lib\xE9ration, une injustice, un public."

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public enum caractéristique
@@ -24,20 +25,37 @@ public enum caractéristique
     Sang_Froid,
     Discrétion,
     Dextérité,
-    Perception
+    Perception,
+    Rien
 }
 [Serializable]
 public struct moduleSlot
 {
-    public string nameSlot;
+    public SlotModule nameSlot;
     public int number;
+    public List<Module> modules;
 
-    public moduleSlot(string nameSlot, int number)
+    public moduleSlot(SlotModule nameSlot, int number)
     {
         this.number = number;
         this.nameSlot = nameSlot;
+        this.modules = new List<Module>();
     }
 
+}
+
+public enum SlotModule
+{
+    BradD,
+    Tête,
+    BrasG,
+    Torse,
+    JambeD,
+    JambeL,
+    BrasChoice,
+    JambeChoice,
+    TeteTorseChoice,
+    TeteBrasChoice
 }
 public enum generationMetaArmure
 {
@@ -65,16 +83,22 @@ public class Armure : CreaPerso
     public generationMetaArmure generationMetaArmure;
     public List<Capacite> allCapacite;
     public List<caractéristique> overdrive;
-    
-    
-    public moduleSlot[] slot = new moduleSlot[]
+
+    //[Serializable]
+    //public Dictionary<String, int> SizeSlot = new List<int>();
+
+    [Serialize]
+    public Dictionary<SlotModule, moduleSlot> slot = new Dictionary<SlotModule, moduleSlot>()
     {
-      new moduleSlot("BrasD", 0),
-      new moduleSlot("Tête", 0),
-      new moduleSlot("BrasG", 0),
-      new moduleSlot("Torse", 0),
-      new moduleSlot("JambeD", 0),
-      new moduleSlot("JambeL", 0)
+      {SlotModule.BradD, new moduleSlot(SlotModule.BradD, 0)},
+      {SlotModule.Tête,new moduleSlot(SlotModule.Tête, 0)},
+      {SlotModule.BrasG,new moduleSlot(SlotModule.BrasG, 0)},
+      {SlotModule.Torse,new moduleSlot(SlotModule.Torse, 0)},
+      {SlotModule.JambeD,new moduleSlot(SlotModule.JambeD, 0)},
+      {SlotModule.JambeL,new moduleSlot(SlotModule.JambeL, 0) }
     };
+
+    public List<Module> modules;
     public evolutionStr[] evolution;
+
 }

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3017bf08d3eae04a840c6573af6c0d7, type: 3}
+  m_Name: Griffes De combat
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 21300000, guid: 044c7c055370b704e941ce0e00352094, type: 3}
+  desc: "Le gantelet de la m\xE9ta-armure est \xE9quip\xE9 de quatre griffes de quelques
+    centim\xE8tres qui sortent du dos du gantelet, avec des griffes suppl\xE9mentaires
+    sortant au bout des doigts. Ce syst\xE8me d'attaque au corps \xE0 corps permet
+    au personnage d'\xEAtre efficace en m\xEAl\xE9e sans n\xE9cessiter le port d'une
+    arme. L'activation pour faire sortir les griffes de l'armure est gratuite, cependant,
+    frapper avec ces griffes n\xE9cessite une action de combat."
+  icon: {fileID: 0}
+  rarete: 0
+  price: 10
+  moduleType: 1
+  porte: 0
+  activation: Aucun
+  "dur\xE9e": "Jusqu\u2019\xE0 d\xE9sactivation"
+  energie: 
+  degatModule:
+    typeAttaque: 0
+    degat:
+      nbDice: 2
+      addDegat: 0
+      "caract\xE9ristique": 06000000
+    violence:
+      nbDice: 1
+      addDegat: 0
+      "caract\xE9ristique": 
+    portee: 0
+    effet: []
+  slot:
+  - slotModule: 6
+    size: 1
+  evolutionModules:
+  - rarete: 0
+    duree: 
+    price: 10
+    description: "L'arme poss\xE8de un effet suppl\xE9mentaire - meurtrier ou choc
+      1 - \xE0 choisir lors de l'achat du niveau, et inflige 1D6 d\xE9g\xE2ts suppl\xE9mentaires."
+    degatModule:
+      typeAttaque: 0
+      degat:
+        nbDice: 3
+        addDegat: 0
+        "caract\xE9ristique": 06000000
+      violence:
+        nbDice: 1
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []
+  - rarete: 2
+    duree: 
+    price: 30
+    description: "L'arme poss\xE8de \xE9galement un effet suppl\xE9mentaire - lest\xE9
+      ou p\xE9n\xE9trant 5 - \xE0 choisir lors de l'achat du niveau, et inflige \xE9galement
+      1D6 d\xE9g\xE2ts suppl\xE9mentaires."
+    degatModule:
+      typeAttaque: 0
+      degat:
+        nbDice: 4
+        addDegat: 0
+        "caract\xE9ristique": 06000000
+      violence:
+        nbDice: 1
+        addDegat: 0
+        "caract\xE9ristique": 
+      portee: 0
+      effet: []

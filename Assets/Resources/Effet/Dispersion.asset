@@ -12,15 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
   m_Name: Dispersion
   m_EditorClassIdentifier: 
-  description: "L\u2019arme peut toucher plusieurs ennemis et ses\r\nd\xE9g\xE2ts
-    peuvent donc s\u2019appliquer \xE0 plusieurs du moment que\r\nces ennemis sont
-    \xE0 moins de deux m\xE8tres les uns des autres. X\r\nrepr\xE9sente le nombre
-    d\u2019ennemis que l\u2019arme peut toucher dans\r\nune m\xEAme action. Un seul
-    jet d\u2019attaque est \xE0 effectuer contre\r\nun seul ennemi. Les autres ennemis
-    proches subissent automatiquement\r\nles d\xE9g\xE2ts et les autres effets que
-    dispersion, \xE0\r\ncondition que le r\xE9sultat du test d\u2019attaque d\xE9passe
-    leur score\r\nd\u2019opposition. Typiquement, les lance-flammes ou les armes\r\nexplosives
-    infligent cet effet. Cet effet n\u2019affecte pas les bandes\r\ncontre lesquelles
-    seule la violence peut s\u2019appliquer. Attention :\r\nSi l\u2019effet est utilis\xE9
-    contre des ennemis au contact avec un autre\r\nPJ, ce dernier subit aussi les
-    d\xE9g\xE2ts de la dispersion."
+  description: "L\u2019arme peut toucher X ennemis et ses d\xE9g\xE2ts peuvent donc
+    s\u2019appliquer \xE0 plusieurs du moment que ces ennemis sont \xE0 moins de
+    deux m\xE8tres les uns des autres. \nUn seul jet d\u2019attaque est \xE0 effectuer
+    contre un seul ennemi. Les autres ennemis proches subissent automatiquement les
+    d\xE9g\xE2ts et les autres effets que dispersion, \xE0 condition que le r\xE9sultat
+    du test d\u2019attaque d\xE9passe leur score d\u2019opposition. \nTypiquement,
+    les lance-flammes ou les armes explosives infligent cet effet. Cet effet n\u2019affecte
+    pas les bandes contre lesquelles seule la violence peut s\u2019appliquer. \n\nAttention
+    : Si l\u2019effet est utilis\xE9 contre des ennemis au contact avec un autre
+    PJ, ce dernier subit aussi les d\xE9g\xE2ts de la dispersion."

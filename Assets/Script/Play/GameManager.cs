@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     public Chevalier currentChevalier;
 
-    public User currentUser;
+    public Player currentUser = null;
     public string currentNote;
 
     public GameObject JoueurPannel;
@@ -31,41 +31,21 @@ public class GameManager : MonoBehaviour
         currentFichePerso = FindObjectOfType<FichePerso>();
         currentSI = FindObjectOfType<StatInfo>();
         currentSM = FindObjectOfType<SaveManager>();
-        currentUser = currentSM.LoadUser();
+        currentUser = currentSM.LoadCaracter(FindObjectOfType<SaveManager>().LoadGlobalInfo().lastChevalier);
         ModuleManager currentMM = FindObjectOfType<ModuleManager>();
         WeaponManager currentWM = FindObjectOfType<WeaponManager>();
 
         note.LoadNote(currentSM.LoadNote());
 
-        if (currentUser == null )
-            ActiveChoicePannel();
-        else
-        { 
-            Chevalier[] allChevalier = Resources.LoadAll<Chevalier>("Chevalier"); 
-            //  
-            foreach(Chevalier currCheval in allChevalier)
-            {
-                if (currCheval.name == currentUser.name)
-                {
-                    if (currentUser.chevalier == null)
-                    {
-                        LoadChevalierCurrent(currCheval, currCheval.armure.ChampDeForce, currCheval.pe, currCheval.pv, currCheval.armure.PointEnergie, currCheval.armure.PointArmure);
-                        currentSM.SaveData(new User(currCheval));
-                    }
-                    currentChevalier = currCheval;
-                    break;
-                }
-            }
-
-            if (currentChevalier == null)
-                Debug.LogError("Chevalier " + currentUser.name + " not found");
-            FindObjectOfType<MjSendInformation>().SetName(currentChevalier.name);
-            currentFichePerso.InsertNewPerso(currentChevalier);
-            currentSI.InsertNewPerso(currentChevalier);
-            currentCM.InitCapacite(currentChevalier);
-            currentMM.currentInit(currentChevalier);
-            currentWM.currentInit(currentChevalier);
-        }
+        Debug.Log(currentUser);
+        currentChevalier = new Chevalier(currentUser);
+        
+        FindObjectOfType<MjSendInformation>().SetName(currentChevalier.name);
+        currentFichePerso.InsertNewPerso(currentChevalier);
+        currentSI.InsertNewPerso(currentChevalier);
+        currentCM.InitCapacite(currentChevalier);
+        currentMM.currentInit(currentChevalier);
+        currentWM.currentInit(currentChevalier);
     }
 
     public void LoadChevalierCurrent(Chevalier currentChevalier, int newCdf, int newPe, int newPv, int newPen, int newPa)
@@ -95,7 +75,7 @@ public class GameManager : MonoBehaviour
     public void Quit()
     {
         FindObjectOfType<StatInfo>().UpdateChevalierInfo(currentChevalier);
-        currentUser.UpdateUser(currentChevalier);
+        //currentUser.UpdateUser(currentChevalier);
         currentSM.SaveNote(note.GetText());
         currentSM.SaveData(currentUser);
         #if UNITY_EDITOR
@@ -111,13 +91,13 @@ public class GameManager : MonoBehaviour
         choicePannel.SetActive(true);
     }
 
-    public void ChooseAChevalier(Chevalier newChevalier)
+    public void ChooseAChevalier(Chevalier newChevalier, string name)
     {
         choicePannel.SetActive(false);
         jeuxStdPannel.SetActive(true);
         currentChevalier = newChevalier;
         currentFichePerso.InsertNewPerso(currentChevalier);
-        currentUser = new User(currentChevalier);
+        currentUser = new Player(currentChevalier);
         currentSM.SaveData(currentUser);
     }
 }

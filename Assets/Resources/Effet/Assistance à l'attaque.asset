@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dfe571d965d74d48af82466a5debba1, type: 3}
+  m_Name: "Assistance \xE0 l'attaque"
+  m_EditorClassIdentifier: 
+  description: "Lorsqu\u2019un jet pour toucher est effectu\xE9 avec cette arme,
+    chaque r\xE9ussite exc\xE9dentaire (OD compris) au-dessus du score de r\xE9action
+    (dans le cas d\u2019un tir) ou de d\xE9fense (dans le cas d\u2019une attaque
+    au contact) de la cible permet de lui infliger 1 point de d\xE9g\xE2t (ou de
+    violence dans le cas d\u2019une bande) suppl\xE9mentaire."

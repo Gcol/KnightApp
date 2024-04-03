@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9d7266a299c1641b490efbee3df7dc, type: 3}
   m_Name: Druid
   m_EditorClassIdentifier: 
-  currentSprite: {fileID: 21300000, guid: a26cfde94ad065b428c2b20e52f69634, type: 3}
+  currentSprite: {fileID: 21300000, guid: 65e1005270ac7d145b3403704561d9d3, type: 3}
   desc: "\r\nLa m\xE9ta-armure Druid est une m\xE9ta-armure de troisi\xE8me g\xE9n\xE9ration,
     r\xE9sistante et taill\xE9e pour le combat. Elle poss\xE8de un r\xE9acteur \xE9nerg\xE9tique
     Infinity et une IA qui compte parmi les plus \xE9volu\xE9es de l'organisation,
@@ -86,21 +86,8 @@ MonoBehaviour:
   ChampDeForce: 12
   generationMetaArmure: 2
   allCapacite:
-  - {fileID: 11400000, guid: b86d07d4e276ef749b316d7676256fda, type: 2}
-  overdrive: 04000000050000000600000008000000
-  slot:
-  - nameSlot: BrasD
-    number: 5
-  - nameSlot: "T\xEAte"
-    number: 5
-  - nameSlot: BrasG
-    number: 5
-  - nameSlot: Torse
-    number: 8
-  - nameSlot: JambeD
-    number: 5
-  - nameSlot: JambeL
-    number: 5
+  - {fileID: 11400000, guid: dbfd42bac1a738140b8053e3a538442c, type: 2}
+  overdrive: 090000000a0000000b0000000d000000
   evolution:
   - numberPG: 0
     effect: " \t\r\nLa m\xE9ta-armure Druid en elle-m\xEAme n\u2019a pas d\u2019\xE9volutions,
